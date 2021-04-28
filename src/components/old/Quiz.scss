@@ -1,0 +1,108 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.Quiz {
+  .labelStatement {
+    background-color: #F8F8F8;
+    padding: 0.5rem 1.2rem;
+    border-radius: 15px;
+  }
+
+  .icon {
+    font-size: 1.8rem;
+    .typeLabel {
+      font-size: 0.6em;
+      margin-top: 0.3rem;
+    }
+  }
+
+  .iconCheck {
+    font-size: 1.8rem;
+    .circle {
+      color: #86BF41;
+    }
+    .check {
+      color: #86BF41;
+    }
+  }
+
+  .iconError {
+    font-size: 1.8rem;
+    .circle {
+      color: red;
+    }
+    .check {
+      color: #fff;
+      margin-left: 0.29rem;
+    }
+  }
+
+  .select {
+    padding: 0.4rem 0.7rem;
+    border-radius: 50px;
+    outline: none;
+    color: $blanco;
+    border: 0px;
+    text-align-last: center;
+    cursor: pointer;
+  }
+
+  .optionAct3 {
+    cursor: pointer;
+    transition: all .3s;
+    &:hover {
+      box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+    }
+  }
+
+  .modalQuiz {
+    position: absolute;
+    top: -217px;
+    left: -50px;
+    width: 117%;
+    height: 207%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(#29427D, 1);
+    z-index: 4;
+    transition: all .2s;
+
+    .showModal {
+      width: 60%;
+      // height: 800px;
+      // border-radius: 50%;
+      background-color: $blanco;
+      border-radius: 20px;
+      padding: 2rem;
+
+      .boxInfo {
+        // width: 85%;
+        // height: 600px;
+
+        .imageLogo {
+          // width: 150px;
+        }
+      }
+
+      .buttonClose {
+        background-color: rgba(0, 0, 0, 0);
+        position: absolute;
+        top: 5px;
+        right: 1px;
+
+        .iconButton {
+          color: red;
+          font-size: 2.3em;
+          transition: all .3s;
+        }
+
+        &:hover {
+          .iconButton {
+            color: #cf0000;
+          }
+        }
+      }
+    }
+  }
+}

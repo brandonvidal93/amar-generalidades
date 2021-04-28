@@ -1,0 +1,62 @@
+@import "./colors.scss";
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+
+@keyframes bounce-alert {
+  0% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  38% {
+    transform: scale(0.7);
+    animation-timing-function: ease-in;
+  }
+  55% {
+    transform: scale(1.2);
+    animation-timing-function: ease-out;
+  }
+  79% {
+    transform: scale(0.84);
+    animation-timing-function: ease-in;
+  }
+  89% {
+    transform: scale(1.1);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: scale(0.95);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes open-modal {
+  0% {
+    // transform: translateZ(-1400px) translateY(800px);
+    opacity: 0;
+  }
+  100% {
+    // transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}

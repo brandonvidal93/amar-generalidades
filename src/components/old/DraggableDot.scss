@@ -1,0 +1,85 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.draggableDot {
+  width: 95%;
+  .contentSlide {
+    width: 75%;
+    .slideBox {
+      // padding: 1.5rem;
+      width: 95%;
+      height: 275px;
+      background: url('../assets/img/backgrounds/bgPage-5.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      .line-drop {
+        // position: absolute;
+        // width: 190px;
+        // height: 40px;
+      }
+      .boxDrop {
+        position: absolute;
+        height: 44px;
+        // background: #F5F5F5;
+        // border-width: 1px;
+        // border-style: dotted;
+      }
+      .WordDropped {
+        border: none;
+        p {
+          color: $color4;
+        }
+      }
+    }
+
+    .buttonSlide {
+      background-color: rgba(0, 0, 0, 0);
+
+      .iconButton {
+        font-size: 2em;
+        color: $color1;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: $color2;
+        }
+      }
+    }
+  }
+
+  .contentWords {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    .labelDrag {
+      font-style: italic;
+      font-weight: 300;
+      background-color: #FAFAFA;
+      padding: 0.5rem 0.7rem;
+      border-radius: 15px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+      margin-left: 10px;
+
+      &:before {
+        background: url('../assets/img/backgrounds/bgPageDrag-5.png');
+        content: '';
+        position: absolute;
+        width: 51px;
+        height: 44px;
+        top: -5px;
+        left: -53px;
+      }
+    }
+    .dragWord {
+      // width: 98px;
+      // height: 98px;
+      // margin: .5em;
+      // border-radius: 3px;
+    }
+  }
+}

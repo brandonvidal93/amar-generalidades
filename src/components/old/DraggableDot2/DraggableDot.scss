@@ -1,0 +1,52 @@
+@import "../../resources/colors";
+@import "../../resources/animation.scss";
+
+.draggableDot2 {
+  width: 100%;
+  .slideBox {
+    width: 90%;
+    .boxDrop {
+      width: 60px;
+      height: 60px;
+      background-color: #DEDEDE;
+      border: 3px solid #fff;
+      border-radius: 50%;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+      margin-right: 1rem;
+      h1 {
+        color: #fff;
+      }
+    }
+    .labelDrop {
+      width: 90%;
+      background-color: #F8F8F8;
+      padding: 1rem;
+      border-radius: 15px;
+    }
+    .WordDropped {
+      border: none;
+      p {
+        color: $color4;
+      }
+    }
+  }
+
+  .contentWords {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    .dragWord {
+      width: 60px;
+      height: 60px;
+      margin: .5rem;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+      h1 {
+        color: #fff;
+      }
+    }
+  }
+}

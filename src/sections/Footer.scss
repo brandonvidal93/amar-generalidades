@@ -1,0 +1,116 @@
+@import "../resources/colors.scss";
+@import "../resources/animation.scss";
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 77px;
+  max-width: 1024px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+  background: url('../assets/img/backgrounds/fondo-footer-1.png');
+  background-position-y: bottom;
+  background-position-x: -70px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -40px;
+    right: -90px;
+    width: 500px;
+    height: 500px;
+    background: url('../assets/img/backgrounds/fondo-footer-2.png');
+    background-repeat: no-repeat;
+  }
+
+  .restrict {
+    position: absolute;
+    z-index: 2;
+    bottom: 17px;
+    right: 255px;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .labelFooter {
+    background-color: $blanco;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    padding: 1rem 3rem;
+    position: absolute;
+    width: auto;
+    top: 13px;
+    left: 305px;
+  }
+
+  .imageFooter {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    margin: 0 auto;
+    pointer-events: none;
+  }
+
+  .buttonPannel {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 18px;
+    right: 256px;
+    width: 113px;
+
+    .buttonNav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      background-color: $blanco;
+      border-radius: 50%;
+      border: 3px solid $titulo1;
+      text-align: center;
+      box-shadow: 0 3px 10px -4px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      outline: none;
+      transition: all 0.4s;
+
+      .iconButton {
+        pointer-events: none;
+        color: $titulo1;
+        &:hover {
+          color: $blanco;
+        }
+      }
+
+      &:hover {
+        box-shadow: 0 8px 12px -5px rgba(0, 0, 0, 0.6);
+        background-color: $titulo1;
+        .iconButton {
+          color: $blanco;
+        }
+      }
+    }
+  }
+
+  .numberPage {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+  }
+}
+
+.footer-desc {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 50px;
+  max-width: 1024px;
+  bottom: 0px;
+  left: 0px;
+}

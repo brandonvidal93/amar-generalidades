@@ -1,0 +1,1407 @@
+"page1": {
+  "type": "welcomePage",
+  "title": "¡Bienvenido(a)!",
+  "text": "Esta experiencia de aprendizaje que vas a comenzar te será de mucha utilidad para lograr unas adecuadas prácticas en tema de impuestos.",
+  "list": {
+    "title": "En total son tres módulos distribuidos de la siguiente manera:",
+    "listItem": [{
+        "key": 1,
+        "text": "Impuesto corporativo sobre la renta y complementarios"
+      },
+      {
+        "key": 2,
+        "text": "Impuestos territoriales"
+      },
+      {
+        "key": 3,
+        "text": "Procedimiento tributario y sanciones"
+      }
+    ]
+  },
+  "boxInfo": {
+    "title": "¡Éxitos en este recorrido!",
+    "text": "Utiliza al máximo esta nueva experiencia, navega y saca provecho de este curso que fue creado para tu beneficio.",
+    "imgBg": "img/welcome.png"
+  }
+},
+
+
+{
+  "coverPage": {
+    "type": "startPage",
+    "units": 7,
+    "title": "Impuestos",
+    "subTitle": "nacionales y territoriales",
+    "module": "Módulo 2",
+    "courseName": "Impuesto corporativo sobre la renta y complementarios",
+    "logoCourse": "img/logo.png",
+    "buttonStart": "Iniciar",
+    "modal": {
+      "type": "videoModal",
+      "title": "¡Ten en cuenta!",
+      "text": "Antes de iniciar, te invitamos hacer el recorrido de navegación mediante el siguiente instructivo.",
+      "buttonModal": "Guía de Navegación",
+      "closedModal": true,
+      "urlVideo": "video/guia-navegacion-impuestos.mp4"
+    },
+    "footer": {
+      "label": "Impuesto corporativo"
+    }
+  },
+
+  "page1": {
+    "type": "menuPage",
+    "title": "¡Bienvenido(a)!",
+    "text": "Los temas que visualizarás en este módulo son los siguientes:",
+    "Units": [{
+        "unit": 1,
+        "title": "Introducción",
+        "text": "Los municipios y los departamentos son entes territoriales y son creados para efectos tributarios.",
+        "imgBg": "img/units/unit-1.png",
+        "goTo": 2,
+        "fullVisited": false,
+        "position": 125
+      },
+      {
+        "unit": 2,
+        "title": "Sujetos de impuestos territoriales industria y comercio",
+        "text": "Existen dos tipos de sujetos para los...",
+        "imgBg": "img/units/unit-2.png",
+        "goTo": 3,
+        "fullVisited": false,
+        "position": -418
+      },
+      {
+        "unit": 3,
+        "title": "Impuesto de industria y comercio",
+        "text": "En la página web de la Cámara de Comercio de Bogotá aparece la siguiente definición con...",
+        "imgBg": "img/units/unit-3.png",
+        "goTo": 5,
+        "fullVisited": false,
+        "position": -963
+      },
+      {
+        "unit": 4,
+        "title": "Impuesto de avisos y tableros",
+        "text": "El impuesto de avisos y tableros es el impuesto que se paga por la instalación de avisos en...",
+        "imgBg": "img/units/unit-4.png",
+        "goTo": 9,
+        "fullVisited": false,
+        "position": -1505
+      },
+      {
+        "unit": 5,
+        "title": "Impuesto predial",
+        "text": "Son sujetos pasivos todos los propietarios de predios, inmuebles urbanos o rurales",
+        "imgBg": "img/units/unit-5.png",
+        "goTo": 10,
+        "fullVisited": false,
+        "position": -2060
+      },
+      {
+        "unit": 6,
+        "title": "Impuesto de vehículos",
+        "text": "¿Sabes cómo se calcula el impuesto sobre vehículos automotores? Es muy simple, debes tener...",
+        "imgBg": "img/units/unit-6.png",
+        "goTo": 14,
+        "fullVisited": false,
+        "position": -2605
+      },
+      {
+        "unit": 7,
+        "title": "Otros impuestos",
+        "text": "Son los impuestos que se cobran a las compañías avícolas, porcícolas, entre otros...",
+        "imgBg": "img/units/unit-7.png",
+        "goTo": 15,
+        "fullVisited": false,
+        "position": -3160
+      }
+    ],
+    "instruction": {
+      "text": "Haz clic en los círculos para navergar en los temas y ver su contenido",
+      "posY": 450,
+      "posX": 40,
+      "size": 310
+    }
+  },
+
+  "page2": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "endUnit": true,
+    "title": "Impuesto sobre la renta a personas jurídicas",
+    "text": "Antes de abordar este tema, recordemos ¿qué es una persona jurídica?",
+    "text2": "Si no tienes claro el concepto, no te preocupes, acá te lo aclaramos.",
+    "boxInfo": {
+      "title": "RECURSO AUDIOVISUAL",
+      "text": "Visualiza el siguiente video para conocer la información.",
+      "imgBg": "img/video-1.png"
+    },
+    "instruction": {
+      "text": "Haz clic en botón Play para reproducir el material audiovisual",
+      "posY": 60,
+      "posX": 0,
+      "size": 300
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/personajuridica.mp4"
+    }
+  },
+
+  "page3": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "title": "Impuesto sobre la renta a personas jurídicas",
+    "text": "",
+    "multimedia": {
+      "audio": {
+        "src": "audio/impuesto.mp3",
+        "autoPlay": true
+      },
+      "subtitles": {
+        "0": "Impuesto sobre la renta a personas jurídicas",
+        "4": "Las personas jurídicas con ánimo de lucro",
+        "6": "que son las de diario vivir como almacenes de grandes superficies",
+        "9": "entidades del sector financiero, industrias de alimentos, confección, metalmecánica",
+        "15": "otras manufactureras y los prestadores de servicios",
+        "18": "son responsables sujetos del impuesto de renta que a partir del año 2017 aplican a una tarifa del 33%.",
+        "26": "Por ejemplo, los Agentes Comerciales por ser personas jurídicas ",
+        "29": "también deben cumplir con todas las responsabilidades tributarias que el Estado exige,",
+        "34": "como: retención en la fuente, declaración de renta anual y demás."
+      },
+      "layers": [
+        [{
+            "label": "Personas jurídicas",
+            "labelSide": "bottom",
+            "icon": "img/animated/i1.png",
+            "time": 2,
+            "size": 140,
+            "position": {
+              "xPosition": 0,
+              "yPosition": 110
+            }
+          },
+          {
+            "icon": "img/animated/l1.png",
+            "time": 5,
+            "size": 170,
+            "position": {
+              "xPosition": 70,
+              "yPosition": 10
+            }
+          },
+          {
+            "label": "Almacenes",
+            "labelSide": "bottom",
+            "icon": "img/animated/i2.png",
+            "time": 7,
+            "size": 120,
+            "position": {
+              "xPosition": 180,
+              "yPosition": 40
+            }
+          },
+          {
+            "icon": "img/animated/l2.png",
+            "time": 8,
+            "size": 140,
+            "position": {
+              "xPosition": 250,
+              "yPosition": 5
+            }
+          },
+          {
+            "label": "Sector financiero",
+            "labelSide": "bottom",
+            "icon": "img/animated/i3.png",
+            "time": 9,
+            "size": 110,
+            "position": {
+              "xPosition": 345,
+              "yPosition": 35
+            }
+          },
+          {
+            "icon": "img/animated/l3.png",
+            "time": 10,
+            "size": 140,
+            "position": {
+              "xPosition": 400,
+              "yPosition": 5
+            }
+          },
+          {
+            "label": "Alimentos",
+            "labelSide": "bottom",
+            "icon": "img/animated/i4.png",
+            "time": 11,
+            "size": 140,
+            "position": {
+              "xPosition": 455,
+              "yPosition": 30
+            }
+          },
+          {
+            "icon": "img/animated/l4.png",
+            "time": 12,
+            "size": 140,
+            "position": {
+              "xPosition": 550,
+              "yPosition": 5
+            }
+          },
+          {
+            "label": "Confección",
+            "labelSide": "bottom",
+            "time": 13,
+            "size": 130,
+            "icon": "img/animated/i5.png",
+            "position": {
+              "xPosition": 630,
+              "yPosition": 35
+            }
+          },
+          {
+            "icon": "img/animated/l5.png",
+            "time": 14,
+            "size": 140,
+            "position": {
+              "xPosition": 700,
+              "yPosition": 5
+            }
+          },
+          {
+            "label": "Metalmecánica",
+            "labelSide": "bottom",
+            "icon": "img/animated/i6.png",
+            "time": 15,
+            "size": 200,
+            "position": {
+              "xPosition": 750,
+              "yPosition": 25
+            }
+          },
+
+          {
+            "label": "Otras manufactureras",
+            "labelSide": "bottom",
+            "time": 16,
+            "size": 120,
+            "icon": "img/animated/i7.png",
+            "position": {
+              "xPosition": 772,
+              "yPosition": 195
+            }
+          },
+
+          {
+            "label": "Prestadoras de servicios",
+            "time": 17,
+            "size": 180,
+            "labelSide": "bottom",
+            "icon": "img/animated/i8.png",
+            "position": {
+              "xPosition": 530,
+              "yPosition": 200
+            }
+          },
+
+          {
+            "label": "Son responsables sujetos del <span class = 'color-2'>impuesto de renta</span> que a partir del año 2017 aplican a una tarifa del <span class = 'color-2'>33%</span>.",
+            "labelSide": "left",
+            "time": 18,
+            "widthBox": 330,
+            "size": 180,
+            "icon": "img/animated/i9.png",
+            "position": {
+              "xPosition": 180,
+              "yPosition": 195
+            },
+            "move": 0
+          },
+          {
+            "label": "Los Agentes Comerciales ",
+            "labelSide": "bottom",
+            "time": 27,
+            "size": 140,
+            "icon": "img/animated/i10.png",
+            "position": {
+              "xPosition": 960,
+              "yPosition": 70
+            }
+          },
+          {
+            "icon": "img/animated/l7.png",
+            "time": 28,
+            "size": 180,
+            "position": {
+              "xPosition": 1070,
+              "yPosition": 20
+            }
+          },
+          {
+            "label": "por ser personas jurídicas",
+            "labelSide": "bottom",
+            "time": 29,
+            "size": 140,
+            "icon": "img/animated/i11.png",
+            "position": {
+              "xPosition": 1175,
+              "yPosition": 45
+            }
+          },
+          {
+            "icon": "img/animated/l8.png",
+            "time": 30,
+            "size": 180,
+            "position": {
+              "xPosition": 1260,
+              "yPosition": 5
+            }
+          },
+          {
+            "label": "deben cumplir con todas las responsabilidades tributarias",
+            "labelSide": "bottom",
+            "time": 31,
+            "widthBox": 190,
+            "size": 140,
+            "icon": "img/animated/i12.png",
+            "position": {
+              "xPosition": 1345,
+              "yPosition": 47
+            }
+          },
+          {
+            "icon": "img/animated/l9.png",
+            "time": 32,
+            "size": 180,
+            "position": {
+              "xPosition": 1450,
+              "yPosition": 5
+            }
+          },
+          {
+            "label": "Estado exige, como:",
+            "labelSide": "bottom",
+            "time": 33,
+            "size": 140,
+            "icon": "img/animated/i13.png",
+            "position": {
+              "xPosition": 1550,
+              "yPosition": 50
+            }
+          },
+          {
+            "icon": "img/animated/l10.png",
+            "time": 34,
+            "size": 70,
+            "position": {
+              "xPosition": 1690,
+              "yPosition": 90
+            }
+          },
+          {
+            "label": "retención en la fuente, declaración de renta anual y demás.",
+            "labelSide": "left",
+            "time": 35,
+            "widthBox": 270,
+            "size": 140,
+            "icon": "img/animated/i9.png",
+            "position": {
+              "xPosition": 1440,
+              "yPosition": 230
+            }
+          }
+        ]
+      ]
+    }
+  },
+
+  "page4": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "title": "Impuesto sobre la renta a personas jurídicas",
+    "text": "Además de lo mencionado, las personas jurídicas con ánimo de lucro tienen diferentes responsabilidades tributarias como:",
+    "instruction": {
+      "type": "print",
+      "link": "docs/anexo_1_personas_Juridicas.pdf",
+      "text": "Descarga el siguiente documento donde encontrarás los términos legales para las personas jurídicas.",
+      "posY": 450,
+      "posX": 20,
+      "size": 310
+    },
+    "instruction2": {
+      "text": "Haz clic en los números en orden consecutivo para conocer la información.",
+      "posY": 300,
+      "posX": 400,
+      "size": 230
+    },
+    "multimediaCircular": [
+      {
+        "pos": {
+          "top": 71,
+          "left": 330
+        },
+        "itemInfo": {
+          "title": "Personas jurídicas",
+          "text": "Son sujetos obligados a retener en la fuente, y solo por este hecho, son contribuyentes obligados a presentar información exógena.",
+          "posGlobe": {
+            "posY": 35,
+            "posX": 380,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": 385
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "pos": {
+          "top": 280,
+          "left": 360
+        },
+        "itemInfo": {
+          "title": "Personas jurídicas",
+          "text": "Además de la declaración de renta anual son responsables del IVA.",
+          "posGlobe": {
+            "posY": 250,
+            "posX": 410,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": 385
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "pos": {
+          "top": 240,
+          "left": 650
+        },
+        "itemInfo": {
+          "title": "Personas jurídicas",
+          "text": "Son sujetos autorretenedores de sus propios ingresos, como retención del impuesto de renta. ",
+          "posGlobe": {
+            "posY": 210,
+            "posX": 230,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "pos": {
+          "top": 61,
+          "left": 640
+        },
+        "itemInfo": {
+          "title": "Personas jurídicas",
+          "text": "Si se dedican a la actividad comercial de vehículos, telefonía móvil, comidas y bebidas (incluidas las alcohólicas), son sujetos obligados al impuesto nacional al consumo.",
+          "posGlobe": {
+            "posY": 15,
+            "posX": 220,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": -20
+          },
+          "posTriang": "right"
+        }
+      }
+    ],
+    "nameUnit": "unit1"
+  },
+
+  "page5": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "title": "¿Los tributos son obligatorios?",
+    "text": "Los tributos son un deber que tenemos como ciudadanos y estamos obligados a pagarlos, estos están contemplados en los Artículos 95 y 338 de la Constitución Política de Colombia. ",
+    "multimedia": {
+      "dragItems": [
+        {
+          "drag": 1,
+          "img": "img/drag-1.png",
+          "text": "",
+          "posY": 30,
+          "posX": 40,
+          "posYTarget": 30,
+          "posXTarget": 290,
+          "type": "art95",
+          "data": "Artículo 95"
+        },
+        {
+          "drag": 2,
+          "img": "img/drag-2.png",
+          "text": "",
+          "posY": 30,
+          "posX": 770,
+          "posYTarget": 30,
+          "posXTarget": 510,
+          "type": "art338",
+          "data": "Artículo 338"
+        }
+      ],
+      "dropZone": [
+        {
+          "drop": 1,
+          "img": "img/book.png",
+          "imgTarget": "img/drag-1.png",
+          "text": "Artículo 95",
+          "posY": 30,
+          "posX": 290,
+          "type": "art95",
+          "data": "Artículo 95",
+          "infoBox": {
+            "title": "Artículo 95",
+            "text": "<p class = 'color-4 mB-05'>La calidad de colombiano enaltece a todos los miembros de la comunidad nacional. Todos están en el deber de engrandecerla y dignificarla. El ejercicio de los derechos y libertades reconocidos en esta Constitución implica responsabilidades.</p><p class = 'color-4'>Toda persona está obligada a cumplir la Constitución y las leyes. El numeral 9 nos habla de los deberes de la persona y del ciudadano: “Contribuir al financiamiento de los gastos e inversiones del Estado dentro de conceptos de justicia y equidad”.</p>",
+            "width": 500,
+            "posY": 35,
+            "posX": 405,
+            "posTriang": "left"
+          }
+        },
+        {
+          "drop": 2,
+          "img": "img/book.png",
+          "imgTarget": "img/drag-2.png",
+          "text": "Artículo 338",
+          "posY": 30,
+          "posX": 510,
+          "type": "art338",
+          "data": "Artículo 338",
+          "infoBox": {
+            "title": "Artículo 338",
+            "text": "<p class = 'color-4 mB-05'>En tiempo de paz, solamente el Congreso, las Asambleas departamentales y los Concejos distritales y municipales podrán imponer contribuciones fiscales o parafiscales. La ley, las ordenanzas y los acuerdos deben fijar, directamente, los sujetos activos y pasivos, los hechos y las bases gravables, y las tarifas de los impuestos.</p><p class = 'color-4 mB-05'>La ley, las ordenanzas y los acuerdos pueden permitir que las autoridades fijen la tarifa de las tasas y contribuciones que cobren a los contribuyentes, como recuperación de los costos de los servicios que les presten o participación en los beneficios que les proporcionen; pero el sistema y el método para definir tales costos y beneficios, y la forma de hacer su reparto, deben ser fijados por la ley, las ordenanzas o los acuerdos.</p><p class = 'color-4'>Las leyes, ordenanzas o acuerdos que regulen contribuciones en las que la base sea el resultado de hechos ocurridos durante un período determinado, no pueden aplicarse sino a partir del período que comience después de iniciar la vigencia de la respectiva ley, ordenanza o acuerdo.</p>",
+            "width": 500,
+            "posY": -30,
+            "posX": 100,
+            "posTriang": "right"
+          }
+        }
+      ]
+    },
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Desliza los íconos en dirección a las flechas para conocer en detalle los Artículos.",
+      "posY": 455,
+      "posX": 20,
+      "size": 310
+    }
+  },
+
+  "page6": {
+    "type": "pageCourse",
+    "title": "Concepto general de los tributos",
+    "text": "Los tributos son una responsabilidad obligatoria de los contribuyentes, personas naturales o jurídicas, de los cuales debemos cumplir en dos condiciones: como contribuyente responsable legal y financiero.",
+    "text2": "A continuación te enseñaremos en qué consiste cada uno.",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic en cada botón para conocer la información.",
+      "posY": 460,
+      "posX": 20,
+      "size": 310
+    },
+    "multimedia": {
+      "button": [
+        {
+          "text": "",
+          "numBtn": 1,
+          "img": "img/btn-men.png"
+        },
+        {
+          "text": "",
+          "numBtn": 2,
+          "img": "img/btn-woman.png"
+        }
+      ],
+      "content": [
+        {
+          "info": 1,
+          "img": "img/men-1.png",
+          "imgSize": 150,
+          "title": "Contribuyente responsable legal",
+          "text": "Es el contribuyente que cumple las formalidades que el Estado le otorga para que cumpla con el deber de recaudar, controlar y consignar tributos.",
+          "subtitle": "Ejemplo de ello es:",
+          "text2": "Los Agentes Comerciales que distribuyen nuestros productos deben gravar con IVA, porque son sujetos responsables del impuesto a las ventas a la tarifa general, deben recaudar el IVA en la facturación que realiza a cada cliente, se descuenta lo pagado y si es del caso el saldo a favor del Estado lo consigna o le queda a favor."
+        },
+        {
+          "info": 2,
+          "img": "img/woman-1.png",
+          "imgSize": 150,
+          "title": "Contribuyente responsable financiero",
+          "text": "El Agente Comercial que como en el caso anterior adquiere unos productos, sin tener ninguna obligación asignada por el Estado, tiene que pagar el impuesto asignado a ese bien o servicio que compra.",
+          "text2": "",
+          "text3": ""
+        }
+      ]
+    }
+  },
+
+  "page7": {
+    "type": "pageCourse",
+    "title": "Recuerda lo aprendido",
+    "text": "Para comprobar qué tanto has comprendido hasta el momento, te invitamos a realizar el siguiente ejercicio:",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Lleva las palabras a los espacios donde consideres que deben de ir, no te preocupes si no sabes la respuesta, cuando lo hagas podrás descubrirlo.",
+      "posY": 470,
+      "posX": 20,
+      "size": 450
+    },
+    "multimedia": {
+      "dragItem": [
+        {
+          "id": 1,
+          "text": "contribuyentes"
+        },
+        {
+          "id": 2,
+          "text": "mixto"
+        },
+        {
+          "id": 3,
+          "text": "jurídica"
+        },
+        {
+          "id": 4,
+          "text": "declarantes"
+        },
+        {
+          "id": 5,
+          "text": "responsables"
+        },
+        {
+          "id": 6,
+          "text": "responsabilidad"
+        },
+        {
+          "id": 7,
+          "text": "agentes"
+        },
+        {
+          "id": 8,
+          "text": "obligatoria"
+        },
+        {
+          "id": 9,
+          "text": "ánimo"
+        },
+        {
+          "id": 10,
+          "text": "tributarias"
+        },
+        {
+          "id": 11,
+          "text": "retención"
+        },
+        {
+          "id": 12,
+          "text": "tributos"
+        }
+      ],
+      "dropZone": {
+        "paragraph": [
+          {
+            "key": 1,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Una persona",
+                "posY": 30,
+                "posX": 40
+              },
+              {
+                "key": 2,
+                "text": "es un ente que tiene la",
+                "posY": 30,
+                "posX": 240
+              },
+              {
+                "key": 3,
+                "text": "de contraer deberes y cumplir obligaciones.",
+                "posY": 70,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 100,
+                "posY": 20,
+                "posX": 120,
+                "type": "jurídica"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 170,
+                "posY": 20,
+                "posX": 385,
+                "type": "responsabilidad"
+              }
+            ]
+          },
+          {
+            "key": 2,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Las  personas  jurídicas  son",
+                "posY": 30,
+                "posX": 30
+              },
+              {
+                "key": 2,
+                "text": "de",
+                "posY": 30,
+                "posX": 300
+              },
+              {
+                "key": 3,
+                "text": ",  de  información  exógena,  se  asimilan  a  grandes",
+                "posY": 30,
+                "posX": 410
+              },
+              {
+                "key": 4,
+                "text": ",  es  decir,  retienen  IVA  y  no  son",
+                "posY": 70,
+                "posX": 160
+              },
+              {
+                "key": 5,
+                "text": "de  renta.",
+                "posY": 70,
+                "posX": 480
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 85,
+                "posY": 20,
+                "posX": 200,
+                "type": "agentes"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 85,
+                "posY": 20,
+                "posX": 316,
+                "type": "retención"
+              },
+              {
+                "key": 3,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 125,
+                "posY": 57,
+                "posX": 25,
+                "type": "contribuyentes"
+              },
+              {
+                "key": 4,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 110,
+                "posY": 57,
+                "posX": 355,
+                "type": "declarantes"
+              }
+            ]
+          },
+          {
+            "key": 3,
+            "lines": [
+              {
+                "key": 1,
+                "text": "En  Colombia  existen  las  personas  jurídicas  con",
+                "posY": 30,
+                "posX": 40
+              },
+              {
+                "key": 2,
+                "text": "de  lucro,  sin  ánimo  de  lucro  (ESAL)  y  las  entidades  de  carácter  público  o  de  carácter",
+                "posY": 70,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 150,
+                "posY": 20,
+                "posX": 340,
+                "type": "ánimo"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 120,
+                "posY": 57,
+                "posX": 580,
+                "type": "mixto"
+              }
+            ]
+          },
+          {
+            "key": 4,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Las  personas  jurídicas  con  ánimo  de  lucro  son",
+                "posY": 30,
+                "posX": 40
+              },
+              {
+                "key": 2,
+                "text": "sujetos  del  impuesto  de  renta  y  además  tienen  diferentes  responsabilidades",
+                "posY": 70,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 150,
+                "posY": 20,
+                "posX": 335,
+                "type": "responsables"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 140,
+                "posY": 57,
+                "posX": 525,
+                "type": "tributarias"
+              }
+            ]
+          },
+          {
+            "key": 5,
+            "lines": [
+              {
+                "key": 1,
+                "text": "Los",
+                "posY": 30,
+                "posX": 40
+              },
+              {
+                "key": 2,
+                "text": "son  una  responsabilidad",
+                "posY": 30,
+                "posX": 180
+              },
+              {
+                "key": 3,
+                "text": "de  los  contribuyentes  ya  sean  personas  naturales  o  jurídicas.",
+                "posY": 70,
+                "posX": 40
+              }
+            ],
+            "drops": [
+              {
+                "key": 1,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 110,
+                "posY": 20,
+                "posX": 60,
+                "type": "tributos"
+              },
+              {
+                "key": 2,
+                "box": "<div class = 'boxDrop'></div>",
+                "size": 170,
+                "posY": 20,
+                "posX": 335,
+                "type": "obligatoria"
+              }
+            ]
+          }
+        ]
+      },
+      "content": [
+        {
+          "info": 1,
+          "img": "img/check.png",
+          "imgSize": 150,
+          "title": "¡Muy bien!",
+          "text": "Ahora ya conoces el concepto de persona jurídica y las responsabilidades tributarias que adquiere cada una."
+        }
+      ]
+    }
+  },
+
+  "page8": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "title": "Características de los tributos",
+    "text": "Los tributos tienen ciertas características otorgadas por la Ley para sus responsables legales y financieros, estos son:",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic en los números en orden consecutivo para conocer la información.",
+      "posY": 270,
+      "posX": 400,
+      "size": 230
+    },
+    "multimediaCircular": [
+      {
+        "pos": {
+          "top": 71,
+          "left": 330
+        },
+        "itemInfo": {
+          "title": "Tributos directos:",
+          "text": "Son aquellos tributos que recaen sobre las personas que tienen las condiciones subjetivas para responder por ellos, ejemplo: el impuesto de renta y el impuesto a la riqueza. Estos tributos tienen la característica de ser progresivos, es decir, que el contribuyente que gane más o que tenga un mayor patrimonio, deberá contribuir en mayor cantidad al Estado pagando impuestos.",
+          "text2": "Los tributos corresponden únicamente al transcurso del año fiscal, entre el 1 de enero y el 31 de diciembre, esto para el caso de Colombia. El impuesto a la riqueza es un impuesto de carácter temporal, mientras que el impuesto de renta es un impuesto permanente.",
+          "posGlobe": {
+            "posY": -30,
+            "posX": 385,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": 385
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "pos": {
+          "top": 260,
+          "left": 650
+        },
+        "itemInfo": {
+          "title": "Tributos indirectos:",
+          "text": "A diferencia de los tributos directos que recaen en cabeza de las personas, los indirectos recaen sobre los bienes y servicios. El caso más claro es el IVA o también el impuesto nacional al consumo, está gravando bienes y/o servicios pero no grava a las personas.",
+          "text2": "Sin embargo, son los individuos los que tienen la responsabilidad de recaudarlos, controlarlos y consignarlos al Estado. Estos tributos le ofrecen un flujo de caja eficiente al Estado, aunque son perjudiciales para la economía porque causan un efecto inflacionario y reducen la capacidad de compra de las personas de bajos ingresos (regresivos).",
+          "posGlobe": {
+            "posY": 160,
+            "posX": 225,
+            "size": 410
+          },
+          "buttonClose": {
+            "closedModal": true,
+            "posY": -15,
+            "posX": 385
+          },
+          "posTriang": "right"
+        }
+      }
+    ]
+  },
+
+  "page9": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "endUnit": true,
+    "nameUnit": "unit2",
+    "title": "Características de los tributos",
+    "text": "Los tributos, de acuerdo a las políticas económicas del Gobierno de turno, tienen la gracia de dinamizar o contraer la economía. Además, se deben generar bajo los principios constitucionales de justicia e igualdad.",
+    "text2": "De acuerdo con esto, es bueno que te preguntes:",
+    "text3": "¿Es lo mismo justicia que igualdad?",
+    "text4": "Piénsalo por un momento.",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Luego de analizar la pregunta, haz clic en el botón verde y descubre la respuesta a través de una imagen.",
+      "posY": 290,
+      "posX": 340,
+      "size": 340
+    },
+    "multimedia": {
+      "button": [
+        {
+          "text": "Conoce la respuesta",
+          "numBtn": 1,
+          "posY": 10,
+          "posX": 12
+        }
+      ],
+      "content": [
+        {
+          "info": 1,
+          "img": "img/igualdad-justicia.png",
+          "imgSize": 600
+        }
+      ]
+    }
+  },
+
+  "page10": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "title": "Sujetos pasivos",
+    "text": "Son sujetos pasivos todas las personas naturales y jurídicas ubicadas en el territorio nacional.",
+    "list": {
+      "title": "En Colombia, que es un Estado Social de Derecho conformado como una República Unitaria, se determinó que los impuestos los genera el Congreso de la República a través de Leyes."
+    },
+    "boxInfo": {
+      "imgBg": "img/sujetos-pasivos.png"
+    },
+    "instruction": {
+      "type": "print",
+      "link": "anexo_2_principio_de_Legalidad",
+      "text": "Descarga y lee el siguiente archivo donde encontrarás cuál es el objetivo y las características del principio de legalidad.",
+      "posY": 425,
+      "posX": 20,
+      "size": 330
+    }
+  },
+
+  "page11": {
+    "type": "pageCourse",
+    "title": "Sujetos pasivos",
+    "text": "Para comprender mejor el concepto sobre qué son los sujetos pasivos, visualiza el siguiente video.",
+    "text2": "Si no tienes claro el concepto, no te preocupes, acá te lo aclaramos.",
+    "instruction": {
+      "text": "Haz clic en botón Play para reproducir el material audiovisual",
+      "posY": 60,
+      "posX": 20,
+      "size": 300
+    },
+    "boxInfo": {
+      "title": "RECURSO AUDIOVISUAL",
+      "text": "Visualiza el siguiente Motion graphic",
+      "imgBg": "img/video-2.png"
+    },
+    "modal": {
+      "type": "videoModal",
+      "title": "",
+      "text": "",
+      "buttonModal": "",
+      "closedModal": true,
+      "urlVideo": "video/sujetospasivos.mp4"
+    }
+  },
+
+  "page12": {
+    "type": "pageCourse",
+    "title": "¿Cuál es la responsabilidad del sujeto pasivo que tiene persona jurídica en cuanto a impuesto de renta?",
+    "text": "Este sujeto deberá depurar la base gravada para liquidar el impuesto de renta: Art. 26 del Estatuto Tributario Nacional (ETN) que habla sobre los ingresos como base de la renta líquida.",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic sobre el círculo para conocer qué dice el Artículo 26.",
+      "posY": 485,
+      "posX": 20,
+      "size": 330
+    },
+    "multimedia": [
+      {
+        "id": 1,
+        "title": "",
+        "text": "La renta líquida gravable se determina así: de la suma de todos los ingresos ordinarios y extraordinarios realizados en el año o período gravable..."
+      },
+      {
+        "id": 2,
+        "title": "",
+        "text": "...que sean susceptibles de producir un incremento neto del patrimonio en el momento de su percepción, y que no hayan sido expresamente exceptuados..."
+      },
+      {
+        "id": 3,
+        "title": "",
+        "text": "...se restan las devoluciones, rebajas y descuentos, con lo cual se obtienen los ingresos netos..."
+      },
+      {
+        "id": 4,
+        "title": "",
+        "text": "...De los ingresos netos se restan, cuando sea el caso, los costos realizados imputables a tales ingresos, con lo cual se obtiene la renta bruta..."
+      },
+      {
+        "id": 5,
+        "title": "",
+        "text": "...De la renta bruta se restan las deducciones realizadas, con lo cual se obtiene la renta líquida."
+      },
+      {
+        "id": 6,
+        "title": "",
+        "text": "Salvo las excepciones legales, la renta líquida es renta gravable y a ella se aplican las tarifas señaladas en la Ley."
+      }
+    ]
+  },
+
+  "page13": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "title": "Recuerda lo aprendido",
+    "text": "Para repasar los conceptos vistos, te invitamos a realizar la siguiente actividad.",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Une el concepto con su respectiva descripción.",
+      "posY": 455,
+      "posX": 20,
+      "size": 330
+    },
+    "multimedia": {
+       "type": "Pairing",
+       "content": {
+         "colors": [
+           "#FF8900",
+           "#B6D66E",
+           "#4188F8",
+           "#E63E00"
+         ],
+         "labels": [
+           {
+             "p": "Justicia e igualdad",
+             "pair": 1
+           },
+           {
+             "p": "Sujetos pasivos",
+             "pair": 2
+           },
+           {
+             "p": "Características de los tributos",
+             "pair": 3
+           },
+           {
+             "p": "Responsabilidad del sujeto pasivo en cuanto impuesto de renta",
+             "pair": 4
+           }
+         ],
+         "texts": [
+           {
+             "p": "Existen dos clases: tributos directos e indirectos.",
+             "pair": 3
+           },
+           {
+             "p": "Los tributos se deben generar bajo los principios constitucionales de…",
+             "pair": 1
+           },
+           {
+             "p": "Todas aquellas personas que acatan las órdenes emanadas del sujeto activo, en el caso de Colombia el único sujeto activo es el Estado.",
+             "pair": 2
+           },
+           {
+             "p": "El Art. 26 del Estatuto Tributario Nacional (ETN) habla sobre los ingresos como base de la renta líquida.",
+             "pair": 4
+           }
+         ]
+       }
+     }
+  },
+
+  "page14": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "nameUnit": "unit3",
+    "title": "¿Cómo depurar la base gravada?",
+    "text": "Como vimos anteriormente, el sujeto pasivo deberá depurar la base gravada para liquidar el impuesto de renta.",
+    "img": "img/base-gravada.png",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Presta atención al ejemplo para que aprendas en la práctica a depurar la base gravada.",
+      "posY": 455,
+      "posX": 20,
+      "size": 330
+    }
+  },
+
+  "page15": {
+    "type": "pageCourse",
+    "endUnit": true,
+    "title": "Armonización de los valores fiscales y valores contabilidad NIIF",
+    "text2": "Para efectos tributarios la generación de datos se toma de la contabilidad, debido a que allí se revela la realidad tributaria de las personas jurídicas.",
+    "img": "img/valores-contabilidad-NIIF.png",
+    "instruction": {
+      "type": "print",
+      "link": "anexo_3_la_contabilidad_es_la_proveedora",
+      "text": "Descarga y lee el siguiente archivo donde encontrarás cuál es el objetivo y las características del principio de legalidad.",
+      "posY": 445,
+      "posX": 20,
+      "size": 330
+    }
+  },
+
+  "page16": {
+    "type": "pageCourse",
+    "startUnit": true,
+    "title": "Armonización de los valores fiscales y valores contabilidad NIIF",
+    "text": "",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic en los números en orden consecutivo para conocer la información.",
+      "posY": 270,
+      "posX": 400,
+      "size": 230
+    },
+    "multimediaCircular": [
+      {
+        "pos": {
+          "top": 71,
+          "left": 330
+        },
+        "itemInfo": {
+          "text": "Las cifras que se denunciarán en la declaración de renta del año 2017 serán obtenidas de la contabilidad, este ordenamiento contable lo determinó la Ley 1314 del año 2009.",
+          "number" : 1,
+          "img": "img/c1.png",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 380,
+            "posX": 280
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "pos": {
+          "top": 290,
+          "left": 350
+        },
+        "itemInfo": {
+          "text": "El contenido contable está bajo las Normas Internacionales de Información Financiera (NIIF), estas cifras estarán contempladas con valores reales a la luz de la valoración de las NIIF.",
+          "number" : 2,
+          "img": "img/c2.png",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 380,
+            "posX": 280
+          },
+          "posTriang": "left"
+        }
+      },
+      {
+        "pos": {
+          "top": 310,
+          "left": 590
+        },
+        "itemInfo": {
+          "text": "Valor razonable en los activos fijos, costos amortizados o costos históricos, dependiendo de las políticas establecidas para tal fin y dependiendo las obligaciones de valoración por grupos. Además de los deterioros de inventarios, activos, entre otros, o el interés implícito en las cuentas por cobrar o cuentas por pagar a terceros.",
+          "number" : 3,
+          "img": "img/c3.png",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 380,
+            "posX": 280
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "pos": {
+          "top": 160,
+          "left": 680
+        },
+        "itemInfo": {
+          "text": "Estas partidas que de acuerdo a las políticas de contabilidad se registran por esos valores ajustados, son base para la declaración de renta, pero no son imputables estos valores actualizados en el formulario, únicamente los valores nominales.",
+          "number" : 4,
+          "img": "img/c4.png",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 380,
+            "posX": 280
+          },
+          "posTriang": "right"
+        }
+      },
+      {
+        "pos": {
+          "top": -10,
+          "left": 560
+        },
+        "itemInfo": {
+          "text": "Descarga el siguiente documento donde encontrarás un ejemplo de cómo hacerlo:",
+          "number" : 5,
+          "img": "img/c5.png",
+          "link": "docs/anexo_4_ejemplo_de_armonizacion.pdf",
+          "buttonClose": {
+            "closedModal": true,
+            "posY": 400,
+            "posX": 280
+          },
+          "posTriang": "right"
+        }
+      }
+    ]
+  },
+
+  "page17": {
+    "type": "endCourse",
+    "endUnit": true,
+    "endCourse": true,
+    "title": "Armonización de los valores fiscales y valores contabilidad NIIF",
+    "text": "",
+    "text2": "",
+    "img": "img/valores-contabilidad-NIIF-2.png",
+    "instruction": {
+      "type": "info",
+      "link": "",
+      "text": "Haz clic en las flechas y navega en su contenido",
+      "posY": 455,
+      "posX": 20,
+      "size": 330
+    },
+    "multimedia": [
+      {
+        "id": 1,
+        "text": "El ejemplo anterior quiere decir que al momento de la venta de un activo se debe reintegrar como una renta ordinaria la depreciación acumulada, que en periodos anteriores se solicitó como una deducción durante el uso del activo en su vida útil, por este criterio el Estado exige que en el venta del activo, y si hay utilidad, se debe reintegrar la depreciación como renta ordinaria y el exceso será una ganancia ocasional con tarifa del 10%."
+      },
+      {
+        "id": 2,
+        "text": "Para el caso que vimos “Reintegro de deducciones”, la depreciación acumulada es un ingreso y tiene una tarifa en caso de que sea utilidad fiscal del 33% y la ganancia ocasional queson 24.500.000.000 están gravados con una tarifa del 10% o sea $245.000.000."
+      }
+    ]
+  },
+
+  "page18": {
+    "type": "endCourse",
+    "nameUnit": "unit4",
+    "title": "Impuesto",
+    "subTitle": "sobre la renta y complementarios",
+    "module": "Módulo 1",
+    "text": "En este primer módulo pudiste aprender acerca del impuesto corporativo sobre la renta y complementarios. Esperamos que haya sido de tu agrado y puedas poner en práctica el conocimiento adquirido.",
+    "text2": "Recuerda que es necesario llevar a cabalidad cada procedimiento para no tener problemas legales en un futuro.",
+    "logoCourse": "img/logo.png",
+    "buttonStart": "Finalizar",
+    "boxInfo": {
+      "title": "¡Has finalizado exitosamente!",
+      "text": "¡Te invitamos a continuar con la evaluación de conocimientos y con el segundo módulo sobre impuestos territoriales!",
+      "imgBg": "img/welcome.png"
+    }
+  },
+
+  "backCover": {
+    "type": "endPage",
+    "title": "¡Has finalizado este módulo!",
+    "text": "Cierra la ventana para continuar.",
+    "img": "img/like.png"
+  },
+
+  "finishUnit": {
+    "title": "Has finalizado este tema",
+    "text": "A continuación haz clic en el ícono del menú para volver al principal y avanzar en un nuevo tema.",
+    "img": "img/check.png"
+  }
+}

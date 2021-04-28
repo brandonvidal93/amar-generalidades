@@ -1,0 +1,259 @@
+ @import "../resources/colors";
+@import "../resources/animation.scss";
+
+.interactiveCircle {
+  height: 455px;
+  width: 95%;
+  position: absolute;
+  top: 95px;
+  left: 130px;
+
+  .circleItems {
+    position: absolute;
+
+    .circleButton {
+      // width: 1.8em;
+      // height: 1.8em;
+      background-color: transparent;
+      // border-radius: 50%;
+      color: $color4;
+      font-size: 1.5em;
+      transition: all .3s;
+
+      &:hover {
+        // animation: pulse2 2s infinite;
+      }
+    }
+
+    .visited {
+      // background-color: $color2;
+      &:hover {
+        // animation: pulse 2s infinite;
+      }
+    }
+  }
+
+  .bgItemGlobe {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    width: 100%;
+    height: 420px;
+
+    .itemGlobe {
+      box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+      position: absolute;
+      background-color: $blanco;
+      border: 5px solid;
+      padding: 1em;
+      border-radius: 20px;
+
+      .buttonClose {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0);
+        .iconButton {
+          color: red;
+          font-size: 2.3em;
+          transition: all .3s;
+        }
+
+        &:hover {
+          .iconButton {
+            color: #cf0000;
+          }
+        }
+      }
+    }
+
+    .trian-1 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid #FBB03B;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 30px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-top: 12px solid $blanco;
+        border-right: 12px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 38px;
+      }
+    }
+
+    .trian-2 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid #F15A24;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 30px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-top: 12px solid $blanco;
+        border-right: 12px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 38px;
+      }
+    }
+
+    .trian-3 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid #93278F;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 30px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-top: 12px solid $blanco;
+        border-right: 12px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 38px;
+      }
+    }
+
+    .trian-4 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid #D4145A;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 30px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-top: 12px solid $blanco;
+        border-right: 12px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 38px;
+      }
+    }
+
+    .trian-5 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid #9E0B5D;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 60px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-top: 12px solid $blanco;
+        border-right: 12px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 68px;
+      }
+    }
+
+    .trian-6 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid #1FBDED;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 210px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-top: 12px solid $blanco;
+        border-right: 12px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 218px;
+      }
+    }
+
+    .trian-7 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid #0C62A5;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 85%;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 12px solid transparent;
+        border-top: 12px solid $blanco;
+        border-right: 12px solid transparent;
+        position: absolute;
+        top: 100%;
+        left: 87%;
+      }
+    }
+  }
+}

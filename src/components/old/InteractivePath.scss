@@ -1,0 +1,20 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.interactivePath {
+  background: url('../assets/img/backgrounds/bgPage-20.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 300px;
+  .btnItem {
+    cursor: pointer;
+  }
+  .boxInfo {
+    background-color: #F7F5F5;
+    border: 3px solid #EAE8E8;
+    border-radius: 10px;
+    width: 260px;
+    height: 100px;
+  }
+}

@@ -1,0 +1,57 @@
+@import "../../resources/colors";
+@import "../../resources/animation.scss";
+
+.draggableDot3 {
+  width: 100%;
+  .slideBox {
+    width: 90%;
+    .boxDrop {
+      width: 40px;
+      height: 40px;
+      background-color: #F7F7F7;
+      border: 3px solid #fff;
+      border-radius: 50%;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+      margin-right: 1rem;
+      h1 {
+        color: #fff;
+      }
+    }
+    .labelDrop {
+      // width: 90%;
+      background-color: #F8F8F8;
+      padding: 0.5rem 1rem;
+      border-radius: 15px;
+    }
+    .WordDropped {
+      border: none;
+      p {
+        color: $color4;
+      }
+    }
+  }
+
+  .contentWords {
+    background: url('../../assets/img/backgrounds/bgPage-29.png');
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 305px;
+    height: 305px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    .dragWord {
+      width: 40px;
+      height: 40px;
+      // margin-left: .5rem;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+      h1 {
+        color: #fff;
+      }
+    }
+  }
+}

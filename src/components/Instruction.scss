@@ -1,0 +1,32 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.instructionMouse {
+  position: absolute;
+  z-index: 3;
+  background-color: #F8F8F8;
+  border: 2px solid #FFD15C;
+  padding: 0.2rem 1rem 0.2rem 0.2rem;
+  box-shadow: 0 3px 10px -4px rgba(0, 0, 0, 0.3);
+  border-radius: 100px;
+
+  .icon {
+    color: $color2;
+    font-size: 3em;
+  }
+}
+
+.instructionInfo {
+  position: absolute;
+  z-index: 3;
+  background-color: #F8F8F8;
+  border: 2px solid $color13;
+  padding: 0.2rem 1rem 0.2rem 0.2rem;
+  box-shadow: 0 3px 10px -4px rgba(0, 0, 0, 0.3);
+  border-radius: 100px;
+
+  .icon {
+    color: $color13;
+    font-size: 3em;
+  }
+}

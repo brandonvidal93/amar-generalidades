@@ -1,0 +1,52 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.modalInfo3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(#29427D, 1);
+  z-index: 4;
+  transition: all .4s;
+
+  .bgCircle {
+    width: 50%;
+    // height: 800px;
+    // border-radius: 50%;
+    background-color: $blanco;
+    border-radius: 20px;
+
+    .boxInfo {
+      // width: 85%;
+      // height: 600px;
+
+      .imageLogo {
+        // width: 150px;
+      }
+    }
+
+    .buttonClose {
+      background-color: rgba(0, 0, 0, 0);
+      position: absolute;
+      top: 5px;
+      right: 1px;
+
+      .iconButton {
+        color: red;
+        font-size: 2.3em;
+        transition: all .3s;
+      }
+
+      &:hover {
+        .iconButton {
+          color: #cf0000;
+        }
+      }
+    }
+  }
+}
