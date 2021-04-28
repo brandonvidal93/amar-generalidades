@@ -6,6 +6,7 @@ import InteractivePath1 from '../../components/InteractivePath1';
 import InteractiveSubtitle from '../../components/InteractiveSubtitle';
 import ModalCircle1 from '../../components/ModalCircle1';
 import ModalVideo1 from '../../components/ModalVideo1';
+import SlideUpDown from '../../components/SlideUpDown';
 
 import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
 
@@ -409,6 +410,8 @@ class Page5 extends Component {
             </button>
           </div>
         </div>
+
+        <Instruction dataPage = { dataPage.instruction } />
       </div>
     );
   }
@@ -449,10 +452,16 @@ class Page6 extends Component {
               dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
             }
             {
-              dataPage.text ? <p className = 'mB-4 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+              dataPage.text ? <p className = 'mB-1 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
             }
           </div>
+
+          <div className = 'mL-7'>
+            <SlideUpDown multimedia = { dataPage.multimedia } handleClick = { this.handleClick } isEnded = { this.isEnded } />
+          </div>
         </div>
+
+        <Instruction dataPage = { dataPage.instruction } />
       </div>
     );
   }

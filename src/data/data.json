@@ -85,11 +85,11 @@
         "3": "encuentra en línea y por lo general la forma en que ",
         "6": "trabajamos, aprendemos, nos comunicamos, nos ",
         "9": "relacionamos, entre otros; dependen de una conexión a la red.",
-        "12": "Tener conciencia frente a los riesgos que amenazan nuestra",
-        "15": "información es el mejor control que se necesita para evitar ser ",
-        "20": "víctimas de la inseguridad digital.",
-        "22": "Presta mucha atención a los diferentes temas que ",
-        "24": "desarrollaremos alrededor del curso. ¡Bienvenidos!"
+        "13": "Tener conciencia frente a los riesgos que amenazan nuestra",
+        "16": "información es el mejor control que se necesita para evitar ser ",
+        "21": "víctimas de la inseguridad digital.",
+        "23": "Presta mucha atención a los diferentes temas que ",
+        "25": "desarrollaremos alrededor del curso. ¡Bienvenidos!"
       },
       "layers": [
         {
@@ -215,7 +215,7 @@
       "text": "Haz clic en cada ícono para conocer la información.",
       "posY": 50,
       "posX": 660,
-      "size": 300,
+      "size": 330,
       "color": "#FFD15C"
     }
   },
@@ -319,7 +319,7 @@
       "text": "Haz clic en cada ícono para conocer la información.",
       "posY": 50,
       "posX": 660,
-      "size": 300,
+      "size": 330,
       "color": "#FFD15C"
     }
   },
@@ -345,6 +345,14 @@
       "buttonModal": "",
       "closedModal": true,
       "urlVideo": "https://content.jwplatform.com/videos/DPVTejlj-SpzKbqXP.mp4"
+    },
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic en el reproductor de video para conocer la información.",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
     }
   },
 
@@ -356,7 +364,64 @@
       "color": "#5C2481"
     },
     "title": "¿Qué motiva a los criminales en la red?",
-    "text": "En la siguiente imagen podrás conocer qué es lo que motiva a los criminales en la red."
+    "text": "En la siguiente imagen podrás conocer qué es lo que motiva a los criminales en la red.",
+    "instruction": {
+      "type": "mouse",
+      "text": "Sigue la conversación dando clic en en botón con dirección hacia abajo.",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
+    },
+    "multimedia": {
+      "items": [
+        {
+          "img": "img/6/n-1.png",
+          "text": "¡Uy! Menos mal que yo no soy objetivo de un ataque informático, eso es para las empresas o los bancos.",
+          "textPos": {
+            "posY": 95,
+            "posX": 250,
+            "width": 180
+          }
+        },
+        {
+          "img": "img/6/n-2.png",
+          "text": "¿Sigues creyendo que el objetivo de los ciberdelincuentes son grandes empresas o entidades bancarias?",
+          "textPos": {
+            "posY": 100,
+            "posX": 125,
+            "width": 230
+          }
+        },
+        {
+          "img": "img/6/n-2.png",
+          "text": "Malas noticias, en realidad cualquier persona que maneje información o cualquier dispositivo que esté conectado en una red, es un potencial objetivo para un atacante informático.",
+          "textPos": {
+            "posY": 80,
+            "posX": 110,
+            "width": 270
+          }
+        },
+        {
+          "img": "img/6/n-1.png",
+          "text": "Si eso es así, tendré que tener mucho cuidado con la información que tengo en mis dispositivos. ",
+          "textPos": {
+            "posY": 100,
+            "posX": 230,
+            "width": 230
+          }
+        },
+        {
+          "img": "img/6/n-2.png",
+          "text": "Te invito a que conozcas cuáles son las amenazas a las que estamos expuestos, éstas las verás en el siguiente tema. ",
+          "textPos": {
+            "posY": 90,
+            "posX": 120,
+            "width": 240
+          }
+        }
+      ]
+    }
   },
 
   "page7": {
