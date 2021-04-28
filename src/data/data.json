@@ -77,7 +77,7 @@
     },
     "multimedia": {
       "audio": {
-        "src": "audio/introduccion.wav",
+        "src": "audio/Audio-bienvenida.mp3",
         "autoPlay": true
       },
       "subtitles": {
