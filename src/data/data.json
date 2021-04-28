@@ -427,7 +427,57 @@
   "page7": {
     "type": "pageCourse",
     "startUnit": true,
-    "nameUnit": "unit2"
+    "nameUnit": "unit2",
+    "headerPage": {
+      "imgHeader": "img/menuCourse/n-2.png",
+      "textHeader": "Amenazas",
+      "color": "#5C2481"
+    },
+    "title": "¿Cuáles son las amenazas más comunes?",
+    "text": "En nuestra cotidianidad estamos expuestos a diferentes amenazas, por eso es fundamental que conozcas cuáles son las más comunes para que evites un ataque informático. <br><br>A continuación, descubrirás las 5 amenazas más relevantes, en el desarrollo del curso te explicaremos en qué consiste cada una de ellas.",
+    "instruction": {
+      "type": "mouse",
+      "text": "Haz clic sobre cada ícono para descubrir cuáles son las amenazas.",
+      "posY": 50,
+      "posX": 660,
+      "size": 330,
+      "color": "#FFD15C"
+    },
+    "multimedia": {
+      "type": "icon",
+      "items": [
+        {
+          "id": 1,
+          "title": "Ingeniería social",
+          "text": "",
+          "img": "img/7/n-1.png"
+        },
+        {
+          "id": 2,
+          "title": "Phishing o suplantación de identidad",
+          "text": "",
+          "img": "img/7/n-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Smishing",
+          "text": "",
+          "img": "img/7/n-3.png"
+        },
+        {
+          "id": 4,
+          "title": "Malware (software malicioso)",
+          "text": "",
+          "img": "img/7/n-4.png"
+        },
+        {
+          "id": 5,
+          "title": "Ransomware",
+          "text": "",
+          "img": "img/7/n-5.png"
+        }
+      ]
+    }
   },
 
   "page8": {

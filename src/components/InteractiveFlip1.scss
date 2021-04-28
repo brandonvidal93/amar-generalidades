@@ -1,0 +1,68 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.interactiveFlip {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: stretch;
+  flex-wrap: wrap;
+
+  .itemFlip {
+    .buttonFlip {
+      background-color: #F8F8F8;
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: all .4s;
+      padding: 2rem 1rem;
+  
+      .iconButton {
+        font-size: 3em;
+        transition: all .3s;
+      }
+  
+      &:hover {
+        .iconButton {
+          font-size: 3.5em;
+        }
+      }
+    }
+  
+    .infoFlip {
+      position: absolute;
+      top: 0;
+      background-color: #04386D;
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+      padding: 2rem 1rem;
+    }
+
+    .flip-1, .flip-2, .flip-3 {
+      height: 200px;
+      width: 159px;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .flip-1 {
+      margin-left: 0rem;
+    }
+    .flip-3 {
+      margin-right: 0rem;
+    }
+
+    .flip-4, .flip-5 {
+      height: 130px;
+      width: 246px;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+
+    .flip-4 {
+      margin-left: 0rem;
+    }
+    .flip-5 {
+      margin-right: 0rem;
+    }
+  }
+}

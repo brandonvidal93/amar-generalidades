@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import StartDrop from '../../components/DnDStart/dropBoard';
 import StartDrag from '../../components/DnDStart/dragButton';
 import Instruction from '../../components/Instruction';
+import InteractiveFlip1 from '../../components/InteractiveFlip1';
 import InteractivePath1 from '../../components/InteractivePath1';
 import InteractiveSubtitle from '../../components/InteractiveSubtitle';
 import ModalCircle1 from '../../components/ModalCircle1';
@@ -287,7 +288,7 @@ class Page3 extends Component {
             <img alt = 'Imagen' className = '' src = { dataPage.headerPage.imgHeader }/>
           </div>
 
-          <div className = 'c-10 d-Flex j-S aI-S'>
+          <div className = 'c-10 animated fadeIn d-Flex j-S aI-S'>
             <div className = 'mL-7 c-45 mT-025 mR-2'> 
               {
                 dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
@@ -468,12 +469,42 @@ class Page6 extends Component {
 }
 
 class Page7 extends Component {
+  // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
+  isEnded = (end) => {
+    const { checkEndActivity } = this.props;
+    // console.log('Recibí: ' + end);
+    checkEndActivity(7, end);
+  }
+
   render() {
+    const { dataPage } = this.props;
+
     return (
       <div className = { 'pageContent'}>
-        <div className = 'c-10 animated fadeIn'>
+        <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-1 mL-4 mT-2'>
+          <h2
+            className = 'textHeader F2'
+            dangerouslySetInnerHTML = {{ __html: dataPage.headerPage.textHeader }}
+            style = {{ 'borderColor': dataPage.headerPage.color }}></h2>
 
+          <FontAwesomeIcon icon="play" size = 'lg' className = 'mL-025 mR-05' style = {{ 'color': '#EAEAEA' }} />
+
+          <img alt = 'Imagen' className = '' src = { dataPage.headerPage.imgHeader }/>
         </div>
+
+        <div className = 'c-10 animated fadeIn d-Flex j-S aI-S'>
+            <div className = 'mL-7 c-3 mT-025 mR-3'> 
+              {
+                dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+              }
+              {
+                dataPage.text ? <p className = 'mB-2 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+              }
+            </div>
+            <div className = 'c-5 d-Flex j-C aI-S'>
+              <InteractiveFlip1 dataPage = { dataPage.multimedia } isEnded = { this.isEnded } />
+            </div>
+          </div>
       </div>
     );
   }
