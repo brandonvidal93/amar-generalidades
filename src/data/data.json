@@ -1,151 +1,151 @@
 {
   "coverPage": {
-    "type": "startPage",
-    "units": 6,
-    "title": "Seguridad de <br> la información",
-    "subTitle": "",
-    "module": "",
-    "courseName": "Para comenzar, te invitamos a deslizar el botón  para iniciar",
-    "logoCourse": "img/cover/logo-1.png",
-    "logoFooter": "img/cover/logo-2.png",
+    "type"            : "startPage",
+    "units"           : 6,
+    "title"           : "Seguridad de <br> la información",
+    "subTitle"        : "",
+    "module"          : "",
+    "courseName"      : "Para comenzar, te invitamos a deslizar el botón  para iniciar",
+    "logoCourse"      : "img/cover/logo-1.png",
+    "logoFooter"      : "img/cover/logo-2.png",
     "background": {
-      "bg": "img/cover/fondo-cover.jpg",
-      "bgDnDStart": "img/cover/bg-DnD.png"
+      "bg"            : "img/cover/fondo-cover.jpg",
+      "bgDnDStart"    : "img/cover/bg-DnD.png"
     },
     "footer": {
-      "label": "Seguridad de la información"
+      "label"         : "Seguridad de la información"
     }
   },
 
   "page1": {
-    "type": "pageInstruction",
-    "title": "Antes de iniciar...",
+    "type"        : "pageInstruction",
+    "title"       : "Antes de iniciar...",
     "information": [
       {
-        "text1": "Para la realización del curso, ten en cuenta las siguientes recomendaciones:",
-        "img1": "img/1/n-1.png"
+        "text1"   : "Para la realización del curso, ten en cuenta las siguientes recomendaciones:",
+        "img1"    : "img/1/n-1.png"
       },
       {
-        "text1": "Guarda todo lo que pueda distraerte",
-        "img1": "img/1/n-2.png"
+        "text1"   : "Guarda todo lo que pueda distraerte",
+        "img1"    : "img/1/n-2.png"
       },
       {
-        "text1": "Apaga tu celular o ponlo en silencio",
-        "img1": "img/1/n-3.png"
+        "text1"   : "Apaga tu celular o ponlo en silencio",
+        "img1"    : "img/1/n-3.png"
       },
       {
-        "text1": "Ten a la mano cuaderno y lápiz donde tomar nota",
-        "img1": "img/1/n-4.png"
+        "text1"   : "Ten a la mano cuaderno y lápiz donde tomar nota",
+        "img1"    : "img/1/n-4.png"
       },
       {
-        "text1": "Ademas, <b>debes leer y navegar</b> toda la información que aparecerá en las diferentes pantallas.",
-        "img1": "img/1/n-5.png"
+        "text1"   : "Ademas, <b>debes leer y navegar</b> toda la información que aparecerá en las diferentes pantallas.",
+        "img1"    : "img/1/n-5.png"
       },
       {
-        "text1": "Para la navegación contarás con estos 2 botones:",
-        "img1": "img/1/n-6-1.png",
-        "img2": "img/1/n-6-2.png"
+        "text1"   : "Para la navegación contarás con estos 2 botones:",
+        "img1"    : "img/1/n-6-1.png",
+        "img2"    : "img/1/n-6-2.png"
       },
       {
-        "text1": "El menú del curso lo encontrará en la parte izquierda de la pantalla.",
-        "img1": "img/1/n-7.png"
+        "text1"   : "El menú del curso lo encontrará en la parte izquierda de la pantalla.",
+        "img1"    : "img/1/n-7.png"
       },
       {
-        "text1": "",
-        "img1": ""
+        "text1"   : "",
+        "img1"    : ""
       }
     ],
     "resources": {
-      "bg": "img/1/bgPage-1.png"
+      "bg"        : "img/1/bgPage-1.png"
     },
     "instruction": {
-      "type": "mouse",
-      "text": "Haz clic en los círculos para visualizar todas las recomendaciones.",
-      "posY": 50,
-      "posX": 660,
-      "size": 330,
-      "color": "#FFD15C"
+      "type"      : "mouse",
+      "text"      : "Haz clic en los círculos para visualizar todas las recomendaciones.",
+      "posY"      : 50,
+      "posX"      : 660,
+      "size"      : 330,
+      "color"     : "#FFD15C"
     }
   },
 
   "page2": {
-    "type": "pageCourse",
-    "title": "Hola",
-    "text": "En esta era digital la mayor parte de nuestra información se encuentra en línea y por lo general la forma en que trabajamos, aprendemos, nos comunicamos, nos relacionamos, entre otros; dependen de una conexión a la red. Tener conciencia frente a los riesgos que amenazan nuestra información es el mejor control que se necesita para evitar ser víctimas de la inseguridad digital. <br><br>Presta mucha atención a los diferentes temas que desarrollaremos alrededor del curso. <span class = 'color-14'>¡Bienvenidos!</span>",
+    "type"    : "pageCourse",
+    "title"   : "Hola",
+    "text"    : "En esta era digital la mayor parte de nuestra información se encuentra en línea y por lo general la forma en que trabajamos, aprendemos, nos comunicamos, nos relacionamos, entre otros; dependen de una conexión a la red. Tener conciencia frente a los riesgos que amenazan nuestra información es el mejor control que se necesita para evitar ser víctimas de la inseguridad digital. <br><br>Presta mucha atención a los diferentes temas que desarrollaremos alrededor del curso. <span class = 'color-14'>¡Bienvenidos!</span>",
     "resources": {
       "img1": "img/2/npc-1.png"
     },
     "multimedia": {
       "audio": {
-        "src": "audio/Audio-bienvenida.mp3",
-        "autoPlay": true
+        "src"         : "audio/Audio-bienvenida.mp3",
+        "autoPlay"    : true
       },
       "subtitles": {
-        "1": "En esta era digital la mayor parte de nuestra información se",
-        "3": "encuentra en línea y por lo general la forma en que ",
-        "6": "trabajamos, aprendemos, nos comunicamos, nos ",
-        "9": "relacionamos, entre otros; dependen de una conexión a la red.",
-        "13": "Tener conciencia frente a los riesgos que amenazan nuestra",
-        "16": "información es el mejor control que se necesita para evitar ser ",
-        "21": "víctimas de la inseguridad digital.",
-        "23": "Presta mucha atención a los diferentes temas que ",
-        "25": "desarrollaremos alrededor del curso. ¡Bienvenidos!"
+        "1"           : "En esta era digital la mayor parte de nuestra información se",
+        "3"           : "encuentra en línea y por lo general la forma en que ",
+        "6"           : "trabajamos, aprendemos, nos comunicamos, nos ",
+        "9"           : "relacionamos, entre otros; dependen de una conexión a la red.",
+        "13"          : "Tener conciencia frente a los riesgos que amenazan nuestra",
+        "16"          : "información es el mejor control que se necesita para evitar ser ",
+        "21"          : "víctimas de la inseguridad digital.",
+        "23"          : "Presta mucha atención a los diferentes temas que ",
+        "25"          : "desarrollaremos alrededor del curso. ¡Bienvenidos!"
       },
       "layers": [
         {
-          "label": "Candidatos a cargos",
-          "color": "#1FBDED",
-          "time": 30
+          "label"     : "Candidatos a cargos",
+          "color"     : "#1FBDED",
+          "time"      : 30
         },
         {
-          "label": "Empleados, exempleados",
-          "color": "#0C62A5",
-          "time": 32
+          "label"     : "Empleados, exempleados",
+          "color"     : "#0C62A5",
+          "time"      : 32
         },
         {
-          "label": "Pensionados",
-          "color": "#04386D",
-          "time": 34
+          "label"     : "Pensionados",
+          "color"     : "#04386D",
+          "time"      : 34
         },
         {
-          "label": "Accionistas",
-          "color": "#FBB03B",
-          "time": 35
+          "label"     : "Accionistas",
+          "color"     : "#FBB03B",
+          "time"      : 35
         },
         {
-          "label": "Proveedores",
-          "color": "#F15A24",
-          "time": 36
+          "label"     : "Proveedores",
+          "color"     : "#F15A24",
+          "time"      : 36
         },
         {
-          "label": "Consumidores",
-          "color": "#93278F",
-          "time": 38
+          "label"     : "Consumidores",
+          "color"     : "#93278F",
+          "time"      : 38
         },
         {
-          "label": "Recicladores",
-          "color": "#620B5F",
-          "time": 39
+          "label"     : "Recicladores",
+          "color"     : "#620B5F",
+          "time"      : 39
         },
         {
-          "label": "Usuarios",
-          "color": "#9E0B5D",
-          "time": 40
+          "label"     : "Usuarios",
+          "color"     : "#9E0B5D",
+          "time"      : 40
         },
         {
-          "label": "Clientes",
-          "color": "#8CC63F",
-          "time": 41
+          "label"     : "Clientes",
+          "color"     : "#8CC63F",
+          "time"      : 41
         }
       ]
     },
     "instruction": {
-      "type": "",
-      "text": "Luego de escuchar el audio de bienvenida, te invitamos a desplegar el menú que hay al lado izquierdo para comenzar la formación.",
-      "posY": 500,
-      "posX": 72,
-      "size": 500,
-      "color": "#189BDB"
+      "type"    : "",
+      "text"    : "Luego de escuchar el audio de bienvenida, te invitamos a desplegar el menú que hay al lado izquierdo para comenzar la formación.",
+      "posY"    : 500,
+      "posX"    : 72,
+      "size"    : 500,
+      "color"   : "#189BDB"
     }
   },
 
@@ -154,270 +154,270 @@
     "startUnit": true,
     "nameUnit": "unit1",
     "headerPage": {
-      "imgHeader": "img/menuCourse/n-1.png",
-      "textHeader": "Generalidades",
-      "color": "#5C2481"
+      "imgHeader"   : "img/menuCourse/n-1.png",
+      "textHeader"  : "Generalidades",
+      "color"       : "#5C2481"
     },
-    "title": "¿De qué se trata la seguridad de la información?",
-    "text": "La información es uno de los recursos más relevantes de una empresa, pues esta se encarga de conectar cada una de las áreas del negocio, de unificar los procesos y de guiar la productividad hacia la dirección correcta. <br><br> La seguridad de la información consiste en implementar tecnologías y controles enfocados en las personas, administración de procesos, la infraestructura y las tecnologías, con el fin de reducir y controlar el riesgo de un ataque cibernético que atentan con la confidencialidad, integridad y disponibilidad.",
+    "title"   : "¿De qué se trata la seguridad de la información?",
+    "text"    : "La información es uno de los recursos más relevantes de una empresa, pues esta se encarga de conectar cada una de las áreas del negocio, de unificar los procesos y de guiar la productividad hacia la dirección correcta. <br><br> La seguridad de la información consiste en implementar tecnologías y controles enfocados en las personas, administración de procesos, la infraestructura y las tecnologías, con el fin de reducir y controlar el riesgo de un ataque cibernético que atentan con la confidencialidad, integridad y disponibilidad.",
     "multimedia": [
       {
-        "urlImgBtn": "img/3/n-1.png",
-        "title":"Disponibilidad",
-        "color": "#004991",
+        "urlImgBtn"         : "img/3/n-1.png",
+        "title"             : "Disponibilidad",
+        "color"             : "#004991",
         "itemInfo": {
-          "title": "Disponibilidad",
-          "text1": "Acceso a la información disponible cuando las personas autorizadas la necesiten.",
-          "text2": "Ejemplo: la información de la cuenta bancaria debe de estar disponible cuando la necesite y no cuando el banco lo requiera.",
-          "colorText": "#004991",
+          "title"           : "Disponibilidad",
+          "text1"           : "Acceso a la información disponible cuando las personas autorizadas la necesiten.",
+          "text2"           : "Ejemplo: la información de la cuenta bancaria debe de estar disponible cuando la necesite y no cuando el banco lo requiera.",
+          "colorText"       : "#004991",
           "buttonClose": {
-            "closedModal": true,
-            "posY": 35,
-            "posX": 82
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
           }
         }
       },
       {
-        "urlImgBtn": "img/3/n-2.png",
-        "title":"Confidencialidad",
-        "color": "#683E92",
+        "urlImgBtn"         : "img/3/n-2.png",
+        "title"             : "Confidencialidad",
+        "color"             : "#683E92",
         "itemInfo": {
-          "title": "Confidencialidad",
-          "text1": "La información debe ser accesible sólo por las personas autorizadas. ",
-          "text2": "Ejemplo: la información de mi cuenta bancaria no la debe de revisar cualquier tercero sin previa autorización, solamente la puedo consultar yo o las personas que autorice.",
-          "colorText": "#683E92",
+          "title"           : "Confidencialidad",
+          "text1"           : "La información debe ser accesible sólo por las personas autorizadas. ",
+          "text2"           : "Ejemplo: la información de mi cuenta bancaria no la debe de revisar cualquier tercero sin previa autorización, solamente la puedo consultar yo o las personas que autorice.",
+          "colorText"       : "#683E92",
           "buttonClose": {
-            "closedModal": true,
-            "posY": 35,
-            "posX": 82
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
           }
         }
       },
       {
-        "urlImgBtn": "img/3/n-3.png",
-        "title":"Integridad",
-        "color": "#2097D3",
+        "urlImgBtn"         : "img/3/n-3.png",
+        "title"             : "Integridad",
+        "color"             : "#2097D3",
         "itemInfo": {
-          "title": "Integridad",
-          "text1": "Información correcta sin modificaciones no autorizadas ni errores. ",
-          "text2": "Ejemplo: si en mi cuenta bancaria me consignaron $100, en la consulta de movimientos debo de tener una consignación por $100 y no por $10 o $1000.",
-          "colorText": "#2097D3",
+          "title"           : "Integridad",
+          "text1"           : "Información correcta sin modificaciones no autorizadas ni errores. ",
+          "text2"           : "Ejemplo: si en mi cuenta bancaria me consignaron $100, en la consulta de movimientos debo de tener una consignación por $100 y no por $10 o $1000.",
+          "colorText"       : "#2097D3",
           "buttonClose": {
-            "closedModal": true,
-            "posY": 35,
-            "posX": 82
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
           }
         }
       }
     ],
     "instruction": {
-      "type": "mouse",
-      "text": "Haz clic en cada ícono para conocer la información.",
-      "posY": 50,
-      "posX": 660,
-      "size": 330,
-      "color": "#FFD15C"
+      "type"    : "mouse",
+      "text"    : "Haz clic en cada ícono para conocer la información.",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
     }
   },
 
   "page4": {
     "type": "pageCourse",
     "headerPage": {
-      "imgHeader": "img/menuCourse/n-1.png",
-      "textHeader": "Generalidades",
-      "color": "#5C2481"
+      "imgHeader"   : "img/menuCourse/n-1.png",
+      "textHeader"  : "Generalidades",
+      "color"       : "#5C2481"
     },
-    "title": "¿Qué motiva a los criminales en la red?",
-    "text": "En la siguiente imagen podrás conocer qué es lo que motiva a los criminales en la red.",
+    "title"   : "¿Qué motiva a los criminales en la red?",
+    "text"    : "En la siguiente imagen podrás conocer qué es lo que motiva a los criminales en la red.",
     "background": {
       "bg": "img/4/bgPage-4.png"
     },
     "multimedia": [
       {
-        "urlImgBtn": "img/4/n-1.png",
+        "urlImgBtn"   : "img/4/n-1.png",
         "pos": {
-          "top": 55,
-          "left": -8
+          "top"       : 55,
+          "left"      : -8
         },
         "itemInfo": {
-          "title": "",
-          "text": "Fraudes, robo de identidad, extorsiones",
+          "title"     : "",
+          "text"      : "Fraudes, robo de identidad, extorsiones",
           "posGlobe": {
-            "posY": -50,
-            "posX": -10
+            "posY"    : -50,
+            "posX"    : -10
           },
-          "color": "#93C750"
+          "color"     : "#93C750"
         }
       },
       {
-        "urlImgBtn": "img/4/n-2.png",
+        "urlImgBtn"   : "img/4/n-2.png",
         "pos": {
-          "top": -36,
-          "left": 168
+          "top"       : -36,
+          "left"      : 168
         },
         "itemInfo": {
-          "title": "",
-          "text": "Dinero fácil y con el menor riesgo",
+          "title"     : "",
+          "text"      : "Dinero fácil y con el menor riesgo",
           "posGlobe": {
-            "posY": 65,
-            "posX": 167
+            "posY"    : 65,
+            "posX"    : 167
           },
-          "color": "#0A4D94"
+          "color"     : "#0A4D94"
         }
       },
       {
-        "urlImgBtn": "img/4/n-3.png",
+        "urlImgBtn"   : "img/4/n-3.png",
         "pos": {
-          "top": 189,
-          "left": 287
+          "top"       : 189,
+          "left"      : 287
         },
         "itemInfo": {
-          "title": "",
-          "text": "Acceso a cualquier persona",
+          "title"     : "",
+          "text"      : "Acceso a cualquier persona",
           "posGlobe": {
-            "posY": 81,
-            "posX": 284
+            "posY"    : 81,
+            "posX"    : 284
           },
-          "color": "#347DB9"
+          "color"     : "#347DB9"
         }
       },
       {
-        "urlImgBtn": "img/4/n-4.png",
+        "urlImgBtn"   : "img/4/n-4.png",
         "pos": {
-          "top": -32,
-          "left": 400
+          "top"       : -32,
+          "left"      : 400
         },
         "itemInfo": {
-          "title": "",
-          "text": " Baja inversión",
+          "title"     : "",
+          "text"      : " Baja inversión",
           "posGlobe": {
-            "posY": 67,
-            "posX": 400
+            "posY"    : 67,
+            "posX"    : 400
           },
-          "color": "#33A0D6"
+          "color"     : "#33A0D6"
         }
       },
       {
-        "urlImgBtn": "img/4/n-5.png",
+        "urlImgBtn"   : "img/4/n-5.png",
         "pos": {
-          "top": 75,
-          "left": 576
+          "top"       : 75,
+          "left"      : 576
         },
         "itemInfo": {
-          "title": "",
-          "text": "Reconocimiento y popularidad",
+          "title"     : "",
+          "text"      : "Reconocimiento y popularidad",
           "posGlobe": {
-            "posY": -10,
-            "posX": 570
+            "posY"    : -10,
+            "posX"    : 570
           },
-          "color": "#643B8D"
+          "color"     : "#643B8D"
         }
       }
     ],
     "instruction": {
-      "type": "mouse",
-      "text": "Haz clic en cada ícono para conocer la información.",
-      "posY": 50,
-      "posX": 660,
-      "size": 330,
-      "color": "#FFD15C"
+      "type"          : "mouse",
+      "text"          : "Haz clic en cada ícono para conocer la información.",
+      "posY"          : 50,
+      "posX"          : 660,
+      "size"          : 330,
+      "color"         : "#FFD15C"
     }
   },
 
   "page5": {
     "type": "pageCourse",
     "headerPage": {
-      "imgHeader": "img/menuCourse/n-1.png",
-      "textHeader": "Generalidades",
-      "color": "#5C2481"
+      "imgHeader"   : "img/menuCourse/n-1.png",
+      "textHeader"  : "Generalidades",
+      "color"       : "#5C2481"
     },
-    "title": "¿Qué es vulnerabilidad y amenaza en informática?",
-    "text": "Visualiza el siguiente video y conoce cuándo podemos estar vulnerables o en medio de una amenaza informática.",
+    "title"   : "¿Qué es vulnerabilidad y amenaza en informática?",
+    "text"    : "Visualiza el siguiente video y conoce cuándo podemos estar vulnerables o en medio de una amenaza informática.",
     "boxInfo": {
-      "title": "Reproducir video",
-      "text": "",
-      "imgBg": "img/play-1.png"
+      "title"         : "Reproducir video",
+      "text"          : "",
+      "imgBg"         : "img/play-1.png"
     },
     "modal": {
-      "type": "videoModal",
-      "title": "",
-      "text": "",
-      "buttonModal": "",
-      "closedModal": true,
-      "urlVideo": "https://content.jwplatform.com/videos/DPVTejlj-SpzKbqXP.mp4"
+      "type"          : "videoModal",
+      "title"         : "",
+      "text"          : "",
+      "buttonModal"   : "",
+      "closedModal"   : true,
+      "urlVideo"      : "https://content.jwplatform.com/videos/DPVTejlj-SpzKbqXP.mp4"
     },
     "instruction": {
-      "type": "mouse",
-      "text": "Haz clic en el reproductor de video para conocer la información.",
-      "posY": 50,
-      "posX": 660,
-      "size": 330,
-      "color": "#FFD15C"
+      "type"          : "mouse",
+      "text"          : "Haz clic en el reproductor de video para conocer la información.",
+      "posY"          : 50,
+      "posX"          : 660,
+      "size"          : 330,
+      "color"         : "#FFD15C"
     }
   },
 
   "page6": {
     "type": "pageCourse",
     "headerPage": {
-      "imgHeader": "img/menuCourse/n-1.png",
-      "textHeader": "Generalidades",
-      "color": "#5C2481"
+      "imgHeader"   : "img/menuCourse/n-1.png",
+      "textHeader"  : "Generalidades",
+      "color"       : "#5C2481"
     },
-    "title": "¿Qué motiva a los criminales en la red?",
-    "text": "En la siguiente imagen podrás conocer qué es lo que motiva a los criminales en la red.",
+    "title"   : "¿Qué motiva a los criminales en la red?",
+    "text"    : "En la siguiente imagen podrás conocer qué es lo que motiva a los criminales en la red.",
     "instruction": {
-      "type": "mouse",
-      "text": "Sigue la conversación dando clic en en botón con dirección hacia abajo.",
-      "posY": 50,
-      "posX": 660,
-      "size": 330,
-      "color": "#FFD15C"
+      "type"    : "mouse",
+      "text"    : "Sigue la conversación dando clic en en botón con dirección hacia abajo.",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
     },
     "multimedia": {
       "items": [
         {
-          "img": "img/6/n-1.png",
-          "text": "¡Uy! Menos mal que yo no soy objetivo de un ataque informático, eso es para las empresas o los bancos.",
+          "img"       : "img/6/n-1.png",
+          "text"      : "¡Uy! Menos mal que yo no soy objetivo de un ataque informático, eso es para las empresas o los bancos.",
           "textPos": {
-            "posY": 95,
-            "posX": 250,
-            "width": 180
+            "posY"    : 95,
+            "posX"    : 250,
+            "width"   : 180
           }
         },
         {
-          "img": "img/6/n-2.png",
-          "text": "¿Sigues creyendo que el objetivo de los ciberdelincuentes son grandes empresas o entidades bancarias?",
+          "img"       : "img/6/n-2.png",
+          "text"      : "¿Sigues creyendo que el objetivo de los ciberdelincuentes son grandes empresas o entidades bancarias?",
           "textPos": {
-            "posY": 100,
-            "posX": 125,
-            "width": 230
+            "posY"    : 100,
+            "posX"    : 125,
+            "width"   : 230
           }
         },
         {
-          "img": "img/6/n-2.png",
-          "text": "Malas noticias, en realidad cualquier persona que maneje información o cualquier dispositivo que esté conectado en una red, es un potencial objetivo para un atacante informático.",
+          "img"       : "img/6/n-2.png",
+          "text"      : "Malas noticias, en realidad cualquier persona que maneje información o cualquier dispositivo que esté conectado en una red, es un potencial objetivo para un atacante informático.",
           "textPos": {
-            "posY": 80,
-            "posX": 110,
-            "width": 270
+            "posY"    : 80,
+            "posX"    : 110,
+            "width"   : 270
           }
         },
         {
-          "img": "img/6/n-1.png",
-          "text": "Si eso es así, tendré que tener mucho cuidado con la información que tengo en mis dispositivos. ",
+          "img"       : "img/6/n-1.png",
+          "text"      : "Si eso es así, tendré que tener mucho cuidado con la información que tengo en mis dispositivos. ",
           "textPos": {
-            "posY": 100,
-            "posX": 230,
-            "width": 230
+            "posY"    : 100,
+            "posX"    : 230,
+            "width"   : 230
           }
         },
         {
-          "img": "img/6/n-2.png",
-          "text": "Te invito a que conozcas cuáles son las amenazas a las que estamos expuestos, éstas las verás en el siguiente tema. ",
+          "img"       : "img/6/n-2.png",
+          "text"      : "Te invito a que conozcas cuáles son las amenazas a las que estamos expuestos, éstas las verás en el siguiente tema. ",
           "textPos": {
-            "posY": 90,
-            "posX": 120,
-            "width": 240
+            "posY"    : 90,
+            "posX"    : 120,
+            "width"   : 240
           }
         }
       ]
@@ -425,63 +425,237 @@
   },
 
   "page7": {
-    "type": "pageCourse",
-    "startUnit": true,
-    "nameUnit": "unit2",
+    "type"        : "pageCourse",
+    "startUnit"   : true,
+    "nameUnit"    : "unit2",
     "headerPage": {
-      "imgHeader": "img/menuCourse/n-2.png",
-      "textHeader": "Amenazas",
-      "color": "#5C2481"
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Amenazas",
+      "color"       : "#5C2481"
     },
-    "title": "¿Cuáles son las amenazas más comunes?",
-    "text": "En nuestra cotidianidad estamos expuestos a diferentes amenazas, por eso es fundamental que conozcas cuáles son las más comunes para que evites un ataque informático. <br><br>A continuación, descubrirás las 5 amenazas más relevantes, en el desarrollo del curso te explicaremos en qué consiste cada una de ellas.",
+    "title"   : "¿Cuáles son las amenazas más comunes?",
+    "text"    : "En nuestra cotidianidad estamos expuestos a diferentes amenazas, por eso es fundamental que conozcas cuáles son las más comunes para que evites un ataque informático. <br><br>A continuación, descubrirás las 5 amenazas más relevantes, en el desarrollo del curso te explicaremos en qué consiste cada una de ellas.",
     "instruction": {
-      "type": "mouse",
-      "text": "Haz clic sobre cada ícono para descubrir cuáles son las amenazas.",
-      "posY": 50,
-      "posX": 660,
-      "size": 330,
-      "color": "#FFD15C"
+      "type"    : "mouse",
+      "text"    : "Haz clic sobre cada ícono para descubrir cuáles son las amenazas.",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
     },
     "multimedia": {
       "type": "icon",
       "items": [
         {
-          "id": 1,
-          "title": "Ingeniería social",
-          "text": "",
-          "img": "img/7/n-1.png"
+          "id"    : 1,
+          "title" : "Ingeniería social",
+          "text"  : "",
+          "img"   : "img/7/n-1.png"
         },
         {
-          "id": 2,
-          "title": "Phishing o suplantación de identidad",
-          "text": "",
-          "img": "img/7/n-2.png"
+          "id"    : 2,
+          "title" : "Phishing o suplantación de identidad",
+          "text"  : "",
+          "img"   : "img/7/n-2.png"
         },
         {
-          "id": 3,
-          "title": "Smishing",
-          "text": "",
-          "img": "img/7/n-3.png"
+          "id"    : 3,
+          "title" : "Smishing",
+          "text"  : "",
+          "img"   : "img/7/n-3.png"
         },
         {
-          "id": 4,
-          "title": "Malware (software malicioso)",
-          "text": "",
-          "img": "img/7/n-4.png"
+          "id"    : 4,
+          "title" : "Malware (software malicioso)",
+          "text"  : "",
+          "img"   : "img/7/n-4.png"
         },
         {
-          "id": 5,
-          "title": "Ransomware",
-          "text": "",
-          "img": "img/7/n-5.png"
+          "id"    : 5,
+          "title" : "Ransomware",
+          "text"  : "",
+          "img"   : "img/7/n-5.png"
         }
       ]
     }
   },
 
   "page8": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Amenazas",
+      "color"       : "#5C2481"
+    },
+    "title"   : "1. Ingeniería social",
+    "text"    : "",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Lleva en orden consecutivo cada ícono en donde corresponda para conocer la información.",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "multimedia": {
+      "dragItems": [
+        {
+          "drag"    : 1,
+          "img"     : "img/8/n-1.png",
+          "text"    : "",
+          "type"    : "4",
+          "data"    : ""
+        },
+        {
+          "drag"    : 2,
+          "img"     : "img/8/n-2.png",
+          "text"    : "",
+          "type"    : "3",
+          "data"    : ""
+        },
+        {
+          "drag"    : 3,
+          "img"     : "img/8/n-3.png",
+          "text"    : "",
+          "type"    : "6",
+          "data"    : ""
+        },
+        {
+          "drag"    : 4,
+          "img"     : "img/8/n-4.png",
+          "text"    : "",
+          "type"    : "1",
+          "data"    : ""
+        },
+        {
+          "drag"    : 5,
+          "img"     : "img/8/n-5.png",
+          "text"    : "",
+          "type"    : "5",
+          "data"    : ""
+        },
+        {
+          "drag"    : 6,
+          "img"     : "img/8/n-6.png",
+          "text"    : "",
+          "type"    : "2",
+          "data"    : ""
+        }
+      ],
+      "dropZone": {
+        "drops": [
+          {
+            "key"       : 1,
+            "img"       : "img/8/n-4.png",
+            "target"    : "4",
+            "size"      : 136,
+            "posY"      : 44,
+            "posX"      : 86,
+            "type"      : "1"
+          },
+          {
+            "key"       : 2,
+            "img"       : "img/8/n-6.png",
+            "target"    : "6",
+            "size"      : 136,
+            "posY"      : 107,
+            "posX"      : 195,
+            "type"      : "2"
+          },
+          {
+            "key"       : 3,
+            "img"       : "img/8/n-2.png",
+            "target"    : "2",
+            "size"      : 136,
+            "posY"      : 44,
+            "posX"      : 304,
+            "type"      : "3"
+          },
+          {
+            "key"       : 4,
+            "img"       : "img/8/n-1.png",
+            "target"    : "1",
+            "size"      : 136,
+            "posY"      : 107,
+            "posX"      : 414,
+            "type"      : "4"
+          },
+          {
+            "key"       : 5,
+            "img"       : "img/8/n-5.png",
+            "target"    : "5",
+            "size"      : 136,
+            "posY"      : 44,
+            "posX"      : 524,
+            "type"      : "5"
+          },
+          {
+            "key"       : 6,
+            "img"       : "img/8/n-3.png",
+            "target"    : "3",
+            "size"      : 136,
+            "posY"      : 107,
+            "posX"      : 633,
+            "type"      : "6"
+          }
+        ],
+        "infoBox": [
+          {
+            "target"        : "4",
+            "title"         : "",
+            "colorTitle"    : "",
+            "subTitle"      : "",
+            "text"          : "Es un ejercicio de persuasión y manipulación que se apoya de un conjunto de técnicas psicológicas y habilidades sociales"
+          },
+          {
+            "target"        : "6",
+            "title"         : "",
+            "colorTitle"    : "",
+            "subTitle"      : "",
+            "text"          : "con el fin de engañar a usuarios incautos y obtener información sensible, infectar sus computadoras con malware (software malicioso)"
+          },
+          {
+            "target"        : "2",
+            "title"         : "",
+            "colorTitle"    : "",
+            "subTitle"      : "",
+            "text"          : "o abrir enlaces de sitios infectados sin que su receptor sea consciente de los riesgos."
+          },
+          {
+            "target"        : "1",
+            "title"         : "",
+            "colorTitle"    : "",
+            "subTitle"      : "",
+            "text"          : "Además, los ciberdelincuentes pueden tratar de aprovecharse de la falta de conocimiento de los usuarios,"
+          },
+          {
+            "target"        : "5",
+            "title"         : "",
+            "colorTitle"    : "",
+            "subTitle"      : "",
+            "text"          : "debido a la velocidad a la que avanza la tecnología. "
+          },
+          {
+            "target"        : "3",
+            "title"         : "",
+            "colorTitle"    : "",
+            "subTitle"      : "",
+            "text"          : "Numerosos consumidores y trabajadores no son conscientes del valor real de los datos personales."
+          }
+        ]
+      },
+      "bg": "img/8/bgPage-8.png",
+      "InfoFinal": {
+        "unit": 1,
+        "title": "",
+        "text": "",
+        "imgButton": "",
+        "info": {
+          "title": "",
+          "text": ""
+        }
+      }
+    }
   },
 
   "page9": {
@@ -593,19 +767,19 @@
   },
 
   "page34": {
-    "type": "endCourse",
-    "title": "¡Has llegado al final de<br>este recorrido! ",
-    "subTitle": "¡Muchas gracias!",
-    "module": "",
-    "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica las recomendaciones que hemos entregado a lo largo del curso y así evitar ser víctima de un ciberdelincuente. <br><br>Recuerda que con tus buenas prácticas protegemos lo nuestro.",
-    "logoCourse": "img/cover/logo-1.png",
-    "logoFooter": "img/cover/logo-2.png",
+    "type"        : "endCourse",
+    "title"       : "¡Has llegado al final de<br>este recorrido! ",
+    "subTitle"    : "¡Muchas gracias!",
+    "module"      : "",
+    "courseName"  : "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica las recomendaciones que hemos entregado a lo largo del curso y así evitar ser víctima de un ciberdelincuente. <br><br>Recuerda que con tus buenas prácticas protegemos lo nuestro.",
+    "logoCourse"  : "img/cover/logo-1.png",
+    "logoFooter"  : "img/cover/logo-2.png",
     "background": {
-      "bg": "img/cover/fondo-end.png"
+      "bg"        : "img/cover/fondo-end.png"
     },
-    "buttonEnd": "Cierra la ventana para finalizar",
+    "buttonEnd"   : "Cierra la ventana para finalizar",
     "footer": {
-      "label": "Seguridad de la información"
+      "label"     : "Seguridad de la información"
     }
   },
 
@@ -613,61 +787,61 @@
     "type": "menuPage",
     "Units": [
       {
-        "unit": 1,
-        "title": "Generalidades",
-        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt": "img/menuCourse/n-1.png",
-        "goTo": 3,
-        "fullVisited": false
+        "unit"          : 1,
+        "title"         : "Generalidades",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-1.png",
+        "goTo"          : 3,
+        "fullVisited"   : false
       },
       {
-        "unit": 2,
-        "title": "Amenazas",
-        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt": "img/menuCourse/n-2.png",
-        "goTo": 7,
-        "fullVisited": false
+        "unit"          : 2,
+        "title"         : "Amenazas",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-2.png",
+        "goTo"          : 7,
+        "fullVisited"   : false
       },
       {
-        "unit": 3,
-        "title": "Dispositivos móviles",
-        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt": "img/menuCourse/n-3.png",
-        "goTo": 16,
-        "fullVisited": false
+        "unit"          : 3,
+        "title"         : "Dispositivos móviles",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-3.png",
+        "goTo"          : 16,
+        "fullVisited"   : false
       },
       {
-        "unit": 4,
-        "title": "Seguridad de la información",
-        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt": "img/menuCourse/n-4.png",
-        "goTo": 18,
-        "fullVisited": false
+        "unit"          : 4,
+        "title"         : "Seguridad de la información",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-4.png",
+        "goTo"          : 18,
+        "fullVisited"   : false
       },
       {
-        "unit": 5,
-        "title": "Centro de Atención al Usuario (CAU)",
-        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt": "img/menuCourse/n-5.png",
-        "goTo": 29,
-        "fullVisited": false
+        "unit"          : 5,
+        "title"         : "Centro de Atención al Usuario (CAU)",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-5.png",
+        "goTo"          : 29,
+        "fullVisited"   : false
       },
       {
-        "unit": 6,
-        "title": "Evaluación final del curso",
-        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt": "img/menuCourse/n-6.png",
-        "goTo": 32,
-        "fullVisited": false
+        "unit"          : 6,
+        "title"         : "Evaluación final del curso",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-6.png",
+        "goTo"          : 32,
+        "fullVisited"   : false
       }
     ],
     "instruction": {
-      "type": "",
-      "text": "En este menú navegarás por los distintos temas del curso, haz clic en aquel que está intermitente o palpitando. ",
-      "posY": 515,
-      "posX": 40,
-      "size": 330,
-      "color": "#189BDB"
+      "type"    : "",
+      "text"    : "En este menú navegarás por los distintos temas del curso, haz clic en aquel que está intermitente o palpitando. ",
+      "posY"    : 515,
+      "posX"    : 40,
+      "size"    : 330,
+      "color"   : "#189BDB"
     }
   }
 }
