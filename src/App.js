@@ -51,7 +51,7 @@ class App extends Component {
     this.state = {
       calificacion: 0,
       conectLMS: false,
-      index: 8,
+      index: 9,
       nextUnit: 1,
       pages: LIMIT,
       units: UNITS,

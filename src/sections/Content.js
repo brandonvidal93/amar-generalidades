@@ -38,7 +38,7 @@ class Content extends Component {
 
       case 8: return( <Page8 dataPage = { data.page8 } endActivities = { endActivities[8] } checkEndActivity = { checkEndActivity } /> );
 
-      case 9: return( <Page9 dataPage = { data.page9 } /> );
+      case 9: return( <Page9 dataPage = { data.page9 } endActivities = { endActivities[9] } checkEndActivity = { checkEndActivity } /> );
 
       case 10: return( <Page10 dataPage = { data.page10 } /> );
 
