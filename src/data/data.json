@@ -857,15 +857,101 @@
   },
 
   "page11": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Amenazas",
+      "color"       : "#5C2481"
+    },
+    "title"   : "3. Smishing",
+    "text"    : "",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en cada una de las flechas para conocer la información.",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "multimedia": {
+      "items": [
+        {
+          "imgBg": "img/11/n-1.png",
+          "img": "",
+          "info": "Estafa por medio de mensajes SMS (mensajes de texto), donde se solicitan datos o se pide llamar a un número o ingresar a un sitio web.",
+          "width": 190,
+          "color": "#2097D3",
+          "button": {
+            "posY": 80,
+            "posX": -28
+          }
+        },
+        {
+          "imgBg": "img/11/n-2.png",
+          "img": "",
+          "info": "Estafa por medio de mensajes SMS (mensajes de texto), donde se solicitan datos o se pide llamar a un número o ingresar a un sitio web.",
+          "width": 220,
+          "color": "#04366A",
+          "button": {
+            "posY": 80,
+            "posX": -28
+          }
+        },
+        {
+          "imgBg": "img/11/n-3.png",
+          "img": "",
+          "info": "En algunas ocasiones se pide llamar a un número en donde se le solicita cierta información con técnicas de ingeniería social.",
+          "width": 190,
+          "color": "#89C240",
+          "button": {
+            "posY": 80,
+            "posX": -28
+          }
+        },
+        {
+          "imgBg": "img/11/n-4.png",
+          "img": "img/11/img-1.png",
+          "info": "",
+          "width": 190,
+          "color": "#683E92",
+          "button": {
+            "posY": 80,
+            "posX": -28
+          }
+        }
+      ]
+    }
   },
 
   "page12": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Amenazas",
+      "color"       : "#5C2481"
+    },
+    "title"   : "4. Malware (software malicioso)",
+    "text"    : "Programas utilizados por los cibercriminales para infectar y tomar el control de computadores y dispositivos móviles.",
+    "img"     : "img/12/img-1.png"
   },
 
   "page13": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Amenazas",
+      "color"       : "#5C2481"
+    },
+    "title"   : "5. Ransomware",
+    "text"    : "Lleva todas las fichas del rompecabezas al lugar que le correspondan. Al final, podrás descubrir en qué consiste la amenaza Ransomware.",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Falta instrucción",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    }
   },
 
   "page14": {

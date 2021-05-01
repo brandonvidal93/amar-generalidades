@@ -42,11 +42,11 @@ class Content extends Component {
 
       case 10: return( <Page10 dataPage = { data.page10 } endActivities = { endActivities[10] } checkEndActivity = { checkEndActivity } /> );
 
-      case 11: return( <Page11 dataPage = { data.page11 } /> );
+      case 11: return( <Page11 dataPage = { data.page11 } endActivities = { endActivities[11] } checkEndActivity = { checkEndActivity } /> );
 
       case 12: return( <Page12 dataPage = { data.page12 } /> );
 
-      case 13: return( <Page13 dataPage = { data.page13 } /> );
+      case 13: return( <Page13 dataPage = { data.page13 } endActivities = { endActivities[13] } checkEndActivity = { checkEndActivity } /> );
 
       case 14: return( <Page14 dataPage = { data.page14 } /> );
 

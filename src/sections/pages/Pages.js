@@ -6,6 +6,7 @@ import DnDSwipe1 from '../../components/DnDSwipe1/DnDSwipe1';
 import Instruction from '../../components/Instruction';
 import InteractiveFlip1 from '../../components/InteractiveFlip1';
 import InteractivePath1 from '../../components/InteractivePath1';
+import InteractivePath2 from '../../components/InteractivePath2';
 import InteractiveSubtitle from '../../components/InteractiveSubtitle';
 import ModalCircle1 from '../../components/ModalCircle1';
 import ModalVideo1 from '../../components/ModalVideo1';
@@ -670,12 +671,45 @@ class Page10 extends Component {
 }
 
 class Page11 extends Component {
+  // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
+  isEnded = (end) => {
+    const { checkEndActivity } = this.props;
+    // console.log('Recibí: ' + end);
+    checkEndActivity(11, end);
+  }
+
   render() {
+    const { dataPage } = this.props;
+
     return (
       <div className = { 'pageContent'}>
-        <div className = 'c-10 animated fadeIn'>
+        <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-1 mL-4 mT-2'>
+          <h2
+            className = 'textHeader F2'
+            dangerouslySetInnerHTML = {{ __html: dataPage.headerPage.textHeader }}
+            style = {{ 'borderColor': dataPage.headerPage.color }}></h2>
 
+          <FontAwesomeIcon icon="play" size = 'lg' className = 'mL-025 mR-05' style = {{ 'color': '#EAEAEA' }} />
+
+          <img alt = 'Imagen' className = '' src = { dataPage.headerPage.imgHeader }/>
         </div>
+
+        <div className = 'c-10 animated fadeIn'>
+          <div className = 'mL-7 c-10 mT-025 mR-2 mB-3'> 
+            {
+              dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+            {
+              dataPage.text ? <p className = 'mB-1 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
+          </div>
+
+          <div className = 'mL-6'>
+            <InteractivePath2 dataPage = { dataPage.multimedia } isEnded = { this.isEnded } />
+          </div>
+        </div>
+
+        <Instruction dataPage = { dataPage.instruction } />
       </div>
     );
   }
@@ -683,10 +717,37 @@ class Page11 extends Component {
 
 class Page12 extends Component {
   render() {
+    const { dataPage } = this.props;
+
     return (
       <div className = { 'pageContent'}>
-        <div className = 'c-10 animated fadeIn'>
+        <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-1 mL-4 mT-2'>
+          <h2
+            className = 'textHeader F2'
+            dangerouslySetInnerHTML = {{ __html: dataPage.headerPage.textHeader }}
+            style = {{ 'borderColor': dataPage.headerPage.color }}></h2>
 
+          <FontAwesomeIcon icon="play" size = 'lg' className = 'mL-025 mR-05' style = {{ 'color': '#EAEAEA' }} />
+
+          <img alt = 'Imagen' className = '' src = { dataPage.headerPage.imgHeader }/>
+        </div>
+
+        <div className = 'c-10 d-Flex j-S aI-C animated fadeIn'>
+          <div className = 'mL-7 c-4 mT-3 mR-3'> 
+            {
+              dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+            {
+              dataPage.text ? <p className = 'mB-2 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
+          </div>
+
+          <div className = 'c-3 d-Flex j-C aI-S'>
+            <img
+                alt = 'Imagen'
+                className = ''
+                src = { dataPage.img }/>
+          </div>
         </div>
       </div>
     );
@@ -694,11 +755,42 @@ class Page12 extends Component {
 }
 
 class Page13 extends Component {
+  // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
+  isEnded = (end) => {
+    const { checkEndActivity } = this.props;
+    // console.log('Recibí: ' + end);
+    checkEndActivity(13, end);
+  }
+
   render() {
+    const { dataPage } = this.props;
+
     return (
       <div className = { 'pageContent'}>
-        <div className = 'c-10 animated fadeIn'>
+        <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-1 mL-4 mT-2'>
+          <h2
+            className = 'textHeader F2'
+            dangerouslySetInnerHTML = {{ __html: dataPage.headerPage.textHeader }}
+            style = {{ 'borderColor': dataPage.headerPage.color }}></h2>
 
+          <FontAwesomeIcon icon="play" size = 'lg' className = 'mL-025 mR-05' style = {{ 'color': '#EAEAEA' }} />
+
+          <img alt = 'Imagen' className = '' src = { dataPage.headerPage.imgHeader }/>
+        </div>
+
+        <div className = 'c-10 d-Flex j-S aI-C animated fadeIn'>
+          <div className = 'mL-7 c-3 mT-3 mR-3'> 
+            {
+              dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+            {
+              dataPage.text ? <p className = 'mB-2 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
+          </div>
+
+          <div className = 'c-7 d-Flex j-C aI-S'>
+
+          </div>
         </div>
       </div>
     );
