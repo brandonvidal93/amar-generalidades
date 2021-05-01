@@ -32,9 +32,9 @@ class SlideUpDown extends Component {
         page: this.state.page + 1
       });
 
-    if (this.state.page === this.props.multimedia.items.length - 1) {
-      this.props.isEnded(true); // SI LLEGA EL FINAL DE LA ACT ENVÍA EL TRUE
-    }
+      if (this.state.page === this.props.multimedia.items.length - 1) {
+        this.props.isEnded(true); // SI LLEGA EL FINAL DE LA ACT ENVÍA EL TRUE
+      }
     }
   }
 

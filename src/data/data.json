@@ -951,11 +951,205 @@
       "posX"    : 660,
       "size"    : 330,
       "color"   : "#FFD15C"
+    },
+    "multimedia": {
+      "dragItems": [
+        {
+          "drag"    : 1,
+          "img"     : "img/13/n-1.png",
+          "text"    : "",
+          "type"    : "1",
+          "data"    : "",
+          "posY"    : 110,
+          "posX"    : 80
+        },
+        {
+          "drag"    : 2,
+          "img"     : "img/13/n-2.png",
+          "text"    : "",
+          "type"    : "2",
+          "data"    : "",
+          "posY"    : 270,
+          "posX"    : 30
+        },
+        {
+          "drag"    : 3,
+          "img"     : "img/13/n-3.png",
+          "text"    : "",
+          "type"    : "3",
+          "data"    : "",
+          "posY"    : 160,
+          "posX"    : 190
+        },
+        {
+          "drag"    : 4,
+          "img"     : "img/13/n-4.png",
+          "text"    : "",
+          "type"    : "4",
+          "data"    : "",
+          "posY"    : 0,
+          "posX"    : 0
+        },
+        {
+          "drag"    : 5,
+          "img"     : "img/13/n-5.png",
+          "text"    : "",
+          "type"    : "5",
+          "data"    : "",
+          "posY"    : 0,
+          "posX"    : 170
+        }
+      ],
+      "dropZone": {
+        "drops": [
+          {
+            "key"       : 1,
+            "img"       : "img/13/n-1.png",
+            "target"    : "1",
+            "posY"      : 60,
+            "posX"      : -300,
+            "type"      : "1",
+            "imgPos": {
+              "Y"       : -34,
+              "X"       : -10
+            }
+          },
+          {
+            "key"       : 2,
+            "img"       : "img/13/n-2.png",
+            "target"    : "2",
+            "posY"      : 6,
+            "posX"      : -221,
+            "type"      : "2",
+            "imgPos": {
+              "Y"       : -5,
+              "X"       : -35
+            }
+          },
+          {
+            "key"       : 3,
+            "img"       : "img/13/n-3.png",
+            "target"    : "3",
+            "posY"      : 63,
+            "posX"      : -145,
+            "type"      : "3",
+            "imgPos": {
+              "Y"       : -37,
+              "X"       : -34
+            }
+          },
+          {
+            "key"       : 4,
+            "img"       : "img/13/n-4.png",
+            "target"    : "4",
+            "posY"      : 151,
+            "posX"      : -179,
+            "type"      : "4",
+            "imgPos": {
+              "Y"       : -19,
+              "X"       : -39
+            }
+          },
+          {
+            "key"       : 5,
+            "img"       : "img/13/n-5.png",
+            "target"    : "5",
+            "posY"      : 150,
+            "posX"      : -273,
+            "type"      : "5",
+            "imgPos": {
+              "Y"       : -37,
+              "X"       : -30
+            }
+          }
+        ],
+        "infoBox": [
+          {
+            "target"        : "1",
+            "title"         : "",
+            "colorTitle"    : "",
+            "img"           : "img/13/img-1.png",
+            "text"          : "Es un tipo de malware (software malicioso) que infecta tu computadora y muestra mensajes que exigen el pago de dinero para restablecer el funcionamiento del sistema. Este tipo de malware se usa para para ganar dinero utilizando técnicas de engaño a través de enlaces maliciosos incluidos en un mensaje de correo electrónico, mensajes de texto o sitio web. El ransomware tiene la capacidad de bloquear la pantalla de una computadora o cifrar archivos importantes predeterminados con una contraseña."
+          }
+        ]
+      },
+      "bg": "img/13/bgPage-13.png"
     }
   },
 
   "page14": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Amenazas",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Protégete de las amenazas informáticas",
+    "text"    : "Haz clic en cada uno de los números en orden consecutivo para conocer la información.",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Falta instrucción",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "background": {
+      "bg": "img/14/bgPage-14.png"
+    },
+    "multimedia": [
+      {
+        "urlImgBtn"   : "img/14/n-1.png",
+        "pos": {
+          "top"       : 0,
+          "left"      : 112
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Los cibercriminales usan una combinación de métodos de ingeniería social, phishing (suplantación de identidad)  y técnicas de implementación de malware (software malicioso) para atraer la atención de las víctimas y maximizar las posibilidades de infectar las computadoras y dispositivos de los usuarios y extraer información.",
+          "posGlobe": {
+            "posY"    : 60,
+            "posX"    : 280
+          },
+          "color"     : "#86BF41",
+          "trian"     : "trian-1"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/14/n-2.png",
+        "pos": {
+          "top"       : 203,
+          "left"      : -7
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "La mejor defensa es el sentido común.",
+          "posGlobe": {
+            "posY"    : 195,
+            "posX"    : 47
+          },
+          "color"     : "#683E92",
+          "trian"     : "trian-2"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/14/n-3.png",
+        "pos": {
+          "top"       : 203,
+          "left"      : 233
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Si un correo electrónico, sitio web o mensaje parece ser extraño o muy bueno para ser cierto… ¡PUEDE SER UN ATAQUE DE PHISHING!",
+          "posGlobe": {
+            "posY"    : 131,
+            "posX"    : 294
+          },
+          "color"     : "#189BDB",
+          "trian"     : "trian-3"
+        }
+      }
+    ]
   },
 
   "page15": {

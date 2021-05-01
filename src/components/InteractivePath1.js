@@ -59,8 +59,6 @@ class InteractivePath1 extends Component {
           this.props.isEnded(true); // SI LLEGA EL FINAL DE LA ACT ENVÍA EL TRUE
         }
       }
-
-
     }
 
     if (this.state.countItem === multimedia.length) {
@@ -82,7 +80,6 @@ class InteractivePath1 extends Component {
 
   render() {
     const { multimedia } = this.props.dataPage;
-    const { actualItem } = this.state;
 
     const style = {
       backgroundImage: 'url(' + this.props.dataPage.background.bg + ')',
@@ -134,37 +131,6 @@ class InteractivePath1 extends Component {
             );
           })
         }
-        {/* {
-          // MOSTRAR LOS GLOBOS DE TEXTO
-          this.state.openGlobe !== false ?
-          <div className = 'bgItemGlobe'>
-            <div
-              className = { 'itemGlobe animated dF-C-cs ' + multimedia[actualItem - 1].itemInfo.posTriang + ' fadeInDown'}
-              style = { { 'width': multimedia[actualItem - 1].itemInfo.posGlobe.size, 'top': multimedia[actualItem - 1].itemInfo.posGlobe.posY, 'left': multimedia[actualItem - 1].itemInfo.posGlobe.posX, 'borderColor': multimedia[actualItem - 1].itemInfo.colorBorder } }>
-
-              {
-                multimedia[actualItem - 1].itemInfo.title ? <h4 className = 'mB-05' dangerouslySetInnerHTML = {{ __html: multimedia[actualItem - 1].itemInfo.title }}></h4> : null
-              }
-
-              {
-                multimedia[actualItem - 1].itemInfo.text ? <p className = 'mB-05' dangerouslySetInnerHTML = {{ __html: multimedia[actualItem - 1].itemInfo.text }}></p> : null
-              }
-
-              { multimedia[actualItem - 1].itemInfo.buttonClose.closedModal === true ?
-                <button
-                  className = 'buttonClose'
-                  onClick = { this.hideModal }
-                  style = { { 'top': multimedia[actualItem - 1].itemInfo.buttonClose.posY, 'left': (multimedia[actualItem - 1].itemInfo.buttonClose.posX + '%') } }
-                  >
-                  <span className = 'fa-layers fa-fw iconButton' >
-                    <FontAwesomeIcon icon="circle" />
-                    <FontAwesomeIcon icon="times" inverse transform="shrink-6" />
-                  </span>
-                </button> : null
-              }
-            </div>
-          </div> : null
-        } */}
         { this.showItems() }
       </div>
     );

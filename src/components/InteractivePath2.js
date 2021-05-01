@@ -9,6 +9,8 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 
 import './InteractivePath2.scss';
 
+library.add(fas, fab, far);
+
 class InteractivePath2 extends Component {
   state = {
     countItem: 1

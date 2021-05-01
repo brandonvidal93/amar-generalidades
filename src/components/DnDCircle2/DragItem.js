@@ -19,13 +19,13 @@ const dragEnd = (e) => {
   document.getElementById(e.currentTarget.id).classList.remove('onDrag');
 };
 
-const DragItem = ({ name, type, id, color }) => {
+const DragItem = ({ countDrop, name, path, type, id }) => {
   const [{ isDragging }, drag] = useDrag({
     item: { name, type: type },
     end: (item, monitor) => {
       const dropResult = monitor.getDropResult()
-      if (item.type && dropResult) {
-        // console.log(`You dropped ${item.type} into ${dropResult.name}!`);
+      if (item && dropResult) {
+        // alert(`You dropped ${item.name} into ${dropResult.name}!`);
         // console.log(`You dropped ${id} item`);
         // AQUI ES DONDE VA EL CODIGO PARA MOSTRAR EL GLOBO INFO
 
@@ -33,10 +33,9 @@ const DragItem = ({ name, type, id, color }) => {
         // console.log(document.getElementById('dragBox-' + id));
 
         document.getElementById('dragBox-' + id).classList.add('dNone');
-        document.getElementById('itemDrop-' + id).classList.add('dropped');
-        document.getElementById('textDrop-' + id).classList.remove('dNone');
+        document.getElementById('imgDrop-' + id).classList.remove('dNone');
 
-        document.getElementById('infoDrop-' + id).classList.remove('dNone');
+        countDrop();
 
         document.getElementById('audioNotification').src = 'audio/check.mp3';
         document.getElementById('audioNotification').play();
@@ -52,14 +51,18 @@ const DragItem = ({ name, type, id, color }) => {
 
   const opacity = isDragging ? 'dragging' : 'noDragging'
 
+  // isDragging ? document.getElementById('dragBox-' + id).classList.add('onDrag') : document.getElementById('dragBox-' + id).classList.remove('onDrag');
+
   return (
     <div
-      className = { 'dragBox d-Flex j-C aI-C '}
       onDragStart = { dragStart }
       onDragOver = { dragOver }
       onDragEnd = { dragEnd }
       ref = { drag } style = {{ ...style, }} id = {'dragBox-' + id } >
-        <h3 className = 'fw-3' style = {{ 'color': color }}>0{ id }</h3>
+      <img
+        alt = 'Drag'
+        className = { opacity }
+        src = { path } />
     </div>
   )
 }

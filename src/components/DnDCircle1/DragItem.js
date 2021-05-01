@@ -55,7 +55,7 @@ const DragItem = ({ name, path, type, id }) => {
     }),
   })
 
-  const opacity = isDragging ? 0.4 : 1
+  const opacity = isDragging ? 'dragging' : 'noDragging'
 
   // isDragging ? document.getElementById('dragBox-' + id).classList.add('onDrag') : document.getElementById('dragBox-' + id).classList.remove('onDrag');
 
@@ -67,7 +67,7 @@ const DragItem = ({ name, path, type, id }) => {
       ref = { drag } style = {{ ...style, }} id = {'dragBox-' + id } >
       <img
         alt = 'Drag'
-        className = ''
+        className = { opacity }
         src = { path } />
     </div>
   )

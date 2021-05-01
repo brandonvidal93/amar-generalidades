@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import StartDrop from '../../components/DnDStart/dropBoard';
 import StartDrag from '../../components/DnDStart/dragButton';
 import DnDCircle1 from '../../components/DnDCircle1/DnDCircle1';
+import DnDCircle2 from '../../components/DnDCircle2/DnDCircle2';
 import DnDSwipe1 from '../../components/DnDSwipe1/DnDSwipe1';
 import Instruction from '../../components/Instruction';
 import InteractiveFlip1 from '../../components/InteractiveFlip1';
@@ -11,6 +12,7 @@ import InteractiveSubtitle from '../../components/InteractiveSubtitle';
 import ModalCircle1 from '../../components/ModalCircle1';
 import ModalVideo1 from '../../components/ModalVideo1';
 import ModalGallery1 from '../../components/ModalGallery1';
+import Pyramid1 from '../../components/Pyramid1';
 import SlideUpDown from '../../components/SlideUpDown';
 
 import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
@@ -789,21 +791,56 @@ class Page13 extends Component {
           </div>
 
           <div className = 'c-7 d-Flex j-C aI-S'>
-
+            <DnDCircle2 multimedia = { dataPage.multimedia } isEnded = { this.isEnded } />
           </div>
         </div>
+
+        <Instruction dataPage = { dataPage.instruction } />
       </div>
     );
   }
 }
 
 class Page14 extends Component {
+  // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
+  isEnded = (end) => {
+    const { checkEndActivity } = this.props;
+    // console.log('Recibí: ' + end);
+    checkEndActivity(14, end);
+  }
+
   render() {
+    const { dataPage } = this.props;
+
     return (
       <div className = { 'pageContent'}>
-        <div className = 'c-10 animated fadeIn'>
+        <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-1 mL-4 mT-2'>
+          <h2
+            className = 'textHeader F2'
+            dangerouslySetInnerHTML = {{ __html: dataPage.headerPage.textHeader }}
+            style = {{ 'borderColor': dataPage.headerPage.color }}></h2>
 
+          <FontAwesomeIcon icon="play" size = 'lg' className = 'mL-025 mR-05' style = {{ 'color': '#EAEAEA' }} />
+
+          <img alt = 'Imagen' className = '' src = { dataPage.headerPage.imgHeader }/>
         </div>
+
+        <div className = 'c-10 d-Flex j-S aI-S animated fadeIn'>
+          <div className = 'mL-7 c-3 mT-3 mR-3'> 
+            {
+              dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+            {
+              dataPage.text ? <p className = 'mB-2 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
+          </div>
+
+          <div className = 'c-7 d-Flex j-S aI-S'>
+            <Pyramid1 dataPage = { dataPage } isEnded = { this.isEnded } />
+          </div>
+        </div>
+
+        <Instruction dataPage = { dataPage.instruction } />
       </div>
     );
   }
