@@ -60,7 +60,7 @@ class Content extends Component {
       // FIN UNIDAD 3 -----------------------------------------------------------------------
 
       // UNIDAD 4 ---------------------------------------------------------------------------
-      case 18: return( <Page18 dataPage = { data.page18 } /> );
+      case 18: return( <Page18 dataPage = { data.page18 } endActivities = { endActivities[18] } checkEndActivity = { checkEndActivity } /> );
 
       case 19: return( <Page19 dataPage = { data.page19 } /> );
 

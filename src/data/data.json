@@ -1497,7 +1497,90 @@
   "page18": {
     "type": "pageCourse",
     "startUnit": true,
-    "nameUnit": "unit4"
+    "nameUnit": "unit4",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-4.png",
+      "textHeader"  : "Seguridad de la información",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Estaciones de trabajo",
+    "text"    : "Ten presente estas indicaciones para implementarlas en tu equipo de cómputo.",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en cada botón vertical para conocer la información.",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "multimedia": [
+      {
+        "button": {
+          "text": "Bloquea tu equipo",
+          "color": "#04386D"
+        },
+        "information": {
+          "img1": "img/18/n-1.png",
+          "img2": "img/18/nTeclas-1.png",
+          "text": "Bloquea tu equipo cuando te levantes de tu puesto de trabajo."
+        }
+      },
+      {
+        "button": {
+          "text": "Cierra la sesión",
+          "color": "#0C62A5"
+        },
+        "information": {
+          "img1": "img/18/n-2.png",
+          "img2": "",
+          "text": "Cierra la sesión cuando termines de usarlo"
+        }
+      },
+      {
+        "button": {
+          "text": "Contraseñas",
+          "color": "#189BDB"
+        },
+        "information": {
+          "img1": "img/18/n-3.png",
+          "img2": "",
+          "text": "No permitas que el navegador recuerde las contraseñas."
+        }
+      },
+      {
+        "button": {
+          "text": "Redes desconocidas",
+          "color": "#89C240"
+        },
+        "information": {
+          "img1": "img/18/n-4.png",
+          "img2": "",
+          "text": "Evita conectarte a redes desconocidas."
+        }
+      },
+      {
+        "button": {
+          "text": "Dispositivos",
+          "color": "#D3046E"
+        },
+        "information": {
+          "img1": "img/18/n-5.png",
+          "img2": "",
+          "text": "No utilices dispositivos USB desconocidos y compra marcas confiables en lugares confiables."
+        }
+      },
+      {
+        "button": {
+          "text": "Descargas e instalaciones",
+          "color": "#93278F"
+        },
+        "information": {
+          "img1": "img/18/n-6.png",
+          "img2": "",
+          "text": "Para descargar e instalar aplicaciones apóyate con el Centro de Atención al Usuario, si necesitas hacerlo en tu equipo personal realiza la descarga en el sitio del fabricante y usa licencias legales."
+        }
+      }
+    ]
   },
 
   "page19": {
