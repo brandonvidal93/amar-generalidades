@@ -1153,17 +1153,345 @@
   },
 
   "page15": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Amenazas",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Valida tus conocimientos",
+    "text"    : "De acuerdo con el tema visto sobre las vulnerabilidades y amenazas, identifica el elemento con su respectivo concepto. ",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Con clic sostenido lleva el ícono donde corresponda.",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "multimedia": {
+      "dragItems": [
+        {
+          "drag"    : 1,
+          "img"     : "img/15/n-1.png",
+          "text"    : "Ingeniería social",
+          "type"    : "6",
+          "data"    : ""
+        },
+        {
+          "drag"    : 2,
+          "img"     : "img/15/n-2.png",
+          "text"    : "Phishing",
+          "type"    : "2",
+          "data"    : ""
+        },
+        {
+          "drag"    : 3,
+          "img"     : "img/15/n-3.png",
+          "text"    : "Smishing",
+          "type"    : "1",
+          "data"    : ""
+        },
+        {
+          "drag"    : 4,
+          "img"     : "img/15/n-4.png",
+          "text"    : "Vulnerabilidad",
+          "type"    : "7",
+          "data"    : ""
+        },
+        {
+          "drag"    : 5,
+          "img"     : "img/15/n-5.png",
+          "text"    : "Ransomware",
+          "type"    : "3",
+          "data"    : ""
+        },
+        {
+          "drag"    : 6,
+          "img"     : "img/15/n-6.png",
+          "text"    : "Malware",
+          "type"    : "5",
+          "data"    : ""
+        },
+        {
+          "drag"    : 7,
+          "img"     : "img/15/n-7.png",
+          "text"    : "Amenaza",
+          "type"    : "4",
+          "data"    : ""
+        }
+      ],
+      "dropZone": {
+        "drops": [
+          {
+            "key"       : 1,
+            "img"       : "img/15/n-3.png",
+            "text"      : "Estafa por medio de mensajes SMS (mensajes de texto)",
+            "target"    : "3",
+            "size"      : 136,
+            "posY"      : 44,
+            "posX"      : 86,
+            "type"      : "1"
+          },
+          {
+            "key"       : 2,
+            "img"       : "img/15/n-2.png",
+            "text"      : "Hacerse pasar por una persona o empresa de confianza para obtener datos nuestros",
+            "target"    : "2",
+            "size"      : 136,
+            "posY"      : 107,
+            "posX"      : 195,
+            "type"      : "2"
+          },
+          {
+            "key"       : 3,
+            "img"       : "img/15/n-5.png",
+            "text"      : "Infecta tu computadora y muestra mensajes que exigen el pago de dinero para restablecer el funcionamiento del sistema",
+            "target"    : "5",
+            "size"      : 136,
+            "posY"      : 44,
+            "posX"      : 304,
+            "type"      : "3"
+          },
+          {
+            "key"       : 4,
+            "img"       : "img/15/n-7.png",
+            "text"      : "Es toda acción que se aprovecha de las vulnerabilidades tecnológicas, de los procesos y de las personas para atentar contra la seguridad de un sistema de información",
+            "target"    : "7",
+            "size"      : 136,
+            "posY"      : 107,
+            "posX"      : 414,
+            "type"      : "4"
+          },
+          {
+            "key"       : 5,
+            "img"       : "img/15/n-6.png",
+            "text"      : "Programas utilizados por los cibercriminales para infectar y tomar el control de computadores y dispositivos móviles",
+            "target"    : "6",
+            "size"      : 136,
+            "posY"      : 44,
+            "posX"      : 524,
+            "type"      : "5"
+          },
+          {
+            "key"       : 6,
+            "img"       : "img/15/n-1.png",
+            "text"      : "Son las debilidades en los sistemas, procesos y personas que ponen en riesgo la seguridad de la información y las operaciones",
+            "target"    : "1",
+            "size"      : 136,
+            "posY"      : 107,
+            "posX"      : 633,
+            "type"      : "6"
+          },
+          {
+            "key"       : 7,
+            "img"       : "img/15/n-4.png",
+            "text"      : "Conjunto de técnicas psicológicas y habilidades sociales con el fin de engañar a usuarios incautos",
+            "target"    : "4",
+            "size"      : 136,
+            "posY"      : 107,
+            "posX"      : 633,
+            "type"      : "7"
+          }
+        ],
+        "infoBox": [
+          {
+            "target"        : "1",
+            "title"         : "¡Bien hecho!",
+            "colorTitle"    : "",
+            "subTitle"      : "",
+            "text"          : "Has recordado y asociado correctamente cada una de las amenazas de acuerdo con su definición."
+          }
+        ]
+      },
+      "bg": "img/8/bgPage-8.png"
+    }
   },
 
   "page16": {
     "type": "pageCourse",
     "startUnit": true,
-    "nameUnit": "unit3"
+    "nameUnit": "unit3",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-3.png",
+      "textHeader"  : "Dispositivos móviles",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Dispositivos móviles",
+    "text"    : "Visualiza el siguiente video y conoce la seguridad de la información en los dispositivos móviles.",
+    "boxInfo": {
+      "title"         : "Reproducir video",
+      "text"          : "",
+      "imgBg"         : "img/play-1.png"
+    },
+    "modal": {
+      "type"          : "videoModal",
+      "title"         : "",
+      "text"          : "",
+      "buttonModal"   : "",
+      "closedModal"   : true,
+      "urlVideo"      : "https://content.jwplatform.com/videos/DPVTejlj-SpzKbqXP.mp4"
+    },
+    "instruction": {
+      "type"          : "mouse",
+      "text"          : "Haz clic en el reproductor de video para conocer la información.",
+      "posY"          : 50,
+      "posX"          : 660,
+      "size"          : 330,
+      "color"         : "#FFD15C"
+    }
   },
 
   "page17": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-3.png",
+      "textHeader"  : "Dispositivos móviles",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Sugerencias para el uso de dispositivos móviles",
+    "text"    : "",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en los botones para conocer la información",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "background": {
+      "bg": "img/17/bgPage-17.png"
+    },
+    "multimedia": [
+      {
+        "urlImgBtn"   : "img/17/n-1.png",
+        "pos": {
+          "top"       : 18,
+          "left"      : 237
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Evita conectarte a redes desconocidas.",
+          "posGlobe": {
+            "posY"    : 70,
+            "posX"    : 380
+          },
+          "color"     : "#93C750"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-2.png",
+        "pos": {
+          "top"       : 179,
+          "left"      : 430
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Descarga aplicaciones únicamente desde fuentes confiables y antes de descargarlas verifica los comentarios y calificación. ",
+          "posGlobe": {
+            "posY"    : 217,
+            "posX"    : 47
+          },
+          "color"     : "#0A4D94"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-3.png",
+        "pos": {
+          "top"       : 343,
+          "left"      : 236
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Instala un antivirus.",
+          "posGlobe": {
+            "posY"    : 401,
+            "posX"    : 374
+          },
+          "color"     : "#347DB9"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-4.png",
+        "pos": {
+          "top"       : 503,
+          "left"      : 430
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Activa funcionalidades de autenticación y cifrado.",
+          "posGlobe": {
+            "posY"    : 559,
+            "posX"    : 50
+          },
+          "color"     : "#33A0D6"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-5.png",
+        "pos": {
+          "top"       : 667,
+          "left"      : 236
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Haz regularmente copias de seguridad.",
+          "posGlobe": {
+            "posY"    : 712,
+            "posX"    : 374
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-6.png",
+        "pos": {
+          "top"       : 826,
+          "left"      : 431
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Evita abrir enlaces y archivos virales que circulan en redes  sociales, pueden contener malware.",
+          "posGlobe": {
+            "posY"    : 873,
+            "posX"    : 63
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-7.png",
+        "pos": {
+          "top"       : 989,
+          "left"      : 237
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Configura la opción de  bloqueo de pantalla por inactividad y configura contraseña para desbloquearlo.",
+          "posGlobe": {
+            "posY"    : 1023,
+            "posX"    : 373
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-8.png",
+        "pos": {
+          "top"       : 1148,
+          "left"      : 431
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Mantén actualizado el sistema operativo y las aplicaciones",
+          "posGlobe": {
+            "posY"    : 1200,
+            "posX"    : 83
+          },
+          "color"     : "#643B8D"
+        }
+      }
+    ]
   },
 
   "page18": {

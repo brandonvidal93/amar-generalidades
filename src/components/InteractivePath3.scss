@@ -1,0 +1,47 @@
+ @import "../resources/colors";
+@import "../resources/animation.scss";
+
+.InteractivePath3 {
+  height: 315px;
+  width: 95%;
+  padding: 1rem;
+  overflow-y: scroll;
+  background-color: #F2F2F2;
+
+  .scrollContent {
+    height: 1350px;
+
+    .itemGlobe {
+      box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+      position: absolute;
+      background-color: $blanco;
+    }
+
+    .itemRight {
+      padding: 1rem 3rem;
+      max-width: 340px;
+      border-radius: 0px;
+      border-top-right-radius: 100px;
+      border-bottom-right-radius: 100px;
+    }
+
+    .itemLeft {
+      padding: 1rem 3rem;
+      max-width: 410px;
+      border-radius: 0px;
+      border-top-left-radius: 100px;
+      border-bottom-left-radius: 100px;
+    }
+  }
+
+  .circleItems {
+    position: absolute;
+
+    .circleButton {
+      background-color: transparent;
+      color: $color4;
+      font-size: 1.5em;
+      transition: all .3s;
+    }
+  }
+}

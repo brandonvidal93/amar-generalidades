@@ -50,13 +50,13 @@ class Content extends Component {
 
       case 14: return( <Page14 dataPage = { data.page14 } endActivities = { endActivities[14] } checkEndActivity = { checkEndActivity } /> );
 
-      case 15: return( <Page15 dataPage = { data.page15 } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
+      case 15: return( <Page15 dataPage = { data.page15 } endActivities = { endActivities[15] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
       // FIN UNIDAD 2 -----------------------------------------------------------------------
 
       // UNIDAD 3 ---------------------------------------------------------------------------
-      case 16: return( <Page16 dataPage = { data.page16 } /> );
+      case 16: return( <Page16 dataPage = { data.page16 } endActivities = { endActivities[16] } checkEndActivity = { checkEndActivity } /> );
 
-      case 17: return( <Page17 dataPage = { data.page17 } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
+      case 17: return( <Page17 dataPage = { data.page17 } endActivities = { endActivities[17] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
       // FIN UNIDAD 3 -----------------------------------------------------------------------
 
       // UNIDAD 4 ---------------------------------------------------------------------------
