@@ -1895,7 +1895,129 @@
   },
 
   "page23": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-4.png",
+      "textHeader"  : "Seguridad de la información",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Puesto de trabajo",
+    "text"    : "Proteger documentos en papel y dispositivos de almacenamiento removibles, a fin de reducir los riesgos de acceso no autorizado, pérdida y daño de la información.",
+    "instruction": {
+      "type"          : "mouse",
+      "text"          : "Haz clic en cada uno de los botones para ver las recomendaciones.",
+      "posY"          : 50,
+      "posX"          : 660,
+      "size"          : 330,
+      "color"         : "#FFD15C"
+    },
+    "multimedia": [
+      {
+        "urlImgBtn"         : "img/23/n-1.png",
+        "title"             : "Disponibilidad",
+        "posY"              : 230,
+        "posX"              : -10,
+        "itemInfo": {
+          "title"           : "01",
+          "text1"           : "No dejes en el escritorio llaves, identificación o medio de acceso que tengas bajo tu responsabilidad",
+          "text2"           : "",
+          "colorText"       : "#023974",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "img/23/n-2.png",
+        "title"             : "",
+        "posY"              : 50,
+        "posX"              : -10,
+        "itemInfo": {
+          "title"           : "02",
+          "text1"           : "No dejes visible en pantalla información reservada y/o confidencial",
+          "text2"           : "",
+          "colorText"       : "#074991",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "img/23/n-3.png",
+        "title"             : "",
+        "posY"              : -30,
+        "posX"              : 137,
+        "itemInfo": {
+          "title"           : "03",
+          "text1"           : "Recoge siempre los documentos que mandes a imprimir. Principalmente si la impresora es compartida",
+          "text2"           : "",
+          "colorText"       : "#2171B3",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "img/23/n-4.png",
+        "title"             : "",
+        "posY"              : 50,
+        "posX"              : 284,
+        "itemInfo": {
+          "title"           : "04",
+          "text1"           : "No pegues notas en el monitor o cualquier otra espacio visible con información reservada y/o confidencial",
+          "text2"           : "",
+          "colorText"       : "#2097D3",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "img/23/n-5.png",
+        "title"             : "",
+        "posY"              : 230,
+        "posX"              : 284,
+        "itemInfo": {
+          "title"           : "05",
+          "text1"           : "Resguarda documentos impresos y medio de almacenamiento con información reservada y/o confidencial bajo llave",
+          "text2"           : "",
+          "colorText"       : "#89C240",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "img/23/n-6.png",
+        "title"             : "",
+        "posY"              : 310,
+        "posX"              : 135,
+        "itemInfo": {
+          "title"           : "06",
+          "text1"           : "Bloquea tus equipos cuando te ausentes",
+          "text2"           : "",
+          "colorText"       : "#683E92",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      }
+    ],
+    "resources": {
+      "bgImg": "img/23/bgPage-23.png"
+    }
   },
 
   "page24": {
@@ -1931,15 +2053,303 @@
   },
 
   "page25": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-4.png",
+      "textHeader"  : "Seguridad de la información",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Política de Seguridad de la Información",
+    "text"    : "La política de seguridad de la información es un plan de acción o un conjunto de buenas prácticas que se deben de tomar y aplicar para afrontar los diferentes riesgos que puede sufrir los activos de información (documentos, estaciones de trabajo, equipos de comunicaciones, aplicaciones, sistemas, entre otros). Su objetivo es proporcionar una guía para el adecuado uso de estos activos.",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en los signos de interrogación para conocer la información.",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "background": {
+      "bg": "img/25/bgPage-25.png"
+    },
+    "multimedia": [
+      {
+        "urlImgBtn"   : "img/14/n-1.png",
+        "pos": {
+          "top"       : 0,
+          "left"      : 205
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "¿Qué amenazas o riesgos pueden atentar contra la información? <br>· Catástrofes naturales <br>· Amenazas físicas <br>· Fraude informático <br>· Errores Humanos <br>· Software ilegal <br>· Intrusión",
+          "posGlobe": {
+            "posY"    : -200,
+            "posX"    : 190
+          },
+          "color"     : "#074991",
+          "trian"     : "trian-1"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/14/n-2.png",
+        "pos": {
+          "top"       : 170,
+          "left"      : 365
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "¿Y cómo prevenir estas amenazas o mitigar el riesgo? <br> Con la Política de Seguridad, a través de: <br>· Copias de respaldo <br>· Software legal<br>· Seguridad en las comunicaciones.",
+          "posGlobe": {
+            "posY"    : 10,
+            "posX"    : 257
+          },
+          "color"     : "#2097D3",
+          "trian"     : "trian-2"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/14/n-3.png",
+        "pos": {
+          "top"       : 0,
+          "left"      : 530
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "· Reporte de incidentes de la información al área de TI <br>· Correcto uso de recursos informáticos.<br>· Implementación de aplicaciones seguras.<br>· Protección de contraseñas.<br>· Cumplimiento de procesos<br>· Controles informáticos.",
+          "posGlobe": {
+            "posY"    : -179,
+            "posX"    : 334
+          },
+          "color"     : "#683E92",
+          "trian"     : "trian-3"
+        }
+      }
+    ]
   },
 
   "page26": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-4.png",
+      "textHeader"  : "Seguridad de la información",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Consecuencias por el mal uso",
+    "text"    : "La evolución del entorno ha obligado a que las personas y compañías digitalicen su información cada vez más, sin embargo, la digitalización trae consigo riesgos que pueden impactarla negativamente. El inadecuado manejo de la información puede ocasionar a las compañías o personas las siguientes consecuencias:",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en cada botón para conocerlas.",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "multimedia": [
+      {
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Daño reputacional",
+          "posGlobe": {
+            "posY"    : 170,
+            "posX"    : 20
+          },
+          "color"     : "#E31F83",
+          "trian"     : "trian-1"
+        }
+      },
+      {
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Daño económico",
+          "posGlobe": {
+            "posY"    : 170,
+            "posX"    : 188
+          },
+          "color"     : "#683E92",
+          "trian"     : "trian-2"
+        }
+      },
+      {
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Multas regulatorias",
+          "posGlobe": {
+            "posY"    : 170,
+            "posX"    : 357
+          },
+          "color"     : "#2097D3",
+          "trian"     : "trian-3"
+        }
+      },
+      {
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Robo de identidad",
+          "posGlobe": {
+            "posY"    : 170,
+            "posX"    : 490
+          },
+          "color"     : "#2171B3",
+          "trian"     : "trian-4"
+        }
+      },
+      {
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Daño en la integridad de personas",
+          "posGlobe": {
+            "posY"    : 170,
+            "posX"    : 684
+          },
+          "color"     : "#09539A",
+          "trian"     : "trian-5"
+        }
+      },
+      {
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Paros en la producción y procesos de la Compañía",
+          "posGlobe": {
+            "posY"    : 170,
+            "posX"    : 853
+          },
+          "color"     : "#04386D",
+          "trian"     : "trian-6"
+        }
+      },
+      {
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Disminución de confianza de clientes",
+          "posGlobe": {
+            "posY"    : 170,
+            "posX"    : 1020
+          },
+          "color"     : "#89C240",
+          "trian"     : "trian-7"
+        }
+      },
+      {
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "Extorsiones",
+          "posGlobe": {
+            "posY"    : 170,
+            "posX"    : 1081
+          },
+          "color"     : "#F8B32A",
+          "trian"     : "trian-8"
+        }
+      }
+    ]
   },
 
   "page27": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-4.png",
+      "textHeader"  : "Seguridad de la información",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Recomendaciones finales",
+    "text"    : "Para ir cerrando el curso, te queremos compartir algunas recomendaciones finales que son importantes y que debes considerar.",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Lleva cada número a la pantalla del computador para conocer cada una de las recomendaciones.",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "multimedia": {
+      "dragItem": [
+        {
+          "id": 1,
+          "text": "La tecnología por sí sola no puede proteger tu información",
+          "imgSource": "",
+          "img": "img/27/n-1.png",
+          "type": "1"
+        },
+        {
+          "id": 2,
+          "text": "La manera más fácil es engañarte",
+          "imgSource": "",
+          "img": "img/27/n-2.png",
+          "type": "1"
+        },
+        {
+          "id": 3,
+          "text": "La mejor defensa contra los atacantes eres tú mismo",
+          "imgSource": "",
+          "img": "img/27/n-3.png",
+          "type": "1"
+        },
+        {
+          "id": 4,
+          "text": "Siempre utiliza software licenciado y actualízalo",
+          "imgSource": "",
+          "img": "img/27/n-4.png",
+          "type": "1"
+        },
+        {
+          "id": 5,
+          "text": "Gestiona bien tus contraseñas",
+          "imgSource": "",
+          "img": "img/27/n-5.png",
+          "type": "1"
+        },
+        {
+          "id": 6,
+          "text": "Asegúrate de contar con respaldo de tu información",
+          "imgSource": "",
+          "img": "img/27/n-6.png",
+          "type": "1"
+        },
+        {
+          "id": 7,
+          "text": "Desconfía de redes desconocidas o WiFi de sitios públicos.",
+          "imgSource": "",
+          "img": "img/27/n-7.png",
+          "type": "1"
+        },
+        {
+          "id": 8,
+          "text": "Cifra tu información siempre que puedas.",
+          "imgSource": "",
+          "img": "img/27/n-8.png",
+          "type": "1"
+        },
+        {
+          "id": 9,
+          "text": "Para hacer uso de la banca en línea, siempre verifica que la URL comienza con HTTPS",
+          "imgSource": "",
+          "img": "img/27/n-9.png",
+          "type": "1"
+        },
+        {
+          "id": 10,
+          "text": "",
+          "imgSource": "img/27/img-10.png",
+          "img": "img/27/n-10.png",
+          "type": "1"
+        }
+      ],
+      "dropZone": {
+        "drops": [
+          {
+            "key": 1,
+            "size": 44,
+            "posY": 38,
+            "posX": -8,
+            "type": "1",
+            "bgDrop": "img/27/drop-1.png"
+          }
+        ]
+      },
+      "resources": {
+        "bgImg": "img/27/bgPage-27.png"
+      }
+    }
   },
 
   "page28": {
