@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
 
 // IMPORT FONT AWESOME LIBRARY
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
+// import { library } from '@fortawesome/fontawesome-svg-core';
+// import { fas } from '@fortawesome/free-solid-svg-icons';
+// import { fab } from '@fortawesome/free-brands-svg-icons';
+// import { far } from '@fortawesome/free-regular-svg-icons';
 
 import './Accordion1.scss';
 
-library.add(fas, fab, far);
+// library.add(fas, fab, far);
 
 class Accordion1 extends Component {
   state = {
@@ -75,7 +75,7 @@ class Accordion1 extends Component {
     })
 
     if (this.state.actual >= multimedia.length - 2 && this.state.count >= multimedia.length - 1) {
-      this.props.isEnded(true);
+      isEnded(true);
     }
   }
 

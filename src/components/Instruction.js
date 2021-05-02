@@ -19,7 +19,7 @@ class Instruction extends Component {
     switch (dataPage.type) {
       case 'mouse':
         return(
-          <div className='instructionMouse d-Flex j-S aI-C' style={ {'top': dataPage.posY, 'left': dataPage.posX, 'width': dataPage.size} }>
+          <div className='instructionMouse instruction d-Flex j-S aI-C' style={ {'top': dataPage.posY, 'left': dataPage.posX, 'width': dataPage.size} }>
             <div>
               <span className = 'fa-layers icon mR-025' >
                 <FontAwesomeIcon icon="circle" style = { {'color': dataPage.color} } />
@@ -33,7 +33,7 @@ class Instruction extends Component {
         );
       default:
         return(
-          <div className='instructionInfo d-Flex j-S aI-C' style={ {'top': dataPage.posY, 'left': dataPage.posX, 'width': dataPage.size} }>
+          <div className='instructionInfo instruction d-Flex j-S aI-C' style={ {'top': dataPage.posY, 'left': dataPage.posX, 'width': dataPage.size} }>
             <div>
               <span className = 'fa-layers icon mR-025' >
                 <FontAwesomeIcon icon="circle" style = { {'color': dataPage.color} } />

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
 
 // IMPORT FONT AWESOME LIBRARY
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
+// import { library } from '@fortawesome/fontawesome-svg-core';
+// import { fas } from '@fortawesome/free-solid-svg-icons';
+// import { fab } from '@fortawesome/free-brands-svg-icons';
+// import { far } from '@fortawesome/free-regular-svg-icons';
 
 import './InteractivePath3.scss';
 
-library.add(fas, fab, far);
+// library.add(fas, fab, far);
 
 class InteractivePath3 extends Component {
 

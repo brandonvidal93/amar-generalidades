@@ -13,9 +13,11 @@ import InteractivePath2 from '../../components/InteractivePath2';
 import InteractivePath3 from '../../components/InteractivePath3';
 import InteractiveSubtitle from '../../components/InteractiveSubtitle';
 import ModalCircle1 from '../../components/ModalCircle1';
+import ModalCircle2 from '../../components/ModalCircle2';
 import ModalVideo1 from '../../components/ModalVideo1';
 import ModalGallery1 from '../../components/ModalGallery1';
 import Pyramid1 from '../../components/Pyramid1';
+import SlideDot1 from '../../components/SlideDot1';
 import SlideUpDown from '../../components/SlideUpDown';
 
 import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
@@ -880,7 +882,7 @@ class Page15 extends Component {
         </div>
 
         <div className = 'c-10 animated fadeIn'>
-          <div className = 'mL-7 c-10 mT-025 mR-2 mB-3'> 
+          <div className = 'mL-7 c-10 mT-025 mR-2 mB-1'> 
             {
               dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
             }
@@ -1062,24 +1064,89 @@ class Page18 extends Component {
 }
 
 class Page19 extends Component {
+  // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
+  isEnded = (end) => {
+    const { checkEndActivity } = this.props;
+    // console.log('Recibí: ' + end);
+    checkEndActivity(19, end);
+  }
+
   render() {
+    const { dataPage } = this.props;
+
     return (
       <div className = { 'pageContent'}>
-        <div className = 'c-10 animated fadeIn'>
+        <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-1 mL-4 mT-2'>
+          <h2
+            className = 'textHeader F2'
+            dangerouslySetInnerHTML = {{ __html: dataPage.headerPage.textHeader }}
+            style = {{ 'borderColor': dataPage.headerPage.color }}></h2>
 
+          <FontAwesomeIcon icon="play" size = 'lg' className = 'mL-025 mR-05' style = {{ 'color': '#EAEAEA' }} />
+
+          <img alt = 'Imagen' className = '' src = { dataPage.headerPage.imgHeader }/>
         </div>
+
+        <div className = 'c-10 animated fadeIn c-10 d-Flex j-Bt aI-C'>
+          <div className = 'mL-7 c-4 mR-2 mT-2'> 
+            {
+              dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+            {
+              dataPage.text ? <p className = 'mB-2 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
+          </div>
+          <div className = 'd-Flex c-45 j-C aI-C'>
+            <ModalCircle2 dataPage = { dataPage } isEnded = { this.isEnded } />
+          </div>
+        </div>
+
+        <Instruction dataPage = { dataPage.instruction } />
       </div>
     );
   }
 }
 
 class Page20 extends Component {
+  // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
+  isEnded = (end) => {
+    const { checkEndActivity } = this.props;
+    // console.log('Recibí: ' + end);
+    checkEndActivity(20, end);
+  }
+
   render() {
+    const { dataPage } = this.props;
+
     return (
       <div className = { 'pageContent'}>
-        <div className = 'c-10 animated fadeIn'>
+        <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-1 mL-4 mT-2'>
+          <h2
+            className = 'textHeader F2'
+            dangerouslySetInnerHTML = {{ __html: dataPage.headerPage.textHeader }}
+            style = {{ 'borderColor': dataPage.headerPage.color }}></h2>
 
+          <FontAwesomeIcon icon="play" size = 'lg' className = 'mL-025 mR-05' style = {{ 'color': '#EAEAEA' }} />
+
+          <img alt = 'Imagen' className = '' src = { dataPage.headerPage.imgHeader }/>
         </div>
+
+        <div className = 'c-10 animated fadeIn'>
+          <div className = 'mL-7 c-10 mT-025 mR-2 mB-2'> 
+            {
+              dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+            {
+              dataPage.text ? <p className = 'mB-1 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
+          </div>
+
+          <div className = ''>
+            <SlideDot1 dataPage = { dataPage } isEnded = { this.isEnded } />
+          </div>
+        </div>
+
+        <Instruction dataPage = { dataPage.instruction } />
       </div>
     );
   }

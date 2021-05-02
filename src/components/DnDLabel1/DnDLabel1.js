@@ -65,16 +65,16 @@ class DnDLabel1 extends Component {
   render() {
     const { multimedia } = this.props;
 
-    const style = {
-      backgroundImage: 'url(' + multimedia.bg + ')',
-      backgroundSize: 'auto',
-      backgroundPosition: 'top center',
-      backgroundRepeat: 'no-repeat'
-    }
+    // const style = {
+    //   backgroundImage: 'url(' + multimedia.bg + ')',
+    //   backgroundSize: 'auto',
+    //   backgroundPosition: 'top center',
+    //   backgroundRepeat: 'no-repeat'
+    // }
 
     // console.log(this.state);
     return (
-      <div className = 'DnDLabel1 d-Flex d-C j-E' style = {{ }}>
+      <div className = 'DnDLabel1 d-Flex d-C j-E aI-C' style = {{ }}>
         <audio
           className = 'audio'
           autoPlay = { '' }
@@ -93,7 +93,7 @@ class DnDLabel1 extends Component {
                 size = 'lg' />
             </button>
 
-            <div className = 'dropContent d-Flex j-S aI-C mL-1 mR-1' id = 'dropContent'>
+            <div className = 'dropContent d-Flex j-S aI-E mL-1 mR-1' id = 'dropContent'>
               {
                 multimedia.dropZone.drops.map( (item, i) => {
                   return(
@@ -121,7 +121,10 @@ class DnDLabel1 extends Component {
                 icon = { ['fas', 'chevron-right'] }
                 size = 'lg' />
             </button>
-          </div>      
+          </div>
+
+          <div className = 'line mB-1'></div>
+
           <div className = 'dragContent d-Flex d-R j-C aI-E'>
             {
               multimedia.dragItems.map( item => {

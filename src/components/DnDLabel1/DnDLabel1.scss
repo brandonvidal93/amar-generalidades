@@ -3,8 +3,8 @@
 
 .DnDLabel1 {
   position: absolute;
-  width: 800px;
-  height: 290px;
+  width: 850px;
+  height: 310px;
 
   .trackContent {
     position: absolute;
@@ -13,7 +13,7 @@
 
     .dropContent {
       width: 680px;
-      height: 200px;
+      height: 180px;
       overflow-y: hidden; 
       scroll-behavior: smooth;
       .dropInfo {
@@ -73,6 +73,13 @@
         }
       }
     }
+  }
+
+  .line {
+    border-radius: 10px;
+    height: 5px;
+    width: 80%;
+    background-color: #04386D;
   }
 
   .bgItemGlobe {

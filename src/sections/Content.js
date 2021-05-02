@@ -62,33 +62,33 @@ class Content extends Component {
       // UNIDAD 4 ---------------------------------------------------------------------------
       case 18: return( <Page18 dataPage = { data.page18 } endActivities = { endActivities[18] } checkEndActivity = { checkEndActivity } /> );
 
-      case 19: return( <Page19 dataPage = { data.page19 } /> );
+      case 19: return( <Page19 dataPage = { data.page19 } endActivities = { endActivities[19] } checkEndActivity = { checkEndActivity } /> );
 
-      case 20: return( <Page20 dataPage = { data.page20 } /> );
+      case 20: return( <Page20 dataPage = { data.page20 } endActivities = { endActivities[20] } checkEndActivity = { checkEndActivity } /> );
 
-      case 21: return( <Page21 dataPage = { data.page21 } /> );
+      case 21: return( <Page21 dataPage = { data.page21 } endActivities = { endActivities[21] } checkEndActivity = { checkEndActivity } /> );
 
-      case 22: return( <Page22 dataPage = { data.page22 } /> );
+      case 22: return( <Page22 dataPage = { data.page22 } endActivities = { endActivities[22] } checkEndActivity = { checkEndActivity } /> );
 
-      case 23: return( <Page23 dataPage = { data.page23 } /> );
+      case 23: return( <Page23 dataPage = { data.page23 } endActivities = { endActivities[23] } checkEndActivity = { checkEndActivity } /> );
 
-      case 24: return( <Page24 dataPage = { data.page24 } /> );
+      case 24: return( <Page24 dataPage = { data.page24 } endActivities = { endActivities[24] } checkEndActivity = { checkEndActivity } /> );
 
-      case 25: return( <Page25 dataPage = { data.page25 } /> );
+      case 25: return( <Page25 dataPage = { data.page25 } endActivities = { endActivities[25] } checkEndActivity = { checkEndActivity } /> );
 
-      case 26: return( <Page26 dataPage = { data.page26 } /> );
+      case 26: return( <Page26 dataPage = { data.page26 } endActivities = { endActivities[26] } checkEndActivity = { checkEndActivity } /> );
 
-      case 27: return( <Page27 dataPage = { data.page27 } /> );
+      case 27: return( <Page27 dataPage = { data.page27 } endActivities = { endActivities[27] } checkEndActivity = { checkEndActivity } /> );
 
-      case 28: return( <Page28 dataPage = { data.page28 } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
+      case 28: return( <Page28 dataPage = { data.page28 } endActivities = { endActivities[28] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
       // FIN UNIDAD 4 -----------------------------------------------------------------------
 
       // UNIDAD 5 ---------------------------------------------------------------------------
-      case 29: return( <Page29 dataPage = { data.page29 } /> );
+      case 29: return( <Page29 dataPage = { data.page29 } endActivities = { endActivities[29] } checkEndActivity = { checkEndActivity } /> );
 
-      case 30: return( <Page30 dataPage = { data.page30 } /> );
+      case 30: return( <Page30 dataPage = { data.page30 } endActivities = { endActivities[30] } checkEndActivity = { checkEndActivity } /> );
 
-      case 31: return( <Page31 dataPage = { data.page31 } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
+      case 31: return( <Page31 dataPage = { data.page31 } endActivities = { endActivities[31] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
       // FIN UNIDAD 5 -----------------------------------------------------------------------
 
       // UNIDAD 6 ---------------------------------------------------------------------------

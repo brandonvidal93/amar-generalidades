@@ -1,9 +1,9 @@
 import React from 'react';
 import { useDrop } from 'react-dnd';
 
-const style = {
-  position: 'absolute'
-}
+// const style = {
+//   position: 'absolute'
+// }
 
 const BoxDrop = ({ id, img, order, posY, posX, type }) => {
   const [{ canDrop, isOver }, drop] = useDrop({

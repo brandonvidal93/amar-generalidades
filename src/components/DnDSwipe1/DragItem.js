@@ -50,6 +50,7 @@ const DragItem = ({ name, type, id, color }) => {
     }),
   })
 
+  // const opacity = isDragging ? 'dragging' : 'noDragging'
   const opacity = isDragging ? 'dragging' : 'noDragging'
 
   return (
@@ -59,7 +60,7 @@ const DragItem = ({ name, type, id, color }) => {
       onDragOver = { dragOver }
       onDragEnd = { dragEnd }
       ref = { drag } style = {{ ...style, }} id = {'dragBox-' + id } >
-        <h3 className = 'fw-3' style = {{ 'color': color }}>0{ id }</h3>
+        <h3 className = { 'fw-3 ' + opacity} style = {{ 'color': color }}>0{ id }</h3>
     </div>
   )
 }
