@@ -77,7 +77,7 @@
     },
     "multimedia": {
       "audio": {
-        "src"         : "audio/Audio-bienvenida.mp3",
+        "src"         : "audio/bienvenida.mp3",
         "autoPlay"    : true
       },
       "subtitles": {
@@ -1784,11 +1784,114 @@
   },
 
   "page21": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-4.png",
+      "textHeader"  : "Seguridad de la información",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Respaldo de la información",
+    "text"    : "",
+    "multimedia": {
+      "audio": {
+        "src"             : "audio/resp-informacion.mp3",
+        "autoPlay"        : true
+      },
+      "subtitles": {
+        "3"               : "Tener un respaldo actualizado minimiza el impacto de perdida de la información en caso de ",
+        "7"              : "alguna falla, robo o infección del dispositivo.",
+        "11"              : "Dentro de la Compañía se sugiere que la información sea almacenada dentro de",
+        "14"              : "OneDrive Empresarial."
+      },
+      "layers": [
+        [{
+            "label"       : "",
+            "labelSide"   : "bottom",
+            "icon"        : "img/21/n-1.png",
+            "time"        : 3,
+            "size"        : 216,
+            "position": {
+              "yPosition" : 113,
+              "xPosition" : 36
+            }
+          },
+          {
+            "label"       : "",
+            "labelSide"   : "bottom",
+            "icon"        : "img/21/n-2.png",
+            "time"        : 4,
+            "size"        : 266,
+            "position": {
+              "yPosition" : 17,
+              "xPosition" : 57
+            }
+          },
+          {
+            "icon"        : "img/21/n-3.png",
+            "time"        : 7,
+            "size"        : 138,
+            "position": {
+              "yPosition" : 110,
+              "xPosition" : 264
+            }
+          },
+          {
+            "label"       : "",
+            "labelSide"   : "bottom",
+            "icon"        : "img/21/n-4.png",
+            "time"        : 11,
+            "size"        : 294,
+            "position": {
+              "yPosition" : 18,
+              "xPosition" : 345
+            }
+          },
+          {
+            "label"       : "",
+            "labelSide"   : "bottom",
+            "time"        : 13,
+            "size"        : 331,
+            "icon"        : "img/21/n-5.png",
+            "position": {
+              "yPosition" : 113,
+              "xPosition" : 417
+            }
+          }
+        ]
+      ]
+    }
   },
 
   "page22": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-4.png",
+      "textHeader"  : "Seguridad de la información",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Redes WiFi públicas y sus riesgos",
+    "text"    : "Este tipo de redes son atractivas para los consumidores porque nos proporcionan una manera fácil de conectarnos a internet, sin embargo también es atractivo para los ciberdelincuentes debido a que éstas no requieren autenticación para establecer una conexión. <br><br>Visualiza el siguiente video y conoce los riesgos de las redes WiFi públicas.",
+    "boxInfo": {
+      "title"         : "Reproducir video",
+      "text"          : "",
+      "imgBg"         : "img/play-1.png"
+    },
+    "modal": {
+      "type"          : "videoModal",
+      "title"         : "",
+      "text"          : "",
+      "buttonModal"   : "",
+      "closedModal"   : true,
+      "urlVideo"      : "https://content.jwplatform.com/videos/DPVTejlj-SpzKbqXP.mp4"
+    },
+    "instruction": {
+      "type"          : "mouse",
+      "text"          : "Visualiza el siguiente video y conoce los riesgos de las redes WiFi públicas.",
+      "posY"          : 50,
+      "posX"          : 660,
+      "size"          : 330,
+      "color"         : "#FFD15C"
+    }
   },
 
   "page23": {
@@ -1796,7 +1899,35 @@
   },
 
   "page24": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-4.png",
+      "textHeader"  : "Seguridad de la información",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Redes sociales",
+    "text"    : "“Si no eres capaz de decirlo o hacerlo en un escenario, no lo digas ni lo hagas en las redes sociales”",
+    "boxInfo": {
+      "title"         : "Reproducir video",
+      "text"          : "",
+      "imgBg"         : "img/play-1.png"
+    },
+    "modal": {
+      "type"          : "videoModal",
+      "title"         : "",
+      "text"          : "",
+      "buttonModal"   : "",
+      "closedModal"   : true,
+      "urlVideo"      : "video/riesgos-RS.mp4"
+    },
+    "instruction": {
+      "type"          : "mouse",
+      "text"          : "Visualiza el siguiente video para conocer las razones y la importancia de proteger nuestros datos en las redes sociales.",
+      "posY"          : 50,
+      "posX"          : 660,
+      "size"          : 330,
+      "color"         : "#FFD15C"
+    }
   },
 
   "page25": {
