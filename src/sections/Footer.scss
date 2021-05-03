@@ -105,6 +105,12 @@
   }
 }
 
+.animationBtnNav {
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
 .footer-desc {
   position: absolute;
   display: none;

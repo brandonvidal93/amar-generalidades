@@ -307,6 +307,11 @@ class App extends Component {
     this.setState({endActivities: nActivityArray})
     console.log(this.state.endActivities);
 
+    const {index} = this.state;
+    if (index !== 1 && index !== 2 && index !== 6 && index !== 15 && index !== 17 && index !== 28 && index !== 31 && index !== 32 && index !== 33) {
+      document.getElementById('btnNavRight').classList.add('animationBtnNav');
+    }
+
     // GUARDA EL SUSPEND DATA CADA QUE SE HACE UN AVACE EN EL CURSO o UNA MODIFICACION
     this.setSuspend();
   }

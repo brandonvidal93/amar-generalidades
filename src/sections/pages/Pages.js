@@ -245,15 +245,19 @@ class Page1 extends Component {
 }
 
 class Page2 extends Component {
-  componentDidMount() {
-    this.props.checkEnabledUnit(0);
-  }
+  // componentDidMount() {
+  //   this.props.checkEnabledUnit(0);
+  // }
 
   // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
   isEnded = (end) => {
     const { checkEndActivity } = this.props;
     // console.log('Recibí: ' + end);
     checkEndActivity(2, end);
+
+    this.props.checkEnabledUnit(0);
+
+    document.querySelector('.buttonOpen').classList.add('animationOpenMenu');
   }
 
   render() {
@@ -443,12 +447,17 @@ class Page6 extends Component {
     const { checkEndActivity } = this.props;
     // console.log('Recibí: ' + end);
     checkEndActivity(6, end);
-  }
-  
-  componentDidMount() {
+
     this.props.checkEndUnit(0);
     this.props.checkEnabledUnit(1);
+
+    document.querySelector('.buttonOpen').classList.add('animationOpenMenu');
   }
+  
+  // componentDidMount() {
+  //   this.props.checkEndUnit(0);
+  //   this.props.checkEnabledUnit(1);
+  // }
 
   render() {
     const { dataPage } = this.props;
@@ -862,12 +871,17 @@ class Page15 extends Component {
     const { checkEndActivity } = this.props;
     // console.log('Recibí: ' + end);
     checkEndActivity(15, end);
-  }
 
-  componentDidMount() {
     this.props.checkEndUnit(1);
     this.props.checkEnabledUnit(2);
+
+    document.querySelector('.buttonOpen').classList.add('animationOpenMenu');
   }
+
+  // componentDidMount() {
+  //   this.props.checkEndUnit(1);
+  //   this.props.checkEnabledUnit(2);
+  // }
 
   render() {
     const { dataPage } = this.props;
@@ -978,12 +992,17 @@ class Page17 extends Component {
     const { checkEndActivity } = this.props;
     // console.log('Recibí: ' + end);
     checkEndActivity(17, end);
-  }
 
-  componentDidMount() {
     this.props.checkEndUnit(2);
     this.props.checkEnabledUnit(3);
+
+    document.querySelector('.buttonOpen').classList.add('animationOpenMenu');
   }
+
+  // componentDidMount() {
+  //   this.props.checkEndUnit(2);
+  //   this.props.checkEnabledUnit(3);
+  // }
 
   render() {
     const { dataPage } = this.props;
@@ -1516,12 +1535,17 @@ class Page28 extends Component {
     const { checkEndActivity } = this.props;
     // console.log('Recibí: ' + end);
     checkEndActivity(28, end);
-  }
 
-  componentDidMount() {
     this.props.checkEndUnit(3);
     this.props.checkEnabledUnit(4);
+
+    document.querySelector('.buttonOpen').classList.add('animationOpenMenu');
   }
+
+  // componentDidMount() {
+  //   this.props.checkEndUnit(3);
+  //   this.props.checkEnabledUnit(4);
+  // }
 
   render() {
     const { dataPage } = this.props;
@@ -1715,12 +1739,17 @@ class Page31 extends Component {
     const { checkEndActivity } = this.props;
     // console.log('Recibí: ' + end);
     checkEndActivity(31, end);
-  }
 
-  componentDidMount() {
     this.props.checkEndUnit(4);
     this.props.checkEnabledUnit(5);
+
+    document.querySelector('.buttonOpen').classList.add('animationOpenMenu');
   }
+
+  // componentDidMount() {
+  //   this.props.checkEndUnit(4);
+  //   this.props.checkEnabledUnit(5);
+  // }
 
   render() {
     const { dataPage } = this.props;
@@ -1825,12 +1854,17 @@ class Page33 extends Component {
     const { checkEndActivity } = this.props;
     // console.log('Recibí: ' + end);
     checkEndActivity(33, end);
-  }
-  
-  componentDidMount() {
+
     this.props.checkEndUnit(5);
     this.props.checkEnabledUnit(6);
+    
+    document.querySelector('.buttonOpen').classList.add('animationOpenMenu');
   }
+  
+  // componentDidMount() {
+  //   this.props.checkEndUnit(5);
+  //   this.props.checkEnabledUnit(6);
+  // }
 
   // FUNCION PARA ENVIAR EL INDEX ACTUALIZADO Y EMPEZAR EL QUIZ
   endQuiz = (buttonPress) => {

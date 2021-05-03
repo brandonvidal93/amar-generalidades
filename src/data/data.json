@@ -38,7 +38,7 @@
         "img1"    : "img/1/n-4.png"
       },
       {
-        "text1"   : "Ademas, <b>debes leer y navegar</b> toda la información que aparecerá en las diferentes pantallas.",
+        "text1"   : "Además, <b>debes leer y navegar</b> toda la información que aparecerá en las diferentes pantallas.",
         "img1"    : "img/1/n-5.png"
       },
       {
@@ -71,7 +71,7 @@
   "page2": {
     "type"    : "pageCourse",
     "title"   : "Hola",
-    "text"    : "En esta era digital la mayor parte de nuestra información se encuentra en línea y por lo general la forma en que trabajamos, aprendemos, nos comunicamos, nos relacionamos, entre otros; dependen de una conexión a la red. Tener conciencia frente a los riesgos que amenazan nuestra información es el mejor control que se necesita para evitar ser víctimas de la inseguridad digital. <br><br>Presta mucha atención a los diferentes temas que desarrollaremos alrededor del curso. <span class = 'color-14'>¡Bienvenidos!</span>",
+    "text"    : "En esta era digital la mayor parte de nuestra información se encuentra en línea y por lo general la forma en que trabajamos, aprendemos, nos comunicamos, nos relacionamos, entre otros; dependen de una conexión a la red. Tener conciencia frente a los riesgos que amenazan nuestra información es parte fundamental de los controles que se necesitan para evitar ser víctimas de la inseguridad digital. <br><br>Presta mucha atención a los diferentes temas que desarrollaremos alrededor del curso. <span class = 'color-14'>¡Bienvenidos!</span>",
     "resources": {
       "img1": "img/2/npc-1.png"
     },
@@ -83,11 +83,11 @@
       "subtitles": {
         "1"           : "En esta era digital la mayor parte de nuestra información se",
         "3"           : "encuentra en línea y por lo general la forma en que ",
-        "6"           : "trabajamos, aprendemos, nos comunicamos, nos ",
-        "9"           : "relacionamos, entre otros; dependen de una conexión a la red.",
+        "6"           : "trabajamos, aprendemos, nos comunicamos, nos relacionamos,",
+        "10"          : "entre otros; dependen de una conexión a la red.",
         "13"          : "Tener conciencia frente a los riesgos que amenazan nuestra",
-        "16"          : "información es el mejor control que se necesita para evitar ser ",
-        "21"          : "víctimas de la inseguridad digital.",
+        "16"          : "información es parte fundamental de los controles que se",
+        "19"          : "necesitan para evitar ser víctimas de la inseguridad digital.",
         "23"          : "Presta mucha atención a los diferentes temas que ",
         "25"          : "desarrollaremos alrededor del curso. ¡Bienvenidos!"
       },
@@ -168,7 +168,7 @@
         "itemInfo": {
           "title"           : "Disponibilidad",
           "text1"           : "Acceso a la información disponible cuando las personas autorizadas la necesiten.",
-          "text2"           : "Ejemplo: la información de la cuenta bancaria debe de estar disponible cuando la necesite y no cuando el banco lo requiera.",
+          "text2"           : "<b>Ejemplo:</b> la información de la cuenta bancaria debe de estar disponible cuando la necesite y no cuando el banco lo requiera.",
           "colorText"       : "#004991",
           "buttonClose": {
             "closedModal"   : true,
@@ -184,7 +184,7 @@
         "itemInfo": {
           "title"           : "Confidencialidad",
           "text1"           : "La información debe ser accesible sólo por las personas autorizadas. ",
-          "text2"           : "Ejemplo: la información de mi cuenta bancaria no la debe de revisar cualquier tercero sin previa autorización, solamente la puedo consultar yo o las personas que autorice.",
+          "text2"           : "<b>Ejemplo:</b> la información de mi cuenta bancaria no la debe de revisar cualquier tercero sin previa autorización, solamente la puedo consultar yo o las personas que autorice.",
           "colorText"       : "#683E92",
           "buttonClose": {
             "closedModal"   : true,
@@ -200,7 +200,7 @@
         "itemInfo": {
           "title"           : "Integridad",
           "text1"           : "Información correcta sin modificaciones no autorizadas ni errores. ",
-          "text2"           : "Ejemplo: si en mi cuenta bancaria me consignaron $100, en la consulta de movimientos debo de tener una consignación por $100 y no por $10 o $1000.",
+          "text2"           : "<b>Ejemplo:</b> si en mi cuenta bancaria me consignaron $100, en la consulta de movimientos debo de tener una consignación por $100 y no por $10 o $1000.",
           "colorText"       : "#2097D3",
           "buttonClose": {
             "closedModal"   : true,
@@ -344,7 +344,7 @@
       "text"          : "",
       "buttonModal"   : "",
       "closedModal"   : true,
-      "urlVideo"      : "https://content.jwplatform.com/videos/DPVTejlj-SpzKbqXP.mp4"
+      "urlVideo"      : "https://content.jwplatform.com/videos/ZTIFlNfs-SpzKbqXP.mp4"
     },
     "instruction": {
       "type"          : "mouse",
@@ -1330,7 +1330,7 @@
       "text"          : "",
       "buttonModal"   : "",
       "closedModal"   : true,
-      "urlVideo"      : "https://content.jwplatform.com/videos/DPVTejlj-SpzKbqXP.mp4"
+      "urlVideo"      : "https://content.jwplatform.com/videos/CH2R3POg-SpzKbqXP.mp4"
     },
     "instruction": {
       "type"          : "mouse",
@@ -1882,7 +1882,7 @@
       "text"          : "",
       "buttonModal"   : "",
       "closedModal"   : true,
-      "urlVideo"      : "https://content.jwplatform.com/videos/DPVTejlj-SpzKbqXP.mp4"
+      "urlVideo"      : "https://content.jwplatform.com/videos/76sTesIf-SpzKbqXP.mp4"
     },
     "instruction": {
       "type"          : "mouse",
@@ -2040,7 +2040,7 @@
       "text"          : "",
       "buttonModal"   : "",
       "closedModal"   : true,
-      "urlVideo"      : "https://content.jwplatform.com/videos/DPVTejlj-SpzKbqXP.mp4"
+      "urlVideo"      : "https://content.jwplatform.com/videos/noKRF1Ae-SpzKbqXP.mp4"
     },
     "instruction": {
       "type"          : "mouse",
@@ -2610,8 +2610,9 @@
       },
       "gallery": [
         {
-          "key"       : 1,
-          "img"       : "img/30/img-1.png"
+          "key"   : 1,
+          "img"   : "img/30/img-1.png",
+          "link"  : "https://api.whatsapp.com/send?phone=+573232230394"
         }
       ],
       "closedModal"   : true
@@ -2626,7 +2627,7 @@
       "color"       : "#5C2481"
     },
     "title"   : "Conducto regular para las PQR y felicitaciones",
-    "text"    : "Es muy importante para nosotros conocer tus peticiones, quejas y reclamos para ofrecerte un mejor servicio,  por lo tanto, te invitamos a conocer los canales habilitados, tu opinión es muy importante: <br><br>Correo electrónico:  <b>sugerenciascau@familia.com.co</b><br><br> Portal de autoservicio: ingresa a él dando <b>clic aquí</b>",
+    "text"    : "Es muy importante para nosotros conocer tus peticiones, quejas y reclamos para ofrecerte un mejor servicio,  por lo tanto, te invitamos a conocer los canales habilitados, tu opinión es muy importante: <br><br>Correo electrónico:  <b>sugerenciascau@familia.com.co</b><br><br> Portal de autoservicio: ingresa a él dando <a href = 'https://cau.familia.com.co/usm/wpf?Node=iclaunchpad.pad' target = '_blank' rel='noopener noreferrer'><b>clic aquí</b> </a>",
     "instruction": {
       "type"    : "mouse",
       "text"    : "Haz clic en la siguiente imagen y visualiza la información",
@@ -2643,8 +2644,9 @@
       },
       "gallery": [
         {
-          "key"       : 1,
-          "img"       : "img/31/img-1.png"
+          "key"   : 1,
+          "img"   : "img/31/img-1.png",
+          "link"  : "https://api.whatsapp.com/send?phone=+573232230394"
         }
       ],
       "closedModal"   : true

@@ -18,6 +18,24 @@
   }
 }
 
+@keyframes pulse-2 {
+  0% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1.2);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+
 @keyframes bounce-alert {
   0% {
     transform: scale(1);

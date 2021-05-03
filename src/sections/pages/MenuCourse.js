@@ -49,6 +49,8 @@ class MenuCourse extends Component {
 
     this.setState({ isMenuOpen: !this.state.isMenuOpen });
 
+    document.querySelector('.buttonOpen').classList.remove('animationOpenMenu');
+
     if (this.state.isMenuOpen) {
       document.getElementById('menuContent').style.left = '0px';
     } else {

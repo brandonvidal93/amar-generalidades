@@ -28,18 +28,18 @@ class DnDCircle2 extends Component {
 
     document.querySelector('.footer').classList.remove('dNone'); // OCULTAR EL FONDO
     document.querySelector('.menuContent').classList.remove('dNone'); // OCULTAR EL FONDO
-    document.querySelector('.instructionMouse').classList.remove('dNone'); // OCULTAR EL FONDO
+    // document.querySelector('.instructionMouse').classList.remove('dNone'); // OCULTAR EL FONDO
   }
 
   countDrop = () => {
-    console.log('Holi');
+    console.log(this.state.actualItem);
     if (this.state.actualItem === 4) {
       document.querySelector('.bgItemGlobe').classList.remove('dNone'); // OCULTAR EL FONDO
       document.getElementById('infoFinal').classList.remove('dNone');
 
       document.querySelector('.footer').classList.add('dNone'); // OCULTAR EL FOOTER
       document.querySelector('.menuContent').classList.add('dNone'); // OCULTAR EL MENU
-      document.querySelector('.instructionMouse').classList.add('dNone'); // OCULTAR EL INSTRUCTION
+      // document.querySelector('.instructionMouse').classList.add('dNone'); // OCULTAR EL INSTRUCTION
 
       this.props.isEnded(true); // SI LLEGA EL FINAL DE LA ACT ENVÍA EL TRUE
     } else {
