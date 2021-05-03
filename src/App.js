@@ -51,18 +51,18 @@ class App extends Component {
     this.state = {
       calificacion: 0,
       conectLMS: false,
-      index: 28,
+      index: 0,
       nextUnit: 1,
       pages: LIMIT,
       units: UNITS,
       unitActual: 1,
-      unitFinal: [true, true, true, true, true, true, true],
-      // unitFinal: [false, false, false, false, false, false, false],
-      enableUnit: [true, true, true, true, true, true, true],
-      // enableUnit: [false, false, false, false, false, false, false],
+      // unitFinal: [true, true, true, true, true, true, true],
+      unitFinal: [false, false, false, false, false, false, false],
+      // enableUnit: [true, true, true, true, true, true, true],
+      enableUnit: [false, false, false, false, false, false, false],
       // endActivities debe ir en FALSE para permitir las restricciones, en TRUE para editar
-      endActivities: [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
-      // endActivities: [true, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, true]
+      // endActivities: [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
+      endActivities: [true, true, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, true]
     }
   }
 
@@ -214,20 +214,21 @@ class App extends Component {
         tracking.saveLocation(this.state.index);
         break;
 
-      // BOTONES PARA EL QUIZ
-      // case 'btnQuiz':
-      //   this.setState({
-      //     index: 31
-      //   });
-      //   tracking.saveLocation(this.state.index);
-      //   break;
+      // INICIO DEL QUIZ
+      case 'btnQuiz':
+        this.setState({
+          index: 33
+        });
+        tracking.saveLocation(this.state.index);
+        break;
 
-      // case 'buttonCloseQuizModal':
-      //   this.setState({
-      //     index: 32
-      //   });
-      //   tracking.saveLocation(this.state.index);
-      //   break;
+      // FINAL DEL QUIZ
+      case 'buttonCloseQuizModal':
+        this.setState({
+          index: 34
+        });
+        tracking.saveLocation(this.state.index);
+        break;
     
       default:
         this.setState({
@@ -321,25 +322,26 @@ class App extends Component {
 
         {/* CARGA DEL COMPONENTE CONTENT */}
         <Content
-          actualIndex       = { index }
-          bgFooter          = { BGFOOTER }
-          checkEndActivity  = { this.checkEndActivity }
-          checkEndUnit      = { this.checkEndUnit }
-          checkEnabledUnit  = { this.checkEnabledUnit }
-          clickNavigation   = { this.navigationCourse }
-          data              = { DataCourse }
-          enableUnit        = { enableUnit }
-          endActivities     = { endActivities }
-          goToPage          = { this.goToPage }
-          imageFooter       = { LOGOFOOTER }
-          labelFooter       = { LABELFOOTER }
-          limitNavigation   = { LIMIT }
-          nextUnit          = { nextUnit }
-          setScore          = { this.setScore }
-          unitActual        = { unitActual }
-          unitFinal         = { unitFinal }
-          updateActualUnit  = { this.updateActualUnit }
-          updateNextUnit    = { this.updateNextUnit } />
+          actualIndex         = { index }
+          bgFooter            = { BGFOOTER }
+          calificacion        = { this.state.calificacion }
+          checkEndActivity    = { this.checkEndActivity }
+          checkEndUnit        = { this.checkEndUnit }
+          checkEnabledUnit    = { this.checkEnabledUnit }
+          clickNavigation     = { this.navigationCourse }
+          data                = { DataCourse }
+          enableUnit          = { enableUnit }
+          endActivities       = { endActivities }
+          goToPage            = { this.goToPage }
+          imageFooter         = { LOGOFOOTER }
+          labelFooter         = { LABELFOOTER }
+          limitNavigation     = { LIMIT }
+          nextUnit            = { nextUnit }
+          setScore            = { this.setScore }
+          unitActual          = { unitActual }
+          unitFinal           = { unitFinal }
+          updateActualUnit    = { this.updateActualUnit }
+          updateNextUnit      = { this.updateNextUnit } />
       </div>
     );
   }

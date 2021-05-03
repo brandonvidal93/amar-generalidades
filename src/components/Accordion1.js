@@ -67,7 +67,8 @@ class Accordion1 extends Component {
   }
 
   countItem = idItem => {
-    const { multimedia, isEnded } = this.props.dataPage;
+    const { multimedia } = this.props.dataPage;
+    const { isEnded } = this.props;
 
     this.setState({
       actual: parseInt(idItem),

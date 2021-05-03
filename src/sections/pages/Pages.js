@@ -22,7 +22,9 @@ import ModalCircle2 from '../../components/ModalCircle2';
 import ModalCircle3 from '../../components/ModalCircle3';
 import ModalVideo1 from '../../components/ModalVideo1';
 import ModalGallery1 from '../../components/ModalGallery1';
+import ModalGallery2 from '../../components/ModalGallery2';
 import Pyramid1 from '../../components/Pyramid1';
+import Quiz1 from '../../components/Quiz1';
 import SlideDot1 from '../../components/SlideDot1';
 import SlideUpDown from '../../components/SlideUpDown';
 
@@ -1563,30 +1565,161 @@ class Page28 extends Component {
 }
 
 class Page29 extends Component {
+  state = {
+    openModal: false,
+    actGallery: false
+  }
+
+  // FUNCION PARA ABRIR MODAL
+  showModal = () => {
+    this.setState({
+      openModal: !this.state.openModal
+    });
+  }
+
+  // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
+  isEnded = (end) => {
+    const { checkEndActivity } = this.props;
+    // console.log('Recibí: ' + end);
+    checkEndActivity(29, end);
+  }
+
+  activateGallery = (end) => {
+    this.setState({
+      actGallery: true
+    });
+  }
+
   render() {
+    const { dataPage } = this.props;
+
     return (
       <div className = { 'pageContent'}>
-        <div className = 'c-10 animated fadeIn'>
+        { /* MUESTRA LA MODAL DE ACUERDO AL ESTADO openModal */ }
+        { this.state.openModal !== false ? <ModalGallery2 dataPage = { dataPage } showModal={ this.showModal } isEnded = { this.isEnded } /> : null }
 
+        <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-3 mL-4 mT-2'>
+          <h2
+            className = 'textHeader F2'
+            dangerouslySetInnerHTML = {{ __html: dataPage.headerPage.textHeader }}
+            style = {{ 'borderColor': dataPage.headerPage.color }}></h2>
+
+          <FontAwesomeIcon icon="play" size = 'lg' className = 'mL-025 mR-05' style = {{ 'color': '#EAEAEA' }} />
+
+          <img alt = 'Imagen' className = '' src = { dataPage.headerPage.imgHeader }/>
         </div>
+
+        <div className = 'c-10 animated fadeIn d-Flex j-Bt aI-C'>
+          <div className = 'mL-7 c-35 mT-025 mR-2 mB-2'> 
+            {
+              dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+
+            <InteractiveSubtitle dataPage={ dataPage.multimedia } isEnded = { this.activateGallery } />
+
+            {
+              dataPage.text ? <p className = 'mB-1 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
+          </div>
+
+          <div className = 'c-4 d-Flex j-C aI-S'>
+            <button className = { 'buttonVideo ' + (this.state.actGallery ? '' : 'disabled')} onClick = { this.showModal }>
+              <img
+                alt = 'Imagen'
+                className = ''
+                src = { dataPage.multimedia.buttonModal.imgBg }/>
+            </button>
+          </div>
+        </div>
+
+        <Instruction dataPage = { dataPage.instruction } />
       </div>
     );
   }
 }
 
 class Page30 extends Component {
+  state = {
+    openModal: false
+  }
+
+  // FUNCION PARA ABRIR MODAL
+  showModal = () => {
+    this.setState({
+      openModal: !this.state.openModal
+    });
+  }
+
+  // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
+  isEnded = (end) => {
+    const { checkEndActivity } = this.props;
+    // console.log('Recibí: ' + end);
+    checkEndActivity(30, end);
+  }
+
   render() {
+    const { dataPage } = this.props;
+
     return (
       <div className = { 'pageContent'}>
-        <div className = 'c-10 animated fadeIn'>
+        { /* MUESTRA LA MODAL DE ACUERDO AL ESTADO openModal */ }
+        { this.state.openModal !== false ? <ModalGallery2 dataPage = { dataPage } showModal={ this.showModal } isEnded = { this.isEnded } /> : null }
 
+        <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-2 mL-4 mT-2'>
+          <h2
+            className = 'textHeader F2'
+            dangerouslySetInnerHTML = {{ __html: dataPage.headerPage.textHeader }}
+            style = {{ 'borderColor': dataPage.headerPage.color }}></h2>
+
+          <FontAwesomeIcon icon="play" size = 'lg' className = 'mL-025 mR-05' style = {{ 'color': '#EAEAEA' }} />
+
+          <img alt = 'Imagen' className = '' src = { dataPage.headerPage.imgHeader }/>
         </div>
+
+        <div className = 'c-10 animated fadeIn d-Flex d-C j-S aI-S'>
+          <div className = 'mL-7 c-35 mT-025 mR-2 mB-2'> 
+            {
+              dataPage.title ? <h2 className = 'fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+            {
+              dataPage.text ? <p className = 'mB-1 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
+          </div>
+
+          <div className = 'mL-7 c-5 d-Flex j-S aI-S'>
+            <button className = { 'buttonVideo' } onClick = { this.showModal }>
+              <img
+                alt = 'Imagen'
+                className = 'c-8'
+                src = { dataPage.multimedia.buttonModal.imgBg }/>
+            </button>
+          </div>
+        </div>
+
+        <Instruction dataPage = { dataPage.instruction } />
       </div>
     );
   }
 }
 
 class Page31 extends Component {
+  state = {
+    openModal: false
+  }
+
+  // FUNCION PARA ABRIR MODAL
+  showModal = () => {
+    this.setState({
+      openModal: !this.state.openModal
+    });
+  }
+
+  // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
+  isEnded = (end) => {
+    const { checkEndActivity } = this.props;
+    // console.log('Recibí: ' + end);
+    checkEndActivity(31, end);
+  }
 
   componentDidMount() {
     this.props.checkEndUnit(4);
@@ -1594,22 +1727,96 @@ class Page31 extends Component {
   }
 
   render() {
+    const { dataPage } = this.props;
+
     return (
       <div className = { 'pageContent'}>
-        <div className = 'c-10 animated fadeIn'>
+        { /* MUESTRA LA MODAL DE ACUERDO AL ESTADO openModal */ }
+        { this.state.openModal !== false ? <ModalGallery2 dataPage = { dataPage } showModal={ this.showModal } isEnded = { this.isEnded } /> : null }
 
+        <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-2 mL-4 mT-2'>
+          <h2
+            className = 'textHeader F2'
+            dangerouslySetInnerHTML = {{ __html: dataPage.headerPage.textHeader }}
+            style = {{ 'borderColor': dataPage.headerPage.color }}></h2>
+
+          <FontAwesomeIcon icon="play" size = 'lg' className = 'mL-025 mR-05' style = {{ 'color': '#EAEAEA' }} />
+
+          <img alt = 'Imagen' className = '' src = { dataPage.headerPage.imgHeader }/>
         </div>
+
+        <div className = 'c-10 animated fadeIn d-Flex d-R j-S aI-C mT-3'>
+          <div className = 'mL-7 c-6 mT-025 mR-2 mB-6'> 
+            {
+              dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+            {
+              dataPage.text ? <p className = 'mB-1 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
+          </div>
+
+          <div className = 'c-45 d-Flex j-S aI-S mT-2'>
+            <button className = { 'buttonVideo' } onClick = { this.showModal }>
+              <img
+                alt = 'Imagen'
+                className = 'c-10'
+                src = { dataPage.multimedia.buttonModal.imgBg }/>
+            </button>
+          </div>
+        </div>
+
+        <Instruction dataPage = { dataPage.instruction } />
       </div>
     );
   }
 }
 
 class Page32 extends Component {
+  // FUNCION PARA ENVIAR EL INDEX ACTUALIZADO Y EMPEZAR EL QUIZ
+  startQuiz = e => {
+    e.preventDefault();
+    this.props.startQuiz(e.target.id);
+  }
+
   render() {
+    const { dataPage } = this.props;
+
     return (
       <div className = { 'pageContent'}>
-        <div className = 'c-10 animated fadeIn'>
+        <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-2 mL-4 mT-2'>
+          <h2
+            className = 'textHeader F2'
+            dangerouslySetInnerHTML = {{ __html: dataPage.headerPage.textHeader }}
+            style = {{ 'borderColor': dataPage.headerPage.color }}></h2>
 
+          <FontAwesomeIcon icon="play" size = 'lg' className = 'mL-025 mR-05' style = {{ 'color': '#EAEAEA' }} />
+
+          <img alt = 'Imagen' className = '' src = { dataPage.headerPage.imgHeader }/>
+        </div>
+
+        <div className = 'c-10 animated fadeIn d-Flex d-R j-S aI-C mT-3'>
+          <div className = 'mL-7 c-5 mT-025 mR-2 mB-6'> 
+            {
+              dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+            {
+              dataPage.text ? <p className = 'mB-1 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
+
+            <button
+              className = 'buttonQuiz pT-1 pB-1 pL-2 pR-2'
+              id = 'btnQuiz'
+              onClick = { this.startQuiz }>
+              { dataPage.button }
+            </button>
+          </div>
+
+          <div className = 'c-45 d-Flex j-S aI-S'>
+            <img
+              alt = 'Imagen'
+              className = ''
+              src = { dataPage.img }/>
+          </div>
         </div>
       </div>
     );
@@ -1617,17 +1824,53 @@ class Page32 extends Component {
 }
 
 class Page33 extends Component {
+  // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
+  isEnded = (end) => {
+    const { checkEndActivity } = this.props;
+    // console.log('Recibí: ' + end);
+    checkEndActivity(33, end);
+  }
   
   componentDidMount() {
     this.props.checkEndUnit(5);
     this.props.checkEnabledUnit(6);
   }
 
+  // FUNCION PARA ENVIAR EL INDEX ACTUALIZADO Y EMPEZAR EL QUIZ
+  endQuiz = (buttonPress) => {
+    // e.preventDefault();
+    this.props.endQuiz(buttonPress);
+  }
+
   render() {
+    const { dataPage } = this.props;
+
     return (
       <div className = { 'pageContent'}>
-        <div className = 'c-10 animated fadeIn'>
+        <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-2 mL-4 mT-2'>
+          <h2
+            className = 'textHeader F2'
+            dangerouslySetInnerHTML = {{ __html: dataPage.headerPage.textHeader }}
+            style = {{ 'borderColor': dataPage.headerPage.color }}></h2>
 
+          <FontAwesomeIcon icon="play" size = 'lg' className = 'mL-025 mR-05' style = {{ 'color': '#EAEAEA' }} />
+
+          <img alt = 'Imagen' className = '' src = { dataPage.headerPage.imgHeader }/>
+        </div>
+
+        <div className = 'c-10 animated fadeIn d-Flex d-C j-S aI-S'>
+          <div className = 'mL-7 c-5 mT-025 mR-2 mB-1'> 
+            {
+              dataPage.title ? <h2 className = 'fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
+            }
+            {
+              dataPage.text ? <p className = 'fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+            }
+          </div>
+
+          <div className = 'mL-7 c-9'>
+            <Quiz1 multimedia = { dataPage.multimedia } isEnded = { this.isEnded } endQuiz = { this.endQuiz } setScore = { this.props.setScore } />
+          </div>
         </div>
       </div>
     );
@@ -1637,7 +1880,7 @@ class Page33 extends Component {
 class Page34 extends Component {
   render() {
 
-    const { dataPage } = this.props;
+    const { dataPage, calificacion } = this.props;
 
     const style = {
       backgroundImage: 'url(' + dataPage.background.bg + ')',
@@ -1655,17 +1898,17 @@ class Page34 extends Component {
         }
         <div className="c-65 pL-5 d-Flex d-C j-C aI-C" style = {{ 'marginLeft': '16rem' }}>
           {
-            dataPage.title ? <h1 className = 'mB-2 F3 blanco tCenter' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h1> : null
+            dataPage.message.success.title ? <h1 className = 'mB-2 F3 blanco tCenter' dangerouslySetInnerHTML = {{ __html: calificacion >= 70 ? dataPage.message.success.title : dataPage.message.error.title }}></h1> : null
           }
           
           {
-            dataPage.module ? <h3 className = 'mB-1 blanco tCenter' dangerouslySetInnerHTML = {{ __html: dataPage.module }}></h3> : null
+            dataPage.message.success.module ? <h3 className = 'mB-1 blanco tCenter' dangerouslySetInnerHTML = {{ __html: calificacion >= 70 ? dataPage.message.success.module : dataPage.message.error.module }}></h3> : null
           }
           {
-            dataPage.courseName ? <p className = 'c-8 mB-2 blanco tCenter' dangerouslySetInnerHTML = {{ __html: dataPage.courseName }}></p> : null
+            dataPage.message.success.courseName ? <p className = 'c-8 mB-2 blanco tCenter' dangerouslySetInnerHTML = {{ __html: calificacion >= 70 ? dataPage.message.success.courseName : dataPage.message.error.courseName }}></p> : null
           }
           {
-            dataPage.subTitle ? <h2 className = 'mB-2 F2-5 blanco tCenter' dangerouslySetInnerHTML = {{ __html: dataPage.subTitle }}></h2> : null
+            dataPage.message.success.subTitle ? <h2 className = 'mB-2 F2-5 blanco tCenter' dangerouslySetInnerHTML = {{ __html: calificacion >= 70 ? dataPage.message.success.subTitle : dataPage.message.error.subTitle }}></h2> : null
           }
           {
             dataPage.buttonEnd ? <h2 className = 'blanco tCenter fw-3 buttonEnd' dangerouslySetInnerHTML = {{ __html: dataPage.buttonEnd }}></h2> : null

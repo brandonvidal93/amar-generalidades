@@ -2487,41 +2487,453 @@
   "page29": {
     "type": "pageCourse",
     "startUnit": true,
-    "nameUnit": "unit5"
+    "nameUnit": "unit5",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-5.png",
+      "textHeader"  : "Centro de Atención al <br>Usuario (CAU)",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Canales de contacto.",
+    "text"    : "A continuación, conoce nuestros canales de contacto en el siguiente folleto.",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en la imagen para ver el folleto",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "multimedia": {
+      "buttonModal": {
+        "title"       : "",
+        "text"        : "",
+        "imgBg"       : "img/29/btn-1.png"
+      },
+      "gallery": [
+        {
+          "key"       : 1,
+          "img"       : "img/29/img-1.png"
+        },
+        {
+          "key"       : 2,
+          "img"       : "img/29/img-2.png"
+        }
+      ],
+      "closedModal"   : true,
+      "audio": {
+        "src"         : "audio/bienvenida.mp3",
+        "autoPlay"    : true
+      },
+      "subtitles": {
+        "1"           : "En esta era digital la mayor parte de nuestra información se",
+        "3"           : "encuentra en línea y por lo general la forma en que ",
+        "6"           : "trabajamos, aprendemos, nos comunicamos, nos ",
+        "9"           : "relacionamos, entre otros; dependen de una conexión a la red.",
+        "13"          : "Tener conciencia frente a los riesgos que amenazan nuestra",
+        "16"          : "información es el mejor control que se necesita para evitar ser ",
+        "21"          : "víctimas de la inseguridad digital.",
+        "23"          : "Presta mucha atención a los diferentes temas que ",
+        "25"          : "desarrollaremos alrededor del curso. ¡Bienvenidos!"
+      },
+      "layers": [
+        {
+          "label"     : "Candidatos a cargos",
+          "color"     : "#1FBDED",
+          "time"      : 30
+        },
+        {
+          "label"     : "Empleados, exempleados",
+          "color"     : "#0C62A5",
+          "time"      : 32
+        },
+        {
+          "label"     : "Pensionados",
+          "color"     : "#04386D",
+          "time"      : 34
+        },
+        {
+          "label"     : "Accionistas",
+          "color"     : "#FBB03B",
+          "time"      : 35
+        },
+        {
+          "label"     : "Proveedores",
+          "color"     : "#F15A24",
+          "time"      : 36
+        },
+        {
+          "label"     : "Consumidores",
+          "color"     : "#93278F",
+          "time"      : 38
+        },
+        {
+          "label"     : "Recicladores",
+          "color"     : "#620B5F",
+          "time"      : 39
+        },
+        {
+          "label"     : "Usuarios",
+          "color"     : "#9E0B5D",
+          "time"      : 40
+        },
+        {
+          "label"     : "Clientes",
+          "color"     : "#8CC63F",
+          "time"      : 41
+        }
+      ]
+    }
   },
 
   "page30": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-5.png",
+      "textHeader"  : "Centro de Atención al <br>Usuario (CAU)",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Seguimiento a mis casos",
+    "text"    : "",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en la siguiente imagen y visualiza la información",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "multimedia": {
+      "buttonModal": {
+        "title"       : "",
+        "text"        : "",
+        "imgBg"       : "img/30/btn-1.png"
+      },
+      "gallery": [
+        {
+          "key"       : 1,
+          "img"       : "img/30/img-1.png"
+        }
+      ],
+      "closedModal"   : true
+    }
   },
 
   "page31": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-5.png",
+      "textHeader"  : "Centro de Atención al <br>Usuario (CAU)",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Conducto regular para las PQR y felicitaciones",
+    "text"    : "Es muy importante para nosotros conocer tus peticiones, quejas y reclamos para ofrecerte un mejor servicio,  por lo tanto, te invitamos a conocer los canales habilitados, tu opinión es muy importante: <br><br>Correo electrónico:  <b>sugerenciascau@familia.com.co</b><br><br> Portal de autoservicio: ingresa a él dando <b>clic aquí</b>",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en la siguiente imagen y visualiza la información",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "multimedia": {
+      "buttonModal": {
+        "title"       : "",
+        "text"        : "",
+        "imgBg"       : "img/31/btn-1.png"
+      },
+      "gallery": [
+        {
+          "key"       : 1,
+          "img"       : "img/31/img-1.png"
+        }
+      ],
+      "closedModal"   : true
+    }
   },
 
   "page32": {
     "type": "pageCourse",
     "startUnit": true,
-    "nameUnit": "unit6"
+    "nameUnit": "unit6",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-6.png",
+      "textHeader"  : "Evaluación final del curso.",
+      "color"       : "#5C2481"
+    },
+    "title"   : "",
+    "text"    : "Te invitamos a realizar la evaluación final del curso. <br> <br>Responde a continuación las preguntas para que evaluemos el aprendizaje que hemos logrado en esta formación.",
+    "button": "Realizar prueba final",
+    "img": "img/32/img-1.png"
   },
 
   "page33": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-6.png",
+      "textHeader"  : "Evaluación final del curso.",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Evaluación final",
+    "text"    : "",
+    "multimedia": {
+      "modal": {
+        "check": {
+          "title"         : "¡Muy bien!",
+          "text"          : "Aprobaste exitosamente la evaluación de conocimientos. Has demostrado tu compromiso e interés por conocer sobre este tema, continúa con esta actitud positiva y obtendrás grandes resultados.",
+          "img"           : "img/33/check.png"
+        },
+        "error": {
+          "title"         : "¡Inténtalo nuevamente!",
+          "text"          : "No lograste superar el porcentaje. Te invitamos a realizar nuevamente la evaluación final, si lo requieres puedes volver al contenido y reforzar los conocimientos. Esta vez lo harás mejor.",
+          "img"           : "img/33/error.png"
+        }
+      },
+      "questions": [
+        {
+          "type"          : "single",
+          "instruction"   : "Selecciona la respuesta correcta.",
+          "statement"     : "<b>1.</b> ¿Qué motiva a los criminales en la red?",
+          "options": [
+            {
+              "type"      : "A",
+              "text"      : "Fraudes, robo de identidad, extorciones",
+              "value"     : false,
+              "color"     : "#189BDB"
+            },
+            {
+              "type"      : "B",
+              "text"      : "Dinero fácil y con el menor riesgo",
+              "value"     : false,
+              "color"     : "#86BF41"
+            },
+            {
+              "type"      : "C",
+              "text"      : "Acceso a cualquier persona",
+              "value"     : false,
+              "color"     : "#E21485"
+            },
+            {
+              "type"      : "D",
+              "text"      : "Baja inversión",
+              "value"     : false,
+              "color"     : "#E21485"
+            },
+            {
+              "type"      : "E",
+              "text"      : "Reconocimiento y popularidad",
+              "value"     : false,
+              "color"     : "#E21485"
+            },
+            {
+              "type"      : "F",
+              "text"      : "Todas las anteriores",
+              "value"     : true,
+              "color"     : "#E21485"
+            }
+          ]
+        },
+        {
+          "type"          : "single",
+          "instruction"   : "Selecciona la respuesta correcta.",
+          "statement"     : "<b>2.</b> ¿Cuál es el canal más efectivo para reportar problemas con mi computador al CAU?",
+          "options": [
+            {
+              "type"      : "A",
+              "text"      : "Llamar al jefe",
+              "value"     : false,
+              "color"     : "#FBB03B"
+            },
+            {
+              "type"      : "B",
+              "text"      : "Usar el canal de la línea de atención telefónica",
+              "value"     : true,
+              "color"     : "#93278F"
+            },
+            {
+              "type"      : "C",
+              "text"      : "Mandar un correo al CAU",
+              "value"     : false,
+              "color"     : "#D4145A"
+            },
+            {
+              "type"      : "D",
+              "text"      : "Reportarlo a la línea de transparencia",
+              "value"     : false,
+              "color"     : "#D4145A"
+            }
+          ]
+        },
+        {
+          "type"          : "single",
+          "instruction"   : "Selecciona la respuesta correcta.",
+          "statement"     : "<b>3.</b> ¿Quién es el objetivo de un atacante informático?",
+          "options": [
+            {
+              "type"      : "A",
+              "text"      : "Solo entidades bancarias",
+              "value"     : false,
+              "color"     : "#D4145A"
+            },
+            {
+              "type"      : "B",
+              "text"      : "Cualquier persona que maneje información o un dispositivo que esté conectado en una red",
+              "value"     : true,
+              "color"     : "#F15A24"
+            },
+            {
+              "type"      : "C",
+              "text"      : "Sólo grandes empresas",
+              "value"     : false,
+              "color"     : "#0C62A5"
+            },
+            {
+              "type"      : "D",
+              "text"      : "Ninguna de las anteriores",
+              "value"     : false,
+              "color"     : "#0C62A5"
+            }
+          ]
+        },
+        {
+          "type"          : "single",
+          "instruction"   : "Selecciona la respuesta correcta.",
+          "statement"     : "<b>4.</b> Debo revisar el estado de mis casos, ¿qué herramienta puedo utilizar?",
+          "options": [
+            {
+              "type"      : "A",
+              "text"      : "Utilizar el conducto regular para poner una sugerencia",
+              "value"     : false,
+              "color"     : "#F3B229"
+            },
+            {
+              "type"      : "B",
+              "text"      : "Ingresar al portal “Cómo van mis casos en el CAU”",
+              "value"     : true,
+              "color"     : "#04386D"
+            },
+            {
+              "type"      : "C",
+              "text"      : "Llamar a la dirección de TI",
+              "value"     : false,
+              "color"     : "#E21485"
+            },
+            {
+              "type"      : "D",
+              "text"      : "Preguntar al jefe inmediato",
+              "value"     : false,
+              "color"     : "#E21485"
+            }
+          ]
+        },
+        {
+          "type"          : "single",
+          "instruction"   : "Selecciona la respuesta correcta.",
+          "statement"     : "<b>5.</b> ¿En dónde debo almacenar la información dentro de mi PC?",
+          "options": [
+            {
+              "type"      : "A",
+              "text"      : "En el escritorio",
+              "value"     : false,
+              "color"     : "#1C9BDB"
+            },
+            {
+              "type"      : "B",
+              "text"      : "En la papelera de reciclaje",
+              "value"     : false,
+              "color"     : "#04386D"
+            },
+            {
+              "type"      : "C",
+              "text"      : "En una memoria USB",
+              "value"     : false,
+              "color"     : "#93278F"
+            },
+            {
+              "type"      : "D",
+              "text"      : "En OneDrive",
+              "value"     : true,
+              "color"     : "#93278F"
+            }
+          ]
+        },
+        {
+          "type"          : "single",
+          "instruction"   : "Selecciona la respuesta correcta.",
+          "statement"     : "<b>6.</b> Si recibo un correo sospechoso a mi cuenta corporativa, ¿qué debo hacer?",
+          "options": [
+            {
+              "type"      : "A",
+              "text"      : "Descargar el archivo adjunto y abrirlo en mi computador",
+              "value"     : false,
+              "color"     : "#0D62A5"
+            },
+            {
+              "type"      : "B",
+              "text"      : "Darle clic de inmediato al vínculo adjunto",
+              "value"     : false,
+              "color"     : "#04386D"
+            },
+            {
+              "type"      : "C",
+              "text"      : "Comunicarme con el Área de Riesgos de la Compañía",
+              "value"     : false,
+              "color"     : "#FBB03B"
+            },
+            {
+              "type"      : "D",
+              "text"      : "Llamar al CAU o utilizar el portal del CAU para reportarlo",
+              "value"     : true,
+              "color"     : "#189BDB"
+            }
+          ]
+        },
+        {
+          "type"          : "FV",
+          "instruction"   : "7. Lee atentamente el siguiente enunciado y responde si es verdadero o falso de acuerdo al conocimiento adquirido.",
+          "statement"     : "La seguridad de la información consiste en implementar tecnologías y controles enfocados en las personas, administración de procesos, la infraestructura y las tecnologías, con el fin de reducir y controlar el riesgo de un ataque cibernético que atentan con su confidencialidad, integridad y disponibilidad.",
+          "options": [
+            {
+              "type"      : "VR",
+              "text"      : "Verdadero",
+              "value"     : true,
+              "color"     : "#0D62A5"
+            },
+            {
+              "type"      : "FR",
+              "text"      : "Falso",
+              "value"     : false,
+              "color"     : "#04386D"
+            }
+          ]
+        }
+      ]
+    }
   },
 
   "page34": {
-    "type"        : "endCourse",
-    "title"       : "¡Has llegado al final de<br>este recorrido! ",
-    "subTitle"    : "¡Muchas gracias!",
-    "module"      : "",
-    "courseName"  : "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica las recomendaciones que hemos entregado a lo largo del curso y así evitar ser víctima de un ciberdelincuente. <br><br>Recuerda que con tus buenas prácticas protegemos lo nuestro.",
-    "logoCourse"  : "img/cover/logo-1.png",
-    "logoFooter"  : "img/cover/logo-2.png",
-    "background": {
-      "bg"        : "img/cover/fondo-end.png"
+    "type"            : "endCourse",
+    "message": {
+      "success": {
+        "title"       : "¡Has llegado al final de <br>este recorrido!",
+        "subTitle"    : "¡Muchas gracias!",
+        "module"      : "",
+        "courseName"  : "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica las recomendaciones que hemos entregado a lo largo del curso y así evitar ser víctima de un ciberdelincuente. <br><br>Recuerda que con tus buenas prácticas protegemos lo nuestro."
+      },
+      "error": {
+        "title"       : "¡No has cumplido <br>con el objetivo!",
+        "subTitle"    : "¡Muchos éxitos!",
+        "module"      : "",
+        "courseName"  : "Te invitamos a realizar nuevamente la evaluación, esta vez lo harás mejor. <br><br>Concéntrate en las 7 preguntas que hemos preparado para ti."
+      }
     },
-    "buttonEnd"   : "Cierra la ventana para finalizar",
+    "logoCourse"      : "img/cover/logo-1.png",
+    "logoFooter"      : "img/cover/logo-2.png",
+    "background": {
+      "bg"            : "img/cover/fondo-end.png"
+    },
+    "buttonEnd"       : "Cierra la ventana para finalizar",
     "footer": {
-      "label"     : "Seguridad de la información"
+      "label"         : "Seguridad de la información"
     }
   },
 

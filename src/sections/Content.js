@@ -13,7 +13,7 @@ import {
 
 class Content extends Component {
   showContent = () => {
-    const { actualIndex, clickNavigation, data, goToPage, checkEnabledUnit, endActivities, checkEndActivity, checkEndUnit, setScore, calificacion } = this.props;
+    const { actualIndex, clickNavigation, data, checkEnabledUnit, endActivities, checkEndActivity, checkEndUnit, setScore, calificacion } = this.props;
     switch (actualIndex) {
       // COVER -------------------------------------------------------------------------------
       case 0: return ( <Cover dataPage = { data.coverPage } startCourse = { clickNavigation } /> );
@@ -21,7 +21,7 @@ class Content extends Component {
       // INS ---------------------------------------------------------------------------------
       case 1: return( <Page1 dataPage = { data.page1 } startCourse = { clickNavigation } /> );
 
-      case 2: return( <Page2 dataPage = { data.page2 } checkEnabledUnit = { checkEnabledUnit } endActivities = { endActivities[2] } checkEndActivity = { checkEndActivity } /> );
+      case 2: return( <Page2 dataPage = { data.page2 } endActivities = { endActivities[2] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } /> );
 
       // UNIDAD 1 ---------------------------------------------------------------------------
       case 3: return( <Page3 dataPage = { data.page3 } endActivities = { endActivities[3] } checkEndActivity = { checkEndActivity } /> );
@@ -92,13 +92,13 @@ class Content extends Component {
       // FIN UNIDAD 5 -----------------------------------------------------------------------
 
       // UNIDAD 6 ---------------------------------------------------------------------------
-      case 32: return( <Page32 dataPage = { data.page32 } /> );
+      case 32: return( <Page32 dataPage = { data.page32 } startQuiz = { clickNavigation } /> );
 
-      case 33: return( <Page33 dataPage = { data.page33 } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
+      case 33: return( <Page33 dataPage = { data.page33 } endQuiz = { clickNavigation } setScore = { setScore } endActivities = { endActivities[33] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
       // FIN UNIDAD 4 -----------------------------------------------------------------------
 
       // END --------------------------------------------------------------------------------
-      case 34: return( <Page34 dataPage = { data.page34 } /> );
+      case 34: return( <Page34 dataPage = { data.page34 } calificacion = { calificacion } /> );
 
       default:
         break;
