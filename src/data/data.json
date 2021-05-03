@@ -2353,7 +2353,135 @@
   },
 
   "page28": {
-    "type": "pageCourse"
+    "type": "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-4.png",
+      "textHeader"  : "Seguridad de la información",
+      "color"       : "#5C2481"
+    },
+    "title"   : "Valida tus conocimientos",
+    "text"    : "De acuerdo con el tema visto sobre las amenazas, identifícalas en la siguiente actividad.",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Coloca el mouse sobre cada número para ver el ítem, luego, arrastra el número a la opción que le corresponda en los signos de interrogación que hay al lado izquierdo.",
+      "posY"    : 50,
+      "posX"    : 660,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "multimedia": {
+      "dragItem": [
+        {
+          "id"          : 1,
+          "text"        : "Sugerencia para el uso del móvil",
+          "textPosY"    : -23,
+          "textPosX"    : -130,
+          "img"         : "",
+          "color"       : "#FEC72E",
+          "type"        : "1",
+          "posY"        : 34,
+          "posX"        : 51
+        },
+        {
+          "id"          : 2,
+          "text"        : "Contraseña",
+          "textPosY"    : -25,
+          "textPosX"    : 210,
+          "img"         : "",
+          "color"       : "#FD8223",
+          "type"        : "2",
+          "posY"        : 34,
+          "posX"        : 199
+        },
+        {
+          "id"          : 3,
+          "text"        : "Conversaciones",
+          "textPosY"    : 67,
+          "textPosX"    : 240,
+          "img"         : "",
+          "color"       : "#C70E62",
+          "type"        : "3",
+          "posY"        : 125,
+          "posX"        : 234
+        },
+        {
+          "id"          : 4,
+          "text"        : "Respaldo de información",
+          "textPosY"    : 283,
+          "textPosX"    : 109,
+          "img"         : "",
+          "color"       : "#6C1BC7",
+          "type"        : "4",
+          "posY"        : 215,
+          "posX"        : 199
+        },
+        {
+          "id"          : 5,
+          "text"        : "Redes sociales",
+          "textPosY"    : 285,
+          "textPosX"    : -40,
+          "img"         : "",
+          "color"       : "#189BDB",
+          "type"        : "5",
+          "posY"        : 215,
+          "posX"        : 51
+        },
+        {
+          "id"          : 6,
+          "text"        : "Estaciones de trabajo",
+          "textPosY"    : 130,
+          "textPosX"    : -172,
+          "img"         : "",
+          "color"       : "#A7BF25",
+          "type"        : "6",
+          "posY"        : 125,
+          "posX"        : 16
+        }
+      ],
+      "dropZone": {
+        "drops": [
+          {
+            "key"       : 1,
+            "box"       : "<div class = 'boxDrop'></div>",
+            "text"      : "Guarda copias de seguridad en el OneDrive Empresarial",
+            "type"      : "4"
+          },
+          {
+            "key"       : 2,
+            "box"       : "<div class = 'boxDrop'></div>",
+            "text"      : "No compartas información en lugares públicos ",
+            "type"      : "3"
+          },
+          {
+            "key"       : 3,
+            "box"       : "<div class = 'boxDrop'></div>",
+            "text"      : "Cámbiala con frecuencia",
+            "type"      : "2"
+          },
+          {
+            "key"       : 4,
+            "box"       : "<div class = 'boxDrop'></div>",
+            "text"      : "Evita conectarte a redes desconocidas.",
+            "type"      : "1"
+          },
+          {
+            "key"       : 5,
+            "box"       : "<div class = 'boxDrop'></div>",
+            "text"      : "No permitas que el navegador recuerde las contraseñas",
+            "type"      : "6"
+          },
+          {
+            "key"       : 6,
+            "box"       : "<div class = 'boxDrop'></div>",
+            "text"      : "Cuida muy bien la información y contenido de lo que publicas ",
+            "type"      : "5"
+          }
+        ]
+      },
+      "resources": {
+        "bgImg"         : "img/28/bgPage-28.png"
+      }
+    }
   },
 
   "page29": {
