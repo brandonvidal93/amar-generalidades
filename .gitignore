@@ -2,6 +2,7 @@
 node_modules/
 versiones/
 build/
+SCORM/
 
 # Archivos de Mac
 *.DS_Store
