@@ -228,7 +228,7 @@
       "color"       : "#5C2481"
     },
     "title"   : "¿Qué motiva a los criminales en la red?",
-    "text"    : "En la siguiente imagen podrás conocer qué es lo que motiva a los criminales en la red.",
+    "text"    : "En la siguiente multimedia podrás conocer qué es lo que motiva a los criminales en la red.",
     "background": {
       "bg": "img/4/bgPage-4.png"
     },
@@ -363,8 +363,8 @@
       "textHeader"  : "Generalidades",
       "color"       : "#5C2481"
     },
-    "title"   : "¿Qué motiva a los criminales en la red?",
-    "text"    : "En la siguiente imagen podrás conocer qué es lo que motiva a los criminales en la red.",
+    "title"   : "¿Quién es el objetivo de un ataque informático?",
+    "text"    : "Para descubrirlo, te invitamos a seguir esta conversación.",
     "instruction": {
       "type"    : "mouse",
       "text"    : "Sigue la conversación dando clic en en botón con dirección hacia abajo.",
@@ -878,8 +878,8 @@
         {
           "imgBg": "img/11/n-1.png",
           "img": "",
-          "info": "Estafa por medio de mensajes SMS (mensajes de texto), donde se solicitan datos o se pide llamar a un número o ingresar a un sitio web.",
-          "width": 190,
+          "info": "Estafa por medio de mensajes SMS (mensajes de texto), donde se solicitan datos, se pide llamar a un número o ingresar a un sitio web.",
+          "width": 210,
           "color": "#2097D3",
           "button": {
             "posY": 80,
@@ -889,8 +889,8 @@
         {
           "imgBg": "img/11/n-2.png",
           "img": "",
-          "info": "Estafa por medio de mensajes SMS (mensajes de texto), donde se solicitan datos o se pide llamar a un número o ingresar a un sitio web.",
-          "width": 220,
+          "info": "Estafa por medio de mensajes SMS, que tiene como objetivo redirigir al usuario a una página web falsa con el fin de obtener datos personales, información bancaria o infectar su dispositivo móvil.",
+          "width": 210,
           "color": "#04366A",
           "button": {
             "posY": 80,
@@ -901,7 +901,7 @@
           "imgBg": "img/11/n-3.png",
           "img": "",
           "info": "En algunas ocasiones se pide llamar a un número en donde se le solicita cierta información con técnicas de ingeniería social.",
-          "width": 190,
+          "width": 210,
           "color": "#89C240",
           "button": {
             "posY": 80,
@@ -912,7 +912,7 @@
           "imgBg": "img/11/n-4.png",
           "img": "img/11/img-1.png",
           "info": "",
-          "width": 190,
+          "width": 210,
           "color": "#683E92",
           "button": {
             "posY": 80,
@@ -1006,60 +1006,60 @@
             "key"       : 1,
             "img"       : "img/13/n-1.png",
             "target"    : "1",
-            "posY"      : 60,
-            "posX"      : -300,
+            "posY"      : 50,
+            "posX"      : -322,
             "type"      : "1",
             "imgPos": {
-              "Y"       : -34,
-              "X"       : -10
+              "Y"       : -24,
+              "X"       : 12
             }
           },
           {
             "key"       : 2,
             "img"       : "img/13/n-2.png",
             "target"    : "2",
-            "posY"      : 6,
-            "posX"      : -221,
+            "posY"      : -16,
+            "posX"      : -226,
             "type"      : "2",
             "imgPos": {
-              "Y"       : -5,
-              "X"       : -35
+              "Y"       : 17,
+              "X"       : -30
             }
           },
           {
             "key"       : 3,
             "img"       : "img/13/n-3.png",
             "target"    : "3",
-            "posY"      : 63,
-            "posX"      : -145,
+            "posY"      : 51,
+            "posX"      : -135,
             "type"      : "3",
             "imgPos": {
-              "Y"       : -37,
-              "X"       : -34
+              "Y"       : -25,
+              "X"       : -44
             }
           },
           {
             "key"       : 4,
             "img"       : "img/13/n-4.png",
             "target"    : "4",
-            "posY"      : 151,
-            "posX"      : -179,
+            "posY"      : 161,
+            "posX"      : -169,
             "type"      : "4",
             "imgPos": {
-              "Y"       : -19,
-              "X"       : -39
+              "Y"       : -30,
+              "X"       : -50
             }
           },
           {
             "key"       : 5,
             "img"       : "img/13/n-5.png",
             "target"    : "5",
-            "posY"      : 150,
-            "posX"      : -273,
+            "posY"      : 158,
+            "posX"      : -286,
             "type"      : "5",
             "imgPos": {
-              "Y"       : -37,
-              "X"       : -30
+              "Y"       : -46,
+              "X"       : -18
             }
           }
         ],
@@ -1069,7 +1069,7 @@
             "title"         : "",
             "colorTitle"    : "",
             "img"           : "img/13/img-1.png",
-            "text"          : "Es un tipo de malware (software malicioso) que infecta tu computadora y muestra mensajes que exigen el pago de dinero para restablecer el funcionamiento del sistema. Este tipo de malware se usa para para ganar dinero utilizando técnicas de engaño a través de enlaces maliciosos incluidos en un mensaje de correo electrónico, mensajes de texto o sitio web. El ransomware tiene la capacidad de bloquear la pantalla de una computadora o cifrar archivos importantes predeterminados con una contraseña."
+            "text"          : "Es un tipo de malware (software malicioso) que infecta tu computadora y muestra mensajes que exigen el pago de dinero para restablecer el funcionamiento del sistema. Este tipo de malware se usa para ganar dinero utilizando técnicas de engaño a través de enlaces maliciosos incluidos en un mensaje de correo electrónico, mensajes de texto o sitio web. El ransomware tiene la capacidad de bloquear la pantalla de una computadora o cifrar archivos importantes predeterminados con una contraseña."
           }
         ]
       },
@@ -1467,7 +1467,7 @@
         },
         "itemInfo": {
           "title"     : "",
-          "text"      : "Configura la opción de  bloqueo de pantalla por inactividad y configura contraseña para desbloquearlo.",
+          "text"      : "Configura la opción de bloqueo de pantalla por inactividad y contraseña para desbloquearlo.",
           "posGlobe": {
             "posY"    : 1023,
             "posX"    : 373
@@ -1566,7 +1566,7 @@
         "information": {
           "img1": "img/18/n-5.png",
           "img2": "",
-          "text": "No utilices dispositivos USB desconocidos y compra marcas confiables en lugares confiables."
+          "text": "No utilices dispositivos USB desconocidos y compra marcas confiables en lugares garantizados."
         }
       },
       {
@@ -1577,7 +1577,7 @@
         "information": {
           "img1": "img/18/n-6.png",
           "img2": "",
-          "text": "Para descargar e instalar aplicaciones apóyate con el Centro de Atención al Usuario, si necesitas hacerlo en tu equipo personal realiza la descarga en el sitio del fabricante y usa licencias legales."
+          "text": "Para descargar e instalar aplicaciones apóyate con el <b>Centro de Atención al Usuario</b>, si necesitas hacerlo en tu equipo personal realiza la descarga en el sitio del fabricante y usa licencias legales."
         }
       }
     ]
@@ -1591,7 +1591,7 @@
       "color"       : "#5C2481"
     },
     "title"   : "Contraseñas",
-    "text"    : "Mecanismo diseñado para proteger el acceso a las diferentes cuentas de aplicaciones, como correo electrónico, redes sociales, cuantas bancarias, computadores, entre otras. El mal uso de las contraseñas es igual a dejar las llaves pegadas en la cerradura externa de la puerta de la casa. <br><br>Las contraseñas protegen tu identidad y es información que solamente debe conocer el propietario. <br><br>A continuación, te presentamos algunos tips para el manejo de las contraseñas",
+    "text"    : "Mecanismo diseñado para proteger el acceso a las diferentes cuentas de aplicaciones, como correo electrónico, redes sociales, cuantas bancarias, computadores, entre otras. El mal uso de las contraseñas es igual a dejar las llaves pegadas en la cerradura externa de la puerta de la casa. <br><br>Las contraseñas protegen tu identidad y es información que solamente debe conocer el propietario. <br><br>A continuación, te presentamos algunos tips para el manejo de las contraseñas.",
     "instruction": {
       "type"          : "mouse",
       "text"          : "Haz clic en los botones para conocer la información",
@@ -1693,7 +1693,7 @@
         "posX"              : -46,
         "itemInfo": {
           "title"           : "06",
-          "text1"           : "Aprovecha los nuevos métodos de seguridad como autenticación en dos pasos ,verificación de huella dactilar o reconocimiento facial.",
+          "text1"           : "Aprovecha los nuevos métodos de seguridad como autenticación en dos pasos, verificación de huella dactilar o reconocimiento facial.",
           "text2"           : "",
           "colorText"       : "#683E92",
           "buttonClose": {
@@ -1773,7 +1773,7 @@
         "bgPosX"  : 275
       },
       {
-        "text1"   : "Ejemplo: acabo de retirar de mi cuenta bancaria USD $2.000 y en una conversación en el transporte público le cuento a mi compañero que llevo esa suma de dinero en el bolsillo, ¿qué pasaría si un delincuente que va en ese mismo transporte escucha la conversación?",
+        "text1"   : "<b>Ejemplo:</b> acabo de retirar de mi cuenta bancaria USD $2.000 y en una conversación en el transporte público le cuento a mi compañero que llevo esa suma de dinero en el bolsillo, ¿qué pasaría si un delincuente que va en ese mismo transporte escucha la conversación?",
         "img1"    : "",
         "color"   : "#F8B32A",
         "bg"      : "img/20/bg-7.png",
@@ -1798,10 +1798,10 @@
         "autoPlay"        : true
       },
       "subtitles": {
-        "3"               : "Tener un respaldo actualizado minimiza el impacto de perdida de la información en caso de ",
-        "7"              : "alguna falla, robo o infección del dispositivo.",
-        "11"              : "Dentro de la Compañía se sugiere que la información sea almacenada dentro de",
-        "14"              : "OneDrive Empresarial."
+        "3"               : "Tener un respaldo actualizado minimiza el impacto de pérdida de la información en caso de",
+        "7"               : "alguna falla, robo o infección del dispositivo.",
+        "11"              : "Dentro de la Compañía, la información debe ser almacenada",
+        "14"              : "en el One Drive corporativo."
       },
       "layers": [
         [{
@@ -1820,19 +1820,19 @@
             "labelSide"   : "bottom",
             "icon"        : "img/21/n-2.png",
             "time"        : 4,
-            "size"        : 266,
+            "size"        : 296,
             "position": {
               "yPosition" : 17,
-              "xPosition" : 57
+              "xPosition" : 27
             }
           },
           {
             "icon"        : "img/21/n-3.png",
             "time"        : 7,
-            "size"        : 138,
+            "size"        : 164,
             "position": {
               "yPosition" : 110,
-              "xPosition" : 264
+              "xPosition" : 251
             }
           },
           {
@@ -1840,7 +1840,7 @@
             "labelSide"   : "bottom",
             "icon"        : "img/21/n-4.png",
             "time"        : 11,
-            "size"        : 294,
+            "size"        : 283,
             "position": {
               "yPosition" : 18,
               "xPosition" : 345
@@ -1850,7 +1850,7 @@
             "label"       : "",
             "labelSide"   : "bottom",
             "time"        : 13,
-            "size"        : 331,
+            "size"        : 345,
             "icon"        : "img/21/n-5.png",
             "position": {
               "yPosition" : 113,
@@ -1919,7 +1919,7 @@
         "posX"              : -10,
         "itemInfo": {
           "title"           : "01",
-          "text1"           : "No dejes en el escritorio llaves, identificación o medio de acceso que tengas bajo tu responsabilidad",
+          "text1"           : "No dejes en el escritorio llaves, identificación o medio de acceso que tengas bajo tu responsabilidad.",
           "text2"           : "",
           "colorText"       : "#023974",
           "buttonClose": {
@@ -1936,7 +1936,7 @@
         "posX"              : -10,
         "itemInfo": {
           "title"           : "02",
-          "text1"           : "No dejes visible en pantalla información reservada y/o confidencial",
+          "text1"           : "No dejes visible en pantalla información reservada y/o confidencial.",
           "text2"           : "",
           "colorText"       : "#074991",
           "buttonClose": {
@@ -1953,7 +1953,7 @@
         "posX"              : 137,
         "itemInfo": {
           "title"           : "03",
-          "text1"           : "Recoge siempre los documentos que mandes a imprimir. Principalmente si la impresora es compartida",
+          "text1"           : "Recoge siempre los documentos que mandes a imprimir. Principalmente si la impresora es compartida.",
           "text2"           : "",
           "colorText"       : "#2171B3",
           "buttonClose": {
@@ -1970,7 +1970,7 @@
         "posX"              : 284,
         "itemInfo": {
           "title"           : "04",
-          "text1"           : "No pegues notas en el monitor o cualquier otra espacio visible con información reservada y/o confidencial",
+          "text1"           : "No pegues notas en el monitor o en un espacio visible con información reservada y/o confidencial.",
           "text2"           : "",
           "colorText"       : "#2097D3",
           "buttonClose": {
@@ -1987,7 +1987,7 @@
         "posX"              : 284,
         "itemInfo": {
           "title"           : "05",
-          "text1"           : "Resguarda documentos impresos y medio de almacenamiento con información reservada y/o confidencial bajo llave",
+          "text1"           : "Resguarda documentos impresos y medios de almacenamiento con información reservada y/o confidencial bajo llave.",
           "text2"           : "",
           "colorText"       : "#89C240",
           "buttonClose": {
@@ -2004,7 +2004,7 @@
         "posX"              : 135,
         "itemInfo": {
           "title"           : "06",
-          "text1"           : "Bloquea tus equipos cuando te ausentes",
+          "text1"           : "Bloquea tus equipos cuando te ausentes.",
           "text2"           : "",
           "colorText"       : "#683E92",
           "buttonClose": {
@@ -2028,7 +2028,7 @@
       "color"       : "#5C2481"
     },
     "title"   : "Redes sociales",
-    "text"    : "“Si no eres capaz de decirlo o hacerlo en un escenario, no lo digas ni lo hagas en las redes sociales”",
+    "text"    : "“Si no eres capaz de decirlo o hacerlo en un escenario, no lo digas ni lo hagas en las redes sociales”.",
     "boxInfo": {
       "title"         : "Reproducir video",
       "text"          : "",
@@ -2081,7 +2081,7 @@
         },
         "itemInfo": {
           "title"     : "",
-          "text"      : "¿Qué amenazas o riesgos pueden atentar contra la información? <br>· Catástrofes naturales <br>· Amenazas físicas <br>· Fraude informático <br>· Errores Humanos <br>· Software ilegal <br>· Intrusión",
+          "text"      : "<b>¿Qué amenazas o riesgos pueden atentar contra la información?</b> <br>· Catástrofes naturales <br>· Amenazas físicas <br>· Fraude informático <br>· Errores humanos <br>· Software ilegal <br>· Intrusión",
           "posGlobe": {
             "posY"    : -200,
             "posX"    : 190
@@ -2098,7 +2098,7 @@
         },
         "itemInfo": {
           "title"     : "",
-          "text"      : "¿Y cómo prevenir estas amenazas o mitigar el riesgo? <br> Con la Política de Seguridad, a través de: <br>· Copias de respaldo <br>· Software legal<br>· Seguridad en las comunicaciones.",
+          "text"      : "<b>¿Y cómo prevenir estas amenazas o mitigar el riesgo?</b> <br> Con la Política de Seguridad, a través de: <br>· Copias de respaldo <br>· Software legal<br>· Seguridad en las comunicaciones.",
           "posGlobe": {
             "posY"    : 10,
             "posX"    : 257
@@ -2265,42 +2265,42 @@
       "dragItem": [
         {
           "id": 1,
-          "text": "La tecnología por sí sola no puede proteger tu información",
+          "text": "La tecnología por sí sola no puede proteger tu información.",
           "imgSource": "",
           "img": "img/27/n-1.png",
           "type": "1"
         },
         {
           "id": 2,
-          "text": "La manera más fácil es engañarte",
+          "text": "La manera más fácil es engañarte.",
           "imgSource": "",
           "img": "img/27/n-2.png",
           "type": "1"
         },
         {
           "id": 3,
-          "text": "La mejor defensa contra los atacantes eres tú mismo",
+          "text": "La mejor defensa contra los atacantes eres tú mismo.",
           "imgSource": "",
           "img": "img/27/n-3.png",
           "type": "1"
         },
         {
           "id": 4,
-          "text": "Siempre utiliza software licenciado y actualízalo",
+          "text": "Siempre utiliza software licenciado y actualízalo.",
           "imgSource": "",
           "img": "img/27/n-4.png",
           "type": "1"
         },
         {
           "id": 5,
-          "text": "Gestiona bien tus contraseñas",
+          "text": "Gestiona bien tus contraseñas.",
           "imgSource": "",
           "img": "img/27/n-5.png",
           "type": "1"
         },
         {
           "id": 6,
-          "text": "Asegúrate de contar con respaldo de tu información",
+          "text": "Asegúrate de contar con respaldo de tu información.",
           "imgSource": "",
           "img": "img/27/n-6.png",
           "type": "1"
@@ -2321,7 +2321,7 @@
         },
         {
           "id": 9,
-          "text": "Para hacer uso de la banca en línea, siempre verifica que la URL comienza con HTTPS",
+          "text": "Para hacer uso de la banca en línea, siempre verifica que la URL comience con HTTPS.",
           "imgSource": "",
           "img": "img/27/n-9.png",
           "type": "1"
@@ -2493,7 +2493,7 @@
       "textHeader"  : "Centro de Atención al <br>Usuario (CAU)",
       "color"       : "#5C2481"
     },
-    "title"   : "Canales de contacto.",
+    "title"   : "Canales de contacto",
     "text"    : "En el Centro de Atención al Usuario evolucionamos nuestros medios de contacto, con el fin de fortalecer la comunicación con los usuarios y ofrecerles un servicio más oportuno. <br><br> Nuestro nuevo modelo de servicio nos permite escuchar y conocer tus solicitudes a través de diferentes medios, sin embargo si tu requerimiento es urgente y necesitas una pronta respuesta, te recomendamos utilizar las líneas telefónicas, estamos disponible los 7 días a la semana, las 24 horas del día, durante todo el año. <br><br>A continuación, conoce nuestros canales de contacto en el siguiente folleto.",
     "instruction": {
       "type"    : "mouse",
@@ -2659,7 +2659,7 @@
     "nameUnit": "unit6",
     "headerPage": {
       "imgHeader"   : "img/menuCourse/n-6.png",
-      "textHeader"  : "Evaluación final del curso.",
+      "textHeader"  : "Evaluación final del curso",
       "color"       : "#5C2481"
     },
     "title"   : "",
@@ -2672,7 +2672,7 @@
     "type": "pageCourse",
     "headerPage": {
       "imgHeader"   : "img/menuCourse/n-6.png",
-      "textHeader"  : "Evaluación final del curso.",
+      "textHeader"  : "Evaluación final del curso",
       "color"       : "#5C2481"
     },
     "title"   : "Evaluación final",
@@ -2698,7 +2698,7 @@
           "options": [
             {
               "type"      : "A",
-              "text"      : "Fraudes, robo de identidad, extorciones",
+              "text"      : "Fraudes, robo de identidad, extorsiones",
               "value"     : false,
               "color"     : "#189BDB"
             },
@@ -2852,7 +2852,7 @@
             },
             {
               "type"      : "D",
-              "text"      : "En OneDrive",
+              "text"      : "En el OneDrive corporativo",
               "value"     : true,
               "color"     : "#93278F"
             }

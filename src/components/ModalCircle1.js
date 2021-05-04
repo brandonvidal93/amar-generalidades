@@ -32,7 +32,7 @@ class ModalCircle1 extends Component {
             <div className = 'd-Flex d-R j-C aI-C itemButton'>
               
               <div className = {'itemLabel d-R j-C aI-C pT-1 pB-1 pL-2 pR-3 itemLabelR ' + ( i + 1 !== 1 ? 'disabledGray' : '')} id = {'title-' + (i + 1)} style = {{ 'borderColor': item.color }}>
-                <h4 className = 'fw-3 userSN textItem'> { item.title }</h4>
+                <h4 className = 'userSN textItem' style = {{ 'color': item.color }}> { item.title }</h4>
                 <FontAwesomeIcon icon="play" size = 'lg' className = 'userSN mL-05 mR-025' style = {{ 'color': '#EAEAEA' }} />
               </div>
               <button 
@@ -47,7 +47,7 @@ class ModalCircle1 extends Component {
               
               <div className = {'itemLabel d-R j-C aI-C pT-1 pB-1 pL-3 pR-2 itemLabelL ' + ( i + 1 !== 1 ? 'disabledGray' : '')} id = {'title-' + (i + 1)} style = {{ 'borderColor': item.color }}>
                 <FontAwesomeIcon icon="play" size = 'lg' className = 'mL-025 mR-05 userSN' style = {{ 'color': '#EAEAEA' }} />
-                <h4 className = 'fw-3 userSN textItem'> { item.title }</h4>
+                <h4 className = 'userSN textItem' style = {{ 'color': item.color }}> { item.title }</h4>
               </div>
 
               <button 

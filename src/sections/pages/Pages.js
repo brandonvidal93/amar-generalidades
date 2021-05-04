@@ -1706,7 +1706,7 @@ class Page30 extends Component {
             }
           </div>
 
-          <div className = 'mL-7 c-5 d-Flex j-S aI-S'>
+          <div className = 'mL-7 c-8 d-Flex j-C aI-S'>
             <button className = { 'buttonVideo' } onClick = { this.showModal }>
               <img
                 alt = 'Imagen'

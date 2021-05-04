@@ -33,7 +33,7 @@ const DragItem = ({ name, path, type, id }) => {
         // console.log(document.getElementById('dragBox-' + id));
 
         document.getElementById('dragBox-' + id).classList.add('dNone');
-        document.getElementById('imgDrop-' + id).classList.remove('dNone');
+        document.getElementById('imgDrop-' + id).classList.remove('disabledGray3');
         
 
         document.querySelector('.bgItemGlobe').classList.remove('dNone'); // OCULTAR EL FONDO

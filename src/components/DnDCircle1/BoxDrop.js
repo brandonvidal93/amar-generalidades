@@ -26,7 +26,7 @@ const BoxDrop = ({ id, img, order, posY, posX, type }) => {
     <div className = {'dF-C-cc itemDrop ' + (order !== 0 ? 'disabled' : '')} id = {'itemDrop-' + (order)} ref = { drop } style = {{ ...style, 'top': posY, 'left': posX }} >
       <img
         alt = 'Drop'
-        className = 'mT-025 dNone'
+        className = 'mT-025 disabledGray3'
         id = { 'imgDrop-' + id }
         src = { img } />
 
