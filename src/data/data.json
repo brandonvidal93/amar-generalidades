@@ -837,19 +837,19 @@
       "gallery": [
         {
           "key"       : 1,
-          "img"       : "img/10/n-1.png"
+          "img"       : "img/10/n-1.jpg"
         },
         {
           "key"       : 2,
-          "img"       : "img/10/n-2.png"
+          "img"       : "img/10/n-2.jpg"
         },
         {
           "key"       : 3,
-          "img"       : "img/10/n-3.png"
+          "img"       : "img/10/n-3.jpg"
         },
         {
           "key"       : 4,
-          "img"       : "img/10/n-4.png"
+          "img"       : "img/10/n-4.jpg"
         }
       ],
       "closedModal"   : true
@@ -910,7 +910,7 @@
         },
         {
           "imgBg": "img/11/n-4.png",
-          "img": "img/11/img-1.png",
+          "img": "img/11/img-1.jpg",
           "info": "",
           "width": 210,
           "color": "#683E92",
@@ -1175,7 +1175,7 @@
           "drag"    : 1,
           "img"     : "img/15/n-1.png",
           "text"    : "Ingeniería social",
-          "type"    : "6",
+          "type"    : "7",
           "data"    : ""
         },
         {
@@ -1196,7 +1196,7 @@
           "drag"    : 4,
           "img"     : "img/15/n-4.png",
           "text"    : "Vulnerabilidad",
-          "type"    : "7",
+          "type"    : "6",
           "data"    : ""
         },
         {
@@ -1277,7 +1277,7 @@
             "key"       : 6,
             "img"       : "img/15/n-1.png",
             "text"      : "Son las debilidades en los sistemas, procesos y personas que ponen en riesgo la seguridad de la información y las operaciones",
-            "target"    : "1",
+            "target"    : "4",
             "size"      : 136,
             "posY"      : 107,
             "posX"      : 633,
@@ -1287,7 +1287,7 @@
             "key"       : 7,
             "img"       : "img/15/n-4.png",
             "text"      : "Conjunto de técnicas psicológicas y habilidades sociales con el fin de engañar a usuarios incautos",
-            "target"    : "4",
+            "target"    : "1",
             "size"      : 136,
             "posY"      : 107,
             "posX"      : 633,
@@ -2494,7 +2494,7 @@
       "color"       : "#5C2481"
     },
     "title"   : "Canales de contacto",
-    "text"    : "En el Centro de Atención al Usuario evolucionamos nuestros medios de contacto, con el fin de fortalecer la comunicación con los usuarios y ofrecerles un servicio más oportuno. <br><br> Nuestro nuevo modelo de servicio nos permite escuchar y conocer tus solicitudes a través de diferentes medios, sin embargo si tu requerimiento es urgente y necesitas una pronta respuesta, te recomendamos utilizar las líneas telefónicas, estamos disponible los 7 días a la semana, las 24 horas del día, durante todo el año. <br><br>A continuación, conoce nuestros canales de contacto en el siguiente folleto.",
+    "text"    : "En el Centro de Atención al Usuario evolucionamos nuestros medios de contacto, con el fin de fortalecer la comunicación con los usuarios y ofrecerles un servicio más oportuno. <br><br> Nuestro nuevo modelo de servicio nos permite escuchar y conocer tus solicitudes a través de diferentes medios, sin embargo, si tu requerimiento es urgente y necesitas una pronta respuesta, te recomendamos utilizar las líneas telefónicas, estamos disponible los 7 días a la semana, las 24 horas del día, durante todo el año. <br><br>A continuación, conoce nuestros canales de contacto en el siguiente folleto.",
     "instruction": {
       "type"    : "mouse",
       "text"    : "Haz clic en la imagen para ver el folleto",
@@ -2852,7 +2852,7 @@
             },
             {
               "type"      : "D",
-              "text"      : "En el OneDrive corporativo",
+              "text"      : "En OneDrive empresarial",
               "value"     : true,
               "color"     : "#93278F"
             }
