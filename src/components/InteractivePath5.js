@@ -22,11 +22,10 @@ class InteractivePath5 extends Component {
   trackScrolling = (e) => {
     e.preventDefault();
     const CONTENTBOX = document.getElementById('scrollContent');
-    // console.log(CONTENTBOX);
-    if (e.currentTarget.id === 'btnNavLeft') {
+    if (e.currentTarget.id === 'btnLeft') {
       CONTENTBOX.scrollLeft = CONTENTBOX.scrollLeft - 300;
     }
-    if (e.currentTarget.id === 'btnNavRight') {
+    if (e.currentTarget.id === 'btnRight') {
       CONTENTBOX.scrollLeft = CONTENTBOX.scrollLeft + 300;
     }
   }
@@ -48,19 +47,26 @@ class InteractivePath5 extends Component {
   enableItem = (e) => {
     const { multimedia } = this.props.dataPage;
     e.preventDefault();
+    const CONTENTBOX = document.getElementById('scrollContent');
     const IDITEM = e.currentTarget.id;
     let idItem = parseInt(IDITEM);
 
     this.setState({ actualItem : idItem });
 
-    if (idItem < multimedia.length - 1) {
+    if (idItem < multimedia.length - 1 && this.state.countItem < multimedia.length - 1) {
 
       console.log('Menor');
+
+      console.log(this.state.countItem);
 
       let nextItem = document.getElementById(idItem + 1);
       nextItem.classList.remove('disabledGray');
       
       this.setState({ countItem: this.state.countItem + 1 });
+
+      if (this.state.countItem > 2) {
+        CONTENTBOX.scrollLeft = CONTENTBOX.scrollLeft + 300;
+      }
     } else {
       
       this.setState({ countItem: this.state.countItem + 1 });
@@ -95,7 +101,7 @@ class InteractivePath5 extends Component {
         <div className = 'trackContent d-Flex j-C aI-S'>
           <button
             className = { 'buttonNav mT-3'}
-            id = 'btnNavLeft'
+            id = 'btnLeft'
             onClick = { this.trackScrolling }>
             <FontAwesomeIcon
               className = 'iconButton'
@@ -137,7 +143,7 @@ class InteractivePath5 extends Component {
 
           <button
             className = { 'buttonNav mT-3' }
-            id = 'btnNavRight'
+            id = 'btnRight'
             onClick = { this.trackScrolling }>
             <FontAwesomeIcon
               className = 'iconButton'

@@ -889,7 +889,7 @@
         {
           "imgBg": "img/11/n-2.png",
           "img": "",
-          "info": "Estafa por medio de mensajes SMS, que tiene como objetivo redirigir al usuario a una página web falsa con el fin de obtener datos personales, información bancaria o infectar su dispositivo móvil.",
+          "info": "Esta estafa tiene como objetivo redirigir al usuario a una página web falsa con el fin de obtener datos personales, información bancaria o infectar su dispositivo móvil.",
           "width": 210,
           "color": "#04366A",
           "button": {
@@ -2933,7 +2933,7 @@
     "background": {
       "bg"            : "img/cover/fondo-end.png"
     },
-    "buttonEnd"       : "Cierra la ventana para finalizar",
+    "buttonEnd"       : "Finalizar",
     "footer": {
       "label"         : "Seguridad de la información"
     }

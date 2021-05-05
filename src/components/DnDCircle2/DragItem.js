@@ -25,6 +25,8 @@ const DragItem = ({ countDrop, name, path, type, id }) => {
     end: (item, monitor) => {
       const dropResult = monitor.getDropResult()
       if (item && dropResult) {
+
+        console.log('id depositado' + id);
         // alert(`You dropped ${item.name} into ${dropResult.name}!`);
         // console.log(`You dropped ${id} item`);
         // AQUI ES DONDE VA EL CODIGO PARA MOSTRAR EL GLOBO INFO
@@ -34,6 +36,7 @@ const DragItem = ({ countDrop, name, path, type, id }) => {
 
         document.getElementById('dragBox-' + id).classList.add('dNone');
         document.getElementById('imgDrop-' + id).classList.remove('dNone');
+        document.getElementById('itemDrop-' + id).style.zIndex = '1';
 
         countDrop();
 
@@ -58,7 +61,9 @@ const DragItem = ({ countDrop, name, path, type, id }) => {
       onDragStart = { dragStart }
       onDragOver = { dragOver }
       onDragEnd = { dragEnd }
-      ref = { drag } style = {{ ...style, }} id = {'dragBox-' + id } >
+      ref = { drag } 
+      style = {{ ...style, }} 
+      id = {'dragBox-' + id } >
       <img
         alt = 'Drag'
         className = { opacity }

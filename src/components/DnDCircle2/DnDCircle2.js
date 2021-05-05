@@ -32,7 +32,7 @@ class DnDCircle2 extends Component {
   }
 
   countDrop = () => {
-    console.log(this.state.actualItem);
+    // console.log(this.state.actualItem);
     if (this.state.actualItem === 4) {
       document.querySelector('.bgItemGlobe').classList.remove('dNone'); // OCULTAR EL FONDO
       document.getElementById('infoFinal').classList.remove('dNone');
@@ -73,16 +73,15 @@ class DnDCircle2 extends Component {
             {
               multimedia.dropZone.drops.map( (item, i) => {
                 return(
-                  <div  key = { i }>
-                    <BoxDrop
-                      id = { item.target }
-                      img = { item.img }
-                      imgPos = {item.imgPos}
-                      order = { i }
-                      posY = { item.posY }
-                      posX = { item.posX }
-                      type = { item.type } />
-                  </div>
+                  <BoxDrop
+                    key = { i }
+                    id = { item.target }
+                    img = { item.img }
+                    imgPos = {item.imgPos}
+                    order = { i }
+                    posY = { item.posY }
+                    posX = { item.posX }
+                    type = { item.type } />
                 )
               })
             }

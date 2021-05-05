@@ -19,15 +19,28 @@
     left: 270px;
     width: 350px;
     height: 410px;
+
+    // .dragging, .noDragging {
+    //   border: 1px solid;
+    // }
+  }
+
+  .zIndexDrop {
+    z-index: 10;
+      
   }
 
   .itemDrop { 
     width: 100px;
     height: 100px;
     z-index: 3;
-    // background-color: rgba($blanco, 0.7);
+    // background-color: rgba($blanco, 1);
     // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
+
+    img{
+      // border: 1px solid;
+      z-index: 3;
+    }
   }
 
   .bgItemGlobe {

@@ -23,7 +23,7 @@ const BoxDrop = ({ id, img, imgPos, order, posY, posX, type }) => {
     // imgDrop = pathTarget;
   }
   return (
-    <div className = {'dF-C-cc itemDrop'} id = {'itemDrop-' + (order)} ref = { drop } style = {{ ...style, 'top': posY, 'left': posX }} >
+    <div className = {'dF-C-cc itemDrop'} id = {'itemDrop-' + (id)} ref = { drop } style = {{ ...style, 'top': posY, 'left': posX }} >
       <img
         alt = 'Drop'
         className = 'pAbs dNone'

@@ -1908,6 +1908,11 @@ class Page33 extends Component {
 }
 
 class Page34 extends Component {
+  closeCourse = () => {
+    // ESTO SOLO SE EJECUTA CUANDO SE INICIA EL SERVIDOR O CUANDO SE ABRE COMO EMERGENTE
+    window.parent.parent.close();
+  }
+
   render() {
 
     const { dataPage, calificacion } = this.props;
@@ -1941,7 +1946,13 @@ class Page34 extends Component {
             dataPage.message.success.subTitle ? <h2 className = 'mB-2 F2-5 blanco tCenter' dangerouslySetInnerHTML = {{ __html: calificacion >= 70 ? dataPage.message.success.subTitle : dataPage.message.error.subTitle }}></h2> : null
           }
           {
-            dataPage.buttonEnd ? <h2 className = 'blanco tCenter fw-3 buttonEnd' dangerouslySetInnerHTML = {{ __html: dataPage.buttonEnd }}></h2> : null
+            dataPage.buttonEnd ? 
+              <h2 
+                className = 'blanco tCenter fw-3 buttonEnd' 
+                dangerouslySetInnerHTML = {{ __html: dataPage.buttonEnd }}
+                onClick = { this.closeCourse }
+                style = {{ 'cursor': 'pointer' }} /> : 
+              null
           }
 
           { /* Restricción de avance <div className = { 'restrict-3 ' + (endActivities === true ? 'dNone' : '') } /> */ }
