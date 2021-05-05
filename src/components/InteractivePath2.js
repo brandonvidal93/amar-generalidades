@@ -57,7 +57,7 @@ class InteractivePath2 extends Component {
                 </div> 
                 <div className = { 'info pL-1 pR-1 d-Flex d-C j-C aI-C animated fadeIn dNone'} id = { 'info-' + i }>
                   {
-                    item.img ? <img alt = 'Item' className = { 'imgItem c-10' } src = { item.img } /> : null
+                    item.img ? <img alt = 'Item' className = { 'imgItem c-7' } src = { item.img } /> : null
                   }
                   {
                     item.info ? <p className = 'tCenter' dangerouslySetInnerHTML = {{ __html: item.info }}></p> : null
