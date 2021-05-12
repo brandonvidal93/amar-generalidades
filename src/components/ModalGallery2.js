@@ -74,7 +74,7 @@ class ModalGallery2 extends Component {
           <div className = 'itemGallery d-Flex j-C aI-C'>
             {
               dataPage.multimedia.gallery.length > 1 ?
-              <button className = { 'buttonSlide mR-3 ' + (this.state.slide === 1 ? 'disabled' : '') } id = 'btnAnt' onClick = { this.mSlides }>
+              <button className = { 'buttonSlide mR-3 ' + (this.state.slide === 1 ? 'disabled' : 'pulse') } id = 'btnAnt' onClick = { this.mSlides }>
                 <span className = 'fa-layers fa-fw iconButton' >
                   <FontAwesomeIcon icon="circle" />
                   <FontAwesomeIcon icon="arrow-left" inverse transform="shrink-6" />
@@ -94,7 +94,7 @@ class ModalGallery2 extends Component {
             }
             {
               dataPage.multimedia.gallery.length > 1 ?
-              <button className = { 'buttonSlide mL-3 ' + (this.state.slide === dataPage.multimedia.gallery.length ? 'disabled' : '') } id = 'btnSig' onClick = { this.mSlides }>
+              <button className = { 'buttonSlide mL-3 ' + (this.state.slide === dataPage.multimedia.gallery.length ? 'disabled' : 'pulse') } id = 'btnSig' onClick = { this.mSlides }>
                 <span className = 'fa-layers fa-fw iconButton' >
                   <FontAwesomeIcon icon="circle" />
                   <FontAwesomeIcon icon="arrow-right" inverse transform="shrink-6" />

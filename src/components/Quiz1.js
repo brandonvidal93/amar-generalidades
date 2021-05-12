@@ -189,9 +189,21 @@ class Quiz1 extends Component {
               <div className = 'c-10 d-Flex d-C j-C aI-C'>
                 <img alt = 'Imagen' className = 'mB-2' src = { this.state.raw >= 70 ? multimedia.modal.check.img : multimedia.modal.error.img }/>
                 <h2 className = 'mB-1 tCenter' dangerouslySetInnerHTML = {{ __html: this.state.raw >= 70 ? multimedia.modal.check.title : multimedia.modal.error.title }}></h2>
-                <p className = 'tCenter' dangerouslySetInnerHTML = {{ __html: this.state.raw >= 70 ? multimedia.modal.check.text : multimedia.modal.error.text }}></p>
+                <p className = 'tCenter mB-2' dangerouslySetInnerHTML = {{ __html: this.state.raw >= 70 ? multimedia.modal.check.text : multimedia.modal.error.text }}></p>
+
+                <button
+                  className = 'buttonQuiz pT-05 pB-05 pL-1 pR-1'
+                  onClick = { this.hideModal }
+                  id = { 'buttonCloseQuizModal' }
+                  >
+                    Continuar
+                  {/* <span className = 'fa-layers fa-fw iconButton' >
+                    <FontAwesomeIcon icon="circle" />
+                    <FontAwesomeIcon icon="times" inverse transform="shrink-6" />
+                  </span> */}
+                </button>
               </div>
-              <button
+              {/* <button
                 className = 'buttonClose'
                 onClick = { this.hideModal }
                 id = { 'buttonCloseQuizModal' }
@@ -200,7 +212,7 @@ class Quiz1 extends Component {
                   <FontAwesomeIcon icon="circle" />
                   <FontAwesomeIcon icon="times" inverse transform="shrink-6" />
                 </span>
-              </button>
+              </button> */}
             </div>
           </div>
           : null

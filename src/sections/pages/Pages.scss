@@ -480,6 +480,20 @@
   z-index: 1;
   height: 650px;
 
+  .buttonQuiz {
+    background-color: $color1;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 300;
+    font-style: italic;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all .3s;
+    &:hover {
+      background-color: #04386D;
+    }
+  }
+
   .DnDStart {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
     border-radius: 15px;

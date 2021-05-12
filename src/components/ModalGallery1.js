@@ -78,7 +78,7 @@ class ModalGallery1 extends Component {
           </div>
 
           <div className = 'navigationGallery d-Flex j-Ar aI-C'>
-            <button className = { 'buttonSlide mB-025 ' + (this.state.slide === 1 ? 'disabled' : '') } id = 'btnAnt' onClick = { this.mSlides }>
+            <button className = { 'buttonSlide mB-025 ' + (this.state.slide === 1 ? 'disabled' : 'pulse') } id = 'btnAnt' onClick = { this.mSlides }>
               <span className = 'fa-layers fa-fw iconButton' >
                 <FontAwesomeIcon icon="circle" />
                 <FontAwesomeIcon icon="arrow-left" inverse transform="shrink-6" />
@@ -97,7 +97,7 @@ class ModalGallery1 extends Component {
               }
             </div>
 
-            <button className = { 'buttonSlide mT-025 ' + (this.state.slide === dataPage.multimedia.gallery.length ? 'disabled' : '') } id = 'btnSig' onClick = { this.mSlides }>
+            <button className = { 'buttonSlide mT-025 ' + (this.state.slide === dataPage.multimedia.gallery.length ? 'disabled' : 'pulse') } id = 'btnSig' onClick = { this.mSlides }>
               <span className = 'fa-layers fa-fw iconButton' >
                 <FontAwesomeIcon icon="circle" />
                 <FontAwesomeIcon icon="arrow-right" inverse transform="shrink-6" />

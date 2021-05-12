@@ -55,7 +55,7 @@ class App extends Component {
       nextUnit: 1,
       pages: LIMIT,
       units: UNITS,
-      unitActual: 1,
+      unitActual: 5,
       // unitFinal: [true, true, true, true, true, true, true],
       unitFinal: [false, false, false, false, false, false, false],
       // enableUnit: [true, true, true, true, true, true, true],
@@ -199,7 +199,7 @@ class App extends Component {
         break;
 
       // DROP PARA COMENZAR EL CURSO
-      case 'dropEnd':
+      case 'btnIniciar':
         this.setState({
           index: this.state.index + 1
         });

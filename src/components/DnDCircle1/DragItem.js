@@ -9,6 +9,7 @@ const style = {
 
 const dragStart = (e) => {
   document.getElementById(e.currentTarget.id).classList.add('onDrag');
+  document.getElementById('exampleContent').classList.add('dNone');
 }
 
 const dragOver = (e) => {
@@ -33,7 +34,7 @@ const DragItem = ({ name, path, type, id }) => {
         // console.log(document.getElementById('dragBox-' + id));
 
         document.getElementById('dragBox-' + id).classList.add('dNone');
-        document.getElementById('imgDrop-' + id).classList.remove('disabledGray3');
+        document.getElementById('imgDrop-' + id).classList.remove('disabledGray2');
         
 
         document.querySelector('.bgItemGlobe').classList.remove('dNone'); // OCULTAR EL FONDO

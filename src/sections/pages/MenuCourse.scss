@@ -143,6 +143,12 @@
     animation-iteration-count: infinite;
   }
 
+  .animationDownMenu {
+    animation-name: bounceDown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
   .infoUnit {
     display: none;
 

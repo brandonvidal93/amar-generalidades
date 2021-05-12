@@ -25,7 +25,7 @@ class DnDLabel1 extends Component {
   trackScrolling = (e) => {
     e.preventDefault();
     const CONTENTBOX = document.getElementById('dropContent');
-    console.log(CONTENTBOX);
+    // console.log(CONTENTBOX);
     if (e.currentTarget.id === 'btnNavLeft') {
       CONTENTBOX.scrollLeft = CONTENTBOX.scrollLeft - 300;
     }
@@ -98,7 +98,7 @@ class DnDLabel1 extends Component {
                 multimedia.dropZone.drops.map( (item, i) => {
                   return(
                     <div className = 'dropInfo d-Flex j-C aI-C mL-05 mR-05'  key = { i }>
-                      <p className = 'tCenter labelDrop' dangerouslySetInnerHTML = { {__html: item.text} }/>
+                      <p className = 'tCenter labelDrop fw-7' dangerouslySetInnerHTML = { {__html: item.text} }/>
                       <BoxDrop
                         id = { item.target }
                         img = { item.img }

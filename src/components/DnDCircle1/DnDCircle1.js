@@ -123,6 +123,13 @@ class DnDCircle1 extends Component {
             })
           }
         </div>
+
+        <div className = 'exampleContent pAbs' id = 'exampleContent'>
+          <img
+            alt = 'hand'
+            className = { 'hand pAbs' }
+            src = { multimedia.example.hand } />
+        </div>
       </div>
     );
   }

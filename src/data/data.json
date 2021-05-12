@@ -5,7 +5,7 @@
     "title"           : "Seguridad de <br> la información",
     "subTitle"        : "",
     "module"          : "",
-    "courseName"      : "Para comenzar, te invitamos a deslizar el botón  para iniciar",
+    "courseName"      : "Para comenzar, haz clic en el siguiente botón:",
     "logoCourse"      : "img/cover/logo-1.png",
     "logoFooter"      : "img/cover/logo-2.png",
     "background": {
@@ -159,7 +159,7 @@
       "color"       : "#5C2481"
     },
     "title"   : "¿De qué se trata la seguridad de la información?",
-    "text"    : "La información es uno de los recursos más relevantes de una empresa, pues esta se encarga de conectar cada una de las áreas del negocio, de unificar los procesos y de guiar la productividad hacia la dirección correcta. <br><br> La seguridad de la información consiste en implementar tecnologías y controles enfocados en las personas, administración de procesos, la infraestructura y las tecnologías, con el fin de reducir y controlar el riesgo de un ataque cibernético que atentan con la confidencialidad, integridad y disponibilidad.",
+    "text"    : "La información es uno de los recursos más relevantes de una organización, pues ésta se encarga de conectar cada una de las áreas del negocio, de unificar los procesos y de guiar la productividad hacia la dirección correcta. <br><br> La seguridad de la información consiste en implementar tecnologías y controles enfocados en las personas, administración de procesos, la infraestructura y las tecnologías, con el fin de reducir y controlar el riesgo de un ataque cibernético que atentan con la confidencialidad, integridad y disponibilidad de la información.",
     "multimedia": [
       {
         "urlImgBtn"         : "img/3/n-1.png",
@@ -168,7 +168,7 @@
         "itemInfo": {
           "title"           : "Disponibilidad",
           "text1"           : "Acceso a la información disponible cuando las personas autorizadas la necesiten.",
-          "text2"           : "<b>Ejemplo:</b> la información de la cuenta bancaria debe de estar disponible cuando la necesite y no cuando el banco lo requiera.",
+          "text2"           : "<b>Ejemplo:</b> la información de la cuenta bancaria debe de estar disponible cuando la necesite y no cuando el banco lo desee.",
           "colorText"       : "#004991",
           "buttonClose": {
             "closedModal"   : true,
@@ -273,7 +273,7 @@
         },
         "itemInfo": {
           "title"     : "",
-          "text"      : "Acceso a cualquier persona",
+          "text"      : "Acceso fácil a la información de las personas",
           "posGlobe": {
             "posY"    : 81,
             "posX"    : 284
@@ -289,7 +289,7 @@
         },
         "itemInfo": {
           "title"     : "",
-          "text"      : " Baja inversión",
+          "text"      : "Un ciberdelito tiene una baja inversión",
           "posGlobe": {
             "posY"    : 67,
             "posX"    : 400
@@ -413,7 +413,7 @@
         },
         {
           "img"       : "img/6/n-2.png",
-          "text"      : "Te invito a que conozcas cuáles son las amenazas a las que estamos expuestos, éstas las verás en el siguiente tema. ",
+          "text"      : "Te invito a que conozcas cuáles son las amenazas a las que estamos expuestos. Éstas las verás en el siguiente tema. ",
           "textPos": {
             "posY"    : 90,
             "posX"    : 120,
@@ -434,7 +434,7 @@
       "color"       : "#5C2481"
     },
     "title"   : "¿Cuáles son las amenazas más comunes?",
-    "text"    : "En nuestra cotidianidad estamos expuestos a diferentes amenazas, por eso es fundamental que conozcas cuáles son las más comunes para que evites un ataque informático. <br><br>A continuación, descubrirás las 5 amenazas más relevantes, en el desarrollo del curso te explicaremos en qué consiste cada una de ellas.",
+    "text"    : "En nuestra cotidianidad estamos expuestos a diferentes amenazas, por eso es fundamental que conozcas cuáles son las más comunes para que evites un ataque informático. <br><br>A continuación, descubrirás las 5 amenazas más relevantes. En el desarrollo del curso, te explicaremos en qué consiste cada una de ellas.",
     "instruction": {
       "type"    : "mouse",
       "text"    : "Haz clic sobre cada ícono para descubrir cuáles son las amenazas.",
@@ -644,7 +644,10 @@
           }
         ]
       },
-      "bg": "img/8/bgPage-8.png"
+      "bg": "img/8/bgPage-8.png",
+      "example": {
+        "hand"    : "img/hand-1.png"
+      }
     }
   },
 
@@ -819,7 +822,7 @@
       "color"       : "#5C2481"
     },
     "title"   : "2. Phishing o suplantación de identidad",
-    "text"    : "El phishing también está presente en páginas web fraudulentas a las que puedes acceder con facilidad porque han conseguido aparecer en los resultados de Google o porque se encuentran en el perfil de un usuario de una red social. Por todo lo anterior, la mejor prevención para el phishing se basa en desconfiar del contenido que recibimos a través del correo electrónico, mensajería instantánea, redes sociales e incluso desconfiar cuando alguien nos llama para pedirnos información privada por teléfono. <br><br> Si te llegas a encontrar algunos de estos casos no abras el correo y no ingreses a estos sitios web inseguros.",
+    "text"    : "El phishing también está presente en páginas Web fraudulentas a las que puedes acceder con facilidad porque han conseguido aparecer en los resultados de un motor de búsqueda como Google o porque se encuentran en el perfil de un usuario de una red social. Por todo lo anterior, la mejor prevención para el phishing se basa en desconfiar del contenido que recibimos a través del correo electrónico, mensajería instantánea, redes sociales e incluso desconfiar cuando alguien nos llama para pedirnos información privada por teléfono. <br><br> Si te llegas a encontrar algunos de estos casos no abras el correo y no ingreses a estos sitios web inseguros.",
     "instruction": {
       "type"    : "mouse",
       "text"    : "Haz clic en la siguiente imagen y visualiza los ejemplos de suplantación en el correo electrónico y páginas web.",
@@ -846,10 +849,6 @@
         {
           "key"       : 3,
           "img"       : "img/10/n-3.jpg"
-        },
-        {
-          "key"       : 4,
-          "img"       : "img/10/n-4.jpg"
         }
       ],
       "closedModal"   : true
@@ -889,7 +888,7 @@
         {
           "imgBg": "img/11/n-2.png",
           "img": "",
-          "info": "Esta estafa tiene como objetivo redirigir al usuario a una página web falsa con el fin de obtener datos personales, información bancaria o infectar su dispositivo móvil.",
+          "info": "Esta estafa tiene como objetivo redirigir al usuario a una página Web falsa con el fin de obtener datos personales, información bancaria o infectar su dispositivo móvil.",
           "width": 210,
           "color": "#04366A",
           "button": {
@@ -910,7 +909,7 @@
         },
         {
           "imgBg": "img/11/n-4.png",
-          "img": "img/11/img-1.jpg",
+          "img": "img/11/img-1.png",
           "info": "",
           "width": 210,
           "color": "#683E92",
@@ -1714,7 +1713,7 @@
       "color"       : "#5C2481"
     },
     "title"   : "Seguridad en las conversaciones",
-    "text"    : "Ser cauto y utilizar un tono de voz adecuado cuando se comparte información a través de conversaciones. Evita hablar de esos temas:",
+    "text"    : "Ser cauto y utilizar un tono de voz adecuado cuando se comparte información a través de conversaciones. Evita hablar de temas sensibles en estos escenarios:",
     "instruction": {
       "type"    : "mouse",
       "text"    : "Haz clic en los círculos inferiores para conocer los demás ítems",
@@ -1773,7 +1772,7 @@
         "bgPosX"  : 275
       },
       {
-        "text1"   : "<b>Ejemplo:</b> acabo de retirar de mi cuenta bancaria USD $2.000 y en una conversación en el transporte público le cuento a mi compañero que llevo esa suma de dinero en el bolsillo, ¿qué pasaría si un delincuente que va en ese mismo transporte escucha la conversación?",
+        "text1"   : "<b>Ejemplo:</b> acabo de retirar de mi cuenta bancaria $2.000 dólares y en una conversación en el transporte público le cuento a mi compañero que llevo esa suma de dinero en el bolsillo, ¿qué pasaría si un delincuente que va en ese mismo transporte escucha la conversación?",
         "img1"    : "",
         "color"   : "#F8B32A",
         "bg"      : "img/20/bg-7.png",
@@ -1953,7 +1952,7 @@
         "posX"              : 137,
         "itemInfo": {
           "title"           : "03",
-          "text1"           : "Recoge siempre los documentos que mandes a imprimir. Principalmente si la impresora es compartida.",
+          "text1"           : "Recoge siempre los documentos que mandes a imprimir, principalmente si la impresora es compartida.",
           "text2"           : "",
           "colorText"       : "#2171B3",
           "buttonClose": {
@@ -2627,7 +2626,7 @@
       "color"       : "#5C2481"
     },
     "title"   : "Conducto regular para las PQR y felicitaciones",
-    "text"    : "Es muy importante para nosotros conocer tus peticiones, quejas y reclamos para ofrecerte un mejor servicio,  por lo tanto, te invitamos a conocer los canales habilitados, tu opinión es muy importante: <br><br>Correo electrónico:  <b>sugerenciascau@familia.com.co</b><br><br> Portal de autoservicio: ingresa a él dando <a href = 'https://cau.familia.com.co/usm/wpf?Node=iclaunchpad.pad' target = '_blank' rel='noopener noreferrer'><b>clic aquí</b> </a>",
+    "text"    : "Es muy importante para nosotros conocer tus peticiones, quejas y reclamos para ofrecerte un mejor servicio,  por lo tanto, te invitamos a conocer los canales habilitados, tu opinión es muy importante: <br><br>Correo electrónico:  <b>sugerenciascau@grupofamilia.com</b><br><br> Portal de autoservicio: ingresa a él dando <a href = 'https://cau.familia.com.co/usm/wpf?Node=iclaunchpad.pad' target = '_blank' rel='noopener noreferrer'><b>clic aquí</b> </a>",
     "instruction": {
       "type"    : "mouse",
       "text"    : "Haz clic en la siguiente imagen y visualiza la información",

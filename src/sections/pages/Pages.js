@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import StartDrop from '../../components/DnDStart/dropBoard';
-import StartDrag from '../../components/DnDStart/dragButton';
+// import StartDrop from '../../components/DnDStart/dropBoard';
+// import StartDrag from '../../components/DnDStart/dragButton';
 import Accordion1 from '../../components/Accordion1';
 import DnDCircle1 from '../../components/DnDCircle1/DnDCircle1';
 import DnDCircle2 from '../../components/DnDCircle2/DnDCircle2';
@@ -42,10 +42,10 @@ library.add(fas, fab, far);
 
 class Cover extends Component {
   // FUNCION PARA ENVIAR EL INDEX ACTUALIZADO Y EMPEZAR EL CURSO
-  startCourse = (idButton) => {
-    setTimeout(() => {
-      this.props.startCourse(idButton);
-    }, 500);
+  startCourse = (e) => {
+    const target = e.currentTarget.id;
+
+    this.props.startCourse(target);
   }
 
   render() {
@@ -57,11 +57,11 @@ class Cover extends Component {
       backgroundPosition: 'center'
     }
 
-    const styleDnD = {
-      backgroundImage: 'url(' + dataPage.background.bgDnDStart + ')',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center'
-    }
+    // const styleDnD = {
+    //   backgroundImage: 'url(' + dataPage.background.bgDnDStart + ')',
+    //   backgroundSize: 'cover',
+    //   backgroundPosition: 'center'
+    // }
 
     return (
       <div className={ (dataPage.type) + ' pL-4 animated fadeIn' } style = { style }>
@@ -85,7 +85,15 @@ class Cover extends Component {
             dataPage.courseName ? <p className = 'mB-1 mL-1' dangerouslySetInnerHTML = {{ __html: dataPage.courseName }}></p> : null
           }
 
-          <div className = 'DnDStart mL-1 d-Flex j-Bt aI-C' id = { 'DnDStart' } style = { styleDnD }>
+          <button
+            className = 'buttonQuiz pT-1 pB-1 mL-1 pL-2 pR-2'
+            onClick = { this.startCourse }
+            id = { 'btnIniciar' }
+            >
+              INICIAR
+          </button>
+
+          {/* <div className = 'DnDStart mL-1 d-Flex j-Bt aI-C' id = { 'DnDStart' } style = { styleDnD }>
 
             <StartDrop className = 'dropStart' id = 'dropStart' startCourse = { this.startCourse } >
               <StartDrag className = 'itemDrag' draggable = 'true' id = 'btnStart'></StartDrag>
@@ -95,7 +103,7 @@ class Cover extends Component {
 
             </StartDrop>
 
-          </div>
+          </div> */}
 
           { /* Restricción de avance <div className = { 'restrict-3 ' + (endActivities === true ? 'dNone' : '') } /> */ }
         </div>
@@ -640,6 +648,8 @@ class Page10 extends Component {
     this.setState({
       openModal: !this.state.openModal
     });
+
+    document.querySelector('.buttonVideo').classList.remove('pulse');
   }
 
   // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
@@ -679,7 +689,7 @@ class Page10 extends Component {
           </div>
 
           <div className = 'c-5 d-Flex j-C aI-S'>
-            <button className = 'buttonVideo mR-6' onClick = { this.showModal }>
+            <button className = 'buttonVideo mR-6 pulse' onClick = { this.showModal }>
               <img
                 alt = 'Imagen'
                 className = ''
@@ -1155,12 +1165,12 @@ class Page20 extends Component {
         </div>
 
         <div className = 'c-10 animated fadeIn'>
-          <div className = 'mL-7 c-10 mT-025 mR-2 mB-2'> 
+          <div className = 'mL-7 c-75 mT-025 mR-2 mB-1'> 
             {
               dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
             }
             {
-              dataPage.text ? <p className = 'mB-1 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+              dataPage.text ? <p className = 'fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
             }
           </div>
 
@@ -1595,6 +1605,8 @@ class Page29 extends Component {
     this.setState({
       openModal: !this.state.openModal
     });
+
+    document.querySelector('.buttonVideo').classList.remove('pulse');
   }
 
   // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
@@ -1643,7 +1655,7 @@ class Page29 extends Component {
           </div>
 
           <div className = 'c-3 d-Flex j-C aI-S'>
-            <button className = { 'buttonVideo ' + (this.state.actGallery ? '' : 'disabled')} onClick = { this.showModal }>
+            <button className = { 'buttonVideo pulse ' + (this.state.actGallery ? '' : 'disabled')} onClick = { this.showModal }>
               <img
                 alt = 'Imagen'
                 className = ''
@@ -1668,6 +1680,8 @@ class Page30 extends Component {
     this.setState({
       openModal: !this.state.openModal
     });
+
+    document.querySelector('.buttonVideo').classList.remove('pulse');
   }
 
   // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
@@ -1707,7 +1721,7 @@ class Page30 extends Component {
           </div>
 
           <div className = 'mL-7 c-8 d-Flex j-C aI-S'>
-            <button className = { 'buttonVideo' } onClick = { this.showModal }>
+            <button className = { 'buttonVideo pulse' } onClick = { this.showModal }>
               <img
                 alt = 'Imagen'
                 className = 'c-8'
@@ -1732,6 +1746,8 @@ class Page31 extends Component {
     this.setState({
       openModal: !this.state.openModal
     });
+
+    document.querySelector('.buttonVideo').classList.remove('pulse');
   }
 
   // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
@@ -1744,6 +1760,7 @@ class Page31 extends Component {
     this.props.checkEnabledUnit(5);
 
     document.querySelector('.buttonOpen').classList.add('animationOpenMenu');
+    document.getElementById('btnNavDown').classList.add('animationDownMenu');
   }
 
   // componentDidMount() {
@@ -1781,7 +1798,7 @@ class Page31 extends Component {
           </div>
 
           <div className = 'c-45 d-Flex j-S aI-S mT-2'>
-            <button className = { 'buttonVideo' } onClick = { this.showModal }>
+            <button className = { 'buttonVideo pulse' } onClick = { this.showModal }>
               <img
                 alt = 'Imagen'
                 className = 'c-10'

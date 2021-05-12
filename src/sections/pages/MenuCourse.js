@@ -74,6 +74,8 @@ class MenuCourse extends Component {
     setTimeout(() => {
       document.getElementById('infoUnit').innerHTML = '<h1 class = "blanco animated fadeInLeft">'+ dataPage.Units[idUnit - 1].title +'</h1>';
     }, 200);
+
+    document.getElementById('btnNavDown').classList.remove('animationDownMenu');
   }
 
   onLeaveItemMenu = (e) => {
@@ -122,6 +124,7 @@ class MenuCourse extends Component {
   render() {
     const { actualIndex, enableUnit, Units } = this.props;
     // const { Units, unitFinal, enableUnit, dataPage } = this.props;
+    
     return (
       <div className = { (actualIndex === 0 || actualIndex === 34 ? 'menuContent-desc' : 'menuContent') } id = 'menuContent'>
         <button
@@ -161,7 +164,7 @@ class MenuCourse extends Component {
         </div>
 
         <button
-          className = { 'buttonNav pAbs' }
+          className = { 'buttonNav pAbs ' + (enableUnit[Units.unit - 1] === 5 ? 'pulse' : '') }
           id = 'btnNavDown'
           onClick = { this.trackScrolling }>
           <FontAwesomeIcon
