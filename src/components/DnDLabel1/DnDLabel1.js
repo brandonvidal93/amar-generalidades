@@ -113,7 +113,7 @@ class DnDLabel1 extends Component {
             </div>
 
             <button
-              className = { 'buttonNav' }
+              className = { 'buttonNav pulse' }
               id = 'btnNavRight'
               onClick = { this.trackScrolling }>
               <FontAwesomeIcon

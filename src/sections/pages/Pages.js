@@ -1550,6 +1550,7 @@ class Page28 extends Component {
     this.props.checkEnabledUnit(4);
 
     document.querySelector('.buttonOpen').classList.add('animationOpenMenu');
+    document.getElementById('btnNavDown').classList.add('animationDownMenu');
   }
 
   // componentDidMount() {
