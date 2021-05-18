@@ -2627,6 +2627,7 @@
     },
     "title"   : "Conducto regular para las PQR y felicitaciones",
     "text"    : "Es muy importante para nosotros conocer tus peticiones, quejas y reclamos para ofrecerte un mejor servicio,  por lo tanto, te invitamos a conocer los canales habilitados, tu opinión es muy importante: <br><br><b>Correo electrónico:</b> <span class = 'correo'>sugerenciascau@grupofamilia.com</span><br><br> <b>Portal de Autoservicio:</b> Ingresa al portal del CAU a través de la Intranet Corporativa.",
+    "img": "img/31/CAU.PNG",
     "instruction": {
       "type"    : "mouse",
       "text"    : "Haz clic en la siguiente imagen y visualiza la información",

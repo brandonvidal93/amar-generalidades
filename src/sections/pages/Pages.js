@@ -1794,8 +1794,13 @@ class Page31 extends Component {
               dataPage.title ? <h2 className = 'mB-1 fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
             }
             {
-              dataPage.text ? <p className = 'mB-1 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
+              dataPage.text ? <p className = 'mB-2 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
             }
+            <div className = 'd-Flex j-C aI-C'>
+              {
+                dataPage.img ? <img alt = 'Imagen' className = 'c-4' src = { dataPage.img }/> : null
+              }
+            </div>
           </div>
 
           <div className = 'c-45 d-Flex j-S aI-S mT-2'>
