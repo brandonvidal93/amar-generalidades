@@ -55,7 +55,7 @@ class App extends Component {
       nextUnit: 1,
       pages: LIMIT,
       units: UNITS,
-      unitActual: 5,
+      unitActual: 0,
       // unitFinal: [true, true, true, true, true, true, true],
       unitFinal: [false, false, false, false, false, false, false],
       // enableUnit: [true, true, true, true, true, true, true],
