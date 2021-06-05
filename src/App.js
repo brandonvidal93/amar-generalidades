@@ -51,18 +51,18 @@ class App extends Component {
     this.state = {
       calificacion: 0,
       conectLMS: false,
-      index: 0,
+      index: 33,
       nextUnit: 1,
       pages: LIMIT,
       units: UNITS,
       unitActual: 0,
-      // unitFinal: [true, true, true, true, true, true, true],
-      unitFinal: [false, false, false, false, false, false, false],
-      // enableUnit: [true, true, true, true, true, true, true],
-      enableUnit: [false, false, false, false, false, false, false],
+      unitFinal: [true, true, true, true, true, true, true],
+      // unitFinal: [false, false, false, false, false, false, false],
+      enableUnit: [true, true, true, true, true, true, true],
+      // enableUnit: [false, false, false, false, false, false, false],
       // endActivities debe ir en FALSE para permitir las restricciones, en TRUE para editar
-      // endActivities: [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
-      endActivities: [true, true, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, true]
+      endActivities: [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
+      // endActivities: [true, true, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, true]
     }
   }
 

@@ -41,14 +41,21 @@ class Quiz1 extends Component {
     switch (typeQuestion) {
       case 'single':
         // console.log('Valor de la respuesta: ' + document.getElementById(idSelect).getAttribute('value'));
-        document.getElementById('icon-' + numId).classList.add('dNone');
-        document.getElementById('iCheck-' + numId).classList.remove('dNone');
+        
 
         //QUITAR LA SELECCION DE LA OPCIÓN
 
         // VALIDAR QUE LA RESPUESTA ES CORRECTA
         if (document.getElementById(idSelect).getAttribute('value') === 'true') {
+          document.getElementById('icon-' + numId).classList.add('dNone');
+          document.getElementById('iCheck-' + numId).classList.remove('dNone');
+          document.getElementById('option-' + numId).classList.add('labelTrue');
+
           this.accumulatedQuiz(1);
+        } else {
+          document.getElementById('icon-' + numId).classList.add('dNone');
+          document.getElementById('iError-' + numId).classList.remove('dNone');
+          document.getElementById('option-' + numId).classList.add('labelFalse');
         }
 
         document.getElementById('act-'+ this.state.question).classList.add('disabledSolid2');
@@ -119,6 +126,9 @@ class Quiz1 extends Component {
     for (var i = 0; i < questions[this.state.question].options.length; i++) {
       document.getElementsByClassName('icon')[i].classList.remove('dNone');
       document.getElementsByClassName('iconCheck')[i].classList.add('dNone');
+      document.getElementsByClassName('iconError')[i].classList.add('dNone');
+      document.getElementsByClassName('optionAct3')[i].classList.remove('labelTrue');
+      document.getElementsByClassName('optionAct3')[i].classList.remove('labelFalse');
     }
 
     this.setState({
@@ -241,6 +251,11 @@ class Quiz1 extends Component {
                     <span className = { 'fa-layers iconCheck mR-1 dNone ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '')} id = { 'iCheck-' + (i) }>
                       <FontAwesomeIcon icon="circle" className = 'circle' />
                       <FontAwesomeIcon icon="check" inverse transform="shrink-6" className = 'check' />
+                    </span>
+
+                    <span className = { 'fa-layers iconError mR-1 dNone ' + (multimedia.questions[this.state.question].type === 'FV' ? 'dNone' : '')} id = { 'iError-' + (i) }>
+                      <FontAwesomeIcon icon="circle" className = 'circle' />
+                      <FontAwesomeIcon icon="times" inverse transform="shrink-6" className = 'check' />
                     </span>
 
                     <p className = {'labelStatement optionAct3 ' + (choice.type === 'VR' ? 'labelTrue fw-7 mR-05 ': '') + (choice.type === 'FR' ? 'labelFalse fw-7 mL-05': '') } id = { 'option-' + (i) } value = { choice.value } dangerouslySetInnerHTML = {{ __html: choice.text }} onClick = { this.actividadHandle }></p>
