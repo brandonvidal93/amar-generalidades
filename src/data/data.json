@@ -942,7 +942,7 @@
       "color"       : "#5C2481"
     },
     "title"   : "5. Ransomware",
-    "text"    : "Lleva todas las fichas del rompecabezas al lugar que le correspondan. Al final, podrás descubrir en qué consiste la amenaza Ransomware.",
+    "text"    : "Desliza el ícono con clic sostenido y suéltalo en el espacio en blanco. Al hacerlo, podrás descubrir en qué consiste la amenaza Ransomware.",
     "instruction": {
       "type"    : "mouse",
       "text"    : "Falta instrucción",
@@ -959,106 +959,22 @@
           "text"    : "",
           "type"    : "1",
           "data"    : "",
-          "posY"    : 110,
-          "posX"    : 80
-        },
-        {
-          "drag"    : 2,
-          "img"     : "img/13/n-2.png",
-          "text"    : "",
-          "type"    : "2",
-          "data"    : "",
-          "posY"    : 270,
-          "posX"    : 30
-        },
-        {
-          "drag"    : 3,
-          "img"     : "img/13/n-3.png",
-          "text"    : "",
-          "type"    : "3",
-          "data"    : "",
-          "posY"    : 160,
-          "posX"    : 190
-        },
-        {
-          "drag"    : 4,
-          "img"     : "img/13/n-4.png",
-          "text"    : "",
-          "type"    : "4",
-          "data"    : "",
-          "posY"    : 0,
-          "posX"    : 0
-        },
-        {
-          "drag"    : 5,
-          "img"     : "img/13/n-5.png",
-          "text"    : "",
-          "type"    : "5",
-          "data"    : "",
-          "posY"    : 0,
-          "posX"    : 170
+          "posY"    : 53,
+          "posX"    : -257
         }
       ],
       "dropZone": {
         "drops": [
           {
             "key"       : 1,
-            "img"       : "img/13/n-1.png",
+            "img"       : "img/13/nd-1.png",
             "target"    : "1",
-            "posY"      : 50,
-            "posX"      : -322,
+            "posY"      : 16,
+            "posX"      : 29,
             "type"      : "1",
             "imgPos": {
-              "Y"       : -24,
-              "X"       : 12
-            }
-          },
-          {
-            "key"       : 2,
-            "img"       : "img/13/n-2.png",
-            "target"    : "2",
-            "posY"      : -16,
-            "posX"      : -226,
-            "type"      : "2",
-            "imgPos": {
-              "Y"       : 17,
-              "X"       : -30
-            }
-          },
-          {
-            "key"       : 3,
-            "img"       : "img/13/n-3.png",
-            "target"    : "3",
-            "posY"      : 51,
-            "posX"      : -135,
-            "type"      : "3",
-            "imgPos": {
-              "Y"       : -25,
-              "X"       : -44
-            }
-          },
-          {
-            "key"       : 4,
-            "img"       : "img/13/n-4.png",
-            "target"    : "4",
-            "posY"      : 161,
-            "posX"      : -169,
-            "type"      : "4",
-            "imgPos": {
-              "Y"       : -30,
-              "X"       : -50
-            }
-          },
-          {
-            "key"       : 5,
-            "img"       : "img/13/n-5.png",
-            "target"    : "5",
-            "posY"      : 158,
-            "posX"      : -286,
-            "type"      : "5",
-            "imgPos": {
-              "Y"       : -46,
-              "X"       : -18
+              "Y"       : -4,
+              "X"       : -6
             }
           }
         ],
@@ -1068,7 +984,7 @@
             "title"         : "",
             "colorTitle"    : "",
             "img"           : "img/13/img-1.png",
-            "text"          : "Es un tipo de malware (software malicioso) que infecta tu computadora y muestra mensajes que exigen el pago de dinero para restablecer el funcionamiento del sistema. Este tipo de malware se usa para ganar dinero utilizando técnicas de engaño a través de enlaces maliciosos incluidos en un mensaje de correo electrónico, mensajes de texto o sitio web. El ransomware tiene la capacidad de bloquear la pantalla de una computadora o cifrar archivos importantes predeterminados con una contraseña."
+            "text"          : "Es un tipo de malware (software malicioso) que infecta tu computadora y muestra mensajes que exigen el pago de dinero para restablecer el funcionamiento del sistema. Este tipo de malware se usa para para ganar dinero utilizando técnicas de engaño a través de enlaces maliciosos incluidos en un mensaje de correo electrónico, mensajes de texto o sitio web. El ransomware tiene la capacidad de bloquear la pantalla de una computadora o cifrar archivos importantes predeterminados con una contraseña."
           }
         ]
       },

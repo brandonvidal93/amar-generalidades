@@ -33,7 +33,7 @@ class DnDCircle2 extends Component {
 
   countDrop = () => {
     // console.log(this.state.actualItem);
-    if (this.state.actualItem === 4) {
+    if (this.state.actualItem === 0) {
       document.querySelector('.bgItemGlobe').classList.remove('dNone'); // OCULTAR EL FONDO
       document.getElementById('infoFinal').classList.remove('dNone');
 
