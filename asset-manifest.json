@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/seguridad-informacion-f/static/css/main.f6c87d56.chunk.css",
+    "main.js": "/seguridad-informacion-f/static/js/main.d301c23f.chunk.js",
+    "main.js.map": "/seguridad-informacion-f/static/js/main.d301c23f.chunk.js.map",
+    "runtime-main.js": "/seguridad-informacion-f/static/js/runtime-main.e3af6fab.js",
+    "runtime-main.js.map": "/seguridad-informacion-f/static/js/runtime-main.e3af6fab.js.map",
+    "static/js/2.2e1348a0.chunk.js": "/seguridad-informacion-f/static/js/2.2e1348a0.chunk.js",
+    "static/js/2.2e1348a0.chunk.js.map": "/seguridad-informacion-f/static/js/2.2e1348a0.chunk.js.map",
+    "index.html": "/seguridad-informacion-f/index.html",
+    "static/css/main.f6c87d56.chunk.css.map": "/seguridad-informacion-f/static/css/main.f6c87d56.chunk.css.map",
+    "static/js/2.2e1348a0.chunk.js.LICENSE.txt": "/seguridad-informacion-f/static/js/2.2e1348a0.chunk.js.LICENSE.txt",
+    "static/media/Footer.scss": "/seguridad-informacion-f/static/media/fondo-footer-2.8ed97191.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3af6fab.js",
+    "static/js/2.2e1348a0.chunk.js",
+    "static/css/main.f6c87d56.chunk.css",
+    "static/js/main.d301c23f.chunk.js"
+  ]
+}
