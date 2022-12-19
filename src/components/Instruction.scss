@@ -4,37 +4,70 @@
 .instructionMouse {
   position: absolute;
   z-index: 3;
-  background-color: #F8F8F8;
-  border: 2px solid #FFD15C;
-  padding: 0.2rem 1rem 0.2rem 0.2rem;
+  background-color: $color1;
   box-shadow: 0 3px 10px -4px rgba(0, 0, 0, 0.3);
-  border-radius: 100px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 
-  h5 {
-    color: #747988;
+  .textBox {
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    h5 {
+      color: $blanco;
+    }
   }
-
-  .icon {
-    color: $color2;
-    font-size: 3em;
+  .iconBox {
+    background-color: $color7;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    .icon {
+      color: $blanco;
+      font-size: 3em;
+      margin-left: 0.3rem;
+    }
   }
 }
 
 .instructionInfo {
   position: absolute;
   z-index: 3;
-  background-color: #F8F8F8;
-  border: 2px solid $color13;
-  padding: 0.2rem 1rem 0.2rem 0.2rem;
+  background-color: $color1;
   box-shadow: 0 3px 10px -4px rgba(0, 0, 0, 0.3);
-  border-radius: 100px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 
-  h5 {
-    color: #747988;
+  .textBox {
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    h5 {
+      color: $blanco;
+    }
   }
 
-  .icon {
-    color: $color13;
-    font-size: 3em;
+  .iconBox {
+    background-color: $color7;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    .icon {
+      color: $blanco;
+      font-size: 3em;
+      margin-left: 0.3rem;
+    }
   }
 }

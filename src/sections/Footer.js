@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import './Footer.scss';
+
+import LogoFooter from '../assets/img/cover/logo-2.png';
+
 import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
 
 // IMPORT FONT AWESOME LIBRARY
@@ -7,7 +11,6 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 
-import './Footer.scss';
 
 // CREATING LIBRARY ICONS
 library.add(fas, fab, far);
@@ -58,14 +61,14 @@ class Footer extends Component {
 
   // MOSTRAR EL LOGO CUANDO NO ESTÁ EN LA PÁGINA 1
   showLogo = () => {
-    const { actualIndex, imageFooter } = this.props;
+    const { actualIndex } = this.props;
 
     if (actualIndex !== 0) {
       return(
         <img
           alt='Imagen Corporativa'
           className='imageFooter'
-          src={ imageFooter }/>
+          src={ LogoFooter }/>
       );
     } else {
       return null;
@@ -110,7 +113,7 @@ class Footer extends Component {
 
     if (actualIndex !== 0) {
       return(
-        <h3 className = 'labelFooter fw-7' dangerouslySetInnerHTML = {{ __html: labelFooter }}></h3>
+        <h3 className = 'labelFooter fw-4' dangerouslySetInnerHTML = {{ __html: labelFooter }}></h3>
       );
     }
   }

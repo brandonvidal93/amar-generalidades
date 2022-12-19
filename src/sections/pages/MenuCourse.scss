@@ -2,13 +2,13 @@
 @import "../../resources/animation.scss";
 
 .menuContent {
-  height: 574px;
+  height: 587px;
   width: 170px;
-  background-color: #F7F7F7;
-  box-shadow: 0 0px 10px -5px rgba(0, 0, 0, 0.6);
+  background-color: $color12;
+  box-shadow: 0 0px 10px -5px rgba(0, 0, 0, 0.95);
   padding: 3rem 1rem 3rem 0rem;
   z-index: 1;
-  left: -130px;
+  left: -120px;
   transition: all 0.4s;
 
   .itemsContent {
@@ -18,7 +18,7 @@
     scroll-behavior: smooth;
 
     .disabledButton {
-      filter: grayscale(1);
+      opacity: 0.5;
       pointer-events: none;
     }
 
@@ -29,7 +29,7 @@
     }
 
     .buttonTheme {
-      margin-bottom: -0.5rem;
+      margin-bottom: 0.5rem;
       .btnStyle {
         background-color: rgba(251, 251, 251, 0);
         transition: all .4s;
@@ -70,10 +70,7 @@
 
     &:hover {
       box-shadow: 0 8px 12px -5px rgba(0, 0, 0, 0.6);
-      background-color: $blanco;
-      .iconButton {
-        color: $color1;
-      }
+      background-color: $color2;
     }
   }
 
@@ -88,10 +85,10 @@
   }
 
   .boxOpenButton {
-    top: 210px;
+    top: 222px;
     right: -10px;
     display: grid;
-    background-color: $color13;
+    background-color: $color1;
     height: 144px;
     width: 20px;
     border-radius: 15px;
@@ -102,7 +99,7 @@
       width: 30px;
       height: 30px;
 
-      background-color: $color13;
+      background-color: $color1;
       border-radius: 50%;
       outline: none;
 
@@ -126,10 +123,10 @@
 
     &:hover {
       box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 1);
-      background-color: $color3;
+      background-color: $color2;
 
       .buttonOpen {
-        background-color: $color3;
+        background-color: $color2;
         .iconButton {
           color: $blanco;
         }
@@ -155,10 +152,10 @@
     top: 0px;
     left: 170px;
 
-    background: #152E6B;
+    background-color: ($color3);
 
     width: 860px;
-    height: 574px;
+    height: 587px;
 
     transition: all 0.4s;
 

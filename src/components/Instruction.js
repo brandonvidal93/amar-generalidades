@@ -15,32 +15,25 @@ class Instruction extends Component {
   showInstruction = () => {
     const { dataPage } = this.props;
 
-    // console.log(dataPage.type);
     switch (dataPage.type) {
       case 'mouse':
         return(
-          <div className='instructionMouse instruction d-Flex j-S aI-C' style={ {'top': dataPage.posY, 'left': dataPage.posX, 'width': dataPage.size} }>
-            <div>
-              <span className = 'fa-layers icon mR-025' >
-                <FontAwesomeIcon icon="circle" style = { {'color': dataPage.color} } />
-                <FontAwesomeIcon icon="mouse-pointer" inverse transform="shrink-6" className = 'color-23' />
-              </span>
+          <div className='instructionMouse instruction d-Flex j-S aI-C' style={ {'top': dataPage.posY, 'right': dataPage.posX, 'width': dataPage.size} }>
+            <div className='iconBox'>
+              <FontAwesomeIcon icon="mouse-pointer" transform="shrink-6" className = 'icon mR-025' />
             </div>
-            <div className = 'mT-025 mB-025'>
+            <div className = 'textBox'>
               <h5 className = 'fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.text }} />
             </div>
           </div>
         );
       default:
         return(
-          <div className='instructionInfo instruction d-Flex j-S aI-C' style={ {'top': dataPage.posY, 'left': dataPage.posX, 'width': dataPage.size} }>
-            <div>
-              <span className = 'fa-layers icon mR-025' >
-                <FontAwesomeIcon icon="circle" style = { {'color': dataPage.color} } />
-                <FontAwesomeIcon icon="info" inverse transform="shrink-6" />
-              </span>
+          <div className='instructionInfo instruction d-Flex j-S aI-C' style={ {'top': dataPage.posY, 'right': dataPage.posX, 'width': dataPage.size} }>
+            <div className='iconBox'>
+              <FontAwesomeIcon icon="info" transform="shrink-6" className = 'icon mR-025' />
             </div>
-            <div className = 'mT-025 mB-025'>
+            <div className = 'textBox'>
               <h5 className = 'fw-4' dangerouslySetInnerHTML = {{ __html: dataPage.text }} />
             </div>
           </div>
@@ -49,8 +42,6 @@ class Instruction extends Component {
   }
 
   render() {
-    // const { dataPage } = this.props;
-    // console.log(dataPage);
     return (
       this.showInstruction()
     );

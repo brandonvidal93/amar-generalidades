@@ -1,17 +1,11 @@
 {
   "coverPage": {
     "type"            : "startPage",
-    "units"           : 6,
-    "title"           : "Seguridad de <br> la información",
-    "subTitle"        : "",
+    "units"           : 12,
+    "title"           : "Generalidades",
+    "subTitle"        : "Gestión del Talento Humano",
     "module"          : "",
     "courseName"      : "Para comenzar, haz clic en el siguiente botón:",
-    "logoCourse"      : "img/cover/logo-1.png",
-    "logoFooter"      : "img/cover/logo-2.png",
-    "background": {
-      "bg"            : "img/cover/fondo-cover.jpg",
-      "bgDnDStart"    : "img/cover/bg-DnD.png"
-    },
     "footer": {
       "label"         : "Seguridad de la información"
     }
@@ -55,97 +49,27 @@
         "img1"    : ""
       }
     ],
-    "resources": {
-      "bg"        : "img/1/bgPage-1.png"
-    },
     "instruction": {
       "type"      : "mouse",
       "text"      : "Haz clic en los círculos para visualizar todas las recomendaciones.",
-      "posY"      : 50,
-      "posX"      : 660,
-      "size"      : 330,
-      "color"     : "#FFD15C"
+      "posY"      : 30,
+      "posX"      : 0,
+      "size"      : 320,
+      "color"     : "#F0B114"
     }
   },
 
   "page2": {
     "type"    : "pageCourse",
     "title"   : "Hola",
-    "text"    : "En esta era digital la mayor parte de nuestra información se encuentra en línea y por lo general la forma en que trabajamos, aprendemos, nos comunicamos, nos relacionamos, entre otros; dependen de una conexión a la red. Tener conciencia frente a los riesgos que amenazan nuestra información es parte fundamental de los controles que se necesitan para evitar ser víctimas de la inseguridad digital. <br><br>Presta mucha atención a los diferentes temas que desarrollaremos alrededor del curso. <span class = 'color-14'>¡Bienvenidos!</span>",
-    "resources": {
-      "img1": "img/2/npc-1.png"
-    },
-    "multimedia": {
-      "audio": {
-        "src"         : "audio/bienvenida.mp3",
-        "autoPlay"    : true
-      },
-      "subtitles": {
-        "1"           : "En esta era digital la mayor parte de nuestra información se",
-        "3"           : "encuentra en línea y por lo general la forma en que ",
-        "6"           : "trabajamos, aprendemos, nos comunicamos, nos relacionamos,",
-        "10"          : "entre otros; dependen de una conexión a la red.",
-        "13"          : "Tener conciencia frente a los riesgos que amenazan nuestra",
-        "16"          : "información es parte fundamental de los controles que se",
-        "19"          : "necesitan para evitar ser víctimas de la inseguridad digital.",
-        "23"          : "Presta mucha atención a los diferentes temas que ",
-        "25"          : "desarrollaremos alrededor del curso. ¡Bienvenidos!"
-      },
-      "layers": [
-        {
-          "label"     : "Candidatos a cargos",
-          "color"     : "#1FBDED",
-          "time"      : 30
-        },
-        {
-          "label"     : "Empleados, exempleados",
-          "color"     : "#0C62A5",
-          "time"      : 32
-        },
-        {
-          "label"     : "Pensionados",
-          "color"     : "#04386D",
-          "time"      : 34
-        },
-        {
-          "label"     : "Accionistas",
-          "color"     : "#FBB03B",
-          "time"      : 35
-        },
-        {
-          "label"     : "Proveedores",
-          "color"     : "#F15A24",
-          "time"      : 36
-        },
-        {
-          "label"     : "Consumidores",
-          "color"     : "#93278F",
-          "time"      : 38
-        },
-        {
-          "label"     : "Recicladores",
-          "color"     : "#620B5F",
-          "time"      : 39
-        },
-        {
-          "label"     : "Usuarios",
-          "color"     : "#9E0B5D",
-          "time"      : 40
-        },
-        {
-          "label"     : "Clientes",
-          "color"     : "#8CC63F",
-          "time"      : 41
-        }
-      ]
-    },
+    "text"    : "Para <b>AMAR</b> es muy gratificante que esté entre nosotros, en nombre de todos queremos expresarle una calurosa Bienvenida.<br><br>A partir de hoy inicia proceso de <b>Inducción</b>, lo invitamos a conocernos y a quedarse con nosotros.<br><br><span class = 'F2 fw-7'>¡Comencemos!</span>",
     "instruction": {
       "type"    : "",
-      "text"    : "Luego de escuchar el audio de bienvenida, te invitamos a desplegar el menú que hay al lado izquierdo para comenzar la formación.",
-      "posY"    : 500,
-      "posX"    : 72,
-      "size"    : 500,
-      "color"   : "#189BDB"
+      "text"    : "Luego de leer la bienvenida, te invitamos a desplegar el menú que hay al lado izquierdo para comenzar la formación.",
+      "posY"      : 30,
+      "posX"      : 0,
+      "size"      : 470,
+      "color"     : "#F0B114"
     }
   },
 
@@ -2860,50 +2784,98 @@
     "Units": [
       {
         "unit"          : 1,
-        "title"         : "Generalidades",
+        "title"         : "AMAR ¿Quiénes somos?",
         "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
         "imgBnt"        : "img/menuCourse/n-1.png",
-        "goTo"          : 3,
+        "goTo"          : 1,
         "fullVisited"   : false
       },
       {
         "unit"          : 2,
-        "title"         : "Amenazas",
+        "title"         : "Servicios",
         "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
         "imgBnt"        : "img/menuCourse/n-2.png",
-        "goTo"          : 7,
+        "goTo"          : 1,
         "fullVisited"   : false
       },
       {
         "unit"          : 3,
-        "title"         : "Dispositivos móviles",
+        "title"         : "Amando el Mutualismo",
         "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
         "imgBnt"        : "img/menuCourse/n-3.png",
-        "goTo"          : 16,
+        "goTo"          : 1,
         "fullVisited"   : false
       },
       {
         "unit"          : 4,
-        "title"         : "Seguridad de la información",
+        "title"         : "Estatutos AMAR",
         "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
         "imgBnt"        : "img/menuCourse/n-4.png",
-        "goTo"          : 18,
+        "goTo"          : 1,
         "fullVisited"   : false
       },
       {
         "unit"          : 5,
-        "title"         : "Centro de Atención al Usuario (CAU)",
+        "title"         : "Plan estratégico AMAR",
         "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
         "imgBnt"        : "img/menuCourse/n-5.png",
-        "goTo"          : 29,
+        "goTo"          : 1,
         "fullVisited"   : false
       },
       {
         "unit"          : 6,
-        "title"         : "Evaluación final del curso",
+        "title"         : "Estructura organizacional",
         "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
         "imgBnt"        : "img/menuCourse/n-6.png",
-        "goTo"          : 32,
+        "goTo"          : 1,
+        "fullVisited"   : false
+      },
+      {
+        "unit"          : 7,
+        "title"         : "Reglamento interno de trabajo",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-6.png",
+        "goTo"          : 1,
+        "fullVisited"   : false
+      },
+      {
+        "unit"          : 8,
+        "title"         : "Plan de Bienestar laboral",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-6.png",
+        "goTo"          : 1,
+        "fullVisited"   : false
+      },
+      {
+        "unit"          : 9,
+        "title"         : "Código del Buen vestir",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-6.png",
+        "goTo"          : 1,
+        "fullVisited"   : false
+      },
+      {
+        "unit"          : 10,
+        "title"         : "SG SST y SS del empleado",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-6.png",
+        "goTo"          : 1,
+        "fullVisited"   : false
+      },
+      {
+        "unit"          : 11,
+        "title"         : "Repositorio AMAR",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-6.png",
+        "goTo"          : 1,
+        "fullVisited"   : false
+      },
+      {
+        "unit"          : 12,
+        "title"         : "Evaluaciones: SG SST, RIT, PE",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-6.png",
+        "goTo"          : 1,
         "fullVisited"   : false
       }
     ],

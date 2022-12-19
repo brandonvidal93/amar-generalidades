@@ -1,4 +1,20 @@
 import React, { Component } from 'react';
+import './MenuCourse.scss';
+
+// IMAGENES DE LOS BOTONES
+import Btn1 from '../../assets/img/menuCourse/n-1.png';
+import Btn2 from '../../assets/img/menuCourse/n-2.png';
+import Btn3 from '../../assets/img/menuCourse/n-3.png';
+import Btn4 from '../../assets/img/menuCourse/n-4.png';
+import Btn5 from '../../assets/img/menuCourse/n-5.png';
+import Btn6 from '../../assets/img/menuCourse/n-6.png';
+import Btn7 from '../../assets/img/menuCourse/n-7.png';
+import Btn8 from '../../assets/img/menuCourse/n-8.png';
+import Btn9 from '../../assets/img/menuCourse/n-9.png';
+import Btn10 from '../../assets/img/menuCourse/n-10.png';
+import Btn11 from '../../assets/img/menuCourse/n-11.png';
+import Btn12 from '../../assets/img/menuCourse/n-12.png';
+
 import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
 
 // IMPORT FONT AWESOME LIBRARY
@@ -7,7 +23,6 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 
-import './MenuCourse.scss';
 
 // CREATING LIBRARY ICONS
 library.add(fas, fab, far);
@@ -16,13 +31,14 @@ class MenuCourse extends Component {
   state = {
     unitActual: this.props.unitActual,
     nextUnit: this.props.nextUnit,
-    isMenuOpen: true
+    isMenuOpen: true,
+    imageArray: [Btn1, Btn2, Btn3, Btn4, Btn5, Btn6, Btn7, Btn8, Btn9, Btn10, Btn11, Btn12],
   }
 
   componentDidMount() {
     // console.log(this.state.unitActual); // UNIDAD ACTUAL
 
-    for (var i = 0; i < 6; i++) {
+    for (var i = 0; i < 12; i++) {
       document.getElementsByClassName('buttonMenu')[i].classList.remove('animation');
       // console.log(document.getElementsByClassName('buttonMenu')[i]);
 
@@ -54,7 +70,7 @@ class MenuCourse extends Component {
     if (this.state.isMenuOpen) {
       document.getElementById('menuContent').style.left = '0px';
     } else {
-      document.getElementById('menuContent').style.left = '-130px';
+      document.getElementById('menuContent').style.left = '-120px';
     }
   }
 
@@ -115,7 +131,26 @@ class MenuCourse extends Component {
       case 6:
         goToPage(dataPage.Units[5].goTo);
         break;
+      case 7:
+        goToPage(dataPage.Units[6].goTo);
+        break;
+      case 8:
+        goToPage(dataPage.Units[7].goTo);
+        break;
+      case 9:
+        goToPage(dataPage.Units[8].goTo);
+        break;
+      case 10:
+        goToPage(dataPage.Units[9].goTo);
+        break;
+      case 11:
+        goToPage(dataPage.Units[10].goTo);
+        break;
+      case 12:
+        goToPage(dataPage.Units[11].goTo);
+        break;
       default:
+        break;
     }
 
     this.openCloseMenu(e);
@@ -123,10 +158,9 @@ class MenuCourse extends Component {
 
   render() {
     const { actualIndex, enableUnit, Units } = this.props;
-    // const { Units, unitFinal, enableUnit, dataPage } = this.props;
     
     return (
-      <div className = { (actualIndex === 0 || actualIndex === 34 ? 'menuContent-desc' : 'menuContent') } id = 'menuContent'>
+      <div className = { (actualIndex === 0 ? 'menuContent-desc' : 'menuContent') } id = 'menuContent'>
         <button
           className = { 'buttonNav pAbs'}
           id = 'btnNavUp'
@@ -137,7 +171,7 @@ class MenuCourse extends Component {
             size = 'lg' />
         </button>
 
-        <div className = 'itemsContent' id = 'itemsContent'>
+        <div className = 'itemsContent mT-2' id = 'itemsContent'>
           {
             Units.map(unit =>
               <div
@@ -154,7 +188,7 @@ class MenuCourse extends Component {
                   <img
                     alt="Imagen"
                     className=""
-                    src={ unit.imgBnt }
+                    src={ this.state.imageArray[unit.unit - 1] }
                   />
                 </button>
 
@@ -164,7 +198,7 @@ class MenuCourse extends Component {
         </div>
 
         <button
-          className = { 'buttonNav pAbs ' + (enableUnit[Units.unit - 1] === 5 ? 'pulse' : '') }
+          className = { 'buttonNav pAbs ' + (enableUnit[Units.unit - 1] === 11 ? 'pulse' : '') }
           id = 'btnNavDown'
           onClick = { this.trackScrolling }>
           <FontAwesomeIcon

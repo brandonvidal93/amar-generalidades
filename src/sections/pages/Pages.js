@@ -57,12 +57,6 @@ class Cover extends Component {
       backgroundPosition: 'center'
     }
 
-    // const styleDnD = {
-    //   backgroundImage: 'url(' + dataPage.background.bgDnDStart + ')',
-    //   backgroundSize: 'cover',
-    //   backgroundPosition: 'center'
-    // }
-
     return (
       <div className={ (dataPage.type) + ' pL-4 animated fadeIn' } style = { style }>
         <div className="c-35 dF-C-cs">
@@ -73,39 +67,25 @@ class Cover extends Component {
               src = { dataPage.logoCourse }/> : null
           }
           {
-            dataPage.title ? <h1 className = 'mT-5 mL-1 mB-2 F3' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h1> : null
+            dataPage.title ? <h1 className = 'mT-5 mB-05 F4 fw-9 title-course' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h1> : null
           }
           {
-            dataPage.subTitle ? <h3 className = 'mB-05 mL-1' dangerouslySetInnerHTML = {{ __html: dataPage.subTitle }}></h3> : null
+            dataPage.subTitle ? <p className = 'mL-05 mB-4 F1-3 fw-5' dangerouslySetInnerHTML = {{ __html: dataPage.subTitle }}></p> : null
           }
           {
-            dataPage.module ? <h3 className = 'mB-1 mL-1' dangerouslySetInnerHTML = {{ __html: dataPage.module }}></h3> : null
+            dataPage.module ? <h3 className = 'mB-1 fs-i' dangerouslySetInnerHTML = {{ __html: dataPage.module }}></h3> : null
           }
           {
-            dataPage.courseName ? <p className = 'mB-1 mL-1' dangerouslySetInnerHTML = {{ __html: dataPage.courseName }}></p> : null
+            dataPage.courseName ? <p className = 'mL-025 mB-1 fs-i' dangerouslySetInnerHTML = {{ __html: dataPage.courseName }}></p> : null
           }
 
           <button
-            className = 'buttonQuiz pT-1 pB-1 mL-1 pL-2 pR-2'
+            className = 'buttonQuiz pT-1 pB-1 pL-3 pR-3'
             onClick = { this.startCourse }
             id = { 'btnIniciar' }
             >
-              INICIAR
+              Iniciar
           </button>
-
-          {/* <div className = 'DnDStart mL-1 d-Flex j-Bt aI-C' id = { 'DnDStart' } style = { styleDnD }>
-
-            <StartDrop className = 'dropStart' id = 'dropStart' startCourse = { this.startCourse } >
-              <StartDrag className = 'itemDrag' draggable = 'true' id = 'btnStart'></StartDrag>
-            </StartDrop>
-
-            <StartDrop className = 'dropStart' id = 'dropEnd' startCourse = { this.startCourse } >
-
-            </StartDrop>
-
-          </div> */}
-
-          { /* Restricción de avance <div className = { 'restrict-3 ' + (endActivities === true ? 'dNone' : '') } /> */ }
         </div>
 
       </div>
