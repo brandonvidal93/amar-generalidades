@@ -10,8 +10,9 @@
 
   .itemFlip {
     .buttonFlip {
-      background-color: #F8F8F8;
-      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+      background-color: $blanco;
+      box-shadow: 6px 6px 0px rgba(#333333, 0.75);
+      border: 1px solid $color1;
       cursor: pointer;
       transition: all .4s;
       padding: 2rem 1rem;
@@ -31,14 +32,14 @@
     .infoFlip {
       position: absolute;
       top: 0;
-      background-color: #04386D;
-      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+      background-color: $color1;
+      box-shadow: 6px 6px 0px rgba(#333333, 0.75);
       padding: 2rem 1rem;
     }
 
     .flip-1, .flip-2, .flip-3 {
-      height: 200px;
-      width: 159px;
+      height: 190px;
+      width: 190px;
       margin-left: 0.5rem;
       margin-right: 0.5rem;
       margin-bottom: 1rem;
@@ -52,8 +53,8 @@
     }
 
     .flip-4, .flip-5 {
-      height: 130px;
-      width: 246px;
+      height: 190px;
+      width: 293px;
       margin-left: 0.5rem;
       margin-right: 0.5rem;
     }

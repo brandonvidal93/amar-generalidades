@@ -132,104 +132,54 @@
   "page4": {
     "type": "pageCourse",
     "headerPage": {
-      "imgHeader"   : "img/menuCourse/n-1.png",
-      "textHeader"  : "Generalidades",
-      "color"       : "#5C2481"
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Servicios",
+      "color"       : "#27357E"
     },
-    "title"   : "¿Qué motiva a los criminales en la red?",
-    "text"    : "En la siguiente multimedia podrás conocer qué es lo que motiva a los criminales en la red.",
-    "background": {
-      "bg": "img/4/bgPage-4.png"
-    },
-    "multimedia": [
-      {
-        "urlImgBtn"   : "img/4/n-1.png",
-        "pos": {
-          "top"       : 55,
-          "left"      : -8
-        },
-        "itemInfo": {
-          "title"     : "",
-          "text"      : "Fraudes, robo de identidad, extorsiones",
-          "posGlobe": {
-            "posY"    : -50,
-            "posX"    : -10
-          },
-          "color"     : "#93C750"
-        }
-      },
-      {
-        "urlImgBtn"   : "img/4/n-2.png",
-        "pos": {
-          "top"       : -36,
-          "left"      : 168
-        },
-        "itemInfo": {
-          "title"     : "",
-          "text"      : "Dinero fácil y con el menor riesgo",
-          "posGlobe": {
-            "posY"    : 65,
-            "posX"    : 167
-          },
-          "color"     : "#0A4D94"
-        }
-      },
-      {
-        "urlImgBtn"   : "img/4/n-3.png",
-        "pos": {
-          "top"       : 189,
-          "left"      : 287
-        },
-        "itemInfo": {
-          "title"     : "",
-          "text"      : "Acceso fácil a la información de las personas",
-          "posGlobe": {
-            "posY"    : 81,
-            "posX"    : 284
-          },
-          "color"     : "#347DB9"
-        }
-      },
-      {
-        "urlImgBtn"   : "img/4/n-4.png",
-        "pos": {
-          "top"       : -32,
-          "left"      : 400
-        },
-        "itemInfo": {
-          "title"     : "",
-          "text"      : "Un ciberdelito tiene una baja inversión",
-          "posGlobe": {
-            "posY"    : 67,
-            "posX"    : 400
-          },
-          "color"     : "#33A0D6"
-        }
-      },
-      {
-        "urlImgBtn"   : "img/4/n-5.png",
-        "pos": {
-          "top"       : 75,
-          "left"      : 576
-        },
-        "itemInfo": {
-          "title"     : "",
-          "text"      : "Reconocimiento y popularidad",
-          "posGlobe": {
-            "posY"    : -10,
-            "posX"    : 570
-          },
-          "color"     : "#643B8D"
-        }
-      }
-    ],
+    "title"   : "¿Cuáles son nuestros servicios?",
+    "text"    : "",
     "instruction": {
-      "type"          : "mouse",
-      "text"          : "Haz clic en cada ícono para conocer la información.",
-      "posY"          : 50,
-      "posX"          : 660,
-      "size"          : 330,
-      "color"         : "#FFD15C"
+      "type"    : "mouse",
+      "text"    : "Haz clic sobre cada ícono para descubrir cuáles son los servicios.",
+      "posY"    : 50,
+      "posX"    : 0,
+      "size"    : 330,
+      "color"   : "#FFD15C"
+    },
+    "multimedia": {
+      "type": "icon",
+      "items": [
+        {
+          "id"    : 1,
+          "title" : "Ahorro",
+          "text"  : "",
+          "img"   : "img/7/n-1.png"
+        },
+        {
+          "id"    : 2,
+          "title" : "Crédito",
+          "text"  : "",
+          "img"   : "img/7/n-2.png"
+        },
+        {
+          "id"    : 3,
+          "title" : "Protección<br>exequial",
+          "text"  : "",
+          "img"   : "img/7/n-3.png"
+        },
+        {
+          "id"    : 4,
+          "title" : "Turismo",
+          "text"  : "",
+          "img"   : "img/7/n-4.png"
+        },
+        {
+          "id"    : 5,
+          "title" : "Seguros",
+          "text"  : "",
+          "img"   : "img/7/n-5.png"
+        }
+      ]
     }
   },
 
@@ -259,7 +209,7 @@
       "type"          : "mouse",
       "text"          : "Haz clic en el reproductor de video para conocer la información.",
       "posY"          : 50,
-      "posX"          : 660,
+      "posX"          : 0,
       "size"          : 330,
       "color"         : "#FFD15C"
     }
@@ -278,7 +228,7 @@
       "type"    : "mouse",
       "text"    : "Sigue la conversación dando clic en en botón con dirección hacia abajo.",
       "posY"    : 50,
-      "posX"    : 660,
+      "posX"    : 0,
       "size"    : 330,
       "color"   : "#FFD15C"
     },
@@ -348,7 +298,7 @@
       "type"    : "mouse",
       "text"    : "Haz clic sobre cada ícono para descubrir cuáles son las amenazas.",
       "posY"    : 50,
-      "posX"    : 660,
+      "posX"    : 0,
       "size"    : 330,
       "color"   : "#FFD15C"
     },
@@ -2780,7 +2730,7 @@
         "title"         : "Servicios",
         "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
         "imgBnt"        : "img/menuCourse/n-2.png",
-        "goTo"          : 1,
+        "goTo"          : 4,
         "fullVisited"   : false
       },
       {

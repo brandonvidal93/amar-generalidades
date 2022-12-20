@@ -47,33 +47,34 @@ class InteractiveFlip extends Component {
   }
 
   render() {
-    const { dataPage } = this.props;
+    const { dataPage, imageArray } = this.props;
 
     switch (dataPage.type) {
       case 'icon':
         return (
-          <div className = 'interactiveFlip'>
+          <div className = 'interactiveFlip mL-5'>
             {
               dataPage.items.map((item, i) => {
                 return(
                   <div key = { item.id } className = { 'itemFlip' }>
                     <div className = { 'buttonFlip d-Flex d-C j-C aI-C flip-' + item.id } id = { item.id } onClick = { this.flip }>
-                      <img alt = 'Item' className = '' src = { item.img }/>
+                      <img alt = 'Item' className = '' src = { imageArray[i] }/>
                       {/* <h3 className = 'tCenter mB-1' dangerouslySetInnerHTML = {{ __html: item.title }}></h3> */}
                     </div>
 
-                    <div className = { 'infoFlip d-Flex d-C ' + (item.id < 4 ? 'j-S' : 'j-C') + ' aI-C dNone flip-' + item.id } id = { 'info-' + item.id }>
+                    <div className = { 'infoFlip d-Flex d-C ' + (item.id < 4 ? 'j-C' : 'j-C') + ' aI-C dNone flip-' + item.id } id = { 'info-' + item.id }>
                       {
                         item.id < 4 ?
                         <div className = 'd-Flex d-C j-C aI-C'>
-                          <h1 className = 'blanco' >0{ item.id }</h1>
-                          <hr className = 'mB-05 line-5'></hr>
+                          <h1 className = 'blanco F3' >0{ item.id }</h1>
+                          {/* <hr className = 'mB-05 line-5'></hr> */}
                           <h4 className = 'tCenter fw-3 blanco' dangerouslySetInnerHTML = {{ __html: item.title }}></h4>
                         </div> :
-                        <div className = 'd-Flex d-R j-C aI-C c-95'>
-                          <h1 className = 'blanco mR-1' >0{ item.id }</h1>
+                        <div className = 'd-Flex d-C j-C aI-C c-95'>
+                          <h1 className = 'blanco F3' >0{ item.id }</h1>
                           {/* <hr className = 'mB-05 line-5'></hr> */}
-                          <h4 className = 'tCenter fw-3 blanco pL-05' dangerouslySetInnerHTML = {{ __html: item.title }} style = {{ 'borderLeft': '1px solid #ffffff' }}></h4>
+                          {/* <h4 className = 'tCenter fw-3 blanco pL-05' dangerouslySetInnerHTML = {{ __html: item.title }} style = {{ 'borderLeft': '1px solid #ffffff' }}></h4> */}
+                          <h4 className = 'tCenter fw-3 blanco' dangerouslySetInnerHTML = {{ __html: item.title }}></h4>
                         </div>
                       }
                     </div>

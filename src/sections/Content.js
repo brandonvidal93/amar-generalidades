@@ -15,6 +15,7 @@ import Cover from './pages/Cover/Cover';
 import Page1 from './pages/Page1/Page1';
 import Page2 from './pages/Page2/Page2';
 import Page3 from './pages/Page3/Page3';
+import Page4 from './pages/Page4/Page4';
 
 class Content extends Component {
   showContent = () => {
@@ -32,7 +33,7 @@ class Content extends Component {
       // // UNIDAD 1 ---------------------------------------------------------------------------
       case 3: return( <Page3 dataPage = { data.page3 } endActivities = { endActivities[3] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
 
-      // case 4: return( <Page4 dataPage = { data.page4 } endActivities = { endActivities[4] } checkEndActivity = { checkEndActivity } /> );
+      case 4: return( <Page4 dataPage = { data.page4 } endActivities = { endActivities[4] } checkEndActivity = { checkEndActivity } /> );
 
       // case 5: return( <Page5 dataPage = { data.page5 } endActivities = { endActivities[5] } checkEndActivity = { checkEndActivity } /> );
 
