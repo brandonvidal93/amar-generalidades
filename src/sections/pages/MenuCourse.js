@@ -70,7 +70,7 @@ class MenuCourse extends Component {
     if (this.state.isMenuOpen) {
       document.getElementById('menuContent').style.left = '0px';
     } else {
-      document.getElementById('menuContent').style.left = '-120px';
+      document.getElementById('menuContent').style.left = '-130px';
     }
   }
 

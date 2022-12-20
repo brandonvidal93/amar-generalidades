@@ -16,37 +16,28 @@
     "title"       : "Antes de iniciar...",
     "information": [
       {
-        "text1"   : "Para la realización del curso, ten en cuenta las siguientes recomendaciones:",
-        "img1"    : "img/1/n-1.png"
+        "text1"   : "Para la realización del curso, ten en cuenta las siguientes recomendaciones:"
       },
       {
-        "text1"   : "Guarda todo lo que pueda distraerte",
-        "img1"    : "img/1/n-2.png"
+        "text1"   : "Guarda todo lo que pueda distraerte"
       },
       {
-        "text1"   : "Apaga tu celular o ponlo en silencio",
-        "img1"    : "img/1/n-3.png"
+        "text1"   : "Apaga tu celular o ponlo en silencio"
       },
       {
-        "text1"   : "Ten a la mano cuaderno y lápiz donde tomar nota",
-        "img1"    : "img/1/n-4.png"
+        "text1"   : "Ten a la mano cuaderno y lápiz donde tomar nota"
       },
       {
-        "text1"   : "Además, <b>debes leer y navegar</b> toda la información que aparecerá en las diferentes pantallas.",
-        "img1"    : "img/1/n-5.png"
+        "text1"   : "Además, <b>debes leer y navegar</b> toda la información que aparecerá en las diferentes pantallas."
       },
       {
-        "text1"   : "Para la navegación contarás con estos 2 botones:",
-        "img1"    : "img/1/n-6-1.png",
-        "img2"    : "img/1/n-6-2.png"
+        "text1"   : "Para la navegación contarás con estos 2 botones:"
       },
       {
-        "text1"   : "El menú del curso lo encontrará en la parte izquierda de la pantalla.",
-        "img1"    : "img/1/n-7.png"
+        "text1"   : "El menú del curso lo encontrará en la parte izquierda de la pantalla."
       },
       {
-        "text1"   : "",
-        "img1"    : ""
+        "text1"   : ""
       }
     ],
     "instruction": {
@@ -79,68 +70,62 @@
     "nameUnit": "unit1",
     "headerPage": {
       "imgHeader"   : "img/menuCourse/n-1.png",
-      "textHeader"  : "Generalidades",
-      "color"       : "#5C2481"
+      "textHeader"  : "AMAR ¿Quiénes somos?",
+      "color"       : "#27357E"
     },
-    "title"   : "¿De qué se trata la seguridad de la información?",
-    "text"    : "La información es uno de los recursos más relevantes de una organización, pues ésta se encarga de conectar cada una de las áreas del negocio, de unificar los procesos y de guiar la productividad hacia la dirección correcta. <br><br> La seguridad de la información consiste en implementar tecnologías y controles enfocados en las personas, administración de procesos, la infraestructura y las tecnologías, con el fin de reducir y controlar el riesgo de un ataque cibernético que atentan con la confidencialidad, integridad y disponibilidad de la información.",
-    "multimedia": [
-      {
-        "urlImgBtn"         : "img/3/n-1.png",
-        "title"             : "Disponibilidad",
-        "color"             : "#004991",
-        "itemInfo": {
-          "title"           : "Disponibilidad",
-          "text1"           : "Acceso a la información disponible cuando las personas autorizadas la necesiten.",
-          "text2"           : "<b>Ejemplo:</b> la información de la cuenta bancaria debe de estar disponible cuando la necesite y no cuando el banco lo desee.",
-          "colorText"       : "#004991",
-          "buttonClose": {
-            "closedModal"   : true,
-            "posY"          : 35,
-            "posX"          : 82
+    "title"   : "Esta es nuestra historia...",
+    "text"    : "Para conocerla, sigue la conversación.",
+    "multimedia": {
+      "items": [
+        {
+          "text"      : "Es una empresa del sector solidario de la economía colombiana; fundamentada en los principios de la doctrina mutualista y que busca <b>“implementar y desarrollar servicios integrales que brinden a las personas asociadas, usuarios y sus núcleos familiares, atención en las áreas de previsión, seguridad y bienestar social”</b>.",
+          "textPos": {
+            "posY"    : 15,
+            "posX"    : 376,
+            "width"   : 258
+          }
+        },
+        {
+          "text"      : "Creada hace <b>21 años</b> por iniciativa de <b>46 Pastores</b> de la <b>Iglesia Pentecostal Unida de Colombia</b>, los cuales se unieron porque buscaban solucionar como pagar su seguridad social y fomentar la cultura del ahorro. Y así se constituyeron primero bajo la figura de distintas <b>cooperativas de trabajo asociado</b>, cambiando de razón social en varias ocasiones.",
+          "textPos": {
+            "posY"    : 17,
+            "posX"    : 104,
+            "width"   : 288
+          }
+        },
+        {
+          "text"      : "Al año <b>2022</b> AMAR cuenta con <b>10.907 asociados</b> distribuidos en <b>11 agencias</b> en todo el país, a saber: <b>Medellín, Bucaramanga, Chocó, Pereira, Popayán, Urabá, Barranquilla, Caucasia, Segovia, Pasto y Rionegro</b>.<br>AMAR cuenta con <b>59 colaboradores</b> para dar soporte y atención los asociados.",
+          "textPos": {
+            "posY"    : 16,
+            "posX"    : 104,
+            "width"   : 280
+          }
+        },
+        {
+          "text"      : "El portafolio de servicios que nos representa es bastante amplio: <b>Ahorro, crédito, protección exequial, turismo y seguros</b>. Somos además una de las <b>14 entidades</b> autorizadas por el Ministerio de Salud y la Protección Social como Agremiadora para afiliar en forma colectiva trabajadores independientes al <b>sistema general de seguridad social</b>.",
+          "textPos": {
+            "posY"    : 11,
+            "posX"    : 376,
+            "width"   : 260
+          }
+        },
+        {
+          "text"      : "<b>AMAR</b> es una empresa llena de <b>principios, valores y sueños</b>; funcionamos como una familia, procuramos la <b>solidaridad y el respeto</b> entre todos los asociados y colaboradores porque deseamos crecer y posicionarnos como la mejor <b>Asociación Mutual del País</b>.",
+          "textPos": {
+            "posY"    : 34,
+            "posX"    : 434,
+            "width"   : 253
           }
         }
-      },
-      {
-        "urlImgBtn"         : "img/3/n-2.png",
-        "title"             : "Confidencialidad",
-        "color"             : "#683E92",
-        "itemInfo": {
-          "title"           : "Confidencialidad",
-          "text1"           : "La información debe ser accesible sólo por las personas autorizadas. ",
-          "text2"           : "<b>Ejemplo:</b> la información de mi cuenta bancaria no la debe de revisar cualquier tercero sin previa autorización, solamente la puedo consultar yo o las personas que autorice.",
-          "colorText"       : "#683E92",
-          "buttonClose": {
-            "closedModal"   : true,
-            "posY"          : 35,
-            "posX"          : 82
-          }
-        }
-      },
-      {
-        "urlImgBtn"         : "img/3/n-3.png",
-        "title"             : "Integridad",
-        "color"             : "#2097D3",
-        "itemInfo": {
-          "title"           : "Integridad",
-          "text1"           : "Información correcta sin modificaciones no autorizadas ni errores. ",
-          "text2"           : "<b>Ejemplo:</b> si en mi cuenta bancaria me consignaron $100, en la consulta de movimientos debo de tener una consignación por $100 y no por $10 o $1000.",
-          "colorText"       : "#2097D3",
-          "buttonClose": {
-            "closedModal"   : true,
-            "posY"          : 35,
-            "posX"          : 82
-          }
-        }
-      }
-    ],
+      ]
+    },
     "instruction": {
-      "type"    : "mouse",
-      "text"    : "Haz clic en cada ícono para conocer la información.",
-      "posY"    : 50,
-      "posX"    : 660,
-      "size"    : 330,
-      "color"   : "#FFD15C"
+      "type"      : "mouse",
+      "text"      : "Sigue la conversación dando clic en el botón con dirección hacia abajo.",
+      "posY"      : 30,
+      "posX"      : 0,
+      "size"      : 320,
+      "color"     : "#F0B114"
     }
   },
 

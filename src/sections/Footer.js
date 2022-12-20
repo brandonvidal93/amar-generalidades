@@ -93,7 +93,7 @@ class Footer extends Component {
           </button>
 
           <button
-            className = { 'buttonNav ' + (actualIndex === limitNavigation || Object.values(data)[actualIndex].endCourse === true ? 'disabled ': '') + (actualIndex === 1 || actualIndex === 2 || actualIndex === 6 || actualIndex === 15 || actualIndex === 17 || actualIndex === 28 || actualIndex === 31 || actualIndex === 32 || actualIndex === 33 ? 'disabled ': '') }
+            className = { 'buttonNav ' + (actualIndex === limitNavigation || Object.values(data)[actualIndex].endCourse === true ? 'disabled ': '') + (actualIndex === 1 || actualIndex === 2 || actualIndex === 3 || actualIndex === 15 || actualIndex === 17 || actualIndex === 28 || actualIndex === 31 || actualIndex === 32 || actualIndex === 33 ? 'disabled ': '') }
             id = 'btnNavRight'
             onClick = { this.navigationCourse }>
             <FontAwesomeIcon

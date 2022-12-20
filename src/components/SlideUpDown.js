@@ -1,8 +1,4 @@
 import React, {Component} from 'react';
-// import { DndProvider } from 'react-dnd';
-// import HTML5Backend from 'react-dnd-html5-backend';
-// import DropWord from './subcomponents/DnDFV/DropFV';
-// import DragWord from './subcomponents/DnDFV/DragFV';
 
 import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
 
@@ -39,7 +35,8 @@ class SlideUpDown extends Component {
   }
 
   render() {
-    const { multimedia } = this.props;
+    const { multimedia, imageArray } = this.props;
+    console.log(multimedia);
     return (
       <div className = 'SlideUpDown d-Flex j-S aI-S'>
         <div className = 'contentSlide d-Flex j-C aI-C' id = 'contentSlide'>
@@ -48,10 +45,10 @@ class SlideUpDown extends Component {
               return(
                 <div key = { i + 1 } id = { 'slideBox-' + (i + 1) } className = {'slideBox d-Flex d-C j-C aI-C animated fadeIn ' + ((i + 1) !== this.state.page ? 'dNone' : '')}>
                   {
-                    item.img ? <img alt = 'Imagen' className = '' src = { item.img }/> : null
+                    imageArray[i] ? <img alt = 'Imagen' className = '' style={{width: '102%', marginTop: i === 2 ? '-1.7rem' : 0}} src = { imageArray[i] }/> : null
                   }
                   {
-                    item.text ? <p className = 'text pAbs' dangerouslySetInnerHTML = {{ __html: item.text }} style = {{ 'top': item.textPos.posY, 'left': item.textPos.posX, 'width': item.textPos.width }} /> : null
+                    item.text ? <p className = 'text pAbs' dangerouslySetInnerHTML = {{ __html: item.text }} style = {{ 'top': item.textPos.posY, 'left': item.textPos.posX, 'width': item.textPos.width, 'line-height': '17px' }} /> : null
                   }
                 </div>
               )

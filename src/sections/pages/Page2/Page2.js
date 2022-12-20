@@ -14,7 +14,7 @@ const Page2 = ({dataPage, checkEnabledUnit}) => {
 
 
   return (
-    <div className='pageContent page-2'>
+    <div className='pageContent page-2 animated fadeIn'>
       <img alt = 'Imagen' className = 'imageNPC pAbs' src = { ImgBienvenida }/>
       <div className = 'c-4 mT-7 mL-7 animated fadeIn'>
         {

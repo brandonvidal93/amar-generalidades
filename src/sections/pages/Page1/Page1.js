@@ -15,8 +15,8 @@ import BackgroundPage from '../../../assets/img/1/bgPage-1.png'
 
 const Page1 = ({dataPage, startCourse}) => {
   const [itemActive, setItemActive] = useState(0);
-  const [img1Array, setImg1Array] = useState([Img1, Img2, Img3, Img4, Img5, Img61, Img7]);
-  const [img2Array, setImg2Array] = useState([null, null, null, null, null, Img62, null]);
+  const [img1Array] = useState([Img1, Img2, Img3, Img4, Img5, Img61, Img7]);
+  const [img2Array] = useState([null, null, null, null, null, Img62, null]);
 
   console.log('dataPage', dataPage);
 
@@ -44,8 +44,8 @@ const Page1 = ({dataPage, startCourse}) => {
   }
 
   return (
-    <div className='pageContent page-1'>
-      <div className = 'c-10 animated fadeIn'>
+    <div className='pageContent page-1 animated fadeIn'>
+      <div className = 'c-10'>
         <div className = 'c-3 mB-2'>
           <h2 className = 'mT-4 mL-4 tCenter' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2>
         </div>
