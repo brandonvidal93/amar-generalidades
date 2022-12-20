@@ -268,9 +268,11 @@ class App extends Component {
   // MARCAR CADA UNIDAD COMO FINALIZADA
   checkEndUnit = (idUnit) => {
     console.log('Unidad: ' + idUnit);
+
     let checkArray = this.state.unitFinal;
     checkArray[idUnit] = true;
-    this.setState({unitFinal: checkArray})
+    this.setState({unitFinal: checkArray});
+
     console.log(this.state.unitFinal);
 
     // GUARDA EL SUSPEND DATA CADA QUE SE HACE UN AVACE EN EL CURSO o UNA MODIFICACION
@@ -280,9 +282,11 @@ class App extends Component {
   // HABILITAR LA SIGUIENTE UNIDAD
   checkEnabledUnit = (idUnit) => {
     console.log('Unidad: ' + idUnit);
+
     let enabledArray = this.state.enableUnit;
     enabledArray[idUnit] = true;
-    this.setState({enableUnit: enabledArray})
+    this.setState({enableUnit: enabledArray});
+
     console.log(this.state.enableUnit);
 
     console.log(this.state.unitActual); // UNIDAD ACTUAL
@@ -308,7 +312,7 @@ class App extends Component {
     console.log(this.state.endActivities);
 
     const {index} = this.state;
-    if (index !== 1 && index !== 2 && index !== 6 && index !== 15 && index !== 17 && index !== 28 && index !== 31 && index !== 32 && index !== 33) {
+    if (index !== 1 && index !== 2 && index !== 3 && index !== 15 && index !== 17 && index !== 28 && index !== 31 && index !== 32 && index !== 33) {
       document.getElementById('btnNavRight').classList.add('animationBtnNav');
     }
 

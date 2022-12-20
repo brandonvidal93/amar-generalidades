@@ -36,7 +36,7 @@ class SlideUpDown extends Component {
 
   render() {
     const { multimedia, imageArray } = this.props;
-    console.log(multimedia);
+
     return (
       <div className = 'SlideUpDown d-Flex j-S aI-S'>
         <div className = 'contentSlide d-Flex j-C aI-C' id = 'contentSlide'>
@@ -48,7 +48,7 @@ class SlideUpDown extends Component {
                     imageArray[i] ? <img alt = 'Imagen' className = '' style={{width: '102%', marginTop: i === 2 ? '-1.7rem' : 0}} src = { imageArray[i] }/> : null
                   }
                   {
-                    item.text ? <p className = 'text pAbs' dangerouslySetInnerHTML = {{ __html: item.text }} style = {{ 'top': item.textPos.posY, 'left': item.textPos.posX, 'width': item.textPos.width, 'line-height': '17px' }} /> : null
+                    item.text ? <p className = 'text pAbs' dangerouslySetInnerHTML = {{ __html: item.text }} style = {{ 'top': item.textPos.posY, 'left': item.textPos.posX, 'width': item.textPos.width, 'lineHeight': '17px' }} /> : null
                   }
                 </div>
               )
