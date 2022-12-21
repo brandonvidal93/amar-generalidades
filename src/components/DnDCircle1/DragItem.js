@@ -2,8 +2,6 @@ import React from 'react';
 import { useDrag } from 'react-dnd';
 
 const style = {
-  // marginRight: '1.5rem',
-  // marginBottom: '1.5rem',
   cursor: 'move',
 }
 
@@ -30,8 +28,8 @@ const DragItem = ({ name, path, type, id }) => {
         // console.log(`You dropped ${id} item`);
         // AQUI ES DONDE VA EL CODIGO PARA MOSTRAR EL GLOBO INFO
 
-        // console.log(document.getElementById('infoDrop-' + id));
-        // console.log(document.getElementById('dragBox-' + id));
+        console.log(document.getElementById('infoDrop-' + id));
+        console.log(document.getElementById('dragBox-' + id));
 
         document.getElementById('dragBox-' + id).classList.add('dNone');
         document.getElementById('imgDrop-' + id).classList.remove('disabledGray2');
@@ -44,11 +42,11 @@ const DragItem = ({ name, path, type, id }) => {
         document.querySelector('.menuContent').classList.add('dNone'); // OCULTAR EL FONDO
         document.querySelector('.instructionMouse').classList.add('dNone'); // OCULTAR EL FONDO
 
-        document.getElementById('audioNotification').src = 'audio/check.mp3';
-        document.getElementById('audioNotification').play();
+        // document.getElementById('audioNotification').src = '../../assets/audio/check.mp3';
+        // document.getElementById('audioNotification').play();
       } else {
-        document.getElementById('audioNotification').src = 'audio/error.mp3';
-        document.getElementById('audioNotification').play();
+        // document.getElementById('audioNotification').src = '../../assets/audio/error.mp3';
+        // document.getElementById('audioNotification').play();
       }
     },
     collect: monitor => ({

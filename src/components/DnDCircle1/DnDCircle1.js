@@ -32,7 +32,7 @@ class DnDCircle1 extends Component {
 
     console.log(this.state.actualItem);
 
-    if (this.state.actualItem === 5) {
+    if (this.state.actualItem === 8) {
       this.props.isEnded(true); // SI LLEGA EL FINAL DE LA ACT ENVÍA EL TRUE
     } else {
       this.setState({
@@ -44,10 +44,10 @@ class DnDCircle1 extends Component {
   }
 
   render() {
-    const { multimedia } = this.props;
+    const { multimedia, imageArray, background, imageSelector } = this.props;
 
     const style = {
-      backgroundImage: 'url(' + multimedia.bg + ')',
+      backgroundImage: 'url(' + background + ')',
       backgroundSize: 'auto',
       backgroundPosition: 'top center',
       backgroundRepeat: 'no-repeat'
@@ -55,7 +55,7 @@ class DnDCircle1 extends Component {
 
     // console.log(this.state);
     return (
-      <div className = 'DnDCircle1 d-Flex d-C j-E' style = {{ ...style }}>
+      <div className = 'DnDCircle1 d-Flex d-C j-E mL-1' style = {{ ...style }}>
         <audio
           className = 'audio'
           autoPlay = { '' }
@@ -70,7 +70,7 @@ class DnDCircle1 extends Component {
                   <div  key = { i }>
                     <BoxDrop
                       id = { item.target }
-                      img = { item.img }
+                      img = { imageArray[i] }
                       order = { i }
                       posY = { item.posY }
                       posX = { item.posX }
@@ -80,15 +80,15 @@ class DnDCircle1 extends Component {
               })
             }
           </div>
-          <div className = 'dragContent d-Flex d-R j-C aI-C'>
+          <div className = 'dragContent d-Flex d-R j-Bt aI-C'>
             {
-              multimedia.dragItems.map( item => {
+              multimedia.dragItems.map( (item, i) => {
                 return(
-                  <div key = { item.drag } className = {''}>
+                  <div key = { item.drag } className = {'itemDrag'}>
                     <DragItem
                       id = { item.drag }
                       name = { item.data }
-                      path = { item.img }
+                      path = { imageArray[i] }
                       type = { item.type } />
                   </div>
                 )
@@ -102,11 +102,12 @@ class DnDCircle1 extends Component {
             multimedia.dropZone.infoBox.map( (item, i) => {
               return(
                 <div
-                  className = { 'itemGlobe dF-C-cs animated fadeIn dNone' }
+                  className = { 'itemGlobe dF-C-sc animated fadeIn dNone' }
                   id = { 'infoDrop-' + (item.target) } 
                   key = { i } >
 
-                  <p className = 'mB-1 tCenter' dangerouslySetInnerHTML = { {__html: item.text} }/>
+                  <h3 className = 'mB-1 texto1' dangerouslySetInnerHTML = { {__html: item.title} }/>
+                  <p className = '' dangerouslySetInnerHTML = { {__html: item.text} }/>
 
                   <button
                     className = 'buttonClose'
@@ -128,7 +129,7 @@ class DnDCircle1 extends Component {
           <img
             alt = 'hand'
             className = { 'hand pAbs' }
-            src = { multimedia.example.hand } />
+            src = { imageSelector } />
         </div>
       </div>
     );

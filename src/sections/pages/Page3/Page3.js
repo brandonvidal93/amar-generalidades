@@ -23,7 +23,7 @@ const Page3 = ({dataPage, checkEndActivity, checkEndUnit, checkEnabledUnit}) => 
   };
 
   return (
-    <div className='pageContent page-3  animated fadeIn'>
+    <div className='pageContent page-3 animated fadeIn'>
       <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-05 mL-4 mT-1'>
         <h2
           className = 'textHeader F2 mL-1 mB-05'
