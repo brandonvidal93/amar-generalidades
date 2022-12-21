@@ -28,8 +28,8 @@ const DragItem = ({ name, path, type, id }) => {
         // console.log(`You dropped ${id} item`);
         // AQUI ES DONDE VA EL CODIGO PARA MOSTRAR EL GLOBO INFO
 
-        console.log(document.getElementById('infoDrop-' + id));
-        console.log(document.getElementById('dragBox-' + id));
+        // console.log(document.getElementById('infoDrop-' + id));
+        // console.log(document.getElementById('dragBox-' + id));
 
         document.getElementById('dragBox-' + id).classList.add('dNone');
         document.getElementById('imgDrop-' + id).classList.remove('disabledGray2');

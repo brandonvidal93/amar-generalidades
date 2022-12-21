@@ -17,6 +17,7 @@ import Page2 from './pages/Page2/Page2';
 import Page3 from './pages/Page3/Page3';
 import Page4 from './pages/Page4/Page4';
 import Page5 from './pages/Page5/Page5';
+import Page6 from './pages/Page6/Page6';
 
 class Content extends Component {
   showContent = () => {
@@ -33,15 +34,15 @@ class Content extends Component {
 
       // // UNIDAD 1 ---------------------------------------------------------------------------
       case 3: return( <Page3 dataPage = { data.page3 } endActivities = { endActivities[3] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
+      // // FIN UNIDAD 1 -----------------------------------------------------------------------
 
+      // // UNIDAD 2 ---------------------------------------------------------------------------
       case 4: return( <Page4 dataPage = { data.page4 } endActivities = { endActivities[4] } checkEndActivity = { checkEndActivity } /> );
 
       case 5: return( <Page5 dataPage = { data.page5 } endActivities = { endActivities[5] } checkEndActivity = { checkEndActivity } /> );
 
-      // case 6: return( <Page6 dataPage = { data.page6 } endActivities = { endActivities[6] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
-      // // FIN UNIDAD 1 -----------------------------------------------------------------------
+      case 6: return( <Page6 dataPage = { data.page6 } endActivities = { endActivities[6] } checkEndActivity = { checkEndActivity } /> );
       
-      // // UNIDAD 2 ---------------------------------------------------------------------------
       // case 7: return( <Page7 dataPage = { data.page7 } endActivities = { endActivities[7] } checkEndActivity = { checkEndActivity } /> );
 
       // case 8: return( <Page8 dataPage = { data.page8 } endActivities = { endActivities[8] } checkEndActivity = { checkEndActivity } /> );

@@ -23,7 +23,7 @@ class ModalCircle3 extends Component {
   }
 
   showItems = () => {
-    const { dataPage } = this.props;
+    const { dataPage, imageArray, background } = this.props;
     const ITEM = dataPage.multimedia.map( (item, i) => {
       return(
         <div className = 'circleItems pAbs' key = { i } style = {{ 'top': item.posY, 'left': item.posX }}>
@@ -33,7 +33,7 @@ class ModalCircle3 extends Component {
               id = { i + 1 } 
               onClick = { this.enableItem } >
 
-              <img alt = '' className = '' id = { i + 1 } src = { item.urlImgBtn }/>
+              <img alt = '' className = '' id = { i + 1 } src = { imageArray[i] }/>
             </button>
           </div>
         </div>
@@ -97,8 +97,9 @@ class ModalCircle3 extends Component {
   render() {
     const { multimedia } = this.props.dataPage;
     const { actualItem } = this.state;
+    const { background, imageArray } = this.props;
     const style = {
-      'backgroundImage': 'url(' + this.props.dataPage.resources.bgImg + ')',
+      'backgroundImage': 'url(' + background + ')',
       'backgroundRepeat': 'no-repeat',
       'backgroundPosition': 'center'
     }
@@ -111,7 +112,7 @@ class ModalCircle3 extends Component {
           <div className = 'bgItemGlobe animated fadeIn'>
             <div className = { 'itemGlobe animated fadeIn d-Flex d-C j-C aI-C'} >
 
-              <img alt = '' className = '' src = { multimedia[actualItem - 1].urlImgBtn }/>
+              <img alt = '' className = 'mB-1' src = { imageArray[actualItem - 1] }/>
 
               {/* <h2 className = 'mB-1 titleGlobe tCenter blanco d-Flex j-C aI-C' style = {{ 'backgroundColor': multimedia[actualItem - 1].itemInfo.colorText }}>{ multimedia[actualItem - 1].itemInfo.title }</h2> */}
 
@@ -122,7 +123,7 @@ class ModalCircle3 extends Component {
                 <button
                   className = 'buttonClose'
                   onClick = { this.hideModal }
-                  style = { { 'top': multimedia[actualItem - 1].itemInfo.buttonClose.posY, 'left': (multimedia[actualItem - 1].itemInfo.buttonClose.posX + '%') } }
+                  
                   >
                   <span className = 'fa-layers fa-fw iconButton' >
                     <FontAwesomeIcon icon="circle" />

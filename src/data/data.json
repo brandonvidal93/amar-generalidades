@@ -43,7 +43,7 @@
     "instruction": {
       "type"      : "mouse",
       "text"      : "Haz clic en los círculos para visualizar todas las recomendaciones.",
-      "posY"      : 30,
+      "posY"      : 33,
       "posX"      : 0,
       "size"      : 320,
       "color"     : "#F0B114"
@@ -57,7 +57,7 @@
     "instruction": {
       "type"    : "",
       "text"    : "Luego de leer la bienvenida, te invitamos a desplegar el menú que hay al lado izquierdo para comenzar la formación.",
-      "posY"      : 30,
+      "posY"      : 33,
       "posX"      : 0,
       "size"      : 470,
       "color"     : "#F0B114"
@@ -122,7 +122,7 @@
     "instruction": {
       "type"      : "mouse",
       "text"      : "Sigue la conversación dando clic en el botón con dirección hacia abajo.",
-      "posY"      : 30,
+      "posY"      : 33,
       "posX"      : 0,
       "size"      : 320,
       "color"     : "#F0B114"
@@ -141,7 +141,7 @@
     "instruction": {
       "type"    : "mouse",
       "text"    : "Haz clic sobre cada ícono para descubrir cuáles son los servicios.",
-      "posY"    : 50,
+      "posY"    : 33,
       "posX"    : 0,
       "size"    : 330,
       "color"   : "#FFD15C"
@@ -195,7 +195,7 @@
     "instruction": {
       "type"    : "mouse",
       "text"    : "Lleva en orden consecutivo cada ícono en donde corresponda para conocer la información.",
-      "posY"    : 50,
+      "posY"    : 33,
       "posX"    : 0,
       "size"    : 380,
       "color"   : "#FFD15C"
@@ -360,7 +360,7 @@
           },
           {
             "target"        : "2",
-            "title"         : "",
+            "title"         : "Gana Diario",
             "colorTitle"    : "",
             "subTitle"      : "",
             "text"          : "Si quieres tener disponibilidad inmediata de tus recursos, rentabilidad diaria, agilidad y comodidad, este ahorro es tu mejor opción.<br><br><b>*Apertura con un monto mínimo de $70.000</b>."
@@ -427,67 +427,159 @@
     "type": "pageCourse",
     "headerPage": {
       "imgHeader"   : "img/menuCourse/n-1.png",
-      "textHeader"  : "Generalidades",
-      "color"       : "#5C2481"
+      "textHeader"  : "Servicios",
+      "color"       : "#27357E"
     },
-    "title"   : "¿Quién es el objetivo de un ataque informático?",
-    "text"    : "Para descubrirlo, te invitamos a seguir esta conversación.",
+    "title"   : "¿Cuáles son los beneficios que tengo al ahorrar con AMAR? ",
+    "text"    : "",
     "instruction": {
-      "type"    : "mouse",
-      "text"    : "Sigue la conversación dando clic en en botón con dirección hacia abajo.",
-      "posY"    : 50,
-      "posX"    : 0,
-      "size"    : 330,
-      "color"   : "#FFD15C"
+      "type"          : "mouse",
+      "text"          : "Haz clic en cada uno de los botones para ver las recomendaciones.",
+      "posY"          : 33,
+      "posX"          : 0,
+      "size"          : 330,
+      "color"         : "#FFD15C"
     },
-    "multimedia": {
-      "items": [
-        {
-          "img"       : "img/6/n-1.png",
-          "text"      : "¡Uy! Menos mal que yo no soy objetivo de un ataque informático, eso es para las empresas o los bancos.",
-          "textPos": {
-            "posY"    : 95,
-            "posX"    : 250,
-            "width"   : 180
-          }
-        },
-        {
-          "img"       : "img/6/n-2.png",
-          "text"      : "¿Sigues creyendo que el objetivo de los ciberdelincuentes son grandes empresas o entidades bancarias?",
-          "textPos": {
-            "posY"    : 100,
-            "posX"    : 125,
-            "width"   : 230
-          }
-        },
-        {
-          "img"       : "img/6/n-2.png",
-          "text"      : "Malas noticias, en realidad cualquier persona que maneje información o cualquier dispositivo que esté conectado en una red, es un potencial objetivo para un atacante informático.",
-          "textPos": {
-            "posY"    : 80,
-            "posX"    : 110,
-            "width"   : 270
-          }
-        },
-        {
-          "img"       : "img/6/n-1.png",
-          "text"      : "Si eso es así, tendré que tener mucho cuidado con la información que tengo en mis dispositivos. ",
-          "textPos": {
-            "posY"    : 100,
-            "posX"    : 230,
-            "width"   : 230
-          }
-        },
-        {
-          "img"       : "img/6/n-2.png",
-          "text"      : "Te invito a que conozcas cuáles son las amenazas a las que estamos expuestos. Éstas las verás en el siguiente tema. ",
-          "textPos": {
-            "posY"    : 90,
-            "posX"    : 120,
-            "width"   : 240
+    "multimedia": [
+      {
+        "urlImgBtn"         : "img/23n-1.png",
+        "title"             : "Disponibilidad",
+        "posY"              : 13,
+        "posX"              : 143,
+        "itemInfo": {
+          "title"           : "01",
+          "text1"           : "Campañas de ahorro con excelente rentabilidad.",
+          "text2"           : "",
+          "colorText"       : "#023974",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
           }
         }
-      ]
+      },
+      {
+        "urlImgBtn"         : "",
+        "title"             : "",
+        "posY"              : 56,
+        "posX"              : 236,
+        "itemInfo": {
+          "title"           : "02",
+          "text1"           : "Sorteos que permiten doblar su cuota del ahorro.",
+          "text2"           : "",
+          "colorText"       : "#074991",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "",
+        "title"             : "",
+        "posY"              : 148,
+        "posX"              : 277,
+        "itemInfo": {
+          "title"           : "03",
+          "text1"           : "Contribuyes a una buena cultura de ahorro.",
+          "text2"           : "",
+          "colorText"       : "#2171B3",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "",
+        "title"             : "",
+        "posY"              : 245,
+        "posX"              : 246,
+        "itemInfo": {
+          "title"           : "04",
+          "text1"           : "Los ahorros se vuelven garantías para préstamos inmediatos sin codeudor.",
+          "text2"           : "",
+          "colorText"       : "#2097D3",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "",
+        "title"             : "",
+        "posY"              : 284,
+        "posX"              : 142,
+        "itemInfo": {
+          "title"           : "05",
+          "text1"           : "Podrás tener tranquilidad para eventualidades futuras.",
+          "text2"           : "",
+          "colorText"       : "#89C240",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "",
+        "title"             : "",
+        "posY"              : 245,
+        "posX"              : 50,
+        "itemInfo": {
+          "title"           : "06",
+          "text1"           : "Incentivos en tasa o productos en diferentes campañas.",
+          "text2"           : "",
+          "colorText"       : "#683E92",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "",
+        "title"             : "",
+        "posY"              : 148,
+        "posX"              : 10,
+        "itemInfo": {
+          "title"           : "07",
+          "text1"           : "Seguridad en tus operaciones financieras.",
+          "text2"           : "",
+          "colorText"       : "#683E92",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "",
+        "title"             : "",
+        "posY"              : 56,
+        "posX"              : 46,
+        "itemInfo": {
+          "title"           : "08",
+          "text1"           : "Rentabilidad para celebrar.",
+          "text2"           : "",
+          "colorText"       : "#683E92",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      }
+    ],
+    "resources": {
+      "bgImg": ""
     }
   },
 
