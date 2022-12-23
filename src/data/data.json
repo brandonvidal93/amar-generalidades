@@ -132,7 +132,7 @@
   "page4": {
     "type": "pageCourse",
     "startUnit"   : true,
-    "nameUnit"    : "unit1",
+    "nameUnit"    : "unit2",
     "headerPage": {
       "imgHeader"   : "img/menuCourse/n-2.png",
       "textHeader"  : "Servicios",
@@ -187,8 +187,6 @@
 
   "page5": {
     "type": "pageCourse",
-    "startUnit"   : true,
-    "nameUnit"    : "unit2",
     "headerPage": {
       "imgHeader"   : "img/menuCourse/n-1.png",
       "textHeader"  : "Servicios",
@@ -846,7 +844,7 @@
       "text"    : "Lee atentamente toda la información sobre el servicio de Protección Exequial.",
       "posY"      : 33,
       "posX"      : 0,
-      "size"      : 470,
+      "size"      : 390,
       "color"     : "#F0B114"
     }
   },
@@ -904,6 +902,27 @@
       "color"     : "#F0B114"
     }
   },
+
+  "page13": {
+    "type"    : "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Servicios",
+      "color"       : "#27357E"
+    },
+    "title"   : "6. Giros con la Red Efecty",
+    "text"    : "Siempre pensamos en tener más y mejores beneficios para nuestros asociados, la red de efecty es la mejor alternativa para:",
+    "text2": "<li>Realizar pagos de tus facturas de EPM, UNE, Revistas, y demás.</li><li>Enviar y recibir giros nacionales a tus familiares y amigos.</li><li>Tienes cubrimiento en todo el país.</li><li>Realiza las recargas de tu móvil.</li><li>Realiza pagos en línea.</li>",
+    "instruction": {
+      "type"    : "",
+      "text"    : "Lee atentamente toda la información de los beneficios de la Tarjeta Débito AMAR.",
+      "posY"      : 33,
+      "posX"      : 0,
+      "size"      : 390,
+      "color"     : "#F0B114"
+    }
+  },
+
 
   "page34": {
     "type"            : "endCourse",
