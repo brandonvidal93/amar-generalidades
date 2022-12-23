@@ -3,8 +3,8 @@ var path = require('path');
 
   const config = {
     version: '1.2',
-    organization: 'Familia',
-    title: 'Seguridad de la Información',
+    organization: 'AMAR',
+    title: 'Generalidades - Parte 1',
     language: 'en-ES',
     masteryScore: 100,
     startingPage: 'index.html',
@@ -14,13 +14,13 @@ var path = require('path');
       zip: false,
       author: 'IUSH',
       outputFolder: path.join(__dirname, 'scorm_packages'),
-      description: 'Seguridad de la Información',
+      description: 'Generalidades - Parte 1',
       keywords: ['scorm', 'test', 'course'],
       typicalDuration: 'PT0H5M0S',
-      rights: `©${new Date().getFullYear()} Grupo Familia.`,
+      rights: `©${new Date().getFullYear()} AMAR`,
       vcard: {
-        author: 'IUSH',
-        org: 'IUSH',
+        author: 'AMAR',
+        org: 'AMAR',
         tel: '(000) 000-0000',
         address: 'my address',
         mail: 'my@email.com',
