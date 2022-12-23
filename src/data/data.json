@@ -773,40 +773,59 @@
     "type": "pageCourse",
     "headerPage": {
       "imgHeader"   : "img/menuCourse/n-2.png",
-      "textHeader"  : "Amenazas",
-      "color"       : "#5C2481"
+      "textHeader"  : "Servicios",
+      "color"       : "#27357E"
     },
-    "title"   : "2. Phishing o suplantación de identidad",
-    "text"    : "El phishing también está presente en páginas Web fraudulentas a las que puedes acceder con facilidad porque han conseguido aparecer en los resultados de un motor de búsqueda como Google o porque se encuentran en el perfil de un usuario de una red social. Por todo lo anterior, la mejor prevención para el phishing se basa en desconfiar del contenido que recibimos a través del correo electrónico, mensajería instantánea, redes sociales e incluso desconfiar cuando alguien nos llama para pedirnos información privada por teléfono. <br><br> Si te llegas a encontrar algunos de estos casos no abras el correo y no ingreses a estos sitios web inseguros.",
+    "title"   : "4. Red de Salud",
+    "text"    : "Tenemos a disposición de nuestros asociados una red de prestadores de salud, con la cual podrás acceder a los servicios de salud de manera fácil y rápida. <b>¡Conoce los beneficios!</b>",
     "instruction": {
       "type"    : "mouse",
-      "text"    : "Haz clic en la siguiente imagen y visualiza los ejemplos de suplantación en el correo electrónico y páginas web.",
-      "posY"    : 50,
-      "posX"    : 660,
-      "size"    : 330,
-      "color"   : "#FFD15C"
+      "text"    : "Haz clic sobre cada ícono para descubrir cuáles son los servicios de la red de salud.",
+      "posY"    : 33,
+      "posX"    : 0,
+      "size"    : 380,
+      "color"   : "#F0B114"
     },
     "multimedia": {
-      "buttonModal": {
-        "title"       : "",
-        "text"        : "",
-        "imgBg"       : "img/10/btnGallery.png"
-      },
-      "gallery": [
+      "type": "icon",
+      "items": [
         {
-          "key"       : 1,
-          "img"       : "img/10/n-1.jpg"
+          "id"    : 1,
+          "title" : "Pedriatría",
+          "text"  : "",
+          "img"   : "img/7/n-1.png"
         },
         {
-          "key"       : 2,
-          "img"       : "img/10/n-2.jpg"
+          "id"    : 2,
+          "title" : "Optometría",
+          "text"  : "",
+          "img"   : "img/7/n-2.png"
         },
         {
-          "key"       : 3,
-          "img"       : "img/10/n-3.jpg"
+          "id"    : 3,
+          "title" : "Cardiología",
+          "text"  : "",
+          "img"   : "img/7/n-3.png"
+        },
+        {
+          "id"    : 4,
+          "title" : "Odontología",
+          "text"  : "",
+          "img"   : "img/7/n-4.png"
+        },
+        {
+          "id"    : 5,
+          "title" : "Oftalmología",
+          "text"  : "",
+          "img"   : "img/7/n-5.png"
+        },
+        {
+          "id"    : 6,
+          "title" : "Dermatología",
+          "text"  : "",
+          "img"   : "img/7/n-5.png"
         }
-      ],
-      "closedModal"   : true
+      ]
     }
   },
 
