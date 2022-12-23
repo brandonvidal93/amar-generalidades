@@ -7,12 +7,12 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 
-import './InteractiveFlip2.scss';
+import './InteractiveFlip3.scss';
 
 // CREATING LIBRARY ICONS
 library.add(fas, fab, far);
 
-class InteractiveFlip2 extends Component {
+class InteractiveFlip3 extends Component {
   state = {
     count: 1
   }
@@ -52,14 +52,14 @@ class InteractiveFlip2 extends Component {
     switch (dataPage.type) {
       case 'icon':
         return (
-          <div className = 'interactiveFlip2 mL-5'>
+          <div className = 'interactiveFlip3 mL-5'>
             {
               dataPage.items.map((item, i) => {
                 return(
                   <div key = { item.id } className = { 'itemFlip' }>
                     <div className = { 'buttonFlip d-Flex d-C j-C aI-C flip-' + item.id } id = { item.id } onClick = { this.flip }>
                       {/* <img alt = 'Item' className = '' src = { imageArray[i] }/> */}
-                      <h1 className = 'F3-5' >0{ item.id }</h1>
+                      <h1 className = 'F3-5 color-8' >0{ item.id }</h1>
                       {/* <h3 className = 'tCenter mB-1' dangerouslySetInnerHTML = {{ __html: item.title }}></h3> */}
                     </div>
 
@@ -118,4 +118,4 @@ class InteractiveFlip2 extends Component {
   }
 }
 
-export default InteractiveFlip2;
+export default InteractiveFlip3;

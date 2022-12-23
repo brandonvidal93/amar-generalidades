@@ -28,6 +28,7 @@ import Page13 from './pages/Page13/Page13';
 import Page14 from './pages/Page14/Page14';
 import Page15 from './pages/Page15/Page15';
 import Page16 from './pages/Page16/Page16';
+import Page17 from './pages/Page17/Page17';
 
 class Content extends Component {
   showContent = () => {
@@ -75,11 +76,12 @@ class Content extends Component {
       case 15: return( <Page15 dataPage = { data.page15 } endActivities = { endActivities[15] } checkEndActivity = { checkEndActivity } /> );
 
       case 16: return( <Page16 dataPage = { data.page16 } /> );
+      
+      case 17: return( <Page17 dataPage = { data.page17 } endActivities = { endActivities[17] } checkEndActivity = { checkEndActivity } /> );
       // // FIN UNIDAD 2 -----------------------------------------------------------------------
 
       // // UNIDAD 3 ---------------------------------------------------------------------------
 
-      // case 17: return( <Page17 dataPage = { data.page17 } endActivities = { endActivities[17] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
       // // FIN UNIDAD 3 -----------------------------------------------------------------------
 
       // // UNIDAD 4 ---------------------------------------------------------------------------
