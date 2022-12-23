@@ -38,7 +38,7 @@ class MenuCourse extends Component {
   componentDidMount() {
     // console.log(this.state.unitActual); // UNIDAD ACTUAL
 
-    for (var i = 0; i < 12; i++) {
+    for (var i = 0; i < 1; i++) {
       document.getElementsByClassName('buttonMenu')[i].classList.remove('animation');
       // console.log(document.getElementsByClassName('buttonMenu')[i]);
 
@@ -119,36 +119,6 @@ class MenuCourse extends Component {
       case 2:
         goToPage(dataPage.Units[1].goTo);
         break;
-      case 3:
-        goToPage(dataPage.Units[2].goTo);
-        break;
-      case 4:
-        goToPage(dataPage.Units[3].goTo);
-        break;
-      case 5:
-        goToPage(dataPage.Units[4].goTo);
-        break;
-      case 6:
-        goToPage(dataPage.Units[5].goTo);
-        break;
-      case 7:
-        goToPage(dataPage.Units[6].goTo);
-        break;
-      case 8:
-        goToPage(dataPage.Units[7].goTo);
-        break;
-      case 9:
-        goToPage(dataPage.Units[8].goTo);
-        break;
-      case 10:
-        goToPage(dataPage.Units[9].goTo);
-        break;
-      case 11:
-        goToPage(dataPage.Units[10].goTo);
-        break;
-      case 12:
-        goToPage(dataPage.Units[11].goTo);
-        break;
       default:
         break;
     }
@@ -198,7 +168,7 @@ class MenuCourse extends Component {
         </div>
 
         <button
-          className = { 'buttonNav pAbs ' + (enableUnit[Units.unit - 1] === 11 ? 'pulse' : '') }
+          className = { 'buttonNav pAbs ' + (enableUnit[Units.unit - 1] === 1 ? 'pulse' : '') }
           id = 'btnNavDown'
           onClick = { this.trackScrolling }>
           <FontAwesomeIcon

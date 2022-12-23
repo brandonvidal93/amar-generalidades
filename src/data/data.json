@@ -1,7 +1,7 @@
 {
   "coverPage": {
     "type"            : "startPage",
-    "units"           : 12,
+    "units"           : 2,
     "title"           : "Generalidades",
     "subTitle"        : "Gestión del Talento Humano - Parte 1",
     "module"          : "",
@@ -923,8 +923,136 @@
     }
   },
 
+  "page14": {
+    "type"    : "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Servicios",
+      "color"       : "#27357E"
+    },
+    "title"   : "7. Seguridad Social",
+    "text"    : "AMAR le ofrece afiliación colectiva al sistema integral de seguridad social para sus asociados, con el fin de garantizar la protección de sus derechos y el acceso a los servicios de salud, pensión y riesgos laborales.",
+    "multimedia": [
+      {
+        "urlImgBtn"         : "img/3/n-1.png",
+        "title"             : "Modalidad",
+        "color"             : "#149FF0",
+        "itemInfo": {
+          "title"           : "Modalidad",
+          "text1"           : "",
+          "text2"           : "<li>Solo salud (aplican condiciones).</li><li>Salud, pensión y ARL.</li><li>Salud, pensión, ARL y cada de compensación.</li>",
+          "colorText"       : "#149FF0",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "img/3/n-2.png",
+        "title"             : "Beneficios",
+        "color"             : "#5CB85C",
+        "itemInfo": {
+          "title"           : "Beneficios",
+          "text1"           : "",
+          "text2"           : "<li>Estar afiliado por una entidad legal y autorizada por el Ministerio de salud.</li><li>Puntualidad en los pagos.</li><li>Asesorías jurídicas.</li><li>Asesorías pensionales.</li><li>Cobertura permanente.</li><li>Afiliaciones acordes al perfil profesional.</li>",
+          "colorText"       : "#5CB85C",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      }
+    ],
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en cada ícono para conocer la información.",
+      "posY"      : 33,
+      "posX"      : 0,
+      "size"      : 290,
+      "color"     : "#F0B114"
+    }
+  },
 
-  "page34": {
+  "page15": {
+    "type"        : "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Servicios",
+      "color"       : "#27357E"
+    },
+    "title"   : "8. Seguros",
+    "text"    : "Buscamos contribuir al mejoramiento de la calidad de vida de nuestros asociados, por eso AMAR ofrece las siguientes líneas de crédito.",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en cada botón vertical para conocer la información.",
+      "posY"    : 50,
+      "posX"    : 0,
+      "size"    : 330,
+      "color"   : "#F0B114"
+    },
+    "multimedia": [
+      {
+        "button": {
+          "text": "Seguros de Vida",
+          "color": "#FCBB14"
+        },
+        "information": {
+          "img1": "img/18/n-1.png",
+          "img2": "img/18/nTeclas-1.png",
+          "text": "Adquiere pólizas individuales y colectivas, cubrimientos por muerte o invalidez, incapacidad total y permanente, enfermedades graves, <b>con pagos mensuales y con amparos de $ 10.500.000 hasta $300.000.000</b>. Tu elijes la prima a pagar. (*aplican condiciones y restricciones)."
+        }
+      },
+      {
+        "button": {
+          "text": "Accidentes Personales",
+          "color": "#E65853"
+        },
+        "information": {
+          "img1": "img/18/n-2.png",
+          "img2": "",
+          "text": "Esta póliza le brinda una cobertura muy favorable para la estabilidad familiar en caso de sufrir un accidente o presentarse una eventualidad."
+        }
+      },
+      {
+        "button": {
+          "text": "Asistencia en Viajes",
+          "color": "#62C462"
+        },
+        "information": {
+          "img1": "img/18/n-3.png",
+          "img2": "",
+          "text": "Programa tus viajes, paseos, retiros, campamentos y demás salidas con tranquilidad y seguridad. <br>- Solo por <b>$2.500</b> el día por persona). <br>- Cubrimiento a nivel nacional. <br>- Hasta por <b>$35.000.000</b>."
+        }
+      },
+      {
+        "button": {
+          "text": "Asistencia Temporal",
+          "color": "#07C3D9"
+        },
+        "information": {
+          "img1": "img/18/n-4.png",
+          "img2": "",
+          "text": "Para trabajos ocasionales que requieras asegurarte a ti o tus trabajadores.<br>- Solo por <b>$7.000</b> el día (por persona).<br>- Cubrimiento a nivel nacional.<br>- Hasta <b>$15.000.000</b>."
+        }
+      },
+      {
+        "button": {
+          "text": "Seguros de Vehículo",
+          "color": "#149FF0"
+        },
+        "information": {
+          "img1": "img/18/n-5.png",
+          "img2": "",
+          "text": "<br>- Tasas preferenciales en la póliza. <br>- Con el respaldo de las mejores entidades. <br>- Responsabilidad civil. <br>- Cubrimientos por perdida parcial o total. <br>- Atención las 24 horas del día."
+        }
+      }
+    ]
+  },
+
+  "page20": {
     "type"            : "endCourse",
     "message": {
       "success": {
@@ -968,86 +1096,6 @@
         "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
         "imgBnt"        : "img/menuCourse/n-2.png",
         "goTo"          : 4,
-        "fullVisited"   : false
-      },
-      {
-        "unit"          : 3,
-        "title"         : "Amando el Mutualismo",
-        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt"        : "img/menuCourse/n-3.png",
-        "goTo"          : 1,
-        "fullVisited"   : false
-      },
-      {
-        "unit"          : 4,
-        "title"         : "Estatutos AMAR",
-        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt"        : "img/menuCourse/n-4.png",
-        "goTo"          : 1,
-        "fullVisited"   : false
-      },
-      {
-        "unit"          : 5,
-        "title"         : "Plan estratégico AMAR",
-        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt"        : "img/menuCourse/n-5.png",
-        "goTo"          : 1,
-        "fullVisited"   : false
-      },
-      {
-        "unit"          : 6,
-        "title"         : "Estructura organizacional",
-        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt"        : "img/menuCourse/n-6.png",
-        "goTo"          : 1,
-        "fullVisited"   : false
-      },
-      {
-        "unit"          : 7,
-        "title"         : "Reglamento interno de trabajo",
-        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt"        : "img/menuCourse/n-6.png",
-        "goTo"          : 1,
-        "fullVisited"   : false
-      },
-      {
-        "unit"          : 8,
-        "title"         : "Plan de Bienestar laboral",
-        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt"        : "img/menuCourse/n-6.png",
-        "goTo"          : 1,
-        "fullVisited"   : false
-      },
-      {
-        "unit"          : 9,
-        "title"         : "Código del Buen vestir",
-        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt"        : "img/menuCourse/n-6.png",
-        "goTo"          : 1,
-        "fullVisited"   : false
-      },
-      {
-        "unit"          : 10,
-        "title"         : "SG SST y SS del empleado",
-        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt"        : "img/menuCourse/n-6.png",
-        "goTo"          : 1,
-        "fullVisited"   : false
-      },
-      {
-        "unit"          : 11,
-        "title"         : "Repositorio AMAR",
-        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt"        : "img/menuCourse/n-6.png",
-        "goTo"          : 1,
-        "fullVisited"   : false
-      },
-      {
-        "unit"          : 12,
-        "title"         : "Evaluaciones: SG SST, RIT, PE",
-        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
-        "imgBnt"        : "img/menuCourse/n-6.png",
-        "goTo"          : 1,
         "fullVisited"   : false
       }
     ],
