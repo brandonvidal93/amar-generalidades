@@ -13,7 +13,7 @@ import DataCourse from './data/data.json';
 
 // DEFINICION DEL LIMITE CON LA CANTIDAD DE OBJETOS QUE HAY EN DataCourse
 // SE RESTAN 2   al LIMIT PARA SACAR EL BACK COVER QUE ES UNA MODAL DE FINALIZACION
-const LIMIT = Object.keys(DataCourse).length - 2;
+const LIMIT = Object.keys(DataCourse).length - 3;
 const UNITS = DataCourse.coverPage.units;
 const LABELFOOTER = DataCourse.coverPage.footer.label;
 const BGFOOTER = DataCourse.coverPage.footer.bgImgs;
@@ -51,7 +51,7 @@ class App extends Component {
     this.state = {
       calificacion: 0,
       conectLMS: false,
-      index: 18,
+      index: 0,
       nextUnit: 1,
       pages: LIMIT,
       units: UNITS,
@@ -81,6 +81,7 @@ class App extends Component {
         false, // 15
         true,  // 16
         false, // 17
+        true, // 18
       ]
     }
   }

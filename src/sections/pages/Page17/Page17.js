@@ -8,7 +8,7 @@ import HeaderImage from '../../../assets/img/4/n-2.png';
 const Page17 = ({dataPage, checkEndActivity}) => {
   // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
   const isEnded = (end) => {
-    checkEndActivity(10, end);
+    checkEndActivity(17, end);
   }
 
   return (
