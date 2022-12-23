@@ -915,7 +915,7 @@
     "text2": "<li>Realizar pagos de tus facturas de EPM, UNE, Revistas, y demás.</li><li>Enviar y recibir giros nacionales a tus familiares y amigos.</li><li>Tienes cubrimiento en todo el país.</li><li>Realiza las recargas de tu móvil.</li><li>Realiza pagos en línea.</li>",
     "instruction": {
       "type"    : "",
-      "text"    : "Lee atentamente toda la información de los beneficios de la Tarjeta Débito AMAR.",
+      "text"    : "Lee atentamente toda la información sobre el servicio de Giros con la Red Efecty",
       "posY"      : 33,
       "posX"      : 0,
       "size"      : 390,
@@ -1050,6 +1050,25 @@
         }
       }
     ]
+  },
+
+  "page16": {
+    "type"    : "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Servicios",
+      "color"       : "#27357E"
+    },
+    "title"   : "9. Seguros Obligatorio",
+    "text"    : "<span class='F1'><b>Compra tu SOAT con nosotros y obtén:</b></span><br><br>- Participa por sorteo de bonos de $100.000. <br>- Apican TyC por la compra de tu SOAT.<br>- Obten el 10% de descuento por ley.<br>- Evita multas y sanciones.",
+    "instruction": {
+      "type"    : "",
+      "text"    : "Lee atentamente toda la información sobre el Segur o Obligatorio de Accidentes de Tránsito (SOAT).",
+      "posY"      : 33,
+      "posX"      : 0,
+      "size"      : 390,
+      "color"     : "#F0B114"
+    }
   },
 
   "page20": {

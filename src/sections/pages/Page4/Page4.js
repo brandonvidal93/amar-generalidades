@@ -33,7 +33,7 @@ const Page4 = ({dataPage, checkEndActivity}) => {
       <div className = 'c-10 animated fadeIn d-Flex d-C j-S aI-S'>
           <div className = 'mL-7 c-10 mT-025 mR-3'> 
             {
-              dataPage.title ? <h3 className = 'mB-1' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h3> : null
+              dataPage.title ? <h2 className = 'mB-1' dangerouslySetInnerHTML = {{ __html: dataPage.title }}></h2> : null
             }
             {
               dataPage.text ? <p className = 'mB-2 fw-3' dangerouslySetInnerHTML = {{ __html: dataPage.text }}></p> : null
