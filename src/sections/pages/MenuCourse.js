@@ -130,7 +130,7 @@ class MenuCourse extends Component {
     const { actualIndex, enableUnit, Units } = this.props;
     
     return (
-      <div className = { (actualIndex === 0 ? 'menuContent-desc' : 'menuContent') } id = 'menuContent'>
+      <div className = { (actualIndex === 0 || actualIndex === 18 ? 'menuContent-desc' : 'menuContent') } id = 'menuContent'>
         <button
           className = { 'buttonNav pAbs'}
           id = 'btnNavUp'

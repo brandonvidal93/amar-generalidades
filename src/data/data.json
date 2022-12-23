@@ -1147,10 +1147,10 @@
     "type"            : "endCourse",
     "message": {
       "success": {
-        "title"       : "¡Has llegado al final de <br>este recorrido!",
+        "title"       : "¡Has finalizado esta primera parte de las Generalidades!",
         "subTitle"    : "¡Muchas gracias!",
         "module"      : "",
-        "courseName"  : "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica las recomendaciones que hemos entregado a lo largo del curso y así evitar ser víctima de un ciberdelincuente. <br><br>Recuerda que con tus buenas prácticas protegemos lo nuestro."
+        "courseName"  : "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica toda la información que viste a lo largo de este recorrido. <br><br> Haz clic en el botón de finalizar para cerrar el curso y continuar con la evaluación de conocimientos que se encuentra en área principal del curso."
       },
       "error": {
         "title"       : "¡No has cumplido <br>con el objetivo!",

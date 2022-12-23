@@ -23,7 +23,7 @@ class ModalCircle3 extends Component {
   }
 
   showItems = () => {
-    const { dataPage, imageArray, background } = this.props;
+    const { dataPage, imageArray } = this.props;
     const ITEM = dataPage.multimedia.map( (item, i) => {
       return(
         <div className = 'circleItems pAbs' key = { i } style = {{ 'top': item.posY, 'left': item.posX }}>
