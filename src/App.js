@@ -51,7 +51,7 @@ class App extends Component {
     this.state = {
       calificacion: 0,
       conectLMS: false,
-      index: 8,
+      index: 9,
       nextUnit: 1,
       pages: LIMIT,
       units: UNITS,
@@ -62,7 +62,7 @@ class App extends Component {
       enableUnit: [false, false, false, false, false, false, false, false, false, false, false, false],
       // endActivities debe ir en FALSE para permitir las restricciones, en TRUE para editar
       // endActivities: [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
-      endActivities: [true, true, true, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, true]
+      endActivities: [true, true, true, false, false, false, false, false, false, true, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, true]
     }
   }
 

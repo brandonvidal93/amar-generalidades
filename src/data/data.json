@@ -751,165 +751,21 @@
   },
 
   "page9": {
-    "type": "pageCourse",
+    "type"    : "pageCourse",
     "headerPage": {
       "imgHeader"   : "img/menuCourse/n-2.png",
-      "textHeader"  : "Amenazas",
-      "color"       : "#5C2481"
+      "textHeader"  : "Servicios",
+      "color"       : "#27357E"
     },
-    "title"   : "2. Phishing o suplantación de identidad",
-    "text"    : "Es la estafa más habitual en Internet. Se basa en hacerse pasar por una persona o empresa de confianza para obtener datos nuestros: contraseñas, información bancaria, entre otros. Para ello, el cibercriminal utiliza la ingeniería social para que el engaño sea creíble, es decir, diseñan correos electrónicos muy parecidos al de las empresas. Un correo phishing suele tener las siguientes características:",
+    "title"   : "3. Tarjeta Débito",
+    "text"    : "<b>Beneficios de la tarjeta:</b><br><br><ul><li>Uso Nacional e Internacional (VISA).</li><li>Compras POS (Datáfonos) en establecimientos comerciales a <b>$0</b> costo.</li><li>Disponibilidad de efectivo las 24 horas.</li><li>Cuota de manejo más baja del mercado y unificada.</li><li>Acceso al cupo rotativo como tarjeta doble bolsillo.</li><li>Tasa de interés muy competitiva.</li>",
     "instruction": {
-      "type"    : "mouse",
-      "text"    : "Desliza cada número según corresponda para conocer las características.",
-      "posY"    : 50,
-      "posX"    : 660,
-      "size"    : 330,
-      "color"   : "#FFD15C"
-    },
-    "multimedia": {
-      "dragItems": [
-        {
-          "drag"    : 1,
-          "img"     : "img/9/n-1.png",
-          "text"    : "",
-          "posY"      : 139,
-          "posX"      : 25,
-          "type"    : "1",
-          "color"    : "#1586EA"
-        },
-        {
-          "drag"    : 2,
-          "img"     : "img/9/n-2.png",
-          "text"    : "",
-          "posY"      : 140,
-          "posX"      : 114,
-          "type"    : "2",
-          "color"    : "#1FBDED"
-        },
-        {
-          "drag"    : 3,
-          "img"     : "img/9/n-3.png",
-          "text"    : "",
-          "posY"      : 139,
-          "posX"      : 203,
-          "type"    : "3",
-          "color"    : "#AC0B5A"
-        },
-        {
-          "drag"    : 4,
-          "img"     : "img/9/n-4.png",
-          "text"    : "",
-          "posY"      : 140,
-          "posX"      : 291,
-          "type"    : "4",
-          "color"    : "#0A6837"
-        },
-        {
-          "drag"    : 5,
-          "img"     : "img/9/n-5.png",
-          "text"    : "",
-          "posY"      : 139,
-          "posX"      : 380,
-          "type"    : "5",
-          "color"    : "#521381"
-        }
-      ],
-      "dropZone": {
-        "drops": [
-          {
-            "key"       : 1,
-            "img"       : "img/9/n-1.png",
-            "target"    : "1",
-            "posY"      : 0,
-            "posX"      : 0,
-            "type"      : "1",
-            "color"    : "#1586EA"
-          },
-          {
-            "key"       : 2,
-            "img"       : "img/9/n-2.png",
-            "target"    : "2",
-            "posY"      : -44,
-            "posX"      : 89,
-            "type"      : "2",
-            "color"    : "#1FBDED"
-          },
-          {
-            "key"       : 3,
-            "img"       : "img/9/n-3.png",
-            "target"    : "3",
-            "posY"      : 0,
-            "posX"      : 178,
-            "type"      : "3",
-            "color"    : "#AC0B5A"
-          },
-          {
-            "key"       : 4,
-            "img"       : "img/9/n-4.png",
-            "target"    : "4",
-            "posY"      : -44,
-            "posX"      : 266,
-            "type"      : "4",
-            "color"    : "#0A6837"
-          },
-          {
-            "key"       : 5,
-            "img"       : "img/9/n-5.png",
-            "target"    : "5",
-            "posY"      : 0,
-            "posX"      : 355,
-            "type"      : "5",
-            "color"    : "#521381"
-          }
-        ],
-        "infoBox": [
-          {
-            "target"    : "1",
-            "color"     : "#0E69A5",
-            "text"      : "Solicitan datos personales.",
-            "posY"      : 280,
-            "posX"      : 0,
-            "trian"     : "trian-1"
-          },
-          {
-            "target"    : "2",
-            "color"     : "#19A1D0",
-            "text"      : "Solicitan descargar un archivo para ver una factura, multa, una cita judicial, entre otros.",
-            "posY"      : -30,
-            "posX"      : 90,
-            "trian"     : "trian-2"
-          },
-          {
-            "target"    : "3",
-            "color"     : "#E31F83",
-            "text"      : "Solicitan hacer clic en un enlace que conduce a una página web fraudulenta o falsa.",
-            "posY"      : 290,
-            "posX"      : 160,
-            "trian"     : "trian-3"
-          },
-          {
-            "target"    : "4",
-            "color"     : "#0A6837",
-            "text"      : "El correo tiene tono de urgencia.",
-            "posY"      : -20,
-            "posX"      : 240,
-            "trian"     : "trian-4"
-          },
-          {
-            "target"    : "5",
-            "color"     : "#662D91",
-            "text"      : "Los escenarios de ataque phishing no se limitan al correo electrónico. Es posible ser atacado mediante mensajería instantánea o por llamada telefónica haciéndose pasar por una persona de confianza.",
-            "posY"      : 285,
-            "posX"      : 0,
-            "trian"     : "trian-5"
-          }
-        ]
-      },
-      "resources": {
-        "bg1": "img/9/arrow-up.png",
-        "bg2": "img/9/arrow-down.png"
-      }
+      "type"    : "",
+      "text"    : "Lee atentamente toda la información de los beneficios de la Tarjeta Débito AMAR.",
+      "posY"      : 33,
+      "posX"      : 0,
+      "size"      : 470,
+      "color"     : "#F0B114"
     }
   },
 

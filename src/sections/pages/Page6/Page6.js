@@ -22,7 +22,7 @@ const Page6 = ({dataPage, checkEndActivity}) => {
   }
 
   return (
-    <div className = {'pageContent page-5 animated fadeIn'}>
+    <div className = {'pageContent page-6 animated fadeIn'}>
       <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-05 mL-4 mT-1'>
         <h2
           className = 'textHeader F2 mL-1 mB-05'

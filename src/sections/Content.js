@@ -20,6 +20,7 @@ import Page5 from './pages/Page5/Page5';
 import Page6 from './pages/Page6/Page6';
 import Page7 from './pages/Page7/Page7';
 import Page8 from './pages/Page8/Page8';
+import Page9 from './pages/Page9/Page9';
 
 class Content extends Component {
   showContent = () => {
@@ -52,7 +53,7 @@ class Content extends Component {
 
       case 8: return( <Page8 dataPage = { data.page8 } endActivities = { endActivities[8] } checkEndActivity = { checkEndActivity } /> );
 
-      // case 9: return( <Page9 dataPage = { data.page9 } endActivities = { endActivities[9] } checkEndActivity = { checkEndActivity } /> );
+      case 9: return( <Page9 dataPage = { data.page9 } /> );
 
       // case 10: return( <Page10 dataPage = { data.page10 } endActivities = { endActivities[10] } checkEndActivity = { checkEndActivity } /> );
 
