@@ -51,7 +51,7 @@ class App extends Component {
     this.state = {
       calificacion: 0,
       conectLMS: false,
-      index: 10,
+      index: 12,
       nextUnit: 1,
       pages: LIMIT,
       units: UNITS,
@@ -62,7 +62,7 @@ class App extends Component {
       enableUnit: [false, false, false, false, false, false, false, false, false, false, false, false],
       // endActivities debe ir en FALSE para permitir las restricciones, en TRUE para editar
       // endActivities: [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
-      endActivities: [true, true, true, false, false, false, false, false, false, true, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, true]
+      endActivities: [true, true, true, false, false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, true]
     }
   }
 
@@ -120,6 +120,10 @@ class App extends Component {
         enableUnit: arrayInfoSuspend[4],
         endActivities: arrayInfoSuspend[5]
       });
+
+      // Calificacion sobre el 100% de las paginas del curso (LIMIT / index) * 100 = % de avance del curso
+      let score = (this.state.index / this.state.pages) * 100;
+      this.setScore(score);
     }
   }
 
@@ -130,13 +134,15 @@ class App extends Component {
     console.log('Recibo: ' + raw);
     console.log('Calificación en el estado: ' + this.state.calificacion);
 
-    this.setState({
-      calificacion: raw
-    });
-
-    //SCORM
-    tracking._scoreSet(raw);
-    // tracking.closeCourse(); // CUANDO SE COMPLETA INVOCA LA FINALAZACION EN EL SCORM
+    if (this.state.calificacion < raw) {
+      this.setState({
+        calificacion: raw
+      });
+      
+      //SCORM
+      tracking._scoreSet(raw);
+      // tracking.closeCourse(); // CUANDO SE COMPLETA INVOCA LA FINALAZACION EN EL SCORM
+    }
   }
 
   ///////////////////////////////////////////////////////////
@@ -176,6 +182,8 @@ class App extends Component {
   navigationCourse = (buttonPress) => {
     console.log('Recibo en App.js: ' + buttonPress);
     // var goMenu;
+    let score = (this.state.index / this.state.pages) * 100;
+    this.setScore(score);
 
     //SCORM
     if (this.state.index < 0) {

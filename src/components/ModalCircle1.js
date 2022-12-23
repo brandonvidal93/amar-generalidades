@@ -23,7 +23,7 @@ class ModalCircle1 extends Component {
   }
 
   showItems = () => {
-    const { dataPage } = this.props;
+    const { dataPage, imageArray } = this.props;
     const ITEM = dataPage.multimedia.map( (item, i) => {
       return(
         <div className = 'circleItems' key = { i }>
@@ -40,7 +40,7 @@ class ModalCircle1 extends Component {
                 id = { i + 1 } 
                 onClick = { this.enableItem } >
 
-                <img alt = '' className = '' id = { i + 1 } src = { item.urlImgBtn }/>
+                <img alt = '' className = '' id = { i + 1 } src = { imageArray[i] }/>
               </button>
             </div> :
             <div className = 'd-Flex d-Rr j-C aI-C itemButton'>
@@ -55,7 +55,7 @@ class ModalCircle1 extends Component {
                 id = { i + 1 } 
                 onClick = { this.enableItem }>
 
-                <img alt = '' className = '' id = { i + 1 } src = { item.urlImgBtn }/>
+                <img alt = '' className = '' id = { i + 1 } src = { imageArray[i] }/>
               </button>
             </div>
           }
@@ -125,7 +125,7 @@ class ModalCircle1 extends Component {
     const { actualItem } = this.state;
     // console.log(this.state.countItem);
     return (
-      <div className = 'ModalCircle1 d-Flex d-C'>
+      <div className = 'ModalCircle1 mL-10 c-10 d-Flex j-Ar'>
         {
           // MOSTRAR LOS GLOBOS DE TEXTO
           this.state.openGlobe !== false ?
@@ -134,15 +134,14 @@ class ModalCircle1 extends Component {
 
               <h2 className = 'mB-1 tCenter c-75' style = {{ 'color': multimedia[actualItem - 1].itemInfo.colorText }}>{ multimedia[actualItem - 1].itemInfo.title }</h2>
 
-              <p className = 'mB-05 tCenter c-75' dangerouslySetInnerHTML = { { __html: multimedia[actualItem - 1].itemInfo.text1 } } />
-              <p className = 'tCenter c-75 enfasis-1' dangerouslySetInnerHTML = { { __html: multimedia[actualItem - 1].itemInfo.text2 } } />
+              <h3 className = 'mB-05 tCenter c-75' dangerouslySetInnerHTML = { { __html: multimedia[actualItem - 1].itemInfo.text1 } } />
+              <ul className = 'c-75' dangerouslySetInnerHTML = { { __html: multimedia[actualItem - 1].itemInfo.text2 } } />
 
               { 
                 multimedia[actualItem - 1].itemInfo.buttonClose.closedModal === true ?
                 <button
                   className = 'buttonClose'
                   onClick = { this.hideModal }
-                  style = { { 'top': multimedia[actualItem - 1].itemInfo.buttonClose.posY, 'left': (multimedia[actualItem - 1].itemInfo.buttonClose.posX + '%') } }
                   >
                   <span className = 'fa-layers fa-fw iconButton' >
                     <FontAwesomeIcon icon="circle" />

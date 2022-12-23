@@ -22,6 +22,8 @@ import Page7 from './pages/Page7/Page7';
 import Page8 from './pages/Page8/Page8';
 import Page9 from './pages/Page9/Page9';
 import Page10 from './pages/Page10/Page10';
+import Page11 from './pages/Page11/Page11';
+import Page12 from './pages/Page12/Page12';
 
 class Content extends Component {
   showContent = () => {
@@ -58,9 +60,9 @@ class Content extends Component {
 
       case 10: return( <Page10 dataPage = { data.page10 } endActivities = { endActivities[10] } checkEndActivity = { checkEndActivity } /> );
 
-      // case 11: return( <Page11 dataPage = { data.page11 } endActivities = { endActivities[11] } checkEndActivity = { checkEndActivity } /> );
+      case 11: return( <Page11 dataPage = { data.page11 } /> );
 
-      // case 12: return( <Page12 dataPage = { data.page12 } /> );
+      case 12: return( <Page12 dataPage = { data.page12 } endActivities = { endActivities[12] } checkEndActivity = { checkEndActivity } /> );
 
       // case 13: return( <Page13 dataPage = { data.page13 } endActivities = { endActivities[13] } checkEndActivity = { checkEndActivity } /> );
 

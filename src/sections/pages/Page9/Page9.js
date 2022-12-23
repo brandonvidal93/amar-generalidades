@@ -6,7 +6,7 @@ import Instruction from '../../../components/Instruction';
 import HeaderImage from '../../../assets/img/9/n-2.png';
 import Image from '../../../assets/img/9/1.png';
 
-const Page3 = ({dataPage}) => {
+const Page9 = ({dataPage}) => {
   return (
     <div className='pageContent page-9 animated fadeIn'>
       <div className = 'headerTitle d-Flex d-Rr j-E aI-C mB-05 mL-4 mT-1'>
@@ -36,4 +36,4 @@ const Page3 = ({dataPage}) => {
   )
 }
 
-export default Page3;
+export default Page9;

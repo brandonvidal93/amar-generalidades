@@ -31,24 +31,26 @@
   }
 
   .bgItemGlobe {
-    background-color: #0B2565;
+    background-color: $color1;
     position: absolute;
     display: grid;
-    top: -153px;
-    left: -649px;
+    top: -307px;
+    left: -160px;
     z-index: 4;
     width: 1022px;
     height: 648px;
 
     .itemGlobe {
-      box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
       background-color: $blanco;
+      box-shadow: 6px 6px 0px rgba($color13, 0.75);
+      border: 1px solid $color1;
       align-self: center;
       justify-self: center;
-      padding: 1em;
-      border-radius: 50%;
-      width: 370px;
-      height: 370px;
+      padding: 2rem 0.5rem;
+      min-width: 430px;
+      max-width: 500px;
+      min-height: 180px;
+      max-height: 320px;
 
       .enfasis-1 {
         background-color: #EAEAEA;
@@ -58,18 +60,20 @@
 
       .buttonClose {
         position: absolute;
-        background-color: rgba(255, 255, 255, 1);
+        background-color: rgb(255, 255, 255);
         border-radius: 50%;
-        padding: 0.4rem 0.2rem;
+        padding: 0.25rem 0rem;
+        top: -15px;
+        right: -15px;
         .iconButton {
-          color: red;
+          color: $color10;
           font-size: 2.3em;
           transition: all .3s;
         }
 
         &:hover {
           .iconButton {
-            color: #cf0000;
+            color: $color17;
           }
         }
       }
