@@ -18,6 +18,8 @@ import Page3 from './pages/Page3/Page3';
 import Page4 from './pages/Page4/Page4';
 import Page5 from './pages/Page5/Page5';
 import Page6 from './pages/Page6/Page6';
+import Page7 from './pages/Page7/Page7';
+import Page8 from './pages/Page8/Page8';
 
 class Content extends Component {
   showContent = () => {
@@ -27,25 +29,28 @@ class Content extends Component {
       // COVER -------------------------------------------------------------------------------
       case 0: return ( <Cover dataPage = { data.coverPage } startCourse = { clickNavigation } /> );
 
-      // // INS ---------------------------------------------------------------------------------
+      // INS ---------------------------------------------------------------------------------
       case 1: return( <Page1 dataPage = { data.page1 } startCourse = { clickNavigation } /> );
 
       case 2: return( <Page2 dataPage = { data.page2 } endActivities = { endActivities[2] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } /> );
 
-      // // UNIDAD 1 ---------------------------------------------------------------------------
+      // UNIDAD 1 ---------------------------------------------------------------------------
+      // QUIENES SOMOS ----------------------------------------------------------------------
       case 3: return( <Page3 dataPage = { data.page3 } endActivities = { endActivities[3] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
-      // // FIN UNIDAD 1 -----------------------------------------------------------------------
+      // FIN UNIDAD 1 -----------------------------------------------------------------------
 
-      // // UNIDAD 2 ---------------------------------------------------------------------------
+      // UNIDAD 2 ---------------------------------------------------------------------------
+      // AHORRO   ---------------------------------------------------------------------------
       case 4: return( <Page4 dataPage = { data.page4 } endActivities = { endActivities[4] } checkEndActivity = { checkEndActivity } /> );
 
       case 5: return( <Page5 dataPage = { data.page5 } endActivities = { endActivities[5] } checkEndActivity = { checkEndActivity } /> );
 
       case 6: return( <Page6 dataPage = { data.page6 } endActivities = { endActivities[6] } checkEndActivity = { checkEndActivity } /> );
-      
-      // case 7: return( <Page7 dataPage = { data.page7 } endActivities = { endActivities[7] } checkEndActivity = { checkEndActivity } /> );
 
-      // case 8: return( <Page8 dataPage = { data.page8 } endActivities = { endActivities[8] } checkEndActivity = { checkEndActivity } /> );
+      // CREDITO   ---------------------------------------------------------------------------
+      case 7: return( <Page7 dataPage = { data.page7 } endActivities = { endActivities[7] } checkEndActivity = { checkEndActivity } /> );
+
+      case 8: return( <Page8 dataPage = { data.page8 } endActivities = { endActivities[8] } checkEndActivity = { checkEndActivity } /> );
 
       // case 9: return( <Page9 dataPage = { data.page9 } endActivities = { endActivities[9] } checkEndActivity = { checkEndActivity } /> );
 

@@ -99,17 +99,17 @@ class Accordion1 extends Component {
                   }
                 </div>
                 <div className = { 'accordionInfo d-Flex j-C aI-C ' + (i !== 0 ? 'dNone' : 'visible') } id = { 'accordionInfo-' + i }>
-                  <div className = 'mR-2'>
+                  {/* <div className = 'mR-2'>
                     {
-                      item.information.img1 ? <img alt = 'Imagen' className = '' src = { item.information.img1 }/> : null
+                      // item.information.img1 ? <img alt = 'Imagen' className = '' src = { item.information.img1 }/> : null
                     }
-                  </div>
+                  </div> */}
                   <div>
                     {
                       item.information.text ? <p className = '' dangerouslySetInnerHTML = {{ __html: item.information.text }}></p> : null
                     }
                     {
-                      item.information.img2 ? <img alt = 'Imagen' className = ' mT-1' src = { item.information.img2 }/> : null
+                      // item.information.img2 ? <img alt = 'Imagen' className = ' mT-1' src = { item.information.img2 }/> : null
                     }
                   </div>
                 </div>

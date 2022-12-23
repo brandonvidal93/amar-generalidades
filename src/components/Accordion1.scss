@@ -13,8 +13,7 @@
       border-radius: 10px;
       cursor: pointer;
       transition: all .4s;
-
-      filter: grayscale(.5);
+      filter: brightness(1);
 
       z-index: 1;
 
@@ -25,12 +24,12 @@
       }
 
       &:hover {
-        filter: grayscale(0);
+        filter: brightness(1.2);
       }
     }
 
     .active {
-      filter: grayscale(0);
+      filter: brightness(1.2);
     }
 
     .accordionInfo {

@@ -131,6 +131,8 @@
 
   "page4": {
     "type": "pageCourse",
+    "startUnit"   : true,
+    "nameUnit"    : "unit1",
     "headerPage": {
       "imgHeader"   : "img/menuCourse/n-2.png",
       "textHeader"  : "Servicios",
@@ -144,7 +146,7 @@
       "posY"    : 33,
       "posX"    : 0,
       "size"    : 330,
-      "color"   : "#FFD15C"
+      "color"   : "#F0B114"
     },
     "multimedia": {
       "type": "icon",
@@ -185,6 +187,8 @@
 
   "page5": {
     "type": "pageCourse",
+    "startUnit"   : true,
+    "nameUnit"    : "unit2",
     "headerPage": {
       "imgHeader"   : "img/menuCourse/n-1.png",
       "textHeader"  : "Servicios",
@@ -198,7 +202,7 @@
       "posY"    : 33,
       "posX"    : 0,
       "size"    : 380,
-      "color"   : "#FFD15C"
+      "color"   : "#F0B114"
     },
     "multimedia": {
       "dragItems": [
@@ -438,7 +442,7 @@
       "posY"          : 33,
       "posX"          : 0,
       "size"          : 330,
-      "color"         : "#FFD15C"
+      "color"         : "#F0B114"
     },
     "multimedia": [
       {
@@ -585,229 +589,165 @@
 
   "page7": {
     "type"        : "pageCourse",
-    "startUnit"   : true,
-    "nameUnit"    : "unit2",
     "headerPage": {
       "imgHeader"   : "img/menuCourse/n-2.png",
-      "textHeader"  : "Amenazas",
-      "color"       : "#5C2481"
+      "textHeader"  : "Servicios",
+      "color"       : "#27357E"
     },
-    "title"   : "¿Cuáles son las amenazas más comunes?",
-    "text"    : "En nuestra cotidianidad estamos expuestos a diferentes amenazas, por eso es fundamental que conozcas cuáles son las más comunes para que evites un ataque informático. <br><br>A continuación, descubrirás las 5 amenazas más relevantes. En el desarrollo del curso, te explicaremos en qué consiste cada una de ellas.",
+    "title"   : "2. Crédito",
+    "text"    : "Buscamos contribuir al mejoramiento de la calidad de vida de nuestros asociados, por eso AMAR ofrece las siguientes líneas de crédito.",
     "instruction": {
       "type"    : "mouse",
-      "text"    : "Haz clic sobre cada ícono para descubrir cuáles son las amenazas.",
+      "text"    : "Haz clic en cada botón vertical para conocer la información.",
       "posY"    : 50,
       "posX"    : 0,
       "size"    : 330,
-      "color"   : "#FFD15C"
+      "color"   : "#F0B114"
     },
-    "multimedia": {
-      "type": "icon",
-      "items": [
-        {
-          "id"    : 1,
-          "title" : "Ingeniería social",
-          "text"  : "",
-          "img"   : "img/7/n-1.png"
+    "multimedia": [
+      {
+        "button": {
+          "text": "Libre inversión",
+          "color": "#1F2A63"
         },
-        {
-          "id"    : 2,
-          "title" : "Phishing o suplantación de identidad",
-          "text"  : "",
-          "img"   : "img/7/n-2.png"
-        },
-        {
-          "id"    : 3,
-          "title" : "Smishing",
-          "text"  : "",
-          "img"   : "img/7/n-3.png"
-        },
-        {
-          "id"    : 4,
-          "title" : "Malware (software malicioso)",
-          "text"  : "",
-          "img"   : "img/7/n-4.png"
-        },
-        {
-          "id"    : 5,
-          "title" : "Ransomware",
-          "text"  : "",
-          "img"   : "img/7/n-5.png"
+        "information": {
+          "img1": "img/18/n-1.png",
+          "img2": "img/18/nTeclas-1.png",
+          "text": "Diseñado para satisfacer las diferentes necesidades de consumo como: Compra de Vehículo, Compra de Cartera, Inversión de Negocio, entre otros gastos a largo plazo. <b>Hasta 90 SMMLV</b>"
         }
-      ]
-    }
+      },
+      {
+        "button": {
+          "text": "Educación",
+          "color": "#27357E"
+        },
+        "information": {
+          "img1": "img/18/n-2.png",
+          "img2": "",
+          "text": "Con el que puedes financiar tu educación o la de los tuyos. Financiamos Carreras de educación Superior, técnicas, tecnológicas de pregrados o posgrado. <b>Hasta 10 SMMLV</b>"
+        }
+      },
+      {
+        "button": {
+          "text": "Crédi-Inmediato",
+          "color": "#2B3B8A"
+        },
+        "information": {
+          "img1": "img/18/n-3.png",
+          "img2": "",
+          "text": "Te permitirá financiar de manera inmediata tus proyectos personales a corto plazo. <b>Hasta 4 SMMLV</b>"
+        }
+      },
+      {
+        "button": {
+          "text": "Congregacional",
+          "color": "#0754D9"
+        },
+        "information": {
+          "img1": "img/18/n-4.png",
+          "img2": "",
+          "text": "Apoyamos los proyectos de compra, construcción, remodelación y mejora de los templos de las iglesias."
+        }
+      },
+      {
+        "button": {
+          "text": "Vivienda",
+          "color": "#149FF0"
+        },
+        "information": {
+          "img1": "img/18/n-5.png",
+          "img2": "",
+          "text": "Con el que podrás construir, mejorar o amueblar tu casa nueva o usada. <b>Hasta 68 SMMLV</b>"
+        }
+      },
+      {
+        "button": {
+          "text": "Cupo rotativo",
+          "color": "#07C3D9"
+        },
+        "information": {
+          "img1": "img/18/n-6.png",
+          "img2": "",
+          "text": "Te permite tener dinero disponible las 24 Horas, una vez utilizado lo pagarás en cuotas mensuales, el cual te permitirá liberar un nuevo cupo."
+        }
+      },
+      {
+        "button": {
+          "text": "Hipotecario",
+          "color": "#0418DE"
+        },
+        "information": {
+          "img1": "img/18/n-6.png",
+          "img2": "",
+          "text": "Te permitirá hacer realidad tu sueño de tener casa propia, financiamos hasta el <b>70%</b> del valor del inmueble que deseas, puede ser vivienda nueva o usada. "
+        }
+      },
+      {
+        "button": {
+          "text": "Turismo",
+          "color": "#6106D0"
+        },
+        "information": {
+          "img1": "img/18/n-6.png",
+          "img2": "",
+          "text": "Haz realidad tu sueño de viajar. Te financiamos viajes nacionales e Internacionales. Excelentes convenios de Turismo. <b>Hasta 7 SMMLV</b>"
+        }
+      },
+      {
+        "button": {
+          "text": "Convenios",
+          "color": "#2D05E8"
+        },
+        "information": {
+          "img1": "img/18/n-6.png",
+          "img2": "",
+          "text": "Tenemos los mejores convenios en celulares, electrodomésticos, computadores, vídeo juegos, hogar y mucho más. <b>#Alkomprar #Auteco #SerComunicaciones</b>"
+        }
+      }
+    ]
   },
 
   "page8": {
-    "type": "pageCourse",
+    "type"        : "pageCourse",
     "headerPage": {
       "imgHeader"   : "img/menuCourse/n-2.png",
-      "textHeader"  : "Amenazas",
-      "color"       : "#5C2481"
+      "textHeader"  : "Servicios",
+      "color"       : "#27357E"
     },
-    "title"   : "1. Ingeniería social",
+    "title"   : "2. Crédito. Beneficios y Requisitos generales",
     "text"    : "",
     "instruction": {
       "type"    : "mouse",
-      "text"    : "Lleva en orden consecutivo cada ícono en donde corresponda para conocer la información.",
+      "text"    : "Haz clic en cada botón vertical para conocer la información.",
       "posY"    : 50,
-      "posX"    : 660,
+      "posX"    : 0,
       "size"    : 330,
-      "color"   : "#FFD15C"
+      "color"   : "#F0B114"
     },
-    "multimedia": {
-      "dragItems": [
-        {
-          "drag"    : 1,
-          "img"     : "img/8/n-1.png",
-          "text"    : "",
-          "type"    : "4",
-          "data"    : ""
+    "multimedia": [
+      {
+        "button": {
+          "text": "Beneficios",
+          "color": "#D69E11"
         },
-        {
-          "drag"    : 2,
-          "img"     : "img/8/n-2.png",
-          "text"    : "",
-          "type"    : "3",
-          "data"    : ""
-        },
-        {
-          "drag"    : 3,
-          "img"     : "img/8/n-3.png",
-          "text"    : "",
-          "type"    : "6",
-          "data"    : ""
-        },
-        {
-          "drag"    : 4,
-          "img"     : "img/8/n-4.png",
-          "text"    : "",
-          "type"    : "1",
-          "data"    : ""
-        },
-        {
-          "drag"    : 5,
-          "img"     : "img/8/n-5.png",
-          "text"    : "",
-          "type"    : "5",
-          "data"    : ""
-        },
-        {
-          "drag"    : 6,
-          "img"     : "img/8/n-6.png",
-          "text"    : "",
-          "type"    : "2",
-          "data"    : ""
+        "information": {
+          "img1": "img/18/n-1.png",
+          "img2": "img/18/nTeclas-1.png",
+          "text": "<ul><li>Servicio y asesoría personalizada.</li><li>Excelentes Tasas de Interés.</li><li>Cuotas fijas.</li><li>Amplios plazos de financiación.</li><li>Créditos sin Deudor Solidario<b>*</b>.</li><li>Agilidad en las respuestas.</li><b>*Aplican las demás que estén dentro de las políticas internas<br>de Otorgamiento de Crédito de la Mutual.</b>"
         }
-      ],
-      "dropZone": {
-        "drops": [
-          {
-            "key"       : 1,
-            "img"       : "img/8/n-4.png",
-            "target"    : "4",
-            "size"      : 136,
-            "posY"      : 44,
-            "posX"      : 86,
-            "type"      : "1"
-          },
-          {
-            "key"       : 2,
-            "img"       : "img/8/n-6.png",
-            "target"    : "6",
-            "size"      : 136,
-            "posY"      : 107,
-            "posX"      : 195,
-            "type"      : "2"
-          },
-          {
-            "key"       : 3,
-            "img"       : "img/8/n-2.png",
-            "target"    : "2",
-            "size"      : 136,
-            "posY"      : 44,
-            "posX"      : 304,
-            "type"      : "3"
-          },
-          {
-            "key"       : 4,
-            "img"       : "img/8/n-1.png",
-            "target"    : "1",
-            "size"      : 136,
-            "posY"      : 107,
-            "posX"      : 414,
-            "type"      : "4"
-          },
-          {
-            "key"       : 5,
-            "img"       : "img/8/n-5.png",
-            "target"    : "5",
-            "size"      : 136,
-            "posY"      : 44,
-            "posX"      : 524,
-            "type"      : "5"
-          },
-          {
-            "key"       : 6,
-            "img"       : "img/8/n-3.png",
-            "target"    : "3",
-            "size"      : 136,
-            "posY"      : 107,
-            "posX"      : 633,
-            "type"      : "6"
-          }
-        ],
-        "infoBox": [
-          {
-            "target"        : "4",
-            "title"         : "",
-            "colorTitle"    : "",
-            "subTitle"      : "",
-            "text"          : "Es un ejercicio de persuasión y manipulación que se apoya de un conjunto de técnicas psicológicas y habilidades sociales"
-          },
-          {
-            "target"        : "6",
-            "title"         : "",
-            "colorTitle"    : "",
-            "subTitle"      : "",
-            "text"          : "con el fin de engañar a usuarios incautos y obtener información sensible, infectar sus computadoras con malware (software malicioso)"
-          },
-          {
-            "target"        : "2",
-            "title"         : "",
-            "colorTitle"    : "",
-            "subTitle"      : "",
-            "text"          : "o abrir enlaces de sitios infectados sin que su receptor sea consciente de los riesgos."
-          },
-          {
-            "target"        : "1",
-            "title"         : "",
-            "colorTitle"    : "",
-            "subTitle"      : "",
-            "text"          : "Además, los ciberdelincuentes pueden tratar de aprovecharse de la falta de conocimiento de los usuarios,"
-          },
-          {
-            "target"        : "5",
-            "title"         : "",
-            "colorTitle"    : "",
-            "subTitle"      : "",
-            "text"          : "debido a la velocidad a la que avanza la tecnología. "
-          },
-          {
-            "target"        : "3",
-            "title"         : "",
-            "colorTitle"    : "",
-            "subTitle"      : "",
-            "text"          : "Numerosos consumidores y trabajadores no son conscientes del valor real de los datos personales."
-          }
-        ]
       },
-      "bg": "img/8/bgPage-8.png",
-      "example": {
-        "hand"    : "img/hand-1.png"
+      {
+        "button": {
+          "text": "Requisitos generales",
+          "color": "#E65853"
+        },
+        "information": {
+          "img1": "img/18/n-2.png",
+          "img2": "",
+          "text": "<ul><li>Ser asociado activo y estar al día en el cumplimiento de sus obligaciones.</li><li>Presentar solicitud a través de los medios dispuestos por la Mutual.</li><li>Demostrar capacidad de pago.</li>"
+        }
       }
-    }
+    ]
   },
 
   "page9": {
