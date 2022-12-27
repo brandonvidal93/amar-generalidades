@@ -5,10 +5,14 @@ import InteractiveFlip3 from '../../../components/InteractiveFlip3';
 
 import HeaderImage from '../../../assets/img/4/n-2.png';
 
-const Page17 = ({dataPage, checkEndActivity}) => {
+const Page17 = ({dataPage, checkEndActivity, checkEndUnit, checkEnabledUnit}) => {
   // FUNCION QUE RECIBE EL TRUE CUANDO FINALIZA LA ACTIVIDAD
   const isEnded = (end) => {
     checkEndActivity(17, end);
+    checkEndUnit(1);
+    checkEnabledUnit(2);
+
+    document.querySelector('.buttonOpen').classList.add('animationOpenMenu');
   }
 
   return (

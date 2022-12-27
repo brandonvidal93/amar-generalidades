@@ -51,37 +51,62 @@ class App extends Component {
     this.state = {
       calificacion: 0,
       conectLMS: false,
-      index: 0,
+      index: 20,
       nextUnit: 1,
       pages: LIMIT,
       units: UNITS,
       unitActual: 0,
-      // unitFinal: [true, true, true, true, true, true, true],
-      unitFinal: [false, false],
-      // enableUnit: [true, true, true, true, true, true, true],
-      enableUnit: [false, false],
+      unitFinal: [true, true, true, true, true, true],
+      // unitFinal: [false, false, false, false, false, false],
+      enableUnit: [true, true, true, true, true, true],
+      // enableUnit: [false, false, false, false, false, false],
       // endActivities debe ir en FALSE para permitir las restricciones, en TRUE para editar
       // endActivities: [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
+      // endActivities: [
+      //   true,  // 0
+      //   true,  // 1
+      //   true,  // 2
+      //   false, // 3
+      //   false, // 4
+      //   false, // 5
+      //   false, // 6
+      //   false, // 7
+      //   false, // 8
+      //   true,  // 9
+      //   false, // 10
+      //   true,  // 11
+      //   false, // 12
+      //   true,  // 13
+      //   false, // 14
+      //   false, // 15
+      //   true,  // 16
+      //   false, // 17
+      //   true, // 18
+      //   false, // 19
+      //   false, // 20
+      // ],
       endActivities: [
         true,  // 0
         true,  // 1
         true,  // 2
-        false, // 3
-        false, // 4
-        false, // 5
-        false, // 6
-        false, // 7
-        false, // 8
+        true, // 3
+        true, // 4
+        true, // 5
+        true, // 6
+        true, // 7
+        true, // 8
         true,  // 9
-        false, // 10
+        true, // 10
         true,  // 11
-        false, // 12
+        true, // 12
         true,  // 13
-        false, // 14
-        false, // 15
+        true, // 14
+        true, // 15
         true,  // 16
-        false, // 17
+        true, // 17
         true, // 18
+        true, // 19
+        true, // 20
       ]
     }
   }
@@ -319,7 +344,7 @@ class App extends Component {
 
     console.log(this.state.unitActual); // UNIDAD ACTUAL
 
-    for (var i = 0; i < 1; i++) {
+    for (var i = 0; i < 5; i++) {
       document.getElementsByClassName('buttonMenu')[i].classList.remove('animation');
       console.log(document.getElementsByClassName('buttonMenu')[i]);
 
@@ -340,7 +365,7 @@ class App extends Component {
     console.log(this.state.endActivities);
 
     const {index} = this.state;
-    if (index !== 1 && index !== 2 && index !== 3) {
+    if (index !== 1 && index !== 2 && index !== 3 && index !== 17) {
       document.getElementById('btnNavRight').classList.add('animationBtnNav');
     }
 

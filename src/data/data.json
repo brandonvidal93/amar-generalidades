@@ -1,9 +1,9 @@
 {
   "coverPage": {
     "type"            : "startPage",
-    "units"           : 2,
+    "units"           : 8,
     "title"           : "Generalidades",
-    "subTitle"        : "Gestión del Talento Humano - Parte 1",
+    "subTitle"        : "Gestión del Talento Humano",
     "module"          : "",
     "courseName"      : "Para comenzar, haz clic en el siguiente botón:",
     "footer": {
@@ -1144,13 +1144,219 @@
   },
 
   "page18": {
+    "type"    : "pageCourse",
+    "startUnit"   : true,
+    "nameUnit"    : "unit2",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-3.png",
+      "textHeader"  : "Estatutos AMAR",
+      "color"       : "#27357E"
+    },
+    "title"   : "¿Qué son los estatutos de una empresa?",
+    "text"    : "Los estatutos de una empresa son el documento privado con el que se constituye una Sociedad, y con ello, se definen las reglas que tendrán a partir de su creación.<br><br> Los estatutos de las entidades sin ánimo de lucro, son las disposiciones internas que conforman el marco de acción, funcionamiento y desarrollo de los objetivos de la entidad que está constituyéndose y sobre los cuales se basan su existencia, toma de decisiones, designación de administradores y órganos de fiscalización.",
+    "instruction": {
+      "type"    : "",
+      "text"    : "Lee atentamente toda la información sobre los estatutos de una empresa.",
+      "posY"      : 33,
+      "posX"      : 0,
+      "size"      : 350,
+      "color"     : "#F0B114"
+    }
+  },
+
+  "page19": {
+    "type"        : "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Estatutos AMAR",
+      "color"       : "#27357E"
+    },
+    "title"   : "Estatutos de AMAR",
+    "text"    : "Nuestros estatutos constan de 13 capítulos que contienen 86 artículos, así:",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en cada botón vertical para conocer la información.",
+      "posY"    : 50,
+      "posX"    : 0,
+      "size"    : 330,
+      "color"   : "#F0B114"
+    },
+    "multimedia": [
+      {
+        "button": {
+          "text": "CAPITULO I",
+          "color": "#F0B114"
+        },
+        "information": {
+          "img1": "img/18/n-1.png",
+          "img2": "img/18/nTeclas-1.png",
+          "text": "Contiene los artículos 1 al 3 donde se expresa la naturaleza jurídica de AMAR que se estable como persona jurídica de derecho privado, sin ánimo de lucro y regida por la doctrina Mutualista. De duración indefinida y se determina su radio de acción a nivel nacional con sede principal en la ciudad de Medellín. <br><br>Y el artículo 4 nos habla del acuerdo mutual o contrato de asociación por el cual por medio del cual unas personas naturales o jurídicas de naturaleza jurídica sin ánimo de lucro acuerdan conformar una persona jurídica."
+        }
+      },
+      {
+        "button": {
+          "text": "CAPITULO II",
+          "color": "#27357E"
+        },
+        "information": {
+          "img1": "img/18/n-2.png",
+          "img2": "",
+          "text": "Contiene los artículo del 5 al 13, donde podemos apreciar que el objeto de la Mutual “será implementar y desarrollar servicios integrales que brinden a las personas asociadas, usuarios y sus núcleos familiares, atención en las áreas de previsión, seguridad y bienestar social”. <br><br>El artículo 6 por su parte nos habla de las actividades que puede realizar la Mutual para el logro de su objeto social.<br><br>En cuanto a los servicios anteriores el Artículo 12 nos aclara que La Mutual no está obligada a prestar todos los servicios al mismo tiempo, sino que lo hará de acuerdo a las posibilidades económicas.<br><br>Los artículos 7 y 8 nos hablan de los Reglamentos de la Asociación y de la estructura Administrativa; dejándonos claro que es indispensable que la Mutual tenga una estructura Administrativa para su funcionamiento y que los Reglamentos de la Mutual precisamente serán elaborados y reformados por la Junta Directiva como parte de esa estructura Administrativa.<br><br>El Artículo 9 nos informa los principios que rigen la Asociación Mutual.<br><br>Los Artículos 10 y 11 por su parte nos aclaran que los servicios de ahorro y crédito como servicios misionales de la Mutual se prestarán únicamente a los asociados y observando las disposiciones especiales sobre la materia. También nos hacen saber que la Mutual puede realizar convenios con entidades de su naturaleza o del sector solidario y con terceros para el desarrollo de sus actividades.<br><br>El Artículo 13 nos habla de las Prohibiciones de la Mutual."
+        }
+      },
+      {
+        "button": {
+          "text": "CAPITULO III",
+          "color": "#149FF0"
+        },
+        "information": {
+          "img1": "img/18/n-3.png",
+          "img2": "",
+          "text": "Contiene los artículos del 14 al 17 y en estos se explica básicamente que la Mutual puede tener asociados personas naturales y Jurídicas que habiendo suscrito el acta de constitución o las que posteriormente hayan sido admitidas como tales y permanezcan afiliadas y estén debidamente inscritas, cumpliendo los siguientes requisitos para su ingreso:<br><br><b>Personas Naturales</b><br>1. Acogerse a los estatutos de la Mutual y a los reglamentos de los servicios.<br>2. Encontrarse dentro del ámbito de operaciones que tiene establecido la mutual.<br>3. Proporcionar toda la información de carácter personal, laboral y económico que requiera la Mutual y acreditar que se efectúen las averiguaciones del caso.<br>4. Cancelar el valor de la contribución de afiliación de que determine Junta Directiva, la cual no será reembolsable.<br>5. Comprometerse a pagar las contribuciones, las cuales no serán devolutivas.<br>6. Presentar por escrito solicitud de afiliación ante la Junta Directiva.<br>7. Pagar la contribución única de Asociación equivalente al 4% sobre el salario mínimo mensual legal vigente. La cual no será reembolsable.<br><br><b>Personas Jurídicas</b><br>1. Acogerse a los estatutos de la Asociación y a los reglamentos de los directivos.<br>2. Presentar solicitud de ingreso a la Junta Directiva.<br>3. Certificado de existencia y representación legal.<br>4. Copia del Acta por la cual se aprobó la solicitud de afiliación.<br>5. Pagar la contribución del 15% sobre un salario mínimo mensual legal vigente, la cual es no devolutiva y de acuerdo a los reglamentos definidos por la Junta Directiva<br><br>Se define además en este capítulo: a los beneficiarios y agraciados como familiares directos de un asociado y a los usuarios a quienes la Mutual también podrá extender sus servicios."
+        }
+      },
+      {
+        "button": {
+          "text": "CAPITULO IV",
+          "color": "#6106D0"
+        },
+        "information": {
+          "img1": "img/18/n-4.png",
+          "img2": "",
+          "text": "Este capítulo contiene los artículos del 18 al 23, así:<br><br><b>Artículo 18: Derechos:</b><br>1. Utilizar los Servicios de la Asociación y realizar con ella las operaciones propias de su objeto social.<br>2. Participar en las actividades de la Asociación y en la administración mediante el desempeño de cargos sociales.<br>3. Ser informados de la gestión de la Asociación<br>4. Ejercer actos de decisión y elección en las Asambleas Generales.<br>5. Fiscalizar la gestión económica y financiera de la Asociación.<br>6. Beneficiarse de los diferentes programas que desarrolle la Asociación.<br>7. Presentar a la Junta de Control Social quejas fundamentadas cuando hubiere lugar a ellas<br>8. Presentar a los organismos directivos proyectos e iniciativas que tengan por objeto el mejoramiento de la entidad.<br>9. Retirarse voluntariamente de la Asociación, mientras está no se halla disuelto.<br><br><b>Artículo 19: Deberes:</b><br>1. Adquirir conocimientos sobre los principios básicos del mutualismo<br>2. Aceptar y cumplir las disposiciones de los órganos de administración y control social<br>3. Comportarse solidariamente en sus relaciones con la entidad y con los asociados<br>4. Abstenerse de efectuar actos o de incurrir en omisiones que afecten la estabilidad económica o el prestigio social de la Asociación.<br>5. Participar en los programas de educación mutual y de capacitación general, así como en los demás eventos a que se les cite.<br>6. Pagar oportunamente las contribuciones económicas que establezca la Asociación.<br>7. Concurrir a las reuniones ordinarias y extraordinarias de asociados o de delegados<br>8. Cumplir las obligaciones que adquiera con la Asociación.<br>9. Los demás contemplados en la Ley, el Estatuto y las normas internas de la Asociación<br>10. Dar efectivo cumplimiento al acto mutual.<br><br>El articulo 20 nos informa que la calidad de asociado se pierde por: retiro voluntario, muerte, disolución del ente cuando el asociado sea persona jurídica y por exclusión.<br><br>Los artículos 21, 22 y 23 nos informan que el retiro voluntario debe ser solicitado por escrito a la Junta Directiva, organismo que responderá dicha solicitud en un plazo máximo de 30 días hábiles. Para los casos de reingresos, la persona natural o jurídica deberá esperar 4 meses para solicitar el reingreso y deberá cumplir con los requisitos para ello. <br><br>En los casos de fallecimiento de esposo o compañero permanente, la persona en calidad de viuda o beneficiaria podrá ingresar a la Asociación Mutual con los mismos deberes y derechos del fallecido."
+        }
+      },
+      {
+        "button": {
+          "text": "CAPITULO V",
+          "color": "#5CB85C"
+        },
+        "information": {
+          "img1": "img/18/n-5.png",
+          "img2": "",
+          "text": "Contiene los capítulos del 24 al 29 y tratan sobre las sanciones que podrá aplicar la Junta Directiva de la Mutual sobre los asociados que cometan las siguientes faltas:<br><br>• Infracciones graves a la disciplina social que pudieren desviar IOS fines de la Asociación<br>• Ejercer dentro de la Asociación actividades que contraríen sus objetivos y/o principios estatutarios.<br>• Falsedad o reticencia en los informes o documentos que la Asociación requiera.<br>• Servirse de la Asociación en beneficio o provecho de terceros.<br>• Entregar a la Asociación bienes de procedencia fraudulenta.<br>• Efectuar operaciones ficticias en perjuicio de la Mutual, asociados y de terceros<br>• Delitos que impliquen penas privativas de la libertad.<br>• Incumplimiento reiterado en el pago de las contribuciones económicas<br>• Atentar física o verbalmente contra las directivas de la Asociación y empleados.<br><br>Los artículos 25 y 26 detallan las sanciones posibles antes las faltas anteriores: amonestación escrita, suspensión de derechos y exclusión.<br><br>Los artículos 28 y 29 por su parte nos informan sobre el procedimiento que debe realizar la Junta Directiva para imponer una sanción a un asociado quienes deberán informarle por escrito la sanción y este a su vez dispondrá de 5 días hábiles para presentar recurso reposición y de 5 días mas para presentar apelación en caso de que en el termino de los 5 días primeros la Junta Directiva se sostenga en su decisión. Si el comité de apelación descrito en el artículo 29 se sostiene en su decisión procederá la sanción."
+        }
+      },
+      {
+        "button": {
+          "text": "CAPITULO VI",
+          "color": "#D9534F"
+        },
+        "information": {
+          "img1": "img/18/n-6.png",
+          "img2": "",
+          "text": "Comprende los artículos 30 al 37 y en ellos el eje principal a destacar es el “Patrimonio” de la Mutual.<br><br>En el artículo 30 se define: El patrimonio de la Asociación es de carácter irrepartible y estará constituido por: <br>• El Fondo Social Mutual:  donaciones que hacen los fundadores, cuotas extra ordinarias que apruebe la asamblea y las ordinarias que aprueba la Junta Directiva, valores positivos de los resultados de los ejercicios contables, capitalizaciones que autorice la Junta Directiva.<br>• Los Fondos y Reservas de carácter permanente<br>• Los auxilios y donaciones que se reciban con destino al incremento patrimonial.<br>• Fondos específicos.<br><br>La Mutual pertenece al Régimen Tributario especial en materia de impuestos, de conformidad con las normal contempladas en el estatuto tributario de la DIAN.<br><br>El articulo 34 nos recuerda que los excedentes no se distribuyen individualmente entre los asociados en ningún caso y que se deben aplicar en la siguiente forma:<br>• Para compensar pérdidas de ejercicios anteriores.<br>• Un Diez por ciento (10%) como mínimo para crear y mantener una reserva de protección al Fondo Mutual.<br>• Un veinte por ciento (20%) como mínimo el Fondo Social Mutual.<br>• Un treinta por ciento (30%) como mínimo para un Fondo de Educación Mutual.<br>• Un cinco por ciento (5%) para el Fondo de Seguridad Social.<br>• Un diez por ciento (10%) como mínimo el Fondo de siniestralidad.<br>• Un Cinco por ciento (5%) para los fondos de imprevistos.<br>• El resto para crear nuevas reservas y fondos sociales o para incrementar los anteriores, acordes con el objeto social de la Mutual.<br><br>La Asamblea General y la Junta Directiva podrán crear otros fondos y reservas, de naturaleza pasiva o patrimonial, para fines determinados, claramente justificados, definidos y reglamentados."
+        }
+      },
+      {
+        "button": {
+          "text": "CAPITULO VII",
+          "color": "#0754D9"
+        },
+        "information": {
+          "img1": "img/18/n-6.png",
+          "img2": "",
+          "text": "Comprende los artículos 38 al 65 y en ellos se establece la estructura organizacional de AMAR:<br><br>La Dirección, Administración y Control de la Asociación estarán a cargo de:<br>1. <b>Asamblea General:</b> máximo organismo de administración y sus decisiones son obligatorias para todos los asociados, se reunirá una vez al año, dentro de los tres primeros meses de año.<br>2. <b>Junta Directiva:</b> es el órgano permanente de administración de la Mutual y está subordinado a las directrices y políticas de la Asamblea General, integrado por cinco (5) miembros principales con cinco (5) suplentes, elegidos por la Asamblea General para un período de tres (3) años, se reunirá ordinariamente una vez al mes.<br>3. <b>Representante Legal o Gerente:</b> Es el Representante Legal Principal de AMAR y el ejecutor de las decisiones de la Asamblea General y de la Junta Directiva, su vinculación la realizará la Junta directiva, la cual se dará mediante contrato de trabajo a término indefinido y podrá ser removido en cualquier momento por decisión de la Junta Directiva<br>4. <b>Junta de Control Social:</b> ejercerá las funciones de vigilancia en la Mutual y será responsable de ésta ante la Asamblea. Estará compuesta por tres (3) miembros principales y tres (3) suplentes numéricos elegidos para períodos de tres (3) años.<br>5. <b>Revisor Fiscal:</b> La fiscalización, revisión y vigilancia contable de la Asociación serán ejercidas por el Revisor Fiscal, quien será elegido por la Asamblea General con su respectivo suplente, para un periodo de tres (3) año."
+        }
+      }
+    ]
+  },
+
+  "page20": {
+    "type"        : "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "Estatutos AMAR",
+      "color"       : "#27357E"
+    },
+    "title"   : "Estatutos de AMAR",
+    "text"    : "Nuestros estatutos constan de 13 capítulos que contienen 86 artículos, así:",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en cada botón vertical para conocer la información.",
+      "posY"    : 50,
+      "posX"    : 0,
+      "size"    : 330,
+      "color"   : "#F0B114"
+    },
+    "multimedia": [
+      {
+        "button": {
+          "text": "CAPITULO VIII",
+          "color": "#0754D9"
+        },
+        "information": {
+          "img1": "img/18/n-1.png",
+          "img2": "img/18/nTeclas-1.png",
+          "text": "Comprende los artículos del 66 al 73, en los que se expresa:<br><br>La Asociación realizara de un modo permanente actividades orientadas a la formación de sus asociados y usuarios en los principios, doctrinas y prácticas del mutualismo y en lo relacionado con los servicios que preste, así como capacitar a los directivos y administradores, para el adecuado cumplimiento del objeto social. La asistencia técnica, la investigación y la promoción del mutualismo hacen parte de la educación mutual.<br><br>Para el cumplimiento de lo dispuesto en el artículo anterior la asociación tendrá un Comité de Educación nombrado por la Junta Directiva para un periodo de un año, con funciones como:<br><br>• Investigar sobre las necesidades de capacitación de los asociados, usuarios, directivos y empleados de la Asociación.<br>• Elaborar un programa de actividades de acuerdo con las disponibilidades de presupuesto y someterlo a la aprobación de la Junta Directiva.<br>• Una vez aprobado dicho programa asumir su ejecución, evaluación y presentar informe de resultados a la Junta Directiva y a la Asamblea General.<br><br>En los artículos del 69 al 73 los estatutos de la Mutual nos hablan de la Fusión, Incorporación, Transformación, escisión; esto es transformaciones que podrá sufrir la Mutual por determinación de la Asamblea General con entidades de su misma naturaleza y carácter. En los casos de fusión e incorporación la sociedad se disuelve sin liquidarse y su patrimonio se transfiere a la nueva entidad producto de la fusión o a la incorporación."
+        }
+      },
+      {
+        "button": {
+          "text": "CAPITULO IX",
+          "color": "#149FF0"
+        },
+        "information": {
+          "img1": "img/18/n-2.png",
+          "img2": "",
+          "text": "Comprende los artículos 74 al 77, donde nos indican cuales son las causas por las cuales se puede disolver la Mutual:<br><br>• Por decisión voluntaria de los asociados, adoptada en Asamblea General y con el voto de las dos terceras partes de los asociados asistentes.<br>• Por reducción de los asociados a menos del número legal, siempre que esta situación se prolongue por más de 6 meses<br>• Por incapacidad o imposibilidad de cumplir el objeto social.<br>• Por fusión o incorporación a otra Asociación Mutual.<br>• Por haberse iniciado contra ella concurso de acreedores.<br>• Por haberse iniciado contra ella concurso de acreedores.<br><br>La declaratoria de disolución será tomada en Asamblea General convocada para este efecto, y comunicada a los organismos competentes de acuerdo con los procedimientos provistos en la legislación sobre Asociaciones Mutuales que en la actualidad existe. Cuando la disolución es acordada en Asamblea General, esta designará un máximo de tres liquidadores."
+        }
+      },
+      {
+        "button": {
+          "text": "CAPITULO X",
+          "color": "#2B3B8A"
+        },
+        "information": {
+          "img1": "img/18/n-3.png",
+          "img2": "",
+          "text": "Articulo 78: La Mutual apoyará los programas y actividades de integración que se realicen con el fin de propender por la difusión, desarrollo y representación del mutualismo. Para desarrollar sus objetivos, la Asociación por decisión de la Junta Directiva podrá afiliarse o formar parte en la constitución de otra entidad mutualista de su mismo carácter o de grado superior"
+        }
+      },
+      {
+        "button": {
+          "text": "CAPITULO XI",
+          "color": "#27357E"
+        },
+        "information": {
+          "img1": "img/18/n-4.png",
+          "img2": "",
+          "text": "Comprende los artículos 79 al 81: La Asociación Mutual y los miembros de sus órganos de administración y control y los liquidadores, serán responsables por todos los actos u omisiones que impliquen el incumplimiento de las normas legales y estatutarias y se harán acreedores a las sanciones previstas en las leyes y a las emanadas de las reglamentaciones del Organismo Oficial Competente.<br><br>Los miembros de la Junta Directiva y el Representante Legal serán responsables por violación de la Ley, los Estatutos o los Reglamentos.<br><br>La Mutual es vigilada por la Super Intendencia de Economía solidaria entre otros entes gubernamentales.<br><br>La asociación se hará acreedora de sanciones por parte del Organismo Oficial Competente por las infracciones que le sean personalmente imputables y señaladas a continuación:<br><br>• Utilizar la denominación o el objeto de la Asociación Mutual para encubrir actividades o propósitos especulativos o contrarios a sus objetivos.<br>• Desviación de los fondos con destinación especifica<br>• Repartir entre los asociados las reservas, fondos, auxilios y donaciones de carácter patrimonial.<br>• Alterar la presentación de los estados financieros.<br>• Admitir como asociados a quienes no puedan serlo por prescripción legal o estatutaria.<br>• Ser renuentes a los actos de inspección y vigilancia.<br>• Realizar actos de disposición excediendo las facultades establecidas por la Ley<br>• No asignara las reservas y fondos obligatorios las cantidades que correspondan de acuerdo con la Ley<br>• No presentar oportunamente a la Asamblea General los informes."
+        }
+      },
+      {
+        "button": {
+          "text": "CAPITULO XII",
+          "color": "#1F2A63"
+        },
+        "information": {
+          "img1": "img/18/n-5.png",
+          "img2": "",
+          "text": "Contiene los artículos del 82 al 84. La reforma de los presentes Estatutos deberá ser aprobada por la Asamblea General con el voto favorable de las dos terceras partes de los asistentes. Para proceder a la reforma, la Junta Directiva suministrará a los asociados el proyecto correspondiente dentro de los quince (15) días anteriores a la Asamblea General."
+        }
+      },
+      {
+        "button": {
+          "text": "CAPITULO XIII",
+          "color": "#2D05E8"
+        },
+        "information": {
+          "img1": "img/18/n-6.png",
+          "img2": "",
+          "text": "Artículos 85 y 86: En todo caso, los miembros principales y suplentes de la Junta Directiva, la Junta de Control Social, el Revisor Fiscal, el Representante Legal y quienes cumplan las funciones de Tesorero y Contador, no podrán ser cónyuges entre sí, ni estar ligados por parentescos hasta el cuarto grado de consanguinidad, segundo de afinidad o único civil.<br><br>Todo lo anterior, según reforma aprobada en Asamblea ordinaria de delegados el 26 del mes de febrero de 2022"
+        }
+      }
+    ]
+  },
+
+  "page34": {
     "type"            : "endCourse",
     "message": {
       "success": {
-        "title"       : "¡Has finalizado esta primera parte de las Generalidades!",
+        "title"       : "¡Has finalizado el curso de Generalidades!",
         "subTitle"    : "¡Muchas gracias!",
         "module"      : "",
-        "courseName"  : "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica toda la información que viste a lo largo de este recorrido. <br><br> Haz clic en el botón de finalizar para cerrar el curso y continuar con la evaluación de conocimientos que se encuentra en área principal del curso."
+        "courseName"  : "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica toda la información que viste a lo largo de este recorrido. <br><br> Haz clic en el botón de finalizar para cerrar el curso y continuar con tu formación"
       },
       "error": {
         "title"       : "¡No has cumplido <br>con el objetivo!",
@@ -1187,6 +1393,38 @@
         "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
         "imgBnt"        : "img/menuCourse/n-2.png",
         "goTo"          : 4,
+        "fullVisited"   : false
+      },
+      {
+        "unit"          : 3,
+        "title"         : "Estatutos AMAR",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-4.png",
+        "goTo"          : 18,
+        "fullVisited"   : false
+      },
+      {
+        "unit"          : 4,
+        "title"         : "Plan estratégico AMAR",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-5.png",
+        "goTo"          : 18,
+        "fullVisited"   : false
+      },
+      {
+        "unit"          : 5,
+        "title"         : "Código del Buen vestir",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-9.png",
+        "goTo"          : 18,
+        "fullVisited"   : false
+      },
+      {
+        "unit"          : 6,
+        "title"         : "SG SST y SS del empleado",
+        "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+        "imgBnt"        : "img/menuCourse/n-10.png",
+        "goTo"          : 18,
         "fullVisited"   : false
       }
     ],

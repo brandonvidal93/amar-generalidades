@@ -83,7 +83,7 @@ class Footer extends Component {
       return(
         <div className = 'buttonPannel'>
           <button
-            className = { 'buttonNav ' + (actualIndex === 1 || actualIndex === 4 || Object.values(data)[actualIndex].startUnit === true ? 'disabled': '') }
+            className = { 'buttonNav ' + (actualIndex === 1 || actualIndex === 4 || actualIndex === 18 || Object.values(data)[actualIndex].startUnit === true ? 'disabled': '') }
             id = 'btnNavLeft'
             onClick = { this.navigationCourse }>
             <FontAwesomeIcon
@@ -93,7 +93,7 @@ class Footer extends Component {
           </button>
 
           <button
-            className = { 'buttonNav ' + (actualIndex === (limitNavigation + 1) || Object.values(data)[actualIndex].endCourse === true ? 'disabled ': '') + (actualIndex === 1 || actualIndex === 2 || actualIndex === 3 ? 'disabled ': '') }
+            className = { 'buttonNav ' + (actualIndex === (limitNavigation + 1) || Object.values(data)[actualIndex].endCourse === true ? 'disabled ': '') + (actualIndex === 1 || actualIndex === 2 || actualIndex === 3 || actualIndex === 17 ? 'disabled ': '') }
             id = 'btnNavRight'
             onClick = { this.navigationCourse }>
             <FontAwesomeIcon
@@ -134,7 +134,7 @@ class Footer extends Component {
     // console.log(endActivities);
 
     return (
-      <div className = { (actualIndex === 0 || actualIndex === 18 ? 'footer-desc' : 'footer') + ' d-Flex j-S aI-C' }>
+      <div className = { (actualIndex === 0 || actualIndex === 34 ? 'footer-desc' : 'footer') + ' d-Flex j-S aI-C' }>
 
         { this.showLogo() }
         { this.showLabel() }
