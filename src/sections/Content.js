@@ -26,6 +26,7 @@ import Page17 from './pages/Page17/Page17';
 import Page18 from './pages/Page18/Page18';
 import Page19 from './pages/Page19/Page19';
 import Page20 from './pages/Page20/Page20';
+import Page21 from './pages/Page21/Page21';
 import BackCover from './pages/BackCover/BackCover';
 
 class Content extends Component {
@@ -77,13 +78,18 @@ class Content extends Component {
       case 17: return( <Page17 dataPage = { data.page17 } endActivities = { endActivities[17] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
       // // FIN UNIDAD 2 -----------------------------------------------------------------------
 
-      // UNIDAD 3 ---------------------------------------------------------------------------
+      // UNIDAD 3 ------------------------------------------------------------------------------
       // ESTATUTOS   ---------------------------------------------------------------------------
       case 18: return( <Page18 dataPage = { data.page18 } /> );
 
       case 19: return( <Page19 dataPage = { data.page19 } endActivities = { endActivities[19] } checkEndActivity = { checkEndActivity } /> );
 
-      case 20: return( <Page20 dataPage = { data.page20 } endActivities = { endActivities[20] } checkEndActivity = { checkEndActivity } /> );
+      case 20: return( <Page20 dataPage = { data.page20 } endActivities = { endActivities[20] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
+      // // FIN UNIDAD 2 -----------------------------------------------------------------------
+
+      // // UNIDAD 4 ---------------------------------------------------------------------------
+      // // PLAN ESTRATEGICO   -----------------------------------------------------------------
+      case 21: return( <Page21 dataPage = { data.page21 } endActivities = { endActivities[21] } checkEndActivity = { checkEndActivity } /> );
 
       // // END --------------------------------------------------------------------------------
       case 34: return( <BackCover dataPage = { data.page18 } /> );

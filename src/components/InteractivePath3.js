@@ -28,7 +28,8 @@ class InteractivePath3 extends Component {
       return(
         <div className = 'circleItems' key = { i } style = { { 'top': item.pos.top, 'left': item.pos.left } }>
           <button className = { 'circleButton ' + ( i + 1 !== 1 ? 'disabledGray' : '')} id = { i + 1 } onClick = { this.enableItem }>
-            <img alt = '' className = '' id = { i + 1 } src = { item.urlImgBtn }/>
+            {/* <img alt = '' className = '' id = { i + 1 } src = { item.urlImgBtn }/> */}
+            {i + 1}
           </button>
         </div>
       );
@@ -99,9 +100,9 @@ class InteractivePath3 extends Component {
                 className = { 'itemGlobe itemLeft animated fadeIn pAbs d-Flex d-C j-C aI-C dNone' }
                 id = { 'itemGlobe-' + (i + 1) }
                 key = { i }
-                style = { { 'top': item.itemInfo.posGlobe.posY, 'left': item.itemInfo.posGlobe.posX, 'borderColor': item.itemInfo.colorBorder } }>
+                style = { { 'top': item.itemInfo.posGlobe.posY, 'right': item.itemInfo.posGlobe.posX, 'borderColor': item.itemInfo.colorBorder } }>
                   {
-                    item.itemInfo.title ? <h4 className = 'mB-05 fw-3' dangerouslySetInnerHTML = {{ __html: item.itemInfo.title }}></h4> : null
+                    item.itemInfo.title ? <h4 className = 'mB-05' dangerouslySetInnerHTML = {{ __html: item.itemInfo.title }}></h4> : null
                   }
                   {
                     item.itemInfo.text ? <p className = 'fw-3' dangerouslySetInnerHTML = {{ __html: item.itemInfo.text }}></p> : null
@@ -113,7 +114,7 @@ class InteractivePath3 extends Component {
                 key = { i }
                 style = { { 'top': item.itemInfo.posGlobe.posY, 'left': item.itemInfo.posGlobe.posX, 'borderColor': item.itemInfo.colorBorder } }>
                   {
-                    item.itemInfo.title ? <h4 className = 'mB-05 fw-3' dangerouslySetInnerHTML = {{ __html: item.itemInfo.title }}></h4> : null
+                    item.itemInfo.title ? <h4 className = 'mB-05' dangerouslySetInnerHTML = {{ __html: item.itemInfo.title }}></h4> : null
                   }
                   {
                     item.itemInfo.text ? <p className = 'fw-3' dangerouslySetInnerHTML = {{ __html: item.itemInfo.text }}></p> : null

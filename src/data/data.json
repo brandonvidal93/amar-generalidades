@@ -1146,7 +1146,7 @@
   "page18": {
     "type"    : "pageCourse",
     "startUnit"   : true,
-    "nameUnit"    : "unit2",
+    "nameUnit"    : "unit3",
     "headerPage": {
       "imgHeader"   : "img/menuCourse/n-3.png",
       "textHeader"  : "Estatutos AMAR",
@@ -1349,6 +1349,224 @@
     ]
   },
 
+  "page21": {
+    "type"    : "pageCourse",
+    "startUnit"   : true,
+    "nameUnit"    : "unit4",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-3.png",
+      "textHeader"  : "Plan estratégico AMAR",
+      "color"       : "#27357E"
+    },
+    "title"   : "PLANEACION ESTRATÉGICA AMAR",
+    "text"    : "El propósito de una planeación estratégica, es establecer las directrices que deben seguir todos los procesos de una empresa, con el fin de que todas sus actuaciones se encuentren alineadas hacia un mismo objetivo.",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en los botones para conocer la información.",
+      "posY"    : 50,
+      "posX"    : 0,
+      "size"    : 330,
+      "color"   : "#F0B114"
+    },
+    "background": {
+      "bg": "img/17/bgPage-17.png"
+    },
+    "multimedia": [
+      {
+        "urlImgBtn"   : "img/17/n-1.png",
+        "pos": {
+          "top"       : 19,
+          "left"      : 10
+        },
+        "itemInfo": {
+          "title"     : "OBJETIVO GENERAL DE LA PLANEACIÓN ESTRATÉGICA DE AMAR",
+          "text"      : "Mejorar la calidad de vida de nuestros asociados, usuarios y grupos familiares; fomentando la solidaridad para lograr el bienestar integral de la comunidad y generar acciones concretas para lograr el establecimiento de igualdad de oportunidades, por medio de servicios de excelente calidad.",
+          "posGlobe": {
+            "posY"    : 42,
+            "posX"    : 144
+          },
+          "color"     : "#93C750"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-2.png",
+        "pos": {
+          "top"       : 190,
+          "left"      : 710
+        },
+        "itemInfo": {
+          "title"     : "OBJETIVOS ESTRATÉGICOS DE AMAR",
+          "text"      : "",
+          "posGlobe": {
+            "posY"    : 247,
+            "posX"    : 144
+          },
+          "color"     : "#0A4D94"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-3.png",
+        "pos": {
+          "top"       : 370,
+          "left"      : 10
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "▪ Gestionar en tiempo y forma los trámites y/o servicios solicitados.<br>▪ Mantener una estructura financiera apropiada que permita una rentabilidad de los productos de la MUTUAL.<br>▪ Garantizar la adecuada administración por riesgos en todos los procesos de la MUTUAL, teniendo como referencia la normatividad existente y aplicable.",
+          "posGlobe": {
+            "posY"    : 387,
+            "posX"    : 139
+          },
+          "color"     : "#347DB9"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-4.png",
+        "pos": {
+          "top"       : 533,
+          "left"      : 710
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "▪ Hacer del mejoramiento continuo una práctica cotidiana que conlleve al logro de la excelencia administrativa y operacional de la MUTUAL.<br>▪ Convertir la tecnología en un aliado estratégico de la entidad para que sea el soporte de todos los procesos de negocio.<br>▪ Segmentar el mercado objetivo de la MUTUAL para diseñar productos acordes a sus necesidades.",
+          "posGlobe": {
+            "posY"    : 553,
+            "posX"    : 110
+          },
+          "color"     : "#33A0D6"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-5.png",
+        "pos": {
+          "top"       : 717,
+          "left"      : 10
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "▪ Diagnosticar el mercado, la competencia y los clientes, para mejorar el conocimiento y las acciones necesarias para lograr un mejor posicionamiento de la MUTUAL.<br>▪ Asegurar un nivel de satisfacción de asociados y usuarios por encima del 70 %, anualmente.",
+          "posGlobe": {
+            "posY"    : 754,
+            "posX"    : 150
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-6.png",
+        "pos": {
+          "top"       : 884,
+          "left"      : 710
+        },
+        "itemInfo": {
+          "title"     : "PERSPECTIVAS DE LA PLANEACIÓN ESTRATÉGICA DE AMAR",
+          "text"      : "AMAR trazó su planeación estratégica, tiendo como base 5 perspectivas donde quiere enfocar su crecimiento empresarial y ver cristalizado el buen desempeño de los procesos:",
+          "posGlobe": {
+            "posY"    : 913,
+            "posX"    : 103
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-7.png",
+        "pos": {
+          "top"       : 1065,
+          "left"      : 10
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "<b>Perspectiva financiera – empresarial:</b> Solidez y optimización de los recursos financieros, humanos y tecnológicos al interior de la Mutual.<br><b>Perspectiva de productos y servicios:</b> Con énfasis en la satisfacción por la prestación de los servicios prestados y el proceso de mercadeo y comercialización de los productos y servicios ofrecidos por la Mutual.",
+          "posGlobe": {
+            "posY"    : 1083,
+            "posX"    : 143
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-8.png",
+        "pos": {
+          "top"       : 1258,
+          "left"      : 710
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "<b>Perspectiva de aprendizaje y conocimiento:</b> Énfasis en la autogestión y el control interno y el fortalecimiento del talento humano.<br><b>Perspectiva de Procesos Internos:</b> Mantenimiento y mejoramiento continuo de la estructura de procesos.",
+          "posGlobe": {
+            "posY"    : 1287,
+            "posX"    : 93
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-9.png",
+        "pos": {
+          "top"       : 1440,
+          "left"      : 10
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "<b>Perspectiva orientada a los asociados:</b> El reconocimiento de los asociados como principales destinatarios de los resultados de la gestión de la Mutual, además del fortalecimiento de la cultura mutualista.",
+          "posGlobe": {
+            "posY"    : 1480,
+            "posX"    : 143
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-10.png",
+        "pos": {
+          "top"       : 1623,
+          "left"      : 710
+        },
+        "itemInfo": {
+          "title"     : "Promesa de valor",
+          "text"      : "Conocemos a nuestros asociados y sus necesidades, velamos por su bienestar y tranquilidad ofreciendo un servicio integral que los satisface cobijando servicios; financieros, prevención, recreación, protección y provisión. Comprometidos con su bienestar y tranquilidad.",
+          "posGlobe": {
+            "posY"    : 1652,
+            "posX"    : 103
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-11.png",
+        "pos": {
+          "top"       : 1833,
+          "left"      : 10
+        },
+        "itemInfo": {
+          "title"     : "Nuestro Propósito.",
+          "text"      : "Acompañar a nuestros asociados, usuarios y su grupo familiar en la realización de su proyecto de vida y consolidación financiera, brindando bienestar y tranquilidad atrevas de nuestro portafolio de servicios.",
+          "posGlobe": {
+            "posY"    : 1853,
+            "posX"    : 143
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-12.png",
+        "pos": {
+          "top"       : 2023,
+          "left"      : 710
+        },
+        "itemInfo": {
+          "title"     : "Nuestra aspiración.",
+          "text"      : "En el 2023 seremos una de las 3 mutuales más grandes el país.",
+          "posGlobe": {
+            "posY"    : 2064,
+            "posX"    : 133
+          },
+          "color"     : "#643B8D"
+        }
+      }
+    ]
+  },
+
   "page34": {
     "type"            : "endCourse",
     "message": {
@@ -1408,7 +1626,7 @@
         "title"         : "Plan estratégico AMAR",
         "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
         "imgBnt"        : "img/menuCourse/n-5.png",
-        "goTo"          : 18,
+        "goTo"          : 21,
         "fullVisited"   : false
       },
       {
