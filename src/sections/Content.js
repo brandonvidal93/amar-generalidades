@@ -27,6 +27,7 @@ import Page18 from './pages/Page18/Page18';
 import Page19 from './pages/Page19/Page19';
 import Page20 from './pages/Page20/Page20';
 import Page21 from './pages/Page21/Page21';
+import Page22 from './pages/Page22/Page22';
 import BackCover from './pages/BackCover/BackCover';
 
 class Content extends Component {
@@ -94,7 +95,7 @@ class Content extends Component {
 
       // // UNIDAD 5 ---------------------------------------------------------------------------
       // // CODIGO BUEN VESTIR   ---------------------------------------------------------------
-
+      case 22: return( <Page22 dataPage = { data.page22 } endActivities = { endActivities[22] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
       // // FIN UNIDAD 5 -----------------------------------------------------------------------
 
       // // END --------------------------------------------------------------------------------

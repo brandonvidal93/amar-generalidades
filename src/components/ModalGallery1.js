@@ -25,7 +25,7 @@ class ModalGallery1 extends Component {
     // RECORRER TODOS LOS ELEMENTOS DE UNA CLASE
     for (let i = 0; i < dataPage.multimedia.gallery.length; i++) {
       document.getElementsByClassName('imgGallery')[i].classList.add('dNone');
-      document.getElementsByClassName('itemsNav')[i].classList.remove('active');
+      // document.getElementsByClassName('itemsNav')[i].classList.remove('active');
     }
 
     if (e.currentTarget.id === 'btnAnt') {
@@ -34,7 +34,7 @@ class ModalGallery1 extends Component {
       });
 
       document.getElementById('imgGal-' + (this.state.slide - 1)).classList.remove('dNone');
-      document.getElementById('imgNav-' + (this.state.slide - 1)).classList.add('active');
+      // document.getElementById('imgNav-' + (this.state.slide - 1)).classList.add('active');
     }
     if (e.currentTarget.id === 'btnSig') {
       this.setState({
@@ -42,7 +42,7 @@ class ModalGallery1 extends Component {
       });
 
       document.getElementById('imgGal-' + (this.state.slide + 1)).classList.remove('dNone');
-      document.getElementById('imgNav-' + (this.state.slide + 1)).classList.add('active');
+      // document.getElementById('imgNav-' + (this.state.slide + 1)).classList.add('active');
 
       if (this.state.slide === dataPage.multimedia.gallery.length - 1) {
         this.props.isEnded(true); // SI LLEGA EL FINAL DE LA ACT ENVÍA EL TRUE
@@ -63,15 +63,15 @@ class ModalGallery1 extends Component {
   }
 
   render() {
-    const { dataPage } = this.props;
+    const { dataPage, arrayImage } = this.props;
     return (
       <div className = 'ModalGallery1 animated fadeIn'>
         <div className = 'showModal'>
           <div className = 'itemGallery mB-1 d-Flex j-C aI-C'>
             {
-              dataPage.multimedia.gallery.map(item => {
+              dataPage.multimedia.gallery.map((item, i) => {
                 return(
-                  <img alt = 'Imagen' className = { 'imgGallery c-10 ' + (item.key !== 1 ? 'dNone': '') } id = { 'imgGal-' + item.key } key = { item.key} src = { item.img }/>
+                  <img alt = 'Imagen' className = { 'imgGallery c-10 ' + (item.key !== 1 ? 'dNone': '') } id = { 'imgGal-' + item.key } key = { item.key} src = { arrayImage[i] }/>
                 );
               })
             }
@@ -85,7 +85,7 @@ class ModalGallery1 extends Component {
               </span>
             </button>
 
-            <div className = 'c-75 d-Flex j-Bt aI-C'>
+            {/* <div className = 'c-75 d-Flex j-Bt aI-C'>
               {
                 dataPage.multimedia.gallery.map(item => {
                   return(
@@ -95,7 +95,7 @@ class ModalGallery1 extends Component {
                   );
                 })
               }
-            </div>
+            </div> */}
 
             <button className = { 'buttonSlide mT-025 ' + (this.state.slide === dataPage.multimedia.gallery.length ? 'disabled' : 'pulse') } id = 'btnSig' onClick = { this.mSlides }>
               <span className = 'fa-layers fa-fw iconButton' >

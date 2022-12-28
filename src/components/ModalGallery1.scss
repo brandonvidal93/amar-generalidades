@@ -15,10 +15,9 @@
   transition: all .2s;
 
   .itemGallery {
-    background-color: #F7F7F7;
-    border: 10px solid $blanco;
-    padding: 1rem;
-    border-radius: 15px;
+    background-color: $blanco;
+    box-shadow: 6px 6px 0px rgba($color13, 0.75);
+    border: 1px solid $color1;
     width: 680px;
     height: 440px;
   }
@@ -41,11 +40,10 @@
     }
 
     .itemsNav {
-      width: 110px;
-      background-color: #F7F7F7;
-      border: 3px solid $blanco;
+      background-color: $blanco;
+      box-shadow: 6px 6px 0px rgba($color13, 0.75);
+      border: 1px solid $color1;
       padding: 0.5rem;
-      border-radius: 2px;
       width: 115px;
       height: 80px;
     }
@@ -57,20 +55,20 @@
 
   .buttonClose {
     position: absolute;
-    top: -20px;
-    right: -20px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    padding: 0.4rem 0.2rem;
+    padding: 0.25rem 0rem;
+    top: -15px;
+    right: -15px;
     .iconButton {
-      color: red;
+      color: $color10;
       font-size: 2.3em;
       transition: all .3s;
     }
 
     &:hover {
       .iconButton {
-        color: #cf0000;
+        color: $color17;
       }
     }
   }

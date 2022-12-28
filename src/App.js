@@ -51,7 +51,7 @@ class App extends Component {
     this.state = {
       calificacion: 0,
       conectLMS: false,
-      index: 21,
+      index: 22,
       nextUnit: 1,
       pages: LIMIT,
       units: UNITS,
@@ -367,7 +367,7 @@ class App extends Component {
     console.log(this.state.endActivities);
 
     const {index} = this.state;
-    if (index !== 1 && index !== 2 && index !== 3 && index !== 17 && index !== 20 && index !== 21) {
+    if (index !== 1 && index !== 2 && index !== 3 && index !== 17 && index !== 20 && index !== 21 && index !== 22) {
       document.getElementById('btnNavRight').classList.add('animationBtnNav');
     }
 
