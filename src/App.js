@@ -84,6 +84,7 @@ class App extends Component {
       //   true, // 18
       //   false, // 19
       //   false, // 20
+      //   false, // 21
       // ],
       endActivities: [
         true,  // 0
@@ -107,6 +108,7 @@ class App extends Component {
         true, // 18
         true, // 19
         true, // 20
+        true, // 21
       ]
     }
   }
@@ -365,7 +367,7 @@ class App extends Component {
     console.log(this.state.endActivities);
 
     const {index} = this.state;
-    if (index !== 1 && index !== 2 && index !== 3 && index !== 17 && index !== 20) {
+    if (index !== 1 && index !== 2 && index !== 3 && index !== 17 && index !== 20 && index !== 21) {
       document.getElementById('btnNavRight').classList.add('animationBtnNav');
     }
 

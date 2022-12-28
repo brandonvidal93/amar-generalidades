@@ -1539,7 +1539,7 @@
           "left"      : 10
         },
         "itemInfo": {
-          "title"     : "Nuestro Propósito.",
+          "title"     : "Nuestro Propósito",
           "text"      : "Acompañar a nuestros asociados, usuarios y su grupo familiar en la realización de su proyecto de vida y consolidación financiera, brindando bienestar y tranquilidad atrevas de nuestro portafolio de servicios.",
           "posGlobe": {
             "posY"    : 1853,
@@ -1555,10 +1555,74 @@
           "left"      : 710
         },
         "itemInfo": {
-          "title"     : "Nuestra aspiración.",
+          "title"     : "Nuestra aspiración",
           "text"      : "En el 2023 seremos una de las 3 mutuales más grandes el país.",
           "posGlobe": {
             "posY"    : 2064,
+            "posX"    : 133
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-13.png",
+        "pos": {
+          "top"       : 2210,
+          "left"      : 10
+        },
+        "itemInfo": {
+          "title"     : "Valores corporativos",
+          "text"      : "",
+          "posGlobe": {
+            "posY"    : 2263,
+            "posX"    : 143
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-14.png",
+        "pos": {
+          "top"       : 2405,
+          "left"      : 710
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "<b>Responsabilidad:</b><br>Cumplimiento de las obligaciones y el cuidado en la toma de decisiones.<br><b>Transparencia:</b><br>Atreves de la información confiable, asequible y supervisada, generando seguridad en nuestros asociados.",
+          "posGlobe": {
+            "posY"    : 2420,
+            "posX"    : 133
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-15.png",
+        "pos": {
+          "top"       : 2593,
+          "left"      : 10
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "<b>Empatía:</b><br>Ponernos en el lugar del otro, fortaleciendo el valor de la solidaridad en nuestros asociados.<br><b>Honestidad:</b><br>Mostrar procesos íntegros en las gestiones realizadas.",
+          "posGlobe": {
+            "posY"    : 2613,
+            "posX"    : 143
+          },
+          "color"     : "#643B8D"
+        }
+      },
+      {
+        "urlImgBtn"   : "img/17/n-16.png",
+        "pos": {
+          "top"       : 2770,
+          "left"      : 710
+        },
+        "itemInfo": {
+          "title"     : "",
+          "text"      : "<b>Equidad:</b><br>Generando una distribución justa y equilibrada que se adapte a las necesidades de nuestros asociados, buscando beneficiar a cada uno atreves de la inclusión financiera.",
+          "posGlobe": {
+            "posY"    : 2803,
             "posX"    : 133
           },
           "color"     : "#643B8D"
@@ -1634,7 +1698,7 @@
         "title"         : "Código del Buen vestir",
         "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
         "imgBnt"        : "img/menuCourse/n-9.png",
-        "goTo"          : 18,
+        "goTo"          : 22,
         "fullVisited"   : false
       },
       {
@@ -1642,7 +1706,7 @@
         "title"         : "SG SST y SS del empleado",
         "text"          : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
         "imgBnt"        : "img/menuCourse/n-10.png",
-        "goTo"          : 18,
+        "goTo"          : 23,
         "fullVisited"   : false
       }
     ],

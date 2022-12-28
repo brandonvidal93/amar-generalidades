@@ -85,11 +85,17 @@ class Content extends Component {
       case 19: return( <Page19 dataPage = { data.page19 } endActivities = { endActivities[19] } checkEndActivity = { checkEndActivity } /> );
 
       case 20: return( <Page20 dataPage = { data.page20 } endActivities = { endActivities[20] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
-      // // FIN UNIDAD 2 -----------------------------------------------------------------------
+      // // FIN UNIDAD 3 -----------------------------------------------------------------------
 
       // // UNIDAD 4 ---------------------------------------------------------------------------
       // // PLAN ESTRATEGICO   -----------------------------------------------------------------
-      case 21: return( <Page21 dataPage = { data.page21 } endActivities = { endActivities[21] } checkEndActivity = { checkEndActivity } /> );
+      case 21: return( <Page21 dataPage = { data.page21 } endActivities = { endActivities[21] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
+      // // FIN UNIDAD 4 -----------------------------------------------------------------------
+
+      // // UNIDAD 5 ---------------------------------------------------------------------------
+      // // CODIGO BUEN VESTIR   ---------------------------------------------------------------
+
+      // // FIN UNIDAD 5 -----------------------------------------------------------------------
 
       // // END --------------------------------------------------------------------------------
       case 34: return( <BackCover dataPage = { data.page18 } /> );
