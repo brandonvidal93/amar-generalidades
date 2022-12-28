@@ -1775,7 +1775,7 @@
       "text"    : "Haz clic en cada ícono para conocer la información.",
       "posY"      : 33,
       "posX"      : 0,
-      "size"      : 470,
+      "size"      : 290,
       "color"     : "#F0B114"
     },
     "multimedia": [
@@ -1812,6 +1812,212 @@
         }
       }
     ]
+  },
+
+  "page27": {
+    "type"    : "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "SG SST y SS del empleado",
+      "color"       : "#27357E"
+    },
+    "title"   : "Identificación de Riesgos",
+    "text"    : "",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en cada botón vertical para conocer la información.",
+      "posY"    : 50,
+      "posX"    : 0,
+      "size"    : 330,
+      "color"   : "#F0B114"
+    },
+    "multimedia": [
+      {
+        "button": {
+          "text": "Biológico",
+          "color": "#07C3D9"
+        },
+        "information": {
+          "img1": "img/18/n-1.png",
+          "img2": "img/18/nTeclas-1.png",
+          "text": "En este caso encontramos un grupo de agentes orgánicos, animados o inanimados como los hongos, virus, bacterias, parásitos, pelos, plumas, polen (entre otros), presentes en determinados ambientes laborales, que pueden desencadenar enfermedades infectocontagiosas, reacciones alérgicas o intoxicaciones al ingresar al organismo."
+        }
+      },
+      {
+        "button": {
+          "text": "Físico",
+          "color": "#149FF0"
+        },
+        "information": {
+          "img1": "img/18/n-2.png",
+          "img2": "",
+          "text": "Se refiere a todos aquellos factores ambientales que dependen de las propiedades físicas de los cuerpos, tales como carga física, ruido, iluminación, radiación ionizante, radiación no ionizante, temperatura elevada y vibración, que actúan sobre los tejidos y órganos del cuerpo del trabajador y que pueden producir efectos nocivos, de acuerdo con la intensidad y tiempo de exposición de los mismos."
+        }
+      },
+      {
+        "button": {
+          "text": "Ergonómico",
+          "color": "#149FF0"
+        },
+        "information": {
+          "img1": "img/18/n-3.png",
+          "img2": "",
+          "text": "Involucra todos aquellos agentes o situaciones que tienen que ver con la adecuación del trabajo, o los elementos de trabajo a la fisonomía humana.<br><br>Representan factor de riesgo los objetos, puestos de trabajo, máquinas, equipos y herramientas cuyo peso, tamaño, forma y diseño pueden provocar sobre-esfuerzo, así como posturas y movimientos inadecuados que traen como consecuencia fatiga física y lesiones osteomusculares."
+        }
+      },
+      {
+        "button": {
+          "text": "Psicosocial",
+          "color": "#0754D9"
+        },
+        "information": {
+          "img1": "img/18/n-4.png",
+          "img2": "",
+          "text": "La interacción en el ambiente de trabajo, las condiciones de organización laboral y las necesidades, hábitos, capacidades y demás aspectos personales del trabajador y su entorno social, en un momento dado pueden generar cargas que afectan la salud, el rendimiento en el trabajo y la producción laboral."
+        }
+      },
+      {
+        "button": {
+          "text": "Mecánico",
+          "color": "#2B3B8A"
+        },
+        "information": {
+          "img1": "img/18/n-5.png",
+          "img2": "",
+          "text": "Conjunto  de  condiciones inseguras   que   pueden  causar  lesiones  severas, originadas por la carencia de  protecciones,  en  la operación  de  máquinas o manejo de utensilios de oficina. Entre las que están: <br><br>- Cizallamiento <br>- Amputaciones <br>- Aplastamientos <br>- Atrapamientos <br>- Cortes y punciones"
+        }
+      },
+      {
+        "button": {
+          "text": "Locativo",
+          "color": "#27357E"
+        },
+        "information": {
+          "img1": "img/18/n-6.png",
+          "img2": "",
+          "text": "Son causados por el lugar de trabajo, indistintamente de la labor que se efectúa en ellos. Los factores de riesgo locativo más conocidos son: Falta de señalización, daños estructurales, condiciones inadecuadas del suelo, piso y techos, etc."
+        }
+      },
+      {
+        "button": {
+          "text": "Público",
+          "color": "#1F2A63"
+        },
+        "information": {
+          "img1": "img/18/n-6.png",
+          "img2": "",
+          "text": "Son todos aquellos peligros a los que estamos expuestos en el diario vivir  y en el desempeño de rutinas cotidianas. Se clasifican en los tres momentos del riesgo público: 1. Preincidente, 2. Mientras se presenta la situación y 3. Después de presentada la situación."
+        }
+      },
+      {
+        "button": {
+          "text": "Eléctrico",
+          "color": "#2D05E8"
+        },
+        "information": {
+          "img1": "img/18/n-7.png",
+          "img2": "",
+          "text": "Se refiere a la posibilidad de contacto del cuerpo humano con la corriente eléctrica y que puede resultar en un peligro para la integridad de las personas."
+        }
+      },
+      {
+        "button": {
+          "text": "Tránsito",
+          "color": "#6106D0"
+        },
+        "information": {
+          "img1": "img/18/n-8.png",
+          "img2": "",
+          "text": "Se pueden establecer como principales factores de riesgos de accidentes de tránsito: Velocidad excesiva, Maniobras de alto riesgo por parte de conductores, Entre los mencionados destacaremos especialmente el consumo de alcohol antes de conducir y al uso de celulares mientras se conduce."
+        }
+      },
+      {
+        "button": {
+          "text": "Tecnológico",
+          "color": "#0418DE"
+        },
+        "information": {
+          "img1": "img/18/n-9.png",
+          "img2": "",
+          "text": "Es la probabilidad de que un objeto, material o proceso peligroso, una sustancia tóxica o peligrosa o bien un fenómeno debido a la interacción de estos, ocasione un número determinado de consecuencias a la salud, la economía, el medio ambiente y el desarrollo integral de un sistema.<br><br>- Riesgo por Incendio o explosión.<br>- Riesgo por escapes o derrames.<br>- Riesgo de fuga."
+        }
+      },
+      {
+        "button": {
+          "text": "Natural",
+          "color": "#000D93"
+        },
+        "information": {
+          "img1": "img/18/n-10.png",
+          "img2": "",
+          "text": "Se puede definir como la probabilidad de que un territorio y la sociedad que habita en él, se vean afectados por episodios naturales de rango extraordinario.​ En otras palabras, la vulnerabilidad de una población o región a una amenaza o peligro natural."
+        }
+      }
+    ]
+  },
+
+  "page28": {
+    "type"    : "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "SG SST y SS del empleado",
+      "color"       : "#27357E"
+    },
+    "title"   : "COPASST",
+    "text"    : "El Comité Paritario de Seguridad y Salud en el Trabajo constituye un medio importante para promocionar la Seguridad y Salud en todos los niveles, busca acuerdos con las directivas y responsables del sistema en función del logro de metas y objetivos concretos, divulgar y sustentar prácticas saludables y motivar la adquisición de hábitos seguros. <br><br> <b>Conoce las funciones del COPASST</b>",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en cada ícono para conocer la información.",
+      "posY"      : 33,
+      "posX"      : 0,
+      "size"      : 290,
+      "color"     : "#F0B114"
+    },
+    "multimedia": [
+      {
+        "urlImgBtn"         : "img/3/n-1.png",
+        "title"             : "Funciones - Parte 1",
+        "color"             : "#FCBB14",
+        "itemInfo": {
+          "title"           : "",
+          "text1"           : "",
+          "text2"           : "- Vigilar el desarrollo de las actividades en seguridad y salud en el trabajo, promover su divulgación y observancia.<br><br>- Servir como organismo de coordinación entre empleador y los trabajadores en la solución de los problemas relativos a la salud ocupacional. Tramitar los reclamos de los trabajadores relacionados con la salud ocupacional.",
+          "colorText"       : "#FCBB14",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "img/3/n-2.png",
+        "title"             : "Funciones - Parte 2",
+        "color"             : "#2B3B8A",
+        "itemInfo": {
+          "title"           : "",
+          "text1"           : "",
+          "text2"           : "- Visitar periódicamente los lugares de trabajo e inspeccionar los ambientes, máquinas, equipos, aparatos y las operaciones realizadas por el personal de trabajadores en cada área o sección de la empresa e informar al empleador sobre la existencia de factores de riesgo y sugerir las medidas correctivas y de control. <br><br>- Colaborar en el análisis de las causas de los accidentes de trabajo y enfermedades laborales, proponer al empleador las medidas correctivas que haya lugar para evitar su ocurrencia.",
+          "colorText"       : "#2B3B8A",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      }
+    ]
+  },
+
+  "page29": {
+    "type"    : "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "SG SST y SS del empleado",
+      "color"       : "#27357E"
+    },
+    "title"   : "Comité de Convivencia Laboral",
+    "text"    : "Es un organismo asesor conformado por un numero igual de representantes del empleador y de los trabajadores con sus respectivos suplentes, cuya principal función es la de establecer estrategias de conciliación entre las partes cuando exista una queja de acoso laboral; de igual forma el promover actividades preventivas  de acoso laboral para proteger a los trabajadores contra los riesgos psicosociales que afecten su salud en los lugares de trabajo.<br><br><b>Conoce las funciones del Comité de Convivencia Laboral</b><br><br><ul><li>Recibir y dar tramite a quejas con pruebas que las soportan.</li><li>Examinar confidencialmente los casos.</li><li>Escuchar las partes involucradas individualmente.</li><li>Concertar reuniones y espacios de dialogo entre las partes generando compromisos y soluciones efectivas.</li><li>Formular un plan de mejora entre las partes.</li></ul>"
   },
 
   "page34": {

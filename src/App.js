@@ -51,7 +51,7 @@ class App extends Component {
     this.state = {
       calificacion: 0,
       conectLMS: false,
-      index: 25,
+      index: 29,
       nextUnit: 1,
       pages: LIMIT,
       units: UNITS,
@@ -81,42 +81,50 @@ class App extends Component {
       //   false, // 15
       //   true,  // 16
       //   false, // 17
-      //   true, // 18
+      //   true,  // 18
       //   false, // 19
       //   false, // 20
       //   false, // 21
       //   false, // 22
-      //   true, // 23
-      //   true, // 24
-      //   true, // 25
+      //   true,  // 23
+      //   true,  // 24
+      //   true,  // 25
+      //   false, // 26
+      //   false, // 27
+      //   false, // 28
+      //   true,  // 29
       // ],
       endActivities: [
         true,  // 0
         true,  // 1
         true,  // 2
-        true, // 3
-        true, // 4
-        true, // 5
-        true, // 6
-        true, // 7
-        true, // 8
+        true,  // 3
+        true,  // 4
+        true,  // 5
+        true,  // 6
+        true,  // 7
+        true,  // 8
         true,  // 9
-        true, // 10
+        true,  // 10
         true,  // 11
-        true, // 12
+        true,  // 12
         true,  // 13
-        true, // 14
-        true, // 15
+        true,  // 14
+        true,  // 15
         true,  // 16
-        true, // 17
-        true, // 18
-        true, // 19
-        true, // 20
-        true, // 21
-        true, // 22
-        true, // 23
-        true, // 24
-        true, // 25
+        true,  // 17
+        true,  // 18
+        true,  // 19
+        true,  // 20
+        true,  // 21
+        true,  // 22
+        true,  // 23
+        true,  // 24
+        true,  // 25
+        true,  // 26
+        true,  // 27
+        true,  // 28
+        true,  // 29
       ]
     }
   }
