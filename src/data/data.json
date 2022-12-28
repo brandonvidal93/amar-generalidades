@@ -1702,6 +1702,118 @@
     }
   },
 
+  "page23": {
+    "type"    : "pageCourse",
+    "startUnit"   : true,
+    "nameUnit"    : "unit6",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "SG SST y SS del empleado",
+      "color"       : "#27357E"
+    },
+    "title"   : "Introducción",
+    "text"    : "En cumplimiento a lo establecido en la ley 1562 de 2012, el Decreto 1072 de 2015, La Resolución 0312 de 2019 y demás  normas vigentes en materia de Seguridad y Salud en el Trabajo (SGSST) en Colombia, la Asociación Mutual Amigo Real ha estructurado el sistema  de gestión de SST, cuyo objetivo principal es propiciar el mejoramiento continuo así como el control de las condiciones laborales y de los riesgos y peligros presentes en los lugares de trabajo.",
+    "instruction": {
+      "type"    : "",
+      "text"    : "",
+      "posY"      : 33,
+      "posX"      : 0,
+      "size"      : 470,
+      "color"     : "#F0B114"
+    }
+  },
+
+  "page24": {
+    "type"    : "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "SG SST y SS del empleado",
+      "color"       : "#27357E"
+    },
+    "title"   : "Objetivos",
+    "text"    : "",
+    "instruction": {
+      "type"    : "",
+      "text"    : "",
+      "posY"      : 33,
+      "posX"      : 0,
+      "size"      : 470,
+      "color"     : "#F0B114"
+    }
+  },
+
+  "page25": {
+    "type"    : "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "SG SST y SS del empleado",
+      "color"       : "#27357E"
+    },
+    "title"   : "Política de SG-SST",
+    "text"    : "<b>LA ASOCIACION MUTUAL AMIGO REAL - AMAR</b> <br><br>Establece dentro de  sus prioridades el compromiso de planear, organizar, ejecutar y evaluar la implementación y el desarrollo del  Sistema de Gestión de la Seguridad y Salud en el Trabajo  y programas de promoción y prevención con el acompañamiento directo de la gerencia.",
+    "instruction": {
+      "type"    : "",
+      "text"    : "",
+      "posY"      : 33,
+      "posX"      : 0,
+      "size"      : 470,
+      "color"     : "#F0B114"
+    }
+  },
+
+  "page26": {
+    "type"    : "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "SG SST y SS del empleado",
+      "color"       : "#27357E"
+    },
+    "title"   : "SG SST y SS del empleado",
+    "text"    : "",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en cada ícono para conocer la información.",
+      "posY"      : 33,
+      "posX"      : 0,
+      "size"      : 470,
+      "color"     : "#F0B114"
+    },
+    "multimedia": [
+      {
+        "urlImgBtn"         : "img/3/n-1.png",
+        "title"             : "SG-SST",
+        "color"             : "#FCBB14",
+        "itemInfo": {
+          "title"           : "Sistema de gestión de la seguridad y salud en el trabajo",
+          "text1"           : "Art 1, Ley 1562 de 2012",
+          "text2"           : "Consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua y que incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y salud en el trabajo.",
+          "colorText"       : "#FCBB14",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      },
+      {
+        "urlImgBtn"         : "img/3/n-2.png",
+        "title"             : "Higiene y Seguridad Industrial",
+        "color"             : "#2B3B8A",
+        "itemInfo": {
+          "title"           : "Reglamento de Higiene y Seguridad Industrial",
+          "text1"           : "",
+          "text2"           : "<b>AMAR</b> y sus trabajadores darán estricto cumplimiento a las disposiciones legales, así como las normas técnicas e internas que se adopten para la implantación de las actividades de Medicina Preventiva y del Trabajo, Higiene y Seguridad Industrial, que sean concordantes con el presente Reglamento y con el programa de SST. <br><br>Está exhibido en  las carteleras o bolsillos de las agencias y cuyos contenidos se dan a conocer a todos los trabajadores en el momento de su ingreso.",
+          "colorText"       : "#2B3B8A",
+          "buttonClose": {
+            "closedModal"   : true,
+            "posY"          : 35,
+            "posX"          : 82
+          }
+        }
+      }
+    ]
+  },
+
   "page34": {
     "type"            : "endCourse",
     "message": {

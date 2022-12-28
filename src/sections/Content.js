@@ -28,6 +28,9 @@ import Page19 from './pages/Page19/Page19';
 import Page20 from './pages/Page20/Page20';
 import Page21 from './pages/Page21/Page21';
 import Page22 from './pages/Page22/Page22';
+import Page23 from './pages/Page23/Page23';
+import Page24 from './pages/Page24/Page24';
+import Page25 from './pages/Page25/Page25';
 import BackCover from './pages/BackCover/BackCover';
 
 class Content extends Component {
@@ -98,8 +101,16 @@ class Content extends Component {
       case 22: return( <Page22 dataPage = { data.page22 } endActivities = { endActivities[22] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit } /> );
       // // FIN UNIDAD 5 -----------------------------------------------------------------------
 
+      // // UNIDAD 6 ---------------------------------------------------------------------------
+      // // SG SST   ---------------------------------------------------------------------------
+      case 23: return( <Page23 dataPage = { data.page23 } /> );
+
+      case 24: return( <Page24 dataPage = { data.page24 } /> );
+
+      case 25: return( <Page25 dataPage = { data.page25 } /> );
+
       // // END --------------------------------------------------------------------------------
-      case 34: return( <BackCover dataPage = { data.page18 } /> );
+      case 34: return( <BackCover dataPage = { data.page25 } /> );
 
       default:
         break;
