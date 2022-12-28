@@ -134,7 +134,7 @@ class Footer extends Component {
     // console.log(endActivities);
 
     return (
-      <div className = { (actualIndex === 0 || actualIndex === 34 ? 'footer-desc' : 'footer') + ' d-Flex j-S aI-C' }>
+      <div className = { (actualIndex === 0 || actualIndex === 31 ? 'footer-desc' : 'footer') + ' d-Flex j-S aI-C' }>
 
         { this.showLogo() }
         { this.showLabel() }

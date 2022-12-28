@@ -35,6 +35,7 @@ import Page26 from './pages/Page26/Page26';
 import Page27 from './pages/Page27/Page27';
 import Page28 from './pages/Page28/Page28';
 import Page29 from './pages/Page29/Page29';
+import Page30 from './pages/Page30/Page30';
 import BackCover from './pages/BackCover/BackCover';
 
 class Content extends Component {
@@ -121,8 +122,10 @@ class Content extends Component {
 
       case 29: return( <Page29 dataPage = { data.page29 } /> );
 
+      case 30: return( <Page30 dataPage = { data.page30 } endActivities = { endActivities[30] } checkEndActivity = { checkEndActivity } checkEnabledUnit = { checkEnabledUnit } checkEndUnit = { checkEndUnit }  /> );
+
       // // END --------------------------------------------------------------------------------
-      case 34: return( <BackCover dataPage = { data.page25 } /> );
+      case 31: return( <BackCover dataPage = { data.page31 } /> );
 
       default:
         break;

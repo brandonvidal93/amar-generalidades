@@ -2020,7 +2020,56 @@
     "text"    : "Es un organismo asesor conformado por un numero igual de representantes del empleador y de los trabajadores con sus respectivos suplentes, cuya principal función es la de establecer estrategias de conciliación entre las partes cuando exista una queja de acoso laboral; de igual forma el promover actividades preventivas  de acoso laboral para proteger a los trabajadores contra los riesgos psicosociales que afecten su salud en los lugares de trabajo.<br><br><b>Conoce las funciones del Comité de Convivencia Laboral</b><br><br><ul><li>Recibir y dar tramite a quejas con pruebas que las soportan.</li><li>Examinar confidencialmente los casos.</li><li>Escuchar las partes involucradas individualmente.</li><li>Concertar reuniones y espacios de dialogo entre las partes generando compromisos y soluciones efectivas.</li><li>Formular un plan de mejora entre las partes.</li></ul>"
   },
 
-  "page34": {
+  "page30": {
+    "type"    : "pageCourse",
+    "headerPage": {
+      "imgHeader"   : "img/menuCourse/n-2.png",
+      "textHeader"  : "SG SST y SS del empleado",
+      "color"       : "#27357E"
+    },
+    "title"   : "Conceptos Básicos",
+    "text"    : "Conoce algunos conceptos básicos que debes conocer para comprender el tema de Seguridad y Salud en el Trabajo.<br><br> Estos te servirán para comprender mejor el curso y para tu día a día en el trabajo.",
+    "instruction": {
+      "type"    : "mouse",
+      "text"    : "Haz clic en la imagen para visualizar el carrusel de imágenes.",
+      "posY"    : 50,
+      "posX"    : 0,
+      "size"    : 330,
+      "color"   : "#F0B114"
+    },
+    "multimedia": {
+      "buttonModal": {
+        "title"       : "",
+        "text"        : "",
+        "imgBg"       : "img/10/btnGallery.png"
+      },
+      "gallery": [
+        {
+          "key"       : 1,
+          "img"       : "img/10/n-1.jpg"
+        },
+        {
+          "key"       : 2,
+          "img"       : "img/10/n-2.jpg"
+        },
+        {
+          "key"       : 3,
+          "img"       : "img/10/n-3.jpg"
+        },
+        {
+          "key"       : 4,
+          "img"       : "img/10/n-4.jpg"
+        },
+        {
+          "key"       : 5,
+          "img"       : "img/10/n-5.jpg"
+        }
+      ],
+      "closedModal"   : true
+    }
+  },
+
+  "page31": {
     "type"            : "endCourse",
     "message": {
       "success": {
