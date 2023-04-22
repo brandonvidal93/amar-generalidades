@@ -156,7 +156,6 @@ class Content extends Component {
           {/* CARGA DEL COMPOMENTE FOOTER */}
         <Footer
           actualIndex = { this.props.actualIndex }
-          bgFooter = { this.props.bgFooter }
           clickNavigation = { this.props.clickNavigation }
           data = { this.props.data }
           endActivities = { this.props.endActivities }

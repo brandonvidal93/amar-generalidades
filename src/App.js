@@ -12,11 +12,10 @@ import './App.scss';
 import DataCourse from './data/data.json';
 
 // DEFINICION DEL LIMITE CON LA CANTIDAD DE OBJETOS QUE HAY EN DataCourse
-// SE RESTAN 2   al LIMIT PARA SACAR EL BACK COVER QUE ES UNA MODAL DE FINALIZACION
+// SE RESTAN 3 al LIMIT PARA SACAR EL BACK COVER QUE ES UNA MODAL DE FINALIZACION
 const LIMIT = Object.keys(DataCourse).length - 3;
 const UNITS = DataCourse.coverPage.units;
 const LABELFOOTER = DataCourse.coverPage.footer.label;
-const BGFOOTER = DataCourse.coverPage.footer.bgImgs;
 const LOGOFOOTER = DataCourse.coverPage.logoFooter;
 
 const tracking = new Tracking(new SCORMLib(), LIMIT);
@@ -56,7 +55,7 @@ class App extends Component {
       pages: LIMIT,
       units: UNITS,
       unitActual: 0,
-      // unitFinal: [true, true, true, true, true, true],
+      //unitFinal: [true, true, true, true, true, true],
       unitFinal: [false, false, false, false, false, false],
       // enableUnit: [true, true, true, true, true, true],
       enableUnit: [false, false, false, false, false, false],
@@ -96,37 +95,37 @@ class App extends Component {
         false, // 30
       ]
       // endActivities: [
-      //   true,  // 0
-      //   true,  // 1
-      //   true,  // 2
-      //   true,  // 3
-      //   true,  // 4
-      //   true,  // 5
-      //   true,  // 6
-      //   true,  // 7
-      //   true,  // 8
-      //   true,  // 9
-      //   true,  // 10
-      //   true,  // 11
-      //   true,  // 12
-      //   true,  // 13
-      //   true,  // 14
-      //   true,  // 15
-      //   true,  // 16
-      //   true,  // 17
-      //   true,  // 18
-      //   true,  // 19
-      //   true,  // 20
-      //   true,  // 21
-      //   true,  // 22
-      //   true,  // 23
-      //   true,  // 24
-      //   true,  // 25
-      //   true,  // 26
-      //   true,  // 27
-      //   true,  // 28
-      //   true,  // 29
-      //   true,  // 30
+      // true,  // 0
+      // true,  // 1
+      // true,  // 2
+      // true,  // 3
+      // true,  // 4
+      // true,  // 5
+      // true,  // 6
+      // true,  // 7
+      // true,  // 8
+      // true,  // 9
+      // true,  // 10
+      // true,  // 11
+      // true,  // 12
+      // true,  // 13
+      // true,  // 14
+      // true,  // 15
+      // true,  // 16
+      // true,  // 17
+      // true,  // 18
+      // true,  // 19
+      // true,  // 20
+      // true,  // 21
+      // true,  // 22
+      // true,  // 23
+      // true,  // 24
+      // true,  // 25
+      // true,  // 26
+      // true,  // 27
+      // true,  // 28
+      // true,  // 29
+      // true,  // 30
       // ]
     }
   }
@@ -405,7 +404,6 @@ class App extends Component {
         {/* CARGA DEL COMPONENTE CONTENT */}
         <Content
           actualIndex         = { index }
-          bgFooter            = { BGFOOTER }
           calificacion        = { this.state.calificacion }
           checkEndActivity    = { this.checkEndActivity }
           checkEndUnit        = { this.checkEndUnit }

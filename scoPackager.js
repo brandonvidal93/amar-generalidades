@@ -12,7 +12,7 @@ var path = require('path');
     package: {
       version: process.env.npm_package_version,
       zip: false,
-      author: 'IUSH',
+      author: 'AMAR',
       outputFolder: path.join(__dirname, 'scorm_packages'),
       description: 'Generalidades - Parte 1',
       keywords: ['scorm', 'test', 'course'],

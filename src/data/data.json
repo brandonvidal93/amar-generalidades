@@ -1,13 +1,13 @@
 {
   "coverPage": {
     "type"            : "startPage",
-    "units"           : 8,
+    "units"           : 6,
     "title"           : "Generalidades",
     "subTitle"        : "Gestión del Talento Humano",
     "module"          : "",
     "courseName"      : "Para comenzar, haz clic en el siguiente botón:",
     "footer": {
-      "label"         : "Seguridad de la información"
+      "label"         : "Generalidades"
     }
   },
 
